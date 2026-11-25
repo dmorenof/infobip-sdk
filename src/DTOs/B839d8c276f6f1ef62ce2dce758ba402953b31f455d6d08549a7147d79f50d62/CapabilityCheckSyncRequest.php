@@ -1,0 +1,56 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a7147d79f50d62;
+
+/**
+ * CapabilityCheckSyncRequest
+ */
+final class CapabilityCheckSyncRequest extends \Dmorenof\SdkRuntime\DTO
+{
+    public const array REQUIRED_FIELDS = [
+    'phoneNumbers',
+    'sender',
+];
+
+    protected const array VALIDATION = [
+    'phoneNumbers' => [
+        'minItems' => 1,
+        'maxItems' => 500,
+    ],
+    'sender' => [
+        'minLength' => 1,
+    ],
+];
+
+    public \InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a7147d79f50d62\CapabilityCheckOptions $options;
+    /**
+     * A list of phone numbers (1 to 5) to check for RCS capability (for example, `["441134960001", "441134960002"]`).
+     */
+    public \InfobipSDK\Collections\StringCollection $phoneNumbers {
+        set {
+            $this->assigning('phoneNumbers', $value);
+            $this->phoneNumbers = $value;
+        }
+    }
+    /**
+     * Identifier of an RCS sender that will be used to send message.
+     */
+    public string $sender {
+        set {
+            $this->assigning('sender', $value);
+            $this->sender = $value;
+        }
+    }
+
+    protected function assignMember(string $name, mixed $value): void
+    {
+        match ($name) {
+            'options' => $value instanceof \stdClass ? $this->options = new \InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a7147d79f50d62\CapabilityCheckOptions($value) : parent::assignMember($name, $value),
+            'phoneNumbers' => is_array($value) && array_is_list($value) && array_all($value, static fn (mixed $item): bool => is_string($item)) ? $this->phoneNumbers = new \InfobipSDK\Collections\StringCollection($value) : parent::assignMember($name, $value),
+            'sender' => is_string($value) ? $this->sender = $value : parent::assignMember($name, $value),
+            default => parent::assignMember($name, $value),
+        };
+    }
+}

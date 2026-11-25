@@ -1,0 +1,73 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\DTOs\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece;
+
+/**
+ * MoReport
+ */
+final class MoReport extends \Dmorenof\SdkRuntime\DTO
+{
+    protected const array WRITE_ONLY_FIELDS = [
+    'callbackData',
+    'from',
+    'integrationType',
+    'message',
+    'messageId',
+    'pairedMessageId',
+    'price',
+    'receivedAt',
+    'to',
+];
+
+    protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
+    protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
+
+    public string $callbackData;
+    /**
+     * Number which sent the message.
+     */
+    public string $from;
+    /**
+     * Integration type.
+     */
+    public \InfobipSDK\Enums\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece\MoReport\IntegrationTypeEnum $integrationType;
+    /**
+     * Message content.
+     */
+    public \InfobipSDK\DTOs\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece\MoMessage $message;
+    /**
+     * The ID that uniquely identifies the received message.
+     */
+    public string $messageId;
+    public string $pairedMessageId;
+    /**
+     * Message price.
+     */
+    public \InfobipSDK\DTOs\N3307df001c42dd833d79f33c79b6946b4d01c30ce33030254141df9a2298b3c8\Price $price;
+    /**
+     * Date and time when Infobip received the message.
+     * Format: date-time
+     */
+    public string $receivedAt;
+    /**
+     * Sender provided during the activation process.
+     */
+    public string $to;
+
+    protected function assignMember(string $name, mixed $value): void
+    {
+        match ($name) {
+            'callbackData' => is_string($value) ? $this->callbackData = $value : parent::assignMember($name, $value),
+            'from' => is_string($value) ? $this->from = $value : parent::assignMember($name, $value),
+            'integrationType' => is_string($value) ? $this->integrationType = \InfobipSDK\Enums\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece\MoReport\IntegrationTypeEnum::from($value) : parent::assignMember($name, $value),
+            'messageId' => is_string($value) ? $this->messageId = $value : parent::assignMember($name, $value),
+            'pairedMessageId' => is_string($value) ? $this->pairedMessageId = $value : parent::assignMember($name, $value),
+            'price' => $value instanceof \stdClass ? $this->price = new \InfobipSDK\DTOs\N3307df001c42dd833d79f33c79b6946b4d01c30ce33030254141df9a2298b3c8\Price($value) : parent::assignMember($name, $value),
+            'receivedAt' => is_string($value) ? $this->receivedAt = $value : parent::assignMember($name, $value),
+            'to' => is_string($value) ? $this->to = $value : parent::assignMember($name, $value),
+            default => parent::assignMember($name, $value),
+        };
+    }
+}

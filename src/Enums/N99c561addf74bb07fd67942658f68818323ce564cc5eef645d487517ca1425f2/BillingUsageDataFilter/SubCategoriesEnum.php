@@ -1,0 +1,29 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\Enums\N99c561addf74bb07fd67942658f68818323ce564cc5eef645d487517ca1425f2\BillingUsageDataFilter;
+
+enum SubCategoriesEnum: string
+{
+    case AUDIOSTREAMING = 'AUDIO_STREAMING';
+    case CONFERENCING = 'CONFERENCING';
+    case FLASH = 'FLASH';
+    case KAKAOA = 'KAKAO_A';
+    case KAKAOB = 'KAKAO_B';
+    case KAKAOS = 'KAKAO_S';
+    case MISSEDCALL = 'MISSED_CALL';
+    case NEURALTEXTTOSPEECH = 'NEURAL_TEXT_TO_SPEECH';
+    case PHONE = 'PHONE';
+    case RECORDINGSTORAGE = 'RECORDING_STORAGE';
+    case SPEECHCAPTURE = 'SPEECH_CAPTURE';
+    case SPEECHTRANSCRIPTION = 'SPEECH_TRANSCRIPTION';
+    case VIBERBC = 'VIBER_BC';
+    case VIBERBM = 'VIBER_BM';
+    case VIBERBOTS = 'VIBER_BOTS';
+    case VIDEOCOMPOSITION = 'VIDEO_COMPOSITION';
+    case VOICEAMD = 'VOICE_AMD';
+    case VOICERECORDING = 'VOICE_RECORDING';
+    case WEBRTC = 'WEBRTC';
+    case WHATSAPPBC = 'WHATSAPP_BC';
+}

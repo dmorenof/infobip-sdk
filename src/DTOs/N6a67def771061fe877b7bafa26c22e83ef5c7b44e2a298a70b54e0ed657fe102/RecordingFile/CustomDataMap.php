@@ -1,0 +1,11 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\DTOs\N6a67def771061fe877b7bafa26c22e83ef5c7b44e2a298a70b54e0ed657fe102\RecordingFile;
+
+final class CustomDataMap extends \Dmorenof\SdkRuntime\Map
+{
+    protected const string VALUE_TYPE = 'string';
+    protected const bool VALUE_NULLABLE = false;
+}

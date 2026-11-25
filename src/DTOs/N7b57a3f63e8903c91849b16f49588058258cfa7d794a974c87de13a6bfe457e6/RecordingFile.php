@@ -1,0 +1,84 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\DTOs\N7b57a3f63e8903c91849b16f49588058258cfa7d794a974c87de13a6bfe457e6;
+
+/**
+ * RecordingFile
+ */
+final class RecordingFile extends \Dmorenof\SdkRuntime\DTO
+{
+    public const array REQUIRED_FIELDS = [
+    'fileFormat',
+    'name',
+];
+
+    /**
+     * File creation time.
+     * Format: date-time
+     */
+    public string $creationTime;
+    /**
+     * File duration in seconds.
+     * Example: 3
+     * Format: int64
+     */
+    public int $duration;
+    /**
+     * Date and time when the recording ended.
+     * Format: date-time
+     */
+    public string $endTime;
+    /**
+     * File expiration time.
+     * Format: date-time
+     */
+    public string $expirationTime;
+    public \InfobipSDK\Enums\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\FileFormat $fileFormat;
+    /**
+     * File ID.
+     * Example: "218eceba-c044-430d-9f26-8f1a7f0g2d03"
+     */
+    public string $id;
+    public \InfobipSDK\Enums\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\RecordingFileLocation $location;
+    /**
+     * A map that associates audio channels with their respective call IDs for managing multichannel composed recordings.
+     */
+    public \InfobipSDK\DTOs\N7b57a3f63e8903c91849b16f49588058258cfa7d794a974c87de13a6bfe457e6\RecordingFile\MappingDataMap $multichannelMappingData;
+    /**
+     * File name.
+     * Example: "Example file"
+     */
+    public string $name;
+    public \InfobipSDK\Enums\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\SftpUploadStatus $sftpUploadStatus;
+    /**
+     * File size in bytes.
+     * Example: 292190
+     * Format: int64
+     */
+    public int $size;
+    /**
+     * Date and time when the recording started.
+     * Format: date-time
+     */
+    public string $startTime;
+
+    protected function assignMember(string $name, mixed $value): void
+    {
+        match ($name) {
+            'creationTime' => is_string($value) ? $this->creationTime = $value : parent::assignMember($name, $value),
+            'duration' => is_int($value) ? $this->duration = $value : parent::assignMember($name, $value),
+            'endTime' => is_string($value) ? $this->endTime = $value : parent::assignMember($name, $value),
+            'expirationTime' => is_string($value) ? $this->expirationTime = $value : parent::assignMember($name, $value),
+            'fileFormat' => is_string($value) ? $this->fileFormat = \InfobipSDK\Enums\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\FileFormat::from($value) : parent::assignMember($name, $value),
+            'id' => is_string($value) ? $this->id = $value : parent::assignMember($name, $value),
+            'location' => is_string($value) ? $this->location = \InfobipSDK\Enums\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\RecordingFileLocation::from($value) : parent::assignMember($name, $value),
+            'name' => is_string($value) ? $this->name = $value : parent::assignMember($name, $value),
+            'sftpUploadStatus' => is_string($value) ? $this->sftpUploadStatus = \InfobipSDK\Enums\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\SftpUploadStatus::from($value) : parent::assignMember($name, $value),
+            'size' => is_int($value) ? $this->size = $value : parent::assignMember($name, $value),
+            'startTime' => is_string($value) ? $this->startTime = $value : parent::assignMember($name, $value),
+            default => parent::assignMember($name, $value),
+        };
+    }
+}

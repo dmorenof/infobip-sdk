@@ -1,0 +1,13 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\Enums\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a;
+
+enum BrandType: string
+{
+    case TENDLCGOVERNMENT = 'TENDLC_GOVERNMENT';
+    case TENDLCNONPROFIT = 'TENDLC_NON_PROFIT';
+    case TENDLCPRIVATECOMPANY = 'TENDLC_PRIVATE_COMPANY';
+    case TENDLCPUBLICCOMPANY = 'TENDLC_PUBLIC_COMPANY';
+}

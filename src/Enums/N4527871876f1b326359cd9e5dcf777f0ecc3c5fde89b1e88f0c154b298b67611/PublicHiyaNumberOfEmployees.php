@@ -1,0 +1,16 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\Enums\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611;
+
+enum PublicHiyaNumberOfEmployees: string
+{
+    case BETWEEN11AND50 = 'BETWEEN_11_AND_50';
+    case BETWEEN1AND10 = 'BETWEEN_1_AND_10';
+    case BETWEEN2001AND10000 = 'BETWEEN_2001_AND_10000';
+    case BETWEEN201AND500 = 'BETWEEN_201_AND_500';
+    case BETWEEN501AND2000 = 'BETWEEN_501_AND_2000';
+    case BETWEEN51AND200 = 'BETWEEN_51_AND_200';
+    case MORETHAN10001 = 'MORE_THAN_10001';
+}

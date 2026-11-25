@@ -1,0 +1,17 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\Enums\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2eb95a84913;
+
+enum RcsSenderStatus: string
+{
+    case DRAFT = 'DRAFT';
+    case LAUNCHED = 'LAUNCHED';
+    case LAUNCHEDINPROGRESS = 'LAUNCHED_IN_PROGRESS';
+    case LAUNCHEDPARTIALSUCCESS = 'LAUNCHED_PARTIAL_SUCCESS';
+    case PENDING = 'PENDING';
+    case PENDINGLAUNCH = 'PENDING_LAUNCH';
+    case READYFORTESTING = 'READY_FOR_TESTING';
+    case SENDERUPDATEREQUIRED = 'SENDER_UPDATE_REQUIRED';
+}

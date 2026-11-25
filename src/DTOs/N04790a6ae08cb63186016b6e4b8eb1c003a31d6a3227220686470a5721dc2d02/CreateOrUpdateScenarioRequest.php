@@ -1,0 +1,41 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\DTOs\N04790a6ae08cb63186016b6e4b8eb1c003a31d6a3227220686470a5721dc2d02;
+
+/**
+ * Scenario
+ */
+final class CreateOrUpdateScenarioRequest extends \Dmorenof\SdkRuntime\DTO
+{
+    protected const array PROPERTY_MAP = [
+    'default' => 'default_',
+];
+    protected const array WIRE_PROPERTY_MAP = [
+    'default_' => 'default',
+];
+
+    /**
+     * Indicates if created scenario should be set as a default.
+     */
+    public bool $default_;
+    /**
+     * Sender used in OMNI scenario’s step for sending message.
+     */
+    public \InfobipSDK\Collections\N04790a6ae08cb63186016b6e4b8eb1c003a31d6a3227220686470a5721dc2d02\CreateOrUpdateScenarioRequest\FlowCollection $flow;
+    /**
+     * OMNI scenario name.
+     */
+    public string $name;
+
+    protected function assignMember(string $name, mixed $value): void
+    {
+        match ($name) {
+            'default' => is_bool($value) ? $this->default_ = $value : parent::assignMember($name, $value),
+            'flow' => is_array($value) && array_is_list($value) && array_all($value, static fn (mixed $item): bool => $item instanceof \stdClass) ? $this->flow = new \InfobipSDK\Collections\N04790a6ae08cb63186016b6e4b8eb1c003a31d6a3227220686470a5721dc2d02\CreateOrUpdateScenarioRequest\FlowCollection(\Dmorenof\SdkRuntime\Hydrator::models($value, \InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\Step::class)) : parent::assignMember($name, $value),
+            'name' => is_string($value) ? $this->name = $value : parent::assignMember($name, $value),
+            default => parent::assignMember($name, $value),
+        };
+    }
+}

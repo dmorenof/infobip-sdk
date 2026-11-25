@@ -1,0 +1,21 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11;
+
+/**
+ * HorizontalVerticalComponent
+ */
+class HorizontalVerticalComponent extends \Dmorenof\SdkRuntime\DTO
+{
+    public \InfobipSDK\Enums\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\ComponentType $type;
+
+    protected function assignMember(string $name, mixed $value): void
+    {
+        match ($name) {
+            'type' => is_string($value) ? $this->type = \InfobipSDK\Enums\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\ComponentType::from($value) : parent::assignMember($name, $value),
+            default => parent::assignMember($name, $value),
+        };
+    }
+}

@@ -1,0 +1,32 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\Enums\N99c561addf74bb07fd67942658f68818323ce564cc5eef645d487517ca1425f2;
+
+enum BillingUsageAggregate: string
+{
+    case ACCOUNTKEY = 'ACCOUNT_KEY';
+    case ACCOUNTNAME = 'ACCOUNT_NAME';
+    case APPLICATIONID = 'APPLICATION_ID';
+    case CAMPAIGNID = 'CAMPAIGN_ID';
+    case CAMPAIGNREFERENCE = 'CAMPAIGN_REFERENCE';
+    case CATEGORYCODE = 'CATEGORY_CODE';
+    case CATEGORYNAME = 'CATEGORY_NAME';
+    case COUNTRYCODE = 'COUNTRY_CODE';
+    case COUNTRYNAME = 'COUNTRY_NAME';
+    case COUNTRYPREFIX = 'COUNTRY_PREFIX';
+    case DAY = 'DAY';
+    case DIRECTION = 'DIRECTION';
+    case ENTITYID = 'ENTITY_ID';
+    case MONTH = 'MONTH';
+    case NETWORKNAME = 'NETWORK_NAME';
+    case NORMNETCODE = 'NORM_NET_CODE';
+    case SENDER = 'SENDER';
+    case SENDERTYPE = 'SENDER_TYPE';
+    case SUBCATEGORYCODE = 'SUBCATEGORY_CODE';
+    case SUBCATEGORYNAME = 'SUBCATEGORY_NAME';
+    case TEMPLATEID = 'TEMPLATE_ID';
+    case TRAFFICTYPE = 'TRAFFIC_TYPE';
+    case USERNAME = 'USER_NAME';
+}

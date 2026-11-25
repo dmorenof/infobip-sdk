@@ -1,0 +1,168 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender;
+
+final class PublicKey extends \InfobipSDK\Client
+{
+    private const array GET = [
+        'method' => 'GET',
+        'path' => '/whatsapp/1/senders/{sender}/public-key',
+        'security' => [
+            [
+                'OAuth2' => [],
+            ],
+            [
+                'IBSSOTokenHeader' => [],
+            ],
+            [
+                'APIKeyHeader' => [],
+            ],
+            [
+                'Basic' => [],
+            ],
+        ],
+        'errors' => [
+            400 => '\\InfobipSDK\\DTOs\\Api\\Error',
+            401 => '\\InfobipSDK\\DTOs\\Api\\Error',
+            403 => '\\InfobipSDK\\DTOs\\Api\\Error',
+            404 => '\\InfobipSDK\\DTOs\\Api\\Error',
+            429 => '\\InfobipSDK\\DTOs\\Api\\Error',
+            500 => '\\InfobipSDK\\DTOs\\Api\\Error',
+        ],
+        'errorResponses' => [
+            400 => [
+                'type' => '\\InfobipSDK\\DTOs\\Api\\Error',
+                'schemaNullable' => false,
+            ],
+            401 => [
+                'type' => '\\InfobipSDK\\DTOs\\Api\\Error',
+                'schemaNullable' => false,
+            ],
+            403 => [
+                'type' => '\\InfobipSDK\\DTOs\\Api\\Error',
+                'schemaNullable' => false,
+            ],
+            404 => [
+                'type' => '\\InfobipSDK\\DTOs\\Api\\Error',
+                'schemaNullable' => false,
+            ],
+            429 => [
+                'type' => '\\InfobipSDK\\DTOs\\Api\\Error',
+                'schemaNullable' => false,
+            ],
+            500 => [
+                'type' => '\\InfobipSDK\\DTOs\\Api\\Error',
+                'schemaNullable' => false,
+            ],
+        ],
+        'responseType' => '\\InfobipSDK\\DTOs\\N6a832d7980b0224fa17e623a753d9dcd3d97aedf6ae653c996ab303ad0c7f980\\SenderPublicKeyResponse',
+        'validation' => [
+            'sender' => [
+                'minLength' => 1,
+                'maxLength' => 15,
+                'pattern' => '[0-9]+',
+            ],
+        ],
+    ];
+
+    /**
+     * Get WhatsApp sender public key
+     *
+     * Retrieves the public key for WhatsApp encryption. The public key enables
+     *             end-to-end encrypted data exchange with WhatsApp, such as in WhatsApp Flows.
+     * Documentation: https://www.infobip.com/docs/whatsapp
+     */
+    public function get(string $sender): \InfobipSDK\DTOs\N6a832d7980b0224fa17e623a753d9dcd3d97aedf6ae653c996ab303ad0c7f980\SenderPublicKeyResponse
+    {
+        /** @var \InfobipSDK\DTOs\N6a832d7980b0224fa17e623a753d9dcd3d97aedf6ae653c996ab303ad0c7f980\SenderPublicKeyResponse $result */
+        $result = $this->executeArguments(self::operation(self::GET), path: ['sender' => $sender]);
+        return $result;
+    }
+
+    private const array POST = [
+        'method' => 'POST',
+        'path' => '/whatsapp/1/senders/{sender}/public-key',
+        'security' => [
+            [
+                'OAuth2' => [],
+            ],
+            [
+                'IBSSOTokenHeader' => [],
+            ],
+            [
+                'APIKeyHeader' => [],
+            ],
+            [
+                'Basic' => [],
+            ],
+        ],
+        'success' => [
+            204,
+        ],
+        'errors' => [
+            400 => '\\InfobipSDK\\DTOs\\Api\\Error',
+            401 => '\\InfobipSDK\\DTOs\\Api\\Error',
+            403 => '\\InfobipSDK\\DTOs\\Api\\Error',
+            404 => '\\InfobipSDK\\DTOs\\Api\\Error',
+            429 => '\\InfobipSDK\\DTOs\\Api\\Error',
+            500 => '\\InfobipSDK\\DTOs\\Api\\Error',
+        ],
+        'errorResponses' => [
+            400 => [
+                'type' => '\\InfobipSDK\\DTOs\\Api\\Error',
+                'schemaNullable' => false,
+            ],
+            401 => [
+                'type' => '\\InfobipSDK\\DTOs\\Api\\Error',
+                'schemaNullable' => false,
+            ],
+            403 => [
+                'type' => '\\InfobipSDK\\DTOs\\Api\\Error',
+                'schemaNullable' => false,
+            ],
+            404 => [
+                'type' => '\\InfobipSDK\\DTOs\\Api\\Error',
+                'schemaNullable' => false,
+            ],
+            429 => [
+                'type' => '\\InfobipSDK\\DTOs\\Api\\Error',
+                'schemaNullable' => false,
+            ],
+            500 => [
+                'type' => '\\InfobipSDK\\DTOs\\Api\\Error',
+                'schemaNullable' => false,
+            ],
+        ],
+        'validation' => [
+            'sender' => [
+                'minLength' => 1,
+                'maxLength' => 15,
+                'pattern' => '[0-9]+',
+            ],
+        ],
+        'requestMediaType' => 'multipart/form-data',
+        'bodyParts' => [
+            'file' => [
+                'contentType' => null,
+                'filename' => 'file.bin',
+            ],
+        ],
+    ];
+
+    /**
+     * Upload WhatsApp sender public key
+     *
+     * Uploads a public key for WhatsApp encryption. The public key enables
+     *             end-to-end encrypted data exchange with WhatsApp, such as in WhatsApp Flows.
+     *             Previous keys are replaced when new ones are uploaded using this endpoint.
+     * Documentation: https://www.infobip.com/docs/whatsapp
+     */
+    public function post(string $sender, \InfobipSDK\DTOs\N6a832d7980b0224fa17e623a753d9dcd3d97aedf6ae653c996ab303ad0c7f980\UploadKeyApiDoc $payload): void
+    {
+        $this->executeArguments(self::operation(self::POST), path: ['sender' => $sender], body: $payload);
+        return;
+    }
+
+}

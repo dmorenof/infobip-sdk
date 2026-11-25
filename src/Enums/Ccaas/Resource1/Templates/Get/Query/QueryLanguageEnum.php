@@ -1,0 +1,80 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\Enums\Ccaas\Resource1\Templates\Get\Query;
+
+enum QueryLanguageEnum: string
+{
+    case Afrikaans = 'Afrikaans';
+    case Albanian = 'Albanian';
+    case Arabic = 'Arabic';
+    case Azerbaijani = 'Azerbaijani';
+    case Bengali = 'Bengali';
+    case Bulgarian = 'Bulgarian';
+    case Catalan = 'Catalan';
+    case ChineseCHN = 'Chinese (CHN)';
+    case ChineseHKG = 'Chinese (HKG)';
+    case ChineseTAI = 'Chinese (TAI)';
+    case Croatian = 'Croatian';
+    case Czech = 'Czech';
+    case Danish = 'Danish';
+    case Dutch = 'Dutch';
+    case EnglishUK = 'English (UK)';
+    case EnglishUS = 'English (US)';
+    case English = 'English';
+    case Estonian = 'Estonian';
+    case Filipino = 'Filipino';
+    case Finnish = 'Finnish';
+    case French = 'French';
+    case Georgian = 'Georgian';
+    case German = 'German';
+    case Greek = 'Greek';
+    case Gujarati = 'Gujarati';
+    case Hausa = 'Hausa';
+    case Hebrew = 'Hebrew';
+    case Hindi = 'Hindi';
+    case Hungarian = 'Hungarian';
+    case Indonesian = 'Indonesian';
+    case Irish = 'Irish';
+    case Italian = 'Italian';
+    case Japanese = 'Japanese';
+    case Kannada = 'Kannada';
+    case Kazakh = 'Kazakh';
+    case Kinyarwanda = 'Kinyarwanda';
+    case Korean = 'Korean';
+    case KyrgyzKyrgyzstan = 'Kyrgyz (Kyrgyzstan)';
+    case Lao = 'Lao';
+    case Latvian = 'Latvian';
+    case Lithuanian = 'Lithuanian';
+    case Macedonian = 'Macedonian';
+    case Malay = 'Malay';
+    case Malayalam = 'Malayalam';
+    case Marathi = 'Marathi';
+    case Norwegian = 'Norwegian';
+    case Persian = 'Persian';
+    case Polish = 'Polish';
+    case PortugueseBR = 'Portuguese (BR)';
+    case PortuguesePOR = 'Portuguese (POR)';
+    case Punjabi = 'Punjabi';
+    case Romanian = 'Romanian';
+    case Russian = 'Russian';
+    case Serbian = 'Serbian';
+    case Slovak = 'Slovak';
+    case Slovenian = 'Slovenian';
+    case SpanishARG = 'Spanish (ARG)';
+    case SpanishMEX = 'Spanish (MEX)';
+    case SpanishSPA = 'Spanish (SPA)';
+    case Spanish = 'Spanish';
+    case Swahili = 'Swahili';
+    case Swedish = 'Swedish';
+    case Tamil = 'Tamil';
+    case Telugu = 'Telugu';
+    case Thai = 'Thai';
+    case Turkish = 'Turkish';
+    case Ukrainian = 'Ukrainian';
+    case Urdu = 'Urdu';
+    case Uzbek = 'Uzbek';
+    case Vietnamese = 'Vietnamese';
+    case Zulu = 'Zulu';
+}

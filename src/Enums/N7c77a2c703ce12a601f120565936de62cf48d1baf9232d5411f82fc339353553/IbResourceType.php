@@ -1,0 +1,17 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\Enums\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553;
+
+enum IbResourceType: string
+{
+    case ALPHANUMERIC = 'ALPHANUMERIC';
+    case APPLERESOURCE = 'APPLE_RESOURCE';
+    case FACEBOOKRESOURCE = 'FACEBOOK_RESOURCE';
+    case KAKAORESOURCE = 'KAKAO_RESOURCE';
+    case NUMBER = 'NUMBER';
+    case OPENCHANNELRESOURCE = 'OPEN_CHANNEL_RESOURCE';
+    case RCSRESOURCE = 'RCS_RESOURCE';
+    case VIBERRESOURCE = 'VIBER_RESOURCE';
+}

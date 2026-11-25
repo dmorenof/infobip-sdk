@@ -1,0 +1,11 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\Enums\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469051f8b8866;
+
+enum MediaTypeApiModel: string
+{
+    case AUDIO = 'AUDIO';
+    case AUDIOANDVIDEO = 'AUDIO_AND_VIDEO';
+}

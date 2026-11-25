@@ -1,0 +1,21 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\Enums\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a;
+
+enum TenDlcUseCase: string
+{
+    case ALERTS = 'ALERTS';
+    case CHAT = 'CHAT';
+    case DONATION = 'DONATION';
+    case EDUCATION = 'EDUCATION';
+    case FRAUDALERTS = 'FRAUD_ALERTS';
+    case M2M = 'M2M';
+    case POLITICAL = 'POLITICAL';
+    case PROMOTIONALMARKETING = 'PROMOTIONAL_MARKETING';
+    case PUBLICSERVICEANNOUNCEMENT = 'PUBLIC_SERVICE_ANNOUNCEMENT';
+    case SWEEPSTAKE = 'SWEEPSTAKE';
+    case TWOFACTORAUTH = 'TWO_FACTOR_AUTH';
+    case VOTINGPOLLING = 'VOTING_POLLING';
+}

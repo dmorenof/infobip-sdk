@@ -1,0 +1,9 @@
+<?php
+
+declare(strict_types=1);
+
+namespace InfobipSDK\DTOs\C8cb45a488f0d2ea03cc082d0f61afb1c3b35cdd297a9f7abb6df8ac5619a483\MoReportResult;
+
+final class PayloadValueDTO extends \Dmorenof\SdkRuntime\DTO
+{
+}
