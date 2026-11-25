@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace InfobipSDK\Collections\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe136803640cfabe2c\ResponseEnvelopeMessageResponseMessageResponseDetails;
 
+/** @extends \Dmorenof\SdkRuntime\TypedArray<\InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe136803640cfabe2c\MessageResponseMessageResponseDetails> */
 final class MessagesCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = \InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe136803640cfabe2c\MessageResponseMessageResponseDetails::class;

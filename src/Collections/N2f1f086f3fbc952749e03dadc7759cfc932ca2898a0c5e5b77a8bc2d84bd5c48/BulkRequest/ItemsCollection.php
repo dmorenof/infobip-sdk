@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace InfobipSDK\Collections\N2f1f086f3fbc952749e03dadc7759cfc932ca2898a0c5e5b77a8bc2d84bd5c48\BulkRequest;
 
+/** @extends \Dmorenof\SdkRuntime\TypedArray<\InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\BulkItem> */
 final class ItemsCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = \InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\BulkItem::class;
