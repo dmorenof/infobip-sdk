@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace InfobipSDK\Collections\N25bc6165974db08bf3072efbf58365d643c5a11027c569c8010b72d1e1d5233f\WorkingHoursApiRequest;
 
+/** @extends \Dmorenof\SdkRuntime\TypedArray<\InfobipSDK\DTOs\N25bc6165974db08bf3072efbf58365d643c5a11027c569c8010b72d1e1d5233f\HolidaysApiModel> */
 final class HolidaysCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = \InfobipSDK\DTOs\N25bc6165974db08bf3072efbf58365d643c5a11027c569c8010b72d1e1d5233f\HolidaysApiModel::class;

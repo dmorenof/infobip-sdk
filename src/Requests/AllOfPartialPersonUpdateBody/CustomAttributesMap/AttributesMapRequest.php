@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace InfobipSDK\Requests\AllOfPartialPersonUpdateBody\CustomAttributesMap;
 
+/** @extends \Dmorenof\SdkRuntime\Map<\InfobipSDK\Requests\AllOfPartialPersonUpdateBody\CustomAttributesValue\AttributesValueRequest> */
 final class AttributesMapRequest extends \Dmorenof\SdkRuntime\Map
 {
     protected const string VALUE_TYPE = '\\InfobipSDK\\Requests\\AllOfPartialPersonUpdateBody\\CustomAttributesValue\\AttributesValueRequest';

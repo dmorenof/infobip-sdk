@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace InfobipSDK\Collections\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe136803640cfabe2c\DeliveryTimeWindow;
 
+/** @extends \Dmorenof\SdkRuntime\TypedArray<\InfobipSDK\Enums\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe136803640cfabe2c\DeliveryDay> */
 final class DaysCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = \InfobipSDK\Enums\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe136803640cfabe2c\DeliveryDay::class;
