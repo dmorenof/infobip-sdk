@@ -7,15 +7,15 @@ namespace InfobipSDK\DeleteParams\Catalogs\Resource1\Catalogs\ByCatalogId;
 final class Items extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'queryFilter',
-];
+        'queryFilter',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'queryFilter' => 'queryFilter',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'queryFilter' => 'queryFilter',
+        ],
+        'header' => [],
+    ];
 
     public string $queryFilter;
 }

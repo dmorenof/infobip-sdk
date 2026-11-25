@@ -84,5 +84,4 @@ final class Participants extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['campaignId' => $campaignId]);
         return $result;
     }
-
 }

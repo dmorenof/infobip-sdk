@@ -71,5 +71,4 @@ final class LinkedArticle extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['attachmentId' => $attachmentId]);
         return $result;
     }
-
 }

@@ -47,5 +47,4 @@ final class Batch extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         return self::client()->resource(\InfobipSDK\Resources\People\Resource2\Persons\Batch::class)->post($payload);
     }
-
 }

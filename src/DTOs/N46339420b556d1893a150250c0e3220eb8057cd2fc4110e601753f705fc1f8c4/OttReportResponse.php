@@ -12,22 +12,21 @@ final class OttReportResponse extends \InfobipSDK\DTOs\N3307df001c42dd833d79f33c
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-    'pendingMessageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+        'pendingMessageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'messageCount',
-    'pendingMessageCount',
-];
+        'messageCount',
+        'pendingMessageCount',
+    ];
 
     /**
      * Collection of reports, one per every received message.
      */
     public \InfobipSDK\Collections\N46339420b556d1893a150250c0e3220eb8057cd2fc4110e601753f705fc1f8c4\OttReportResponse\ResultsCollection $results;
-
 }

@@ -38,5 +38,4 @@ final class Numbers extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\NumberReputation\Resource1\Businesses\ByBusinessId\Numbers::class)->post($businessId, $payload);
     }
-
 }

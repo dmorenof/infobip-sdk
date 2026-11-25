@@ -7,44 +7,44 @@ namespace InfobipSDK\GetParams\Ccaas\Resource1;
 final class Agents extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'agentIds' => 'agentIds',
-        'availability' => 'availability',
-        'createdAfter' => 'createdAfter',
-        'createdBefore' => 'createdBefore',
-        'displayName' => 'displayName',
-        'email' => 'email',
-        'enabled' => 'enabled',
-        'limit' => 'limit',
-        'orderBy' => 'orderBy',
-        'page' => 'page',
-        'queueIds' => 'queueIds',
-        'role' => 'role',
-        'status' => 'status',
-        'updatedAfter' => 'updatedAfter',
-        'updatedBefore' => 'updatedBefore',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'agentIds' => 'agentIds',
+            'availability' => 'availability',
+            'createdAfter' => 'createdAfter',
+            'createdBefore' => 'createdBefore',
+            'displayName' => 'displayName',
+            'email' => 'email',
+            'enabled' => 'enabled',
+            'limit' => 'limit',
+            'orderBy' => 'orderBy',
+            'page' => 'page',
+            'queueIds' => 'queueIds',
+            'role' => 'role',
+            'status' => 'status',
+            'updatedAfter' => 'updatedAfter',
+            'updatedBefore' => 'updatedBefore',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'agentIds' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'agentIds' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
         ],
-    ],
-    'limit' => [
-        'maximum' => 999,
-    ],
-    'queueIds' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'limit' => [
+            'maximum' => 999,
         ],
-    ],
-];
+        'queueIds' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+    ];
 
     /** @var list<string>|null */
     public ?array $agentIds;

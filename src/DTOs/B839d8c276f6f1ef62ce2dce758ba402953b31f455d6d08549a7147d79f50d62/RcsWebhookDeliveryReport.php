@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class RcsWebhookDeliveryReport extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Unique ID assigned to the request if messaging multiple recipients or sending multiple messages via a single API request.

@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class FilePlayContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fileId',
-    'type',
-];
+        'fileId',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'fileId' => [
-        'minLength' => 1,
-    ],
-];
+        'fileId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Identifier of the audio file stored in Infobip storage.

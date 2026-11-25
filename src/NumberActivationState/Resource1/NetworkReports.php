@@ -16,5 +16,4 @@ final class NetworkReports extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberActivationState\Resource1\NetworkReports::class)->get($params);
     }
-
 }

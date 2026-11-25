@@ -143,5 +143,4 @@ final class Status extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['sipTrunkId' => $sipTrunkId]);
         return $result;
     }
-
 }

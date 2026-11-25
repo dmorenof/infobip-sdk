@@ -18,5 +18,4 @@ final class Append extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource2\CustomAttributes\ByName\Append::class)->post($name, $params);
     }
-
 }

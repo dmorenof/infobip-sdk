@@ -13,18 +13,18 @@ namespace InfobipSDK\DTOs\N25bc6165974db08bf3072efbf58365d643c5a11027c569c8010b7
 final class HolidaysApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'id',
-];
+        'id',
+    ];
 
     /**
      * Holiday enable/disable toggle.

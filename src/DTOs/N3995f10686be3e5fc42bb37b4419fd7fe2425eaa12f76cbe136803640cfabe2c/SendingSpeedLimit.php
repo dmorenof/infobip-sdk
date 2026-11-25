@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class SendingSpeedLimit extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-];
+        'amount',
+    ];
 
     protected const array VALIDATION = [
-    'amount' => [
-        'format' => 'int32',
-    ],
-];
+        'amount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The number of messages to be sent per timeUnit. By default, the system sends messages as fast as the infrastructure allows. Use this parameter to adapt sending capacity to your needs. The system is only able to work against its maximum capacity for ambitious message batches.

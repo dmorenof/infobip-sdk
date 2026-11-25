@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N5305ca722d832817d411146f95eba84c3530f174d0fd6b1f72c09
 final class WebrtcApplication extends \InfobipSDK\DTOs\N5305ca722d832817d411146f95eba84c3530f174d0fd6b1f72c09c5c2fbb1063\Application
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

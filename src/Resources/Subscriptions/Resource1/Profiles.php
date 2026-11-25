@@ -357,5 +357,4 @@ final class Profiles extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_PROFILE_ID), $payload, path: ['profileId' => $profileId]);
         return $result;
     }
-
 }

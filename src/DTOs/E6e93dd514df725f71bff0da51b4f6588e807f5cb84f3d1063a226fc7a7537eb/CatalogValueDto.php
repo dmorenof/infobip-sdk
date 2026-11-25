@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\E6e93dd514df725f71bff0da51b4f6588e807f5cb84f3d1063a226
 final class CatalogValueDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fieldId',
-    'fieldName',
-    'value',
-];
+        'fieldId',
+        'fieldName',
+        'value',
+    ];
 
     /**
      * Field ID.

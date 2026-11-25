@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class RepeatWhile extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'repeat',
-    'while_',
-];
+        'repeat',
+        'while_',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'while' => 'while_',
-];
+        'while' => 'while_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'while_' => 'while',
-];
+        'while_' => 'while',
+    ];
 
     /**
      * Array of actions to execute.

@@ -16,5 +16,4 @@ final class Voices extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Tts\Resource3\Voices::class)->getByLanguage($language, $params);
     }
-
 }

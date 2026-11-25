@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class ListPickerSection extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'items',
-    'title',
-];
+        'items',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'items' => [
-        'minItems' => 1,
-    ],
-    'order' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-];
+        'items' => [
+            'minItems' => 1,
+        ],
+        'order' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * An array of list picker items.

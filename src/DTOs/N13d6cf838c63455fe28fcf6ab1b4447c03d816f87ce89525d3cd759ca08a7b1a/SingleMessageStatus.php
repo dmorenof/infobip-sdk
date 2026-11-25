@@ -13,13 +13,13 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class SingleMessageStatus extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'groupId' => [
-        'format' => 'int32',
-    ],
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'groupId' => [
+            'format' => 'int32',
+        ],
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Human-readable description of the status.

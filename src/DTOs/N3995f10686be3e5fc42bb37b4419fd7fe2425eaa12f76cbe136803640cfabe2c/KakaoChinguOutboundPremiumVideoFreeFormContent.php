@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class KakaoChinguOutboundPremiumVideoFreeFormContent extends \InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe136803640cfabe2c\KakaoChinguOutboundContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'content' => [
-        'minLength' => 0,
-        'maxLength' => 76,
-    ],
-    'header' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-];
+        'content' => [
+            'minLength' => 0,
+            'maxLength' => 76,
+        ],
+        'header' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

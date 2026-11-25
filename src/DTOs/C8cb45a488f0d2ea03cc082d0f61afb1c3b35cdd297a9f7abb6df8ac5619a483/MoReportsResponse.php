@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\C8cb45a488f0d2ea03cc082d0f61afb1c3b35cdd297a9f7abb6df8
 final class MoReportsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messageCount',
-    'pendingMessageCount',
-    'results',
-];
+        'messageCount',
+        'pendingMessageCount',
+        'results',
+    ];
 
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-    'pendingMessageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+        'pendingMessageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of returned messages in this request.

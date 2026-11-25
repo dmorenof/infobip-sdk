@@ -60,5 +60,4 @@ final class Scenarios extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Voice\Ivr\Resource1\Scenarios::class)->putById($id, $payload);
     }
-
 }

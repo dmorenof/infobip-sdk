@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class WhatsAppEventRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'events',
-];
+        'events',
+    ];
 
     protected const array VALIDATION = [
-    'events' => [
-        'minItems' => 1,
-    ],
-];
+        'events' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * An array of event objects of the events to be sent.

@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiIncomingMessageResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'results',
-];
+        'results',
+    ];
 
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-    'pendingMessageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+        'pendingMessageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The number of messages returned in the `results` array.

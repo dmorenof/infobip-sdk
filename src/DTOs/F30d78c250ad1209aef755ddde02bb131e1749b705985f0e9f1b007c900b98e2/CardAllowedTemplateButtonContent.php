@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 class CardAllowedTemplateButtonContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    'QUICK_REPLY' => 'InfobipSDK\\DTOs\\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\\TemplateQuickReplyButtonContent',
-    'URL' => 'InfobipSDK\\DTOs\\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\\TemplateUrlButtonContent',
-    'f30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2.TemplateQuickReplyButtonContent' => 'InfobipSDK\\DTOs\\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\\TemplateQuickReplyButtonContent',
-    'f30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2.TemplateUrlButtonContent' => 'InfobipSDK\\DTOs\\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\\TemplateUrlButtonContent',
-];
+        'QUICK_REPLY' => 'InfobipSDK\\DTOs\\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\\TemplateQuickReplyButtonContent',
+        'URL' => 'InfobipSDK\\DTOs\\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\\TemplateUrlButtonContent',
+        'f30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2.TemplateQuickReplyButtonContent' => 'InfobipSDK\\DTOs\\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\\TemplateQuickReplyButtonContent',
+        'f30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2.TemplateUrlButtonContent' => 'InfobipSDK\\DTOs\\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\\TemplateUrlButtonContent',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

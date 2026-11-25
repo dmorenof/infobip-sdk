@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class CaptureDtmfCallbackResponse extends \InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125fde9674634b8\CallbackResponse
 {
     public const array REQUIRED_FIELDS = [
-    'command',
-];
+        'command',
+    ];
 
     protected const array VALIDATION = [
-    'digitTimeout' => [
-        'format' => 'int32',
-    ],
-    'maxLength' => [
-        'format' => 'int32',
-    ],
-    'timeout' => [
-        'format' => 'int32',
-    ],
-];
+        'digitTimeout' => [
+            'format' => 'int32',
+        ],
+        'maxLength' => [
+            'format' => 'int32',
+        ],
+        'timeout' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

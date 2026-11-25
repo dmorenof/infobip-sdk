@@ -69,5 +69,4 @@ final class Campaigns extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST_BY_CAMPAIGN_UUID), path: ['campaignUuid' => $campaignUuid]);
         return $result;
     }
-
 }

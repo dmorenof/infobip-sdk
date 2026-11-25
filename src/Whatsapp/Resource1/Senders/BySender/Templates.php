@@ -33,5 +33,4 @@ final class Templates extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\Templates::class)->post($sender, $payload);
     }
-
 }

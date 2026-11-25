@@ -14,13 +14,13 @@ class CampaignBuilderResultData extends \Dmorenof\SdkRuntime\DTO
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'campaignType';
     public const array DISCRIMINATOR_MAPPING = [
-    '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.ShortCodeCampaignBuilderResultData' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\ShortCodeCampaignBuilderResultData',
-    '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.TenDlcCampaignBuilderResultData' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TenDlcCampaignBuilderResultData',
-    '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.TollFreeCampaignBuilderResultData' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TollFreeCampaignBuilderResultData',
-    'SHORT_CODE' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\ShortCodeCampaignBuilderResultData',
-    'TEN_DIGIT_LONG_CODE' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TenDlcCampaignBuilderResultData',
-    'TOLL_FREE_NUMBER' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TollFreeCampaignBuilderResultData',
-];
+        '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.ShortCodeCampaignBuilderResultData' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\ShortCodeCampaignBuilderResultData',
+        '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.TenDlcCampaignBuilderResultData' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TenDlcCampaignBuilderResultData',
+        '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.TollFreeCampaignBuilderResultData' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TollFreeCampaignBuilderResultData',
+        'SHORT_CODE' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\ShortCodeCampaignBuilderResultData',
+        'TEN_DIGIT_LONG_CODE' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TenDlcCampaignBuilderResultData',
+        'TOLL_FREE_NUMBER' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TollFreeCampaignBuilderResultData',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

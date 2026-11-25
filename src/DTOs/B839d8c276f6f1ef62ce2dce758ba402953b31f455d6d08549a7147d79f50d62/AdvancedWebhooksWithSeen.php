@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class AdvancedWebhooksWithSeen extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'callbackData' => [
-        'minLength' => 0,
-        'maxLength' => 4000,
-    ],
-];
+        'callbackData' => [
+            'minLength' => 0,
+            'maxLength' => 4000,
+        ],
+    ];
 
     /**
      * Additional data that can be used for identifying, managing, or monitoring a message. Data included here will also be automatically included in the message Delivery Report. The maximum value is 4000 characters.

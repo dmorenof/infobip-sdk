@@ -7,16 +7,16 @@ namespace InfobipSDK\GetParams\Ccaas\Voice\Resource2;
 final class WaitingStrategies extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'pageNumber' => 'pageNumber',
-        'pageSize' => 'pageSize',
-        'queueId' => 'queueId',
-        'sortBy' => 'sortBy',
-        'sortDirection' => 'sortDirection',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'pageNumber' => 'pageNumber',
+            'pageSize' => 'pageSize',
+            'queueId' => 'queueId',
+            'sortBy' => 'sortBy',
+            'sortDirection' => 'sortDirection',
+        ],
+        'header' => [],
+    ];
 
     public ?int $pageNumber;
     public ?int $pageSize;

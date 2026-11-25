@@ -13,15 +13,15 @@ namespace InfobipSDK\DTOs\N1ed350d65e634c5446c08244298a26d3b0bb68a76782ab9246a80
 final class CreateBlockingConfigRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'platforms',
-];
+        'platforms',
+    ];
 
     protected const array VALIDATION = [
-    'platforms' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-];
+        'platforms' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+    ];
 
     /**
      * List of platforms (application/entity pairs) for which to create blocking configurations.

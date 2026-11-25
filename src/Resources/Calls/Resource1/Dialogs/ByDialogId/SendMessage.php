@@ -77,5 +77,4 @@ final class SendMessage extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['dialogId' => $dialogId]);
         return $result;
     }
-
 }

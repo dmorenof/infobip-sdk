@@ -12,33 +12,33 @@ namespace InfobipSDK\DTOs\N58b7723d552ea7166ae4b26f13a2e9dab0154f96a724621e17ccb
 final class AppLinkTextAndImageButton extends \InfobipSDK\DTOs\N58b7723d552ea7166ae4b26f13a2e9dab0154f96a724621e17ccb41009cc81fb\TextAndImageButton
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 14,
-    ],
-    'schemeAndroid' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'schemeIos' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'urlMobile' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-    'urlPc' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 14,
+        ],
+        'schemeAndroid' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'schemeIos' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'urlMobile' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+        'urlPc' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

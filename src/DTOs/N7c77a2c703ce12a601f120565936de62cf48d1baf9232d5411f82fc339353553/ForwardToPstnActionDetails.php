@@ -12,11 +12,11 @@ final class ForwardToPstnActionDetails extends \InfobipSDK\DTOs\N7c77a2c703ce12a
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'pstnNumber' => [
-        'minLength' => 1,
-        'pattern' => '^[1-9]\\d{1,14}$',
-    ],
-];
+        'pstnNumber' => [
+            'minLength' => 1,
+            'pattern' => '^[1-9]\\d{1,14}$',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

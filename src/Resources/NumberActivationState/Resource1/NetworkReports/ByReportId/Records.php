@@ -66,5 +66,4 @@ final class Records extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['reportId' => $reportId], parameters: $params);
         return $result;
     }
-
 }

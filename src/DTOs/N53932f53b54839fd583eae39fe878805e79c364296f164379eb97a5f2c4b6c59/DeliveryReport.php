@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class DeliveryReport extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Unique ID assigned to the request if messaging multiple recipients or sending multiple messages via a single API request.

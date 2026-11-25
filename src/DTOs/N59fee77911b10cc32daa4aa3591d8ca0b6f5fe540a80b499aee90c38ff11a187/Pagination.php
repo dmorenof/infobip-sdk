@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\N59fee77911b10cc32daa4aa3591d8ca0b6f5fe540a80b499aee90
 final class Pagination extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'limit' => [
-        'format' => 'int32',
-    ],
-    'page' => [
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'format' => 'int32',
+        ],
+        'page' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'limit',
-    'orderBy',
-    'page',
-    'totalItems',
-];
+        'limit',
+        'orderBy',
+        'page',
+        'totalItems',
+    ];
 
     /**
      * Format: int32

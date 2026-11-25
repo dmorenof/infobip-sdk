@@ -12,10 +12,10 @@ final class AsyncMachineDetectionMode extends \InfobipSDK\DTOs\N287f18f04e9f129a
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'asyncUrl' => [
-        'minLength' => 1,
-    ],
-];
+        'asyncUrl' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

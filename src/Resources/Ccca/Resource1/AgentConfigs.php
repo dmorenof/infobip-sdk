@@ -66,5 +66,4 @@ final class AgentConfigs extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_AGENT_ID), path: ['agentId' => $agentId]);
         return $result;
     }
-
 }

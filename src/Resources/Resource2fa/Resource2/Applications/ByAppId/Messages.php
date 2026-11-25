@@ -295,5 +295,4 @@ final class Messages extends \InfobipSDK\Client
         $result = func_num_args() > 1 ? $this->executeBody(self::operation(self::PUT_BY_MSG_ID), $payload, path: $identifier) : $this->executeArguments(self::operation(self::PUT_BY_MSG_ID), path: $identifier);
         return $result;
     }
-
 }

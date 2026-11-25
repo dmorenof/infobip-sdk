@@ -402,5 +402,4 @@ final class Routes extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_ROUTE_ID), $payload, path: ['routeId' => $routeId]);
         return $result;
     }
-
 }

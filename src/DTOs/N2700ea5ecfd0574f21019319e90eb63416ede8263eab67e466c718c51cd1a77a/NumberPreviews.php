@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class NumberPreviews extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'numberPreviews' => [
-        'uniqueItems' => true,
-    ],
-];
+        'numberPreviews' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     public \InfobipSDK\Collections\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\ExternalTenDlcCampaign\NumberPreviewsCollection $numberPreviews {
         set {

@@ -60,5 +60,4 @@ final class Articles extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\KnowledgeBase\Resource1\Articles::class)->putByArticleId($articleId, $payload);
     }
-
 }

@@ -10,18 +10,18 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiTemplateDocumentHeader extends \InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\MessagesApiTemplateHeader
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'filename' => [
-        'minLength' => 1,
-    ],
-    'url' => [
-        'minLength' => 1,
-        'pattern' => '',
-    ],
-];
+        'filename' => [
+            'minLength' => 1,
+        ],
+        'url' => [
+            'minLength' => 1,
+            'pattern' => '',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

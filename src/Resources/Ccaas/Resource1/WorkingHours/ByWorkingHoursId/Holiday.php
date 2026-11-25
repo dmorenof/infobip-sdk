@@ -144,5 +144,4 @@ final class Holiday extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::DELETE_BY_ID), path: $identifier);
         return $result;
     }
-
 }

@@ -7,31 +7,31 @@ namespace InfobipSDK\GetParams\Ccaas\Resource1\Conversations\ByConversationId;
 final class Messages extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'channel' => 'channel',
-        'createdAfter' => 'createdAfter',
-        'createdBefore' => 'createdBefore',
-        'direction' => 'direction',
-        'limit' => 'limit',
-        'messageIds' => 'messageIds',
-        'orderBy' => 'orderBy',
-        'page' => 'page',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'channel' => 'channel',
+            'createdAfter' => 'createdAfter',
+            'createdBefore' => 'createdBefore',
+            'direction' => 'direction',
+            'limit' => 'limit',
+            'messageIds' => 'messageIds',
+            'orderBy' => 'orderBy',
+            'page' => 'page',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'limit' => [
-        'maximum' => 999,
-    ],
-    'messageIds' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'limit' => [
+            'maximum' => 999,
         ],
-    ],
-];
+        'messageIds' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+    ];
 
     public ?\InfobipSDK\Enums\Ccaas\Resource1\Conversations\ByConversationId\Messages\Get\Query\QueryChannelEnum $channel;
     public ?string $createdAfter;

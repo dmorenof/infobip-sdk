@@ -12,15 +12,15 @@ final class UriAction extends \InfobipSDK\DTOs\N267b6ecf9b18ace076c5287f2f55ab49
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'label' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-    'uri' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'label' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+        'uri' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

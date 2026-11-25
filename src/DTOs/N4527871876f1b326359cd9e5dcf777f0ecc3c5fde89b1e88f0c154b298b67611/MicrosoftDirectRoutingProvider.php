@@ -13,5 +13,4 @@ final class MicrosoftDirectRoutingProvider extends \InfobipSDK\DTOs\N4527871876f
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

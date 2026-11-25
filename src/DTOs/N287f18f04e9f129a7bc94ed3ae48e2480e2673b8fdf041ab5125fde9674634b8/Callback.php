@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class Callback extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'method',
-    'url',
-];
+        'method',
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 1,
-    ],
-];
+        'url' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * URL where errors will be sent

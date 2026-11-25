@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\E2cbdd2d36d35e3e9c85bc5344135c1a087d73d9cf6c9dc8cf1c25
 final class SouthKoreaOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'resellerCode' => [
-        'format' => 'int32',
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 66,
-    ],
-];
+        'resellerCode' => [
+            'format' => 'int32',
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 66,
+        ],
+    ];
 
     /**
      * Reseller identification code: 9-digit registration number in the business registration certificate for South Korea. Resellers should submit this when sending.

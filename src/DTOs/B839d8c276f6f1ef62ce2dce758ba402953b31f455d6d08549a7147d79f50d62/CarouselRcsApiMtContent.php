@@ -12,15 +12,15 @@ final class CarouselRcsApiMtContent extends \InfobipSDK\DTOs\B839d8c276f6f1ef62c
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'contents' => [
-        'minItems' => 2,
-        'maxItems' => 10,
-    ],
-    'suggestions' => [
-        'minItems' => 0,
-        'maxItems' => 10,
-    ],
-];
+        'contents' => [
+            'minItems' => 2,
+            'maxItems' => 10,
+        ],
+        'suggestions' => [
+            'minItems' => 0,
+            'maxItems' => 10,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

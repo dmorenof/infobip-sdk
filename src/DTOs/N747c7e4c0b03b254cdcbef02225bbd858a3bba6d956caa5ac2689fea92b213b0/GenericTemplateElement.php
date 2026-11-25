@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225bbd858a3bba6d956caa5ac2689
 final class GenericTemplateElement extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'title',
-];
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 0,
-        'maxItems' => 3,
-    ],
-    'subtitle' => [
-        'minLength' => 0,
-        'maxLength' => 80,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 80,
-    ],
-];
+        'buttons' => [
+            'minItems' => 0,
+            'maxItems' => 3,
+        ],
+        'subtitle' => [
+            'minLength' => 0,
+            'maxLength' => 80,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 80,
+        ],
+    ];
 
     public \InfobipSDK\Collections\N747c7e4c0b03b254cdcbef02225bbd858a3bba6d956caa5ac2689fea92b213b0\ButtonFacebookTemplatePayload\ButtonsCollection $buttons {
         set {

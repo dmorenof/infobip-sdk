@@ -16,5 +16,4 @@ final class Settings extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Vocalize\Resource2\Campaigns\ByCampaignId\Settings::class)->patch($campaignId, $payload);
     }
-
 }

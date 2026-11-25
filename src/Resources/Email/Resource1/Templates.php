@@ -476,5 +476,4 @@ final class Templates extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_TEMPLATE_ID), path: ['templateId' => $templateId], body: $payload);
         return $result;
     }
-
 }

@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class WaitingStrategyApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'condition',
-    'conditionType',
-    'maximumWaitTime',
-];
+        'condition',
+        'conditionType',
+        'maximumWaitTime',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 128,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 128,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469051f8b8866\OptionWithPeriodicCollectApiModel $announcementMessage;
     public \InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469051f8b8866\Condition $condition;

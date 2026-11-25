@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N66067ae938b1b756af79ad29184e7a22de98929ca991ca01a0c74
 final class SimpleCurrencyInfo extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public string $code;
     public string $currencyName;

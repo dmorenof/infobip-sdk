@@ -274,5 +274,4 @@ final class Conferences extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH_BY_CONFERENCE_ID), $payload, path: ['conferenceId' => $conferenceId]);
         return $result;
     }
-
 }

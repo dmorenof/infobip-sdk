@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\N09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc95
 final class CreateUpdateArticleRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'categoryId',
-    'content',
-    'links',
-    'name',
-    'status',
-    'tags',
-];
+        'categoryId',
+        'content',
+        'links',
+        'name',
+        'status',
+        'tags',
+    ];
 
     protected const array VALIDATION = [
-    'content' => [
-        'minLength' => 1,
-    ],
-    'name' => [
-        'minLength' => 3,
-        'maxLength' => 255,
-    ],
-];
+        'content' => [
+            'minLength' => 1,
+        ],
+        'name' => [
+            'minLength' => 3,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Category identifier to assign the article to.

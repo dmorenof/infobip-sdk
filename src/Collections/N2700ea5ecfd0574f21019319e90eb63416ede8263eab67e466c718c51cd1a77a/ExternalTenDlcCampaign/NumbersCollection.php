@@ -8,10 +8,10 @@ final class NumbersCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = 'string';
     protected const array COLLECTION_VALIDATION = [
-    'uniqueItems' => true,
-];
+        'uniqueItems' => true,
+    ];
     protected const array ITEM_VALIDATION = [
-    'minLength' => 1,
-    'pattern' => '1\\d{10}',
-];
+        'minLength' => 1,
+        'pattern' => '1\\d{10}',
+    ];
 }

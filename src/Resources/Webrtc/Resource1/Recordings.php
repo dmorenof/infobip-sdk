@@ -132,5 +132,4 @@ final class Recordings extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::DELETE_BY_ID), path: ['id' => $id], parameters: $params);
         return $result;
     }
-
 }

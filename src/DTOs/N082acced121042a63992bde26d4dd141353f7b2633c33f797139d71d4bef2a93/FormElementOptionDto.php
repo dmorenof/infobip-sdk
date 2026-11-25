@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N082acced121042a63992bde26d4dd141353f7b2633c33f797139d
 final class FormElementOptionDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'value',
-];
+        'name',
+        'value',
+    ];
 
     public \InfobipSDK\DTOs\N082acced121042a63992bde26d4dd141353f7b2633c33f797139d71d4bef2a93\FormElementOptionDto\AdditionalConfigurationMap $additionalConfiguration;
     public string $name;

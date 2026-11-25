@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMoEventFormSelection extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'items',
-    'pageIdentifier',
-    'text',
-    'type',
-];
+        'items',
+        'pageIdentifier',
+        'text',
+        'type',
+    ];
 
     /**
      * List of selected items or values provided by the user for this form selection.

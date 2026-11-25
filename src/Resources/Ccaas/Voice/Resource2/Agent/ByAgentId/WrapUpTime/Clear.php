@@ -61,5 +61,4 @@ final class Clear extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PATCH), path: ['agentId' => $agentId]);
         return $result;
     }
-
 }

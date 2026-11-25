@@ -20,5 +20,4 @@ final class Voice extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         return self::client()->resource(\InfobipSDK\Resources\Resource2fa\Resource2\Pin\Voice::class)->post($payload);
     }
-
 }

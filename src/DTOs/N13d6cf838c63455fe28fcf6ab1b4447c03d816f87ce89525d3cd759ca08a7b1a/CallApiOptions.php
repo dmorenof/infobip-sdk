@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class CallApiOptions extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'body',
-    'method',
-];
+        'body',
+        'method',
+    ];
 
     /**
      * HTTP body. The parameter can be constructed using variables.

@@ -16,5 +16,4 @@ final class Assign extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource2\Conversations\ByConversationId\Form\Assign::class)->post($conversationId, $params);
     }
-
 }

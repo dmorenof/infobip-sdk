@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N808c7c71509cd326700719db91283dfccde220d396434fc49825c
 final class RcsBulkSendTemplateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messages',
-];
+        'messages',
+    ];
 
     public \InfobipSDK\Collections\N808c7c71509cd326700719db91283dfccde220d396434fc49825c692ac7499fd\RcsBulkSendTemplateRequest\MessagesCollection $messages;
 

@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiTemplateMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel',
-    'destinations',
-    'template',
-];
+        'channel',
+        'destinations',
+        'template',
+    ];
 
     protected const array VALIDATION = [
-    'destinations' => [
-        'minItems' => 1,
-    ],
-];
+        'destinations' => [
+            'minItems' => 1,
+        ],
+    ];
 
     public \InfobipSDK\Enums\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\OutboundTemplateChannel $channel;
     public \InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\MessagesApiTemplateMessageContent $content;

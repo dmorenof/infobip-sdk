@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\N5929f45c31f06c29ab1bc6e26caa01575484225e5ef99a2512bee
 final class Priority extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'priority',
-    'senderType',
-];
+        'priority',
+        'senderType',
+    ];
 
     protected const array VALIDATION = [
-    'priority' => [
-        'minimum' => 1,
-        'maximum' => 4,
-        'format' => 'int32',
-    ],
-];
+        'priority' => [
+            'minimum' => 1,
+            'maximum' => 4,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Priority of sender type, from 1 to a maximum of 4. Lower number means higher priority.

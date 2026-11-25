@@ -50,5 +50,4 @@ final class TrustedNumbers extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Signals\Resource2\Configs\Blocking\ByConfigId\TrustedNumbers::class)->getByPhoneNumber($identifier);
     }
-
 }

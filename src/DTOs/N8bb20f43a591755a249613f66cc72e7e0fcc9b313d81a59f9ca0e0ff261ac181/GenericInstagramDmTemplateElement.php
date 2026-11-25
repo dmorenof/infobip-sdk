@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\N8bb20f43a591755a249613f66cc72e7e0fcc9b313d81a59f9ca0e
 final class GenericInstagramDmTemplateElement extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'title',
-];
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 0,
-        'maxItems' => 3,
-    ],
-    'subtitle' => [
-        'minLength' => 0,
-        'maxLength' => 80,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 80,
-    ],
-];
+        'buttons' => [
+            'minItems' => 0,
+            'maxItems' => 3,
+        ],
+        'subtitle' => [
+            'minLength' => 0,
+            'maxLength' => 80,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 80,
+        ],
+    ];
 
     public \InfobipSDK\Collections\N8bb20f43a591755a249613f66cc72e7e0fcc9b313d81a59f9ca0e0ff261ac181\GenericInstagramDmTemplateElement\ButtonsCollection $buttons {
         set {

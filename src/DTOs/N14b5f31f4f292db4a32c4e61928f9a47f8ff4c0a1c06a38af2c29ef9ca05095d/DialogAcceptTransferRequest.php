@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N14b5f31f4f292db4a32c4e61928f9a47f8ff4c0a1c06a38af2c29
 final class DialogAcceptTransferRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'targetCallRequest',
-];
+        'targetCallRequest',
+    ];
 
     protected const array VALIDATION = [
-    'maxDuration' => [
-        'format' => 'int32',
-    ],
-];
+        'maxDuration' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Whether to finalize the transfer if establishing the target call fails. When `false`, the dialog remains in the `TRANSFERRING` state and the transfer can be retried.

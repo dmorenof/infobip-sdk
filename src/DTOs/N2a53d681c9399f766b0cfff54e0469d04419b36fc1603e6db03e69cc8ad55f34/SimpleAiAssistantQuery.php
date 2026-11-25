@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N2a53d681c9399f766b0cfff54e0469d04419b36fc1603e6db03e6
 final class SimpleAiAssistantQuery extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-];
+        'message',
+    ];
 
     /**
      * User message an AI assistant receives.

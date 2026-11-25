@@ -12,19 +12,19 @@ final class ViberBotOutboundVideoContent extends \InfobipSDK\DTOs\N14dcd0f25fe0f
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'duration' => [
-        'maximum' => 180,
-        'format' => 'int32',
-    ],
-    'size' => [
-        'maximum' => 27262976,
-        'format' => 'int32',
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 768,
-    ],
-];
+        'duration' => [
+            'maximum' => 180,
+            'format' => 'int32',
+        ],
+        'size' => [
+            'maximum' => 27262976,
+            'format' => 'int32',
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 768,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

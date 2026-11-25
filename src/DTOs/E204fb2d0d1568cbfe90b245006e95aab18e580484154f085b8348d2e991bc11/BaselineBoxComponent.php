@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class BaselineBoxComponent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contents',
-    'layout',
-];
+        'contents',
+        'layout',
+    ];
 
     protected const array VALIDATION = [
-    'contents' => [
-        'minItems' => 1,
-    ],
-    'flex' => [
-        'minimum' => 0,
-        'maximum' => 10,
-        'format' => 'int32',
-    ],
-];
+        'contents' => [
+            'minItems' => 1,
+        ],
+        'flex' => [
+            'minimum' => 0,
+            'maximum' => 10,
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\ButtonAction $action;
     public \InfobipSDK\Collections\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\BaselineBoxComponent\ContentsCollection $contents {

@@ -7,26 +7,26 @@ namespace InfobipSDK\GetParams\Vocalize\Resource2\Campaigns\ByCampaignId;
 final class Leaderboard extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'day' => 'day',
-        'fromTime' => 'fromTime',
-        'page' => 'page',
-        'size' => 'size',
-        'toTime' => 'toTime',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'day' => 'day',
+            'fromTime' => 'fromTime',
+            'page' => 'page',
+            'size' => 'size',
+            'toTime' => 'toTime',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'minimum' => 0,
-    ],
-    'size' => [
-        'maximum' => 100,
-        'exclusiveMinimum' => 0,
-    ],
-];
+        'page' => [
+            'minimum' => 0,
+        ],
+        'size' => [
+            'maximum' => 100,
+            'exclusiveMinimum' => 0,
+        ],
+    ];
 
     public ?int $day;
     public ?string $fromTime;

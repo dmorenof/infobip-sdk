@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\C458987719005e1c822046538c51d16d2c79d2de6023cbe1c10ca1
 final class RinglessVoicemailDestination extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'to',
-];
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'to' => [
-        'minLength' => 1,
-        'pattern' => '\\+?[1-9]\\d{7,14}',
-    ],
-];
+        'to' => [
+            'minLength' => 1,
+            'pattern' => '\\+?[1-9]\\d{7,14}',
+        ],
+    ];
 
     /**
      * The ID that uniquely identifies the message sent. If not provided, one will be auto-generated.

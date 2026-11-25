@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\N08fdb52de63aac13de3ed81c2cf06532bc7e9a861dae97f83fafd
 final class CallRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'callsConfigurationId',
-    'endpoint',
-];
+        'callsConfigurationId',
+        'endpoint',
+    ];
 
     protected const array VALIDATION = [
-    'connectTimeout' => [
-        'maximum' => 60,
-        'format' => 'int32',
-    ],
-    'maxDuration' => [
-        'format' => 'int32',
-    ],
-    'parentCallId' => [
-        'maxLength' => 128,
-    ],
-];
+        'connectTimeout' => [
+            'maximum' => 60,
+            'format' => 'int32',
+        ],
+        'maxDuration' => [
+            'format' => 'int32',
+        ],
+        'parentCallId' => [
+            'maxLength' => 128,
+        ],
+    ];
 
     /**
      * Calls Configuration ID.

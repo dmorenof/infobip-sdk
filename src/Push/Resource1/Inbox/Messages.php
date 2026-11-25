@@ -16,5 +16,4 @@ final class Messages extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Push\Resource1\Inbox\Messages::class)->delete($params);
     }
-
 }

@@ -71,5 +71,4 @@ final class Jobs extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['businessId' => $businessId], parameters: $params);
         return $result;
     }
-
 }

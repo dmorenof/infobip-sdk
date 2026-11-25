@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\Be899aa87631e28acaf5aa6d4ae5df630595a5bf087810b5066028
 final class PushDestinationMultiple extends \InfobipSDK\DTOs\Be899aa87631e28acaf5aa6d4ae5df630595a5bf087810b506602819a5d8b742\PushDestination
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array PROPERTY_MAP = [
-    '$and' => 'And_',
-    '$or' => 'Or_',
-];
+        '$and' => 'And_',
+        '$or' => 'Or_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'And_' => '$and',
-    'Or_' => '$or',
-];
+        'And_' => '$and',
+        'Or_' => '$or',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

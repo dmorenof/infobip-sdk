@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class LineOaInboundThingsEventContent extends \InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\LineOaInboundContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'deviceId' => [
-        'minLength' => 1,
-    ],
-    'replyToken' => [
-        'minLength' => 1,
-    ],
-    'revision' => [
-        'format' => 'int32',
-    ],
-];
+        'deviceId' => [
+            'minLength' => 1,
+        ],
+        'replyToken' => [
+            'minLength' => 1,
+        ],
+        'revision' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

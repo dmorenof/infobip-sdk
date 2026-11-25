@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N2a53d681c9399f766b0cfff54e0469d04419b36fc1603e6db03e6
 final class QueryAiAssistantApiResponseContextChunk extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'filename',
-    'text',
-];
+        'filename',
+        'text',
+    ];
 
     /**
      * The name of the source file from which this context chunk was extracted.

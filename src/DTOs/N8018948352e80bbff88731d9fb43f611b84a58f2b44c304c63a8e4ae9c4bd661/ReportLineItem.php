@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N8018948352e80bbff88731d9fb43f611b84a58f2b44c304c63a8e
 final class ReportLineItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'date',
-    'destination',
-    'type',
-];
+        'date',
+        'destination',
+        'type',
+    ];
 
     /**
      * Date in UTC when the activation state change has happened. Format yyyy-MM-dd'T'HH:mm:ss.SSSZ

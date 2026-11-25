@@ -16,5 +16,4 @@ final class Simulate extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Callrouting\Resource1\Routes\Simulate::class)->post($payload);
     }
-
 }

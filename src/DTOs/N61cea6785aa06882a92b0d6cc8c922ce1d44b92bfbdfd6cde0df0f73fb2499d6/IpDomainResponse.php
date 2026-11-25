@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\N61cea6785aa06882a92b0d6cc8c922ce1d44b92bfbdfd6cde0df0
 final class IpDomainResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'name',
-    'pools',
-];
+        'id',
+        'name',
+        'pools',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'minimum' => 1,
-    ],
-    'pools' => [
-        'minItems' => 0,
-        'uniqueItems' => true,
-    ],
-];
+        'id' => [
+            'minimum' => 1,
+        ],
+        'pools' => [
+            'minItems' => 0,
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * Domain identifier.

@@ -16,5 +16,4 @@ final class Conversations extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Agents\ByAgentId\Conversations::class)->get($agentId, $params);
     }
-
 }

@@ -18,5 +18,4 @@ final class Resend2fa extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Brands\ByBrandId\Resend2fa::class)->post($brandId);
     }
-
 }

@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messages',
-];
+        'messages',
+    ];
 
     protected const array VALIDATION = [
-    'messages' => [
-        'minItems' => 1,
-    ],
-];
+        'messages' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * Array of message objects of a single message or multiple messages sent under one bulk ID.

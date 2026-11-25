@@ -16,5 +16,4 @@ final class SendDtmf extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Calls\ByCallId\SendDtmf::class)->post($callId, $payload);
     }
-
 }

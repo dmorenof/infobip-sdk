@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class ClickToCallApiMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'destinationA',
-    'destinationB',
-    'from',
-];
+        'destinationA',
+        'destinationB',
+        'from',
+    ];
 
     protected const array VALIDATION = [
-    'maxDuration' => [
-        'format' => 'int32',
-    ],
-    'notifyContentVersion' => [
-        'format' => 'int32',
-    ],
-    'warningTime' => [
-        'format' => 'int32',
-    ],
-];
+        'maxDuration' => [
+            'format' => 'int32',
+        ],
+        'notifyContentVersion' => [
+            'format' => 'int32',
+        ],
+        'warningTime' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * If set, same numeric sender (defined in _from_) is used for both calls (towards _destinationA_ and _destinationB_). If not set, _destinationA_ will be shown to _destinationB_. If _fromB_ is set up, _anonymization_ will not be applied; _from_ will be shown to _destinationA_ and _fromB_ will be shown to _destinationB_. Default value is `false`.

@@ -66,5 +66,4 @@ final class Authorize extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::GET), parameters: $params);
         return;
     }
-
 }

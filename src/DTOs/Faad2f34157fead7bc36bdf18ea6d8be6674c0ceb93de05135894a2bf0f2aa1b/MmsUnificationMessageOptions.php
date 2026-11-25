@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\Faad2f34157fead7bc36bdf18ea6d8be6674c0ceb93de05135894a
 final class MmsUnificationMessageOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'campaignReferenceId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'campaignReferenceId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * ID that allows you to track, analyze, and show an aggregated overview and the performance of individual campaigns per sending channel.

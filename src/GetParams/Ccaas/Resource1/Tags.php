@@ -7,22 +7,22 @@ namespace InfobipSDK\GetParams\Ccaas\Resource1;
 final class Tags extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'conversationId' => 'conversationId',
-        'limit' => 'limit',
-        'name' => 'name',
-        'orderBy' => 'orderBy',
-        'page' => 'page',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'conversationId' => 'conversationId',
+            'limit' => 'limit',
+            'name' => 'name',
+            'orderBy' => 'orderBy',
+            'page' => 'page',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'limit' => [
-        'maximum' => 999,
-    ],
-];
+        'limit' => [
+            'maximum' => 999,
+        ],
+    ];
 
     public ?string $conversationId;
     public ?int $limit {

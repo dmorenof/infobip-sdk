@@ -17,5 +17,4 @@ final class Events extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\AppleMfb\Resource1\Events::class)->post($payload);
     }
-
 }

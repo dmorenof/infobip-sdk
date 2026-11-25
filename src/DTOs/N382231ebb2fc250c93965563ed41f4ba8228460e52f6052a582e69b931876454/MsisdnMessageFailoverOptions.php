@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N382231ebb2fc250c93965563ed41f4ba8228460e52f6052a582e6
 final class MsisdnMessageFailoverOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'campaignReferenceId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'campaignReferenceId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * ID that allows you to track, analyze, and show an aggregated overview and the performance of individual campaigns per sending channel.

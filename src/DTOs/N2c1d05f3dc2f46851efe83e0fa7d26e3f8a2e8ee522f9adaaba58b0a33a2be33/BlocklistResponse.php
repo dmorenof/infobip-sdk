@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N2c1d05f3dc2f46851efe83e0fa7d26e3f8a2e8ee522f9adaaba58
 final class BlocklistResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'accountKey',
-    'createdDate',
-    'destination',
-    'sourceType',
-];
+        'accountKey',
+        'createdDate',
+        'destination',
+        'sourceType',
+    ];
 
     /**
      * Account connected with a blocklist record. Main account has access to blocklist records of their subaccounts. Subaccounts can only access blocklist records specific to them. [API to retrieve account key](https://www.infobip.com/docs/api/platform/account-management/get-all-accounts).

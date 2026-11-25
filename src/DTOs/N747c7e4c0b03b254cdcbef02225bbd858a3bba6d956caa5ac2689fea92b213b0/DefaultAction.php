@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225bbd858a3bba6d956caa5ac2689
 final class DefaultAction extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'url',
-];
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 1,
-    ],
-];
+        'url' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public string $url {
         set {

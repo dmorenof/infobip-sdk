@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class AppealRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'reason',
-];
+        'reason',
+    ];
 
     protected const array VALIDATION = [
-    'reason' => [
-        'minLength' => 10,
-        'maxLength' => 2048,
-    ],
-];
+        'reason' => [
+            'minLength' => 10,
+            'maxLength' => 2048,
+        ],
+    ];
 
     /**
      * The reason for the appeal.

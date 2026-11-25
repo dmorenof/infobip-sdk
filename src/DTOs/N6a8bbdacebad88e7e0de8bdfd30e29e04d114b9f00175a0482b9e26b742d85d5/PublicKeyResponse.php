@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class PublicKeyResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'publicKey',
-];
+        'publicKey',
+    ];
 
     /**
      * Public key. The value is *Base64 encoded*!

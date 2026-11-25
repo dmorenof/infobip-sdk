@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class SmsMessageOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'campaignReferenceId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'campaignReferenceId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * ID that allows you to track, analyze, and show an aggregated overview and the performance of individual campaigns per sending channel.

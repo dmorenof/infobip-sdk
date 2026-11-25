@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\Aa47d40354ee197e21ffad52d2c543bd4f729e250360a844e476aa
 final class VerificationResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'verifications',
-];
+        'verifications',
+    ];
 
     /**
      * Collection of verifications

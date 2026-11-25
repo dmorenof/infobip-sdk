@@ -27,5 +27,4 @@ final class Subscription extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Subscriptions\Resource1\Subscription::class)->postByChannel($channel, $payload);
     }
-
 }

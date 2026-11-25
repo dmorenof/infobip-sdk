@@ -10,25 +10,25 @@ namespace InfobipSDK\DTOs\Eb9826dda36bfa834ba8eec2d30e3749cbed4dee9bcabc5eb783cc
 final class PublicBusiness extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'businessId',
-    'city',
-    'country',
-    'industry',
-    'legalName',
-    'numberOfEmployees',
-    'primaryName',
-    'registered',
-    'registeredTns',
-    'status',
-    'updated',
-    'website',
-];
+        'businessId',
+        'city',
+        'country',
+        'industry',
+        'legalName',
+        'numberOfEmployees',
+        'primaryName',
+        'registered',
+        'registeredTns',
+        'status',
+        'updated',
+        'website',
+    ];
 
     protected const array VALIDATION = [
-    'registeredTns' => [
-        'format' => 'int32',
-    ],
-];
+        'registeredTns' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Unique business identifier (UUID).

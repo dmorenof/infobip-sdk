@@ -49,5 +49,4 @@ final class Agents extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Agents::class)->putByAgentId($agentId, $payload);
     }
-
 }

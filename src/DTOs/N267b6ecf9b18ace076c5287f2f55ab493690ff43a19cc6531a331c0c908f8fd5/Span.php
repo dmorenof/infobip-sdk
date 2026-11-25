@@ -12,10 +12,10 @@ final class Span extends \InfobipSDK\DTOs\N267b6ecf9b18ace076c5287f2f55ab493690f
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 1,
-    ],
-];
+        'text' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Font color as a hexadecimal color code.

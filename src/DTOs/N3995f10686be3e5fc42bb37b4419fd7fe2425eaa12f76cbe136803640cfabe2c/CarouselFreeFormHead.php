@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class CarouselFreeFormHead extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'header',
-    'image',
-];
+        'content',
+        'header',
+        'image',
+    ];
 
     protected const array VALIDATION = [
-    'content' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'header' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-];
+        'content' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'header' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+    ];
 
     /**
      * Content of the carousel free form head.

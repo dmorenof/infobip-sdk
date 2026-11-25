@@ -29,5 +29,4 @@ final class Participants extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Communication\Resource1\Flows\ByCampaignId\Participants::class)->post($campaignId, $params);
     }
-
 }

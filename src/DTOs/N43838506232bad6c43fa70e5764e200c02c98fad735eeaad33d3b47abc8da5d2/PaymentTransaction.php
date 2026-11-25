@@ -12,12 +12,12 @@ namespace InfobipSDK\DTOs\N43838506232bad6c43fa70e5764e200c02c98fad735eeaad33d3b
 final class PaymentTransaction extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdTimestamp',
-    'id',
-    'status',
-    'type',
-    'updatedTimestamp',
-];
+        'createdTimestamp',
+        'id',
+        'status',
+        'type',
+        'updatedTimestamp',
+    ];
 
     /**
      * Creation time of the transaction.

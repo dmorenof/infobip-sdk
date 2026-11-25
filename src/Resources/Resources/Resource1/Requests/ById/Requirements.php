@@ -67,5 +67,4 @@ final class Requirements extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['id' => $id]);
         return $result;
     }
-
 }

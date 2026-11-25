@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N1d16d22c7f4e0b1058057e585daf7edad21174e9b497e154a3270
 final class Person extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'destinations',
-];
+        'destinations',
+    ];
 
     protected const array VALIDATION = [
-    'destinations' => [
-        'uniqueItems' => true,
-    ],
-];
+        'destinations' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * Destinations (phone, email, ...) linked to the person.

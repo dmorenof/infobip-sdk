@@ -27,5 +27,4 @@ final class Files extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Voice\Ivr\Resource1\Files::class)->getById($id);
     }
-
 }

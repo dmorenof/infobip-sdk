@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\C33580c9fc909cbe636f10f5fddd71adf658d961011f6b0e7df8bb
 final class IdentityNumberDTO extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'match' => 'match_',
-];
+        'match' => 'match_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'match_' => 'match',
-];
+        'match_' => 'match',
+    ];
 
     public \InfobipSDK\DTOs\N4503c9be2d8553d1e8648e283b9ba9017ae14f51177b500d7b5df7dc4842e4d2\ErrorInfoResponse $error;
     /**

@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa
 final class AuthenticationTemplateStructureApiData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'body',
-    'buttons',
-    'footer',
-];
+        'body',
+        'buttons',
+        'footer',
+    ];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 1,
-        'maxItems' => 1,
-    ],
-];
+        'buttons' => [
+            'minItems' => 1,
+            'maxItems' => 1,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\AuthenticationBodyApiData $body;
     /**

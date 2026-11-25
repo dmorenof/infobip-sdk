@@ -10,22 +10,22 @@ namespace InfobipSDK\DTOs\B3ed157de85ce51bb7c17933fb84ff4b3e9bcb9fb8576a5ae189b9
 final class EventDefinitionUpdateResource extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'title',
-];
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'description' => [
-        'maxLength' => 2000,
-    ],
-    'fields' => [
-        'maxItems' => 120,
-        'uniqueItems' => true,
-    ],
-    'title' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'description' => [
+            'maxLength' => 2000,
+        ],
+        'fields' => [
+            'maxItems' => 120,
+            'uniqueItems' => true,
+        ],
+        'title' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Event definition description. Maximum length: `2000` characters.<br>**Note**: The description cannot be changed for a template definition. If the client tries to update the value, it will be overwritten with the standard description from the template.

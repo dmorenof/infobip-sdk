@@ -162,5 +162,4 @@ final class Export extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::DELETE_BY_REQUEST_ID), path: ['requestId' => $requestId]);
         return $result;
     }
-
 }

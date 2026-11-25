@@ -10,27 +10,27 @@ namespace InfobipSDK\DTOs\Eb9826dda36bfa834ba8eec2d30e3749cbed4dee9bcabc5eb783cc
 final class PublicCreateBusinessRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'authorized',
-    'city',
-    'contact',
-    'country',
-    'industry',
-    'legalName',
-    'numberOfEmployees',
-    'primaryName',
-    'website',
-];
+        'authorized',
+        'city',
+        'contact',
+        'country',
+        'industry',
+        'legalName',
+        'numberOfEmployees',
+        'primaryName',
+        'website',
+    ];
 
     protected const array VALIDATION = [
-    'legalName' => [
-        'minLength' => 0,
-        'maxLength' => 150,
-    ],
-    'primaryName' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-];
+        'legalName' => [
+            'minLength' => 0,
+            'maxLength' => 150,
+        ],
+        'primaryName' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Confirmation that the caller is authorized to register this business.

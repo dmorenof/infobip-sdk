@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896
 final class NationalIdentityNumberDto extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'nationalId' => [
-        'minLength' => 1,
-    ],
-];
+        'nationalId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Document type that will be used to check for a match against a mobile phone number.

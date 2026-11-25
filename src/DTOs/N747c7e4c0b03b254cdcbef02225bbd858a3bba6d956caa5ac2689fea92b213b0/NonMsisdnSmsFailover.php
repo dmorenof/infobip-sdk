@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225bbd858a3bba6d956caa5ac2689
 final class NonMsisdnSmsFailover extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     /**
      * The SMS failover destination matching.

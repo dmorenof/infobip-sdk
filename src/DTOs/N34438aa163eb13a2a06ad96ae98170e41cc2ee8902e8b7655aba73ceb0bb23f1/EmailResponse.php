@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class EmailResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messages',
-];
+        'messages',
+    ];
 
     protected const array VALIDATION = [
-    'messages' => [
-        'minItems' => 1,
-    ],
-];
+        'messages' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * Unique ID assigned to the request if messaging multiple recipients or sending multiple messages via a single API request. If not provided, it will be auto-generated and returned in the API response. Typically used for fetching delivery reports and message logs.

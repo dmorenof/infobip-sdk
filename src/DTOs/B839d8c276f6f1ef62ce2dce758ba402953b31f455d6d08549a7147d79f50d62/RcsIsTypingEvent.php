@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class RcsIsTypingEvent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'event',
-    'receivedAt',
-    'sender',
-    'to',
-];
+        'event',
+        'receivedAt',
+        'sender',
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'entityId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'entityId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Used when specifying an entity in outbound send requests. It is also returned in notification events. For detailed usage, refer to the [documentation](https://www.infobip.com/docs/cpaas-x/application-and-entity-management).

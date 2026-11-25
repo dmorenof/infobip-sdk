@@ -16,5 +16,4 @@ final class Import extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Saas\Resource1\ByResourceType\Import::class)->post($resourceType, $payload);
     }
-
 }

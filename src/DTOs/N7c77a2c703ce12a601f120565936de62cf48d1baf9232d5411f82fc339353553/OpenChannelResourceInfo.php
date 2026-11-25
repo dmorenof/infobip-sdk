@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82
 final class OpenChannelResourceInfo extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'capabilities' => [
-        'uniqueItems' => true,
-    ],
-];
+        'capabilities' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * Capabilities of the sender.

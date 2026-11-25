@@ -27,5 +27,4 @@ final class TransferStrategy extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\TransferConfigs\TransferStrategy::class)->put($payload);
     }
-
 }

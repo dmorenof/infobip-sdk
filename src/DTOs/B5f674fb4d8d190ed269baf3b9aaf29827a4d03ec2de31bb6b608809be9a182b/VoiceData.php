@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\B5f674fb4d8d190ed269baf3b9aaf29827a4d03ec2de31bb6b6088
 final class VoiceData extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'chargedDuration' => [
-        'format' => 'int32',
-    ],
-    'duration' => [
-        'format' => 'int32',
-    ],
-];
+        'chargedDuration' => [
+            'format' => 'int32',
+        ],
+        'duration' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Date and time when the voice message was answered. Has the following format: yyyy-MM-dd'T'HH:mm:ss.SSSZ.

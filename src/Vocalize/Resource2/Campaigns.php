@@ -38,5 +38,4 @@ final class Campaigns extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Vocalize\Resource2\Campaigns::class)->getByCampaignId($campaignId);
     }
-
 }

@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class ImageContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mediaUrl',
-];
+        'mediaUrl',
+    ];
 
     protected const array VALIDATION = [
-    'mediaUrl' => [
-        'minLength' => 1,
-        'pattern' => '',
-    ],
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 1000,
-    ],
-];
+        'mediaUrl' => [
+            'minLength' => 1,
+            'pattern' => '',
+        ],
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 1000,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1954857d6488\ButtonWithAction $button;
     /**

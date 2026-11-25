@@ -7,36 +7,36 @@ namespace InfobipSDK\GetParams\Calls\Resource1\Recordings;
 final class Dialogs extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'applicationId' => 'applicationId',
-        'callEndpointIdentifier' => 'callEndpointIdentifier',
-        'callEndpointType' => 'callEndpointType',
-        'callId' => 'callId',
-        'callsConfigurationId' => 'callsConfigurationId',
-        'composition' => 'composition',
-        'dialogId' => 'dialogId',
-        'endTimeBefore' => 'endTimeBefore',
-        'entityId' => 'entityId',
-        'location' => 'location',
-        'page' => 'page',
-        'size' => 'size',
-        'startTimeAfter' => 'startTimeAfter',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'applicationId' => 'applicationId',
+            'callEndpointIdentifier' => 'callEndpointIdentifier',
+            'callEndpointType' => 'callEndpointType',
+            'callId' => 'callId',
+            'callsConfigurationId' => 'callsConfigurationId',
+            'composition' => 'composition',
+            'dialogId' => 'dialogId',
+            'endTimeBefore' => 'endTimeBefore',
+            'entityId' => 'entityId',
+            'location' => 'location',
+            'page' => 'page',
+            'size' => 'size',
+            'startTimeAfter' => 'startTimeAfter',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'size' => [
-        'minimum' => 1,
-        'maximum' => 100,
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'size' => [
+            'minimum' => 1,
+            'maximum' => 100,
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $applicationId;
     public ?string $callEndpointIdentifier;

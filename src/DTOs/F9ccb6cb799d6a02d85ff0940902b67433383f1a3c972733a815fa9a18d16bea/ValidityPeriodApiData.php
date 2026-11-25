@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa
 final class ValidityPeriodApiData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-];
+        'amount',
+    ];
 
     protected const array VALIDATION = [
-    'amount' => [
-        'format' => 'int32',
-    ],
-];
+        'amount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Template validity period amount.

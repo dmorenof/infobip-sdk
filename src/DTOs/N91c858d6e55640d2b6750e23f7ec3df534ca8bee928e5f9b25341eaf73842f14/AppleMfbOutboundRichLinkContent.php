@@ -10,21 +10,21 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class AppleMfbOutboundRichLinkContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'imageUrl' => [
-        'pattern' => '',
-    ],
-    'linkTitle' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'linkUrl' => [
-        'minLength' => 1,
-        'pattern' => '',
-    ],
-    'videoUrl' => [
-        'pattern' => '',
-    ],
-];
+        'imageUrl' => [
+            'pattern' => '',
+        ],
+        'linkTitle' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'linkUrl' => [
+            'minLength' => 1,
+            'pattern' => '',
+        ],
+        'videoUrl' => [
+            'pattern' => '',
+        ],
+    ];
 
     /**
      * URL of the image. Allowed format is PNG and size must not exceed 200 KB URL. Not applicable to Apple Maps or Apple Music linkUrls.

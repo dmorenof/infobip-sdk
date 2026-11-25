@@ -61,5 +61,4 @@ final class Fields extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Catalogs\Resource1\Catalogs\ByCatalogId\Fields::class)->patchByFieldId($identifier, $payload);
     }
-
 }

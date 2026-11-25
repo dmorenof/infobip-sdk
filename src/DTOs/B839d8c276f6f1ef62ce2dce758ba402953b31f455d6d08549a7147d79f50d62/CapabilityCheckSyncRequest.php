@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class CapabilityCheckSyncRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'phoneNumbers',
-    'sender',
-];
+        'phoneNumbers',
+        'sender',
+    ];
 
     protected const array VALIDATION = [
-    'phoneNumbers' => [
-        'minItems' => 1,
-        'maxItems' => 500,
-    ],
-    'sender' => [
-        'minLength' => 1,
-    ],
-];
+        'phoneNumbers' => [
+            'minItems' => 1,
+            'maxItems' => 500,
+        ],
+        'sender' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a7147d79f50d62\CapabilityCheckOptions $options;
     /**

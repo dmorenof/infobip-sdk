@@ -29,5 +29,4 @@ final class Bulks extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Email\Resource1\Bulks::class)->put($params);
     }
-
 }

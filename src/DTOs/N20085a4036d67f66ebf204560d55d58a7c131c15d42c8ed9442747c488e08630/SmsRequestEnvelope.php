@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class SmsRequestEnvelope extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messages',
-];
+        'messages',
+    ];
 
     protected const array VALIDATION = [
-    'messages' => [
-        'minItems' => 1,
-    ],
-];
+        'messages' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * An array of message objects of a single message or multiple messages sent under one bulk ID.

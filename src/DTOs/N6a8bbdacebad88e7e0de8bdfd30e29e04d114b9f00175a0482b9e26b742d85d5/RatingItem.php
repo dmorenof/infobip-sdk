@@ -12,37 +12,37 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class RatingItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'description',
-    'rate',
-    'thanks',
-    'title',
-];
+        'description',
+        'rate',
+        'thanks',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'answers' => [
-        'minItems' => 1,
-        'maxItems' => 5,
-    ],
-    'description' => [
-        'minLength' => 1,
-        'maxLength' => 200,
-    ],
-    'question' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-    'rate' => [
-        'pattern' => '^[1-5]$',
-    ],
-    'thanks' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'title' => [
-        'minLength' => 1,
-        'maxLength' => 50,
-    ],
-];
+        'answers' => [
+            'minItems' => 1,
+            'maxItems' => 5,
+        ],
+        'description' => [
+            'minLength' => 1,
+            'maxLength' => 200,
+        ],
+        'question' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+        'rate' => [
+            'pattern' => '^[1-5]$',
+        ],
+        'thanks' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'title' => [
+            'minLength' => 1,
+            'maxLength' => 50,
+        ],
+    ];
 
     /**
      * Optional list of predefined answers.

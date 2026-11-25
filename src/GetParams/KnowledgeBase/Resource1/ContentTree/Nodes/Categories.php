@@ -7,27 +7,27 @@ namespace InfobipSDK\GetParams\KnowledgeBase\Resource1\ContentTree\Nodes;
 final class Categories extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'expandedToNodeId' => 'expandedToNodeId',
-        'page' => 'page',
-        'size' => 'size',
-        'sort' => 'sort',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'expandedToNodeId' => 'expandedToNodeId',
+            'page' => 'page',
+            'size' => 'size',
+            'sort' => 'sort',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'size' => [
-        'minimum' => 1,
-        'maximum' => 5000,
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'size' => [
+            'minimum' => 1,
+            'maximum' => 5000,
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $expandedToNodeId;
     public ?int $page {

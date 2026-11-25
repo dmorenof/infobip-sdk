@@ -17,5 +17,4 @@ final class Disable extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\Calls\Disable::class)->post($sender);
     }
-
 }

@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\C458987719005e1c822046538c51d16d2c79d2de6023cbe1c10ca1
 final class SendResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bulkId',
-    'messages',
-];
+        'bulkId',
+        'messages',
+    ];
 
     /**
      * Unique ID assigned to this batch of messages. Use this to fetch delivery reports.

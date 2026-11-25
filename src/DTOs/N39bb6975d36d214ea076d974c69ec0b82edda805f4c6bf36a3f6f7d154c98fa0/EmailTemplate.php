@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N39bb6975d36d214ea076d974c69ec0b82edda805f4c6bf36a3f6f
 final class EmailTemplate extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'html',
-    'id',
-    'isHtmlEditable',
-];
+        'html',
+        'id',
+        'isHtmlEditable',
+    ];
 
     /**
      * List of attachments.

@@ -7,17 +7,17 @@ namespace InfobipSDK\Responses\People\Resource2\Companies\Get;
 final class Resource2CompaniesResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'limit' => [
-        'format' => 'int32',
-    ],
-    'page' => [
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'format' => 'int32',
+        ],
+        'page' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'totalCount',
-];
+        'totalCount',
+    ];
 
     /**
      * List of companies.

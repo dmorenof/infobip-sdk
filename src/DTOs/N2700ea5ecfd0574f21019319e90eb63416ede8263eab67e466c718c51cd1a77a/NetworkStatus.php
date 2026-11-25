@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class NetworkStatus extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'throughput' => [
-        'format' => 'int32',
-    ],
-];
+        'throughput' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * This value indicates the brand tier for T-Mobile, which determines the corresponding throughput limit.

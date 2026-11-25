@@ -7,45 +7,45 @@ namespace InfobipSDK\GetParams\Peopleevents\Resource2;
 final class Definitions extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'category' => 'category',
-        'limit' => 'limit',
-        'offset' => 'offset',
-        'orderField' => 'orderField',
-        'orderType' => 'orderType',
-        'searchText' => 'searchText',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'category' => 'category',
+            'limit' => 'limit',
+            'offset' => 'offset',
+            'orderField' => 'orderField',
+            'orderType' => 'orderType',
+            'searchText' => 'searchText',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'category' => [
-        'uniqueItems' => true,
-        'items' => [
-            'type' => 'string',
-            'rules' => [
-                'enum' => [
-                    'channel',
-                    'external',
-                    'person',
-                    'product',
-                    'template',
+        'category' => [
+            'uniqueItems' => true,
+            'items' => [
+                'type' => 'string',
+                'rules' => [
+                    'enum' => [
+                        'channel',
+                        'external',
+                        'person',
+                        'product',
+                        'template',
+                    ],
                 ],
             ],
         ],
-    ],
-    'limit' => [
-        'minimum' => 0,
-        'maximum' => 2147483647,
-        'format' => 'int32',
-    ],
-    'offset' => [
-        'minimum' => 0,
-        'maximum' => 2147483647,
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'minimum' => 0,
+            'maximum' => 2147483647,
+            'format' => 'int32',
+        ],
+        'offset' => [
+            'minimum' => 0,
+            'maximum' => 2147483647,
+            'format' => 'int32',
+        ],
+    ];
 
     /** @var list<string>|null */
     public ?array $category;

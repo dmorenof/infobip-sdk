@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\N52c80a2bd29a734b52d9eb3ddb9b5d8ef0cb7c55640245f275763
 final class WABAConversionEventRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'conversions',
-    'sourceId',
-];
+        'conversions',
+        'sourceId',
+    ];
 
     protected const array VALIDATION = [
-    'conversions' => [
-        'minItems' => 1,
-        'maxItems' => 1000,
-    ],
-];
+        'conversions' => [
+            'minItems' => 1,
+            'maxItems' => 1000,
+        ],
+    ];
 
     /**
      * Conversion events collection.

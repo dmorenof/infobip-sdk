@@ -15,5 +15,4 @@ final class CarouselFlexContainer extends \InfobipSDK\DTOs\E204fb2d0d1568cbfe90b
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
 
     public \InfobipSDK\Collections\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\CarouselFlexContainer\ContentsCollection $contents;
-
 }

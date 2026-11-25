@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class Pause extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'duration',
-];
+        'action',
+        'duration',
+    ];
 
     protected const array VALIDATION = [
-    'duration' => [
-        'minimum' => 1,
-        'maximum' => 5,
-    ],
-];
+        'duration' => [
+            'minimum' => 1,
+            'maximum' => 5,
+        ],
+    ];
 
     /**
      * Action discriminator.

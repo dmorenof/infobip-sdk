@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N0b965bbf4d30392749e4c8a67c9c9019687026499d9a24d369daa
 final class PushApiInstanceSystemData extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'appVersion',
-    'deviceManufacturer',
-    'deviceModel',
-    'deviceName',
-    'deviceSecure',
-    'deviceTimezoneOffset',
-    'geofencingSdk',
-    'notificationsEnabled',
-    'osLanguage',
-    'osVersion',
-    'sdkVersion',
-];
+        'appVersion',
+        'deviceManufacturer',
+        'deviceModel',
+        'deviceName',
+        'deviceSecure',
+        'deviceTimezoneOffset',
+        'geofencingSdk',
+        'notificationsEnabled',
+        'osLanguage',
+        'osVersion',
+        'sdkVersion',
+    ];
 
     /**
      * The version of the application which SDK is embedded into

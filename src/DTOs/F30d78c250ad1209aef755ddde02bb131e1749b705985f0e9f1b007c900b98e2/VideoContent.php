@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class VideoContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mediaUrl',
-];
+        'mediaUrl',
+    ];
 
     protected const array VALIDATION = [
-    'caption' => [
-        'minLength' => 0,
-        'maxLength' => 3000,
-    ],
-    'mediaUrl' => [
-        'minLength' => 1,
-        'maxLength' => 2048,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'caption' => [
+            'minLength' => 0,
+            'maxLength' => 3000,
+        ],
+        'mediaUrl' => [
+            'minLength' => 1,
+            'maxLength' => 2048,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * Caption of the video.

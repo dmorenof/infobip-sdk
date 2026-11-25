@@ -16,5 +16,4 @@ final class Report extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Brands\ByBrandId\Vets\ByVetId\Report::class)->get($identifier);
     }
-
 }

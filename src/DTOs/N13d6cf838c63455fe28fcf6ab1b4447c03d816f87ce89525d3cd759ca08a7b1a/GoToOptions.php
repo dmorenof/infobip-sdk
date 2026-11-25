@@ -10,12 +10,12 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class GoToOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'goToLimit' => [
-        'minimum' => 1,
-        'maximum' => 100,
-        'format' => 'int32',
-    ],
-];
+        'goToLimit' => [
+            'minimum' => 1,
+            'maximum' => 100,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Name of the variable which counts passes through goto action

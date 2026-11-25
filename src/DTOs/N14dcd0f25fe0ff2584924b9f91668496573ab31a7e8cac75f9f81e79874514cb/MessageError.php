@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81
 final class MessageError extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'groupId' => [
-        'format' => 'int32',
-    ],
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'groupId' => [
+            'format' => 'int32',
+        ],
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Human-readable description of the error.

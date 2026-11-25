@@ -12,9 +12,9 @@ final class GenesysCloudProvider extends \InfobipSDK\DTOs\N4527871876f1b326359cd
     public const array REQUIRED_FIELDS = [];
 
     protected const array READ_ONLY_FIELDS = [
-    'inboundTerminationIdentifier',
-    'outboundTerminationFQDN',
-];
+        'inboundTerminationIdentifier',
+        'outboundTerminationFQDN',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

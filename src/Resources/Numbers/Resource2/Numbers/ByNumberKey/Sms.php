@@ -330,5 +330,4 @@ final class Sms extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_CONFIGURATION_KEY), path: $identifier);
         return $result;
     }
-
 }

@@ -27,5 +27,4 @@ final class Documents extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Documents::class)->getByDocumentId($documentId);
     }
-
 }

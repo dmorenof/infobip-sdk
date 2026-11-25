@@ -12,24 +12,24 @@ namespace InfobipSDK\DTOs\N1e938b22275568ebc747d21724b50c9be18ff5770eb33c37b76fd
 final class RouteResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'destinations',
-    'id',
-    'name',
-    'status',
-];
+        'destinations',
+        'id',
+        'name',
+        'status',
+    ];
 
     protected const array VALIDATION = [
-    'destinations' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-    'name' => [
-        'minLength' => 1,
-    ],
-    'order' => [
-        'format' => 'int32',
-    ],
-];
+        'destinations' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+        'name' => [
+            'minLength' => 1,
+        ],
+        'order' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * List of criteria that should match route. For a route to match, any criterion should be met.

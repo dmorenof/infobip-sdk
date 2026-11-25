@@ -10,18 +10,18 @@ namespace InfobipSDK\DTOs\N08fdb52de63aac13de3ed81c2cf06532bc7e9a861dae97f83fafd
 final class ActionCallRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'endpoint',
-];
+        'endpoint',
+    ];
 
     protected const array VALIDATION = [
-    'connectTimeout' => [
-        'maximum' => 60,
-        'format' => 'int32',
-    ],
-    'maxDuration' => [
-        'format' => 'int32',
-    ],
-];
+        'connectTimeout' => [
+            'maximum' => 60,
+            'format' => 'int32',
+        ],
+        'maxDuration' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Time to wait, in seconds, before the called party answers the call.

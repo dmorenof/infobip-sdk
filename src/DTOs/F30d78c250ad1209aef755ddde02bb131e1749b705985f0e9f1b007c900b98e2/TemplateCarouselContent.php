@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class TemplateCarouselContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'cards',
-];
+        'cards',
+    ];
 
     protected const array VALIDATION = [
-    'cards' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-];
+        'cards' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+    ];
 
     /**
      * Carousel cards. Should be defined in the correct order. It can have between one and ten cards.

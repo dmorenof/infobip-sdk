@@ -10,21 +10,21 @@ namespace InfobipSDK\DTOs\N08fdb52de63aac13de3ed81c2cf06532bc7e9a861dae97f83fafd
 final class DtmfCaptureRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'maxLength',
-    'timeout',
-];
+        'maxLength',
+        'timeout',
+    ];
 
     protected const array VALIDATION = [
-    'digitTimeout' => [
-        'format' => 'int32',
-    ],
-    'maxLength' => [
-        'format' => 'int32',
-    ],
-    'timeout' => [
-        'format' => 'int32',
-    ],
-];
+        'digitTimeout' => [
+            'format' => 'int32',
+        ],
+        'maxLength' => [
+            'format' => 'int32',
+        ],
+        'timeout' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Optional parameter to update a call's custom data.

@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N30350ea3b42c85fe379e7561e2b43510ecd150d18a85f55710d4f
 final class WhatsAppSenderRegistrationResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'status',
-];
+        'status',
+    ];
 
     public \InfobipSDK\Enums\N30350ea3b42c85fe379e7561e2b43510ecd150d18a85f55710d4f6347f698f75\WhatsAppSenderRegistrationStatus $status;
 

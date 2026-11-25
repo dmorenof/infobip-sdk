@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\Faa1195a85d1a730663c8d9058f7685a3760136466d26134605b0e
 final class MultiTtsApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messages',
-];
+        'messages',
+    ];
 
     protected const array VALIDATION = [
-    'messages' => [
-        'minItems' => 1,
-    ],
-];
+        'messages' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * Array of messages to be sent, one per every message.

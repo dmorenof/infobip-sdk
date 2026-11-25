@@ -10,32 +10,32 @@ namespace InfobipSDK\DTOs\N6a832d7980b0224fa17e623a753d9dcd3d97aedf6ae653c996ab3
 final class BusinessInfoRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'about' => [
-        'minLength' => 0,
-        'maxLength' => 130,
-    ],
-    'address' => [
-        'minLength' => 0,
-        'maxLength' => 256,
-    ],
-    'description' => [
-        'minLength' => 0,
-        'maxLength' => 512,
-    ],
-    'email' => [
-        'minLength' => 0,
-        'maxLength' => 128,
-    ],
-    'logoUrl' => [
-        'minLength' => 0,
-        'maxLength' => 2048,
-        'pattern' => '',
-    ],
-    'websites' => [
-        'minItems' => 0,
-        'maxItems' => 2,
-    ],
-];
+        'about' => [
+            'minLength' => 0,
+            'maxLength' => 130,
+        ],
+        'address' => [
+            'minLength' => 0,
+            'maxLength' => 256,
+        ],
+        'description' => [
+            'minLength' => 0,
+            'maxLength' => 512,
+        ],
+        'email' => [
+            'minLength' => 0,
+            'maxLength' => 128,
+        ],
+        'logoUrl' => [
+            'minLength' => 0,
+            'maxLength' => 2048,
+            'pattern' => '',
+        ],
+        'websites' => [
+            'minItems' => 0,
+            'maxItems' => 2,
+        ],
+    ];
 
     /**
      * Manages the content of the sender\'s **About** section.

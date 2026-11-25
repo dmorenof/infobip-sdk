@@ -78,5 +78,4 @@ final class SendMessage extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::POST), $payload, path: ['testId' => $testId]);
         return;
     }
-
 }

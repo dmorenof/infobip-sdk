@@ -17,5 +17,4 @@ final class Quality extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\Quality::class)->get($params);
     }
-
 }

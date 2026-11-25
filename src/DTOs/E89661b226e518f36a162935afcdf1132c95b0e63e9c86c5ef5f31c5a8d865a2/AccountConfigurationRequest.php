@@ -11,12 +11,12 @@ namespace InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31
 final class AccountConfigurationRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'webhookUrl' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-        'pattern' => '',
-    ],
-];
+        'webhookUrl' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+            'pattern' => '',
+        ],
+    ];
 
     /**
      * Webhook url all inbound messages will be forwarded to.

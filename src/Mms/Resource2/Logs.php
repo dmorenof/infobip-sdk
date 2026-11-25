@@ -16,5 +16,4 @@ final class Logs extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Mms\Resource2\Logs::class)->get($params);
     }
-
 }

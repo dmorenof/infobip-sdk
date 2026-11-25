@@ -16,5 +16,4 @@ final class FeedbackErrors extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Resources\Resource1\FeedbackErrors::class)->get();
     }
-
 }

@@ -225,5 +225,4 @@ final class Media extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::HEAD_BY_MEDIA_ID), path: $identifier);
         return;
     }
-
 }

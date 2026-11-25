@@ -16,5 +16,4 @@ final class RequirementsLookup extends \InfobipSDK\InfobipOpenAPISpecificationSD
     {
         return self::client()->resource(\InfobipSDK\Resources\Resources\Resource1\RequirementsLookup::class)->post($payload);
     }
-
 }

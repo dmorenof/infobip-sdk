@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class TemplateLimitedTimeOfferContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'expirationTime',
-];
+        'expirationTime',
+    ];
 
     protected const array VALIDATION = [
-    'expirationTime' => [
-        'pattern' => '\\d{4}-((0[1,3-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])|02-(0[1-9]|[12]\\d))T([01]\\d|2[0-3]):([0-5]\\d|60):([0-5]\\d|60).\\d{3}(Z|([+-]\\d{2}:?\\d{2}))',
-    ],
-];
+        'expirationTime' => [
+            'pattern' => '\\d{4}-((0[1,3-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])|02-(0[1-9]|[12]\\d))T([01]\\d|2[0-3]):([0-5]\\d|60):([0-5]\\d|60).\\d{3}(Z|([+-]\\d{2}:?\\d{2}))',
+        ],
+    ];
 
     /**
      * Offer code expiration time. Has the following format: `yyyy-MM-dd'T'HH:mm:ss.SSSZ`.

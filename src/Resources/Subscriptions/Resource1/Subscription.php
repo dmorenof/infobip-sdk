@@ -153,5 +153,4 @@ final class Subscription extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST_BY_CHANNEL), $payload, path: ['channel' => $channel]);
         return $result;
     }
-
 }

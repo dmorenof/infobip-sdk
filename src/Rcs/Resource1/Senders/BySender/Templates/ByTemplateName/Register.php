@@ -16,5 +16,4 @@ final class Register extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Rcs\Resource1\Senders\BySender\Templates\ByTemplateName\Register::class)->patch($identifier, $payload);
     }
-
 }

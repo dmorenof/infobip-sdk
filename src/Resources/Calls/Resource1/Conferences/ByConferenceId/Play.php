@@ -77,5 +77,4 @@ final class Play extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['conferenceId' => $conferenceId]);
         return $result;
     }
-
 }

@@ -17,5 +17,4 @@ final class Verify extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Mi\Verification\Resource1\Verify::class)->post($payload);
     }
-
 }

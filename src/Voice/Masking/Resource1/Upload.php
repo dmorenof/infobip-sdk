@@ -18,5 +18,4 @@ final class Upload extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Voice\Masking\Resource1\Upload::class)->post($payload);
     }
-
 }

@@ -12,10 +12,10 @@ final class PhoneCallDetails extends \InfobipSDK\DTOs\N2188fec7c48e989bb7053521b
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'dialogId' => [
-        'maxLength' => 128,
-    ],
-];
+        'dialogId' => [
+            'maxLength' => 128,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

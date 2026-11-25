@@ -16,5 +16,4 @@ final class Merge extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource3\Persons\Merge::class)->post($payload);
     }
-
 }

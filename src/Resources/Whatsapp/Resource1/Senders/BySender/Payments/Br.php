@@ -81,5 +81,4 @@ final class Br extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_PAYMENT_ID), path: $identifier);
         return $result;
     }
-
 }

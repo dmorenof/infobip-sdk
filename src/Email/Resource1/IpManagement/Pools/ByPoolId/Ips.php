@@ -27,5 +27,4 @@ final class Ips extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Email\Resource1\IpManagement\Pools\ByPoolId\Ips::class)->deleteByIpId($identifier);
     }
-
 }

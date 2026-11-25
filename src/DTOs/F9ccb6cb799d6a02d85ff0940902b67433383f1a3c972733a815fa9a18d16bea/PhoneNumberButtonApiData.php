@@ -12,14 +12,14 @@ final class PhoneNumberButtonApiData extends \InfobipSDK\DTOs\F9ccb6cb799d6a02d8
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'phoneNumber' => [
-        'minLength' => 1,
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 25,
-    ],
-];
+        'phoneNumber' => [
+            'minLength' => 1,
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 25,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

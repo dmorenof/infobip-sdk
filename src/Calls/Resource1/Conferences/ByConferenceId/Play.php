@@ -16,5 +16,4 @@ final class Play extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Conferences\ByConferenceId\Play::class)->post($conferenceId, $payload);
     }
-
 }

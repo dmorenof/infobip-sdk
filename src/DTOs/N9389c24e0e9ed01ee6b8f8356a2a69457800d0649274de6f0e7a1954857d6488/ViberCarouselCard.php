@@ -12,25 +12,25 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class ViberCarouselCard extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mediaUrl',
-    'text',
-];
+        'mediaUrl',
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 0,
-        'maxItems' => 2,
-    ],
-    'mediaUrl' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-        'pattern' => '',
-    ],
-    'text' => [
-        'minLength' => 2,
-        'maxLength' => 38,
-    ],
-];
+        'buttons' => [
+            'minItems' => 0,
+            'maxItems' => 2,
+        ],
+        'mediaUrl' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+            'pattern' => '',
+        ],
+        'text' => [
+            'minLength' => 2,
+            'maxLength' => 38,
+        ],
+    ];
 
     /**
      * List of buttons that will be sent in card.

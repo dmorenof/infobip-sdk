@@ -7,24 +7,24 @@ namespace InfobipSDK\Responses\KnowledgeBase\Resource1\ContentTree\Nodes\Post;
 final class ContentTreeNodesResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'articleCount',
-    'id',
-    'name',
-    'parentId',
-    'position',
-    'root',
-    'scope',
-    'type',
-];
+        'articleCount',
+        'id',
+        'name',
+        'parentId',
+        'position',
+        'root',
+        'scope',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'articleCount' => [
-        'format' => 'int32',
-    ],
-    'position' => [
-        'format' => 'int32',
-    ],
-];
+        'articleCount' => [
+            'format' => 'int32',
+        ],
+        'position' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of articles in this node.

@@ -10,21 +10,21 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class RcsInboundLocationContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'latitude',
-    'longitude',
-    'type',
-];
+        'latitude',
+        'longitude',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'latitude' => [
-        'minimum' => -90,
-        'maximum' => 90,
-    ],
-    'longitude' => [
-        'minimum' => -180,
-        'maximum' => 180,
-    ],
-];
+        'latitude' => [
+            'minimum' => -90,
+            'maximum' => 90,
+        ],
+        'longitude' => [
+            'minimum' => -180,
+            'maximum' => 180,
+        ],
+    ];
 
     /**
      * Latitude. The value must be between -90 and 90.

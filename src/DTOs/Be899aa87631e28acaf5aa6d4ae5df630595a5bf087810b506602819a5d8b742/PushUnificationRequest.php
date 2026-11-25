@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\Be899aa87631e28acaf5aa6d4ae5df630595a5bf087810b5066028
 final class PushUnificationRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messages',
-];
+        'messages',
+    ];
 
     protected const array VALIDATION = [
-    'messages' => [
-        'minItems' => 1,
-    ],
-];
+        'messages' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * An array of message objects of a single message or multiple messages sent under one bulk ID.

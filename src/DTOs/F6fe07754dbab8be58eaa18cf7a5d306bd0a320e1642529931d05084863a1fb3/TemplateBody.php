@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\F6fe07754dbab8be58eaa18cf7a5d306bd0a320e1642529931d050
 final class TemplateBody extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'language',
-    'template',
-];
+        'language',
+        'template',
+    ];
 
     protected const array VALIDATION = [
-    'template' => [
-        'minLength' => 1,
-        'maxLength' => 1000,
-    ],
-];
+        'template' => [
+            'minLength' => 1,
+            'maxLength' => 1000,
+        ],
+    ];
 
     public \InfobipSDK\Enums\F6fe07754dbab8be58eaa18cf7a5d306bd0a320e1642529931d05084863a1fb3\TemplateLang $language;
     /**

@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c15
 final class CallRecordingRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'recordingType',
-];
+        'recordingType',
+    ];
 
     protected const array VALIDATION = [
-    'filePrefix' => [
-        'minLength' => 1,
-        'maxLength' => 214,
-        'pattern' => '^[a-zA-Z0-9_\\-]*$',
-    ],
-];
+        'filePrefix' => [
+            'minLength' => 1,
+            'maxLength' => 214,
+            'pattern' => '^[a-zA-Z0-9_\\-]*$',
+        ],
+    ];
 
     public \InfobipSDK\Enums\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\RecordingChannels $channels;
     public \InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\CallRecordingRequest\CustomDataMap $customData;

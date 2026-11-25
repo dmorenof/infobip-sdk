@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class CaptureDtmf extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'callback',
-];
+        'action',
+        'callback',
+    ];
 
     protected const array VALIDATION = [
-    'maxLength' => [
-        'minimum' => 0,
-        'maximum' => 30,
-        'exclusiveMinimum' => 0,
-        'format' => 'int32',
-    ],
-    'timeout' => [
-        'minimum' => 1,
-        'maximum' => 30,
-        'format' => 'int32',
-    ],
-];
+        'maxLength' => [
+            'minimum' => 0,
+            'maximum' => 30,
+            'exclusiveMinimum' => 0,
+            'format' => 'int32',
+        ],
+        'timeout' => [
+            'minimum' => 1,
+            'maximum' => 30,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Action discriminator.

@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N0089ea7cf06f0b77e4c88a7276c6f25dd5c0c5bbab819756fc42c
 final class GenerateFlowRequestApiData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'prompt',
-];
+        'prompt',
+    ];
 
     protected const array VALIDATION = [
-    'prompt' => [
-        'minLength' => 1,
-    ],
-];
+        'prompt' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Prompt for flow generation.

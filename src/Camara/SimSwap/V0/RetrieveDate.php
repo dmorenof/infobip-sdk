@@ -16,5 +16,4 @@ final class RetrieveDate extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Camara\SimSwap\V0\RetrieveDate::class)->post($payload);
     }
-
 }

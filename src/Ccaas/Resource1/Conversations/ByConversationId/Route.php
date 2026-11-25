@@ -18,5 +18,4 @@ final class Route extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Conversations\ByConversationId\Route::class)->post($conversationId);
     }
-
 }

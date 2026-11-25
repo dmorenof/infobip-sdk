@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageTimePickerEvent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'timeslots',
-    'title',
-];
+        'timeslots',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'imageUrl' => [
-        'pattern' => '',
-    ],
-    'timeslots' => [
-        'minItems' => 1,
-    ],
-    'title' => [
-        'minLength' => 1,
-    ],
-];
+        'imageUrl' => [
+            'pattern' => '',
+        ],
+        'timeslots' => [
+            'minItems' => 1,
+        ],
+        'title' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * URL of the event's image.

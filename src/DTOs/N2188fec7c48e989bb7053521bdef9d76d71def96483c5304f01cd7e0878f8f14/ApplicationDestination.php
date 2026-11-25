@@ -12,11 +12,11 @@ final class ApplicationDestination extends \InfobipSDK\DTOs\N2188fec7c48e989bb70
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'callsConfigurationId' => [
-        'minLength' => 1,
-        'pattern' => '^[\\p{L}\\p{N}\\-_+=/.]{1,100}$',
-    ],
-];
+        'callsConfigurationId' => [
+            'minLength' => 1,
+            'pattern' => '^[\\p{L}\\p{N}\\-_+=/.]{1,100}$',
+        ],
+    ];
 
     /**
      * Call Configuration ID.

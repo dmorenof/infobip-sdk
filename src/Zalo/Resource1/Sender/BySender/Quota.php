@@ -16,5 +16,4 @@ final class Quota extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Zalo\Resource1\Sender\BySender\Quota::class)->get($sender);
     }
-
 }

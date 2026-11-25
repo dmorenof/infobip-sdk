@@ -49,5 +49,4 @@ final class Domains extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Email\Resource1\Domains::class)->getByDomainName($domainName);
     }
-
 }

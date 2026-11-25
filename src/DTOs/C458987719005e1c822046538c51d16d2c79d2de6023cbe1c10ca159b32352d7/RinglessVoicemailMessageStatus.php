@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\C458987719005e1c822046538c51d16d2c79d2de6023cbe1c10ca1
 final class RinglessVoicemailMessageStatus extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messageId',
-    'status',
-    'to',
-];
+        'messageId',
+        'status',
+        'to',
+    ];
 
     /**
      * Unique ID that identifies the message sent. Use this to track delivery status.

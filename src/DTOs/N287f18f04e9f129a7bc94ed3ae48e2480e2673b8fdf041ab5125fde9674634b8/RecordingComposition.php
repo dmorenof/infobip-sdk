@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class RecordingComposition extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'enabled',
-];
+        'enabled',
+    ];
 
     /**
      * Indicates whether to create a single recording of both participants. If set to `true`, both participants are merged into a single audio or video file. Otherwise, both participants will have their own individual audio or video file.

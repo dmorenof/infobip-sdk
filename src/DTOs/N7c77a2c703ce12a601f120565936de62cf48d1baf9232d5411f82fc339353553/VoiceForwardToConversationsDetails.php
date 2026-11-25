@@ -13,5 +13,4 @@ final class VoiceForwardToConversationsDetails extends \InfobipSDK\DTOs\N7c77a2c
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

@@ -17,5 +17,4 @@ final class Senders extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\EmbeddedSignup\Registrations\BusinessAccount\ByBusinessAccountId\Senders::class)->post($businessAccountId, $payload);
     }
-
 }

@@ -60,5 +60,4 @@ final class Config extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Markuplanguage\Resource1\Config::class)->putByConfigId($configId, $payload);
     }
-
 }

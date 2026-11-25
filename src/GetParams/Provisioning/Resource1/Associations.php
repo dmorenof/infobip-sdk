@@ -7,39 +7,39 @@ namespace InfobipSDK\GetParams\Provisioning\Resource1;
 final class Associations extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'applicationId' => 'applicationId',
-        'channel' => 'channel',
-        'entityId' => 'entityId',
-        'page' => 'page',
-        'resourceId' => 'resourceId',
-        'resourceType' => 'resourceType',
-        'size' => 'size',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'applicationId' => 'applicationId',
+            'channel' => 'channel',
+            'entityId' => 'entityId',
+            'page' => 'page',
+            'resourceId' => 'resourceId',
+            'resourceType' => 'resourceType',
+            'size' => 'size',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'maxLength' => 255,
-    ],
-    'entityId' => [
-        'maxLength' => 255,
-    ],
-    'page' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'resourceId' => [
-        'maxLength' => 255,
-    ],
-    'size' => [
-        'minimum' => 1,
-        'maximum' => 1000,
-        'format' => 'int32',
-    ],
-];
+        'applicationId' => [
+            'maxLength' => 255,
+        ],
+        'entityId' => [
+            'maxLength' => 255,
+        ],
+        'page' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'resourceId' => [
+            'maxLength' => 255,
+        ],
+        'size' => [
+            'minimum' => 1,
+            'maximum' => 1000,
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $applicationId {
         set {

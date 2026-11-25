@@ -16,5 +16,4 @@ final class Send extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Email\Resource3\Send::class)->post($payload);
     }
-
 }

@@ -7,17 +7,17 @@ namespace InfobipSDK\PathParams\Zalo\Resource2\Sender\BySender\Templates;
 final class ByTemplateName extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'sender',
-    'templateName',
-];
+        'sender',
+        'templateName',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'sender' => 'sender',
-        'templateName' => 'templateName',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'sender' => 'sender',
+            'templateName' => 'templateName',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     public string $sender;
     public int $templateName;

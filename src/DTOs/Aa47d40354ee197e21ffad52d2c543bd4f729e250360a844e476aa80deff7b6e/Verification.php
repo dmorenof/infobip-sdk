@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\Aa47d40354ee197e21ffad52d2c543bd4f729e250360a844e476aa
 final class Verification extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'msisdn',
-    'sentAt',
-    'verified',
-    'verifiedAt',
-];
+        'msisdn',
+        'sentAt',
+        'verified',
+        'verifiedAt',
+    ];
 
     /**
      * Phone number (MSISDN) for which verification status is checked.

@@ -34,5 +34,4 @@ final class Persons extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         self::client()->resource(\InfobipSDK\Resources\People\Resource2\Tags\ByName\Persons::class)->patch($name, $payload);
     }
-
 }

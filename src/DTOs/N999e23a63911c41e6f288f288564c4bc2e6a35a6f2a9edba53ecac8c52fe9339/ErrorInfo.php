@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N999e23a63911c41e6f288f288564c4bc2e6a35a6f2a9edba53eca
 final class ErrorInfo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'cloud',
-    'expired',
-    'registration',
-];
+        'cloud',
+        'expired',
+        'registration',
+    ];
 
     /**
      * Messages not delivered due to errors on APNS or FCM clouds. Happens due to transient errors on cloud services.

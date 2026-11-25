@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class ZaloInboundResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-    'pendingMessageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+        'pendingMessageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The number of messages returned in the results array.

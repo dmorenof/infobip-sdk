@@ -10,22 +10,22 @@ namespace InfobipSDK\DTOs\N39bb6975d36d214ea076d974c69ec0b82edda805f4c6bf36a3f6f
 final class Base64EncodedFile extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contentType',
-    'data',
-    'fileName',
-];
+        'contentType',
+        'data',
+        'fileName',
+    ];
 
     protected const array VALIDATION = [
-    'contentType' => [
-        'minLength' => 1,
-    ],
-    'data' => [
-        'minLength' => 1,
-    ],
-    'fileName' => [
-        'minLength' => 1,
-    ],
-];
+        'contentType' => [
+            'minLength' => 1,
+        ],
+        'data' => [
+            'minLength' => 1,
+        ],
+        'fileName' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Content type of the file.

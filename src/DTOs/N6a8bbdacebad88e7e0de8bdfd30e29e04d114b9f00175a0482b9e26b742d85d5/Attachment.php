@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class Attachment extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mediaId',
-    'type',
-];
+        'mediaId',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'mediaId' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'mediaId' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Media ID of the attachment.

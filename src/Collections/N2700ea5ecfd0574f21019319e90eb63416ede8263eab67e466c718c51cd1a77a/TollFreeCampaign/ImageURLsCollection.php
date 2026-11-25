@@ -8,10 +8,10 @@ final class ImageURLsCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = 'string';
     protected const array COLLECTION_VALIDATION = [
-    'uniqueItems' => true,
-];
+        'uniqueItems' => true,
+    ];
     protected const array ITEM_VALIDATION = [
-    'minLength' => 1,
-    'pattern' => '(?i)https?:\\/\\/\\S+',
-];
+        'minLength' => 1,
+        'pattern' => '(?i)https?:\\/\\/\\S+',
+    ];
 }

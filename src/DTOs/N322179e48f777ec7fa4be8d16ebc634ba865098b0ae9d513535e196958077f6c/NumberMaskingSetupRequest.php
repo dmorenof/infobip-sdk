@@ -10,32 +10,32 @@ namespace InfobipSDK\DTOs\N322179e48f777ec7fa4be8d16ebc634ba865098b0ae9d513535e1
 final class NumberMaskingSetupRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'callbackUrl',
-    'name',
-];
+        'callbackUrl',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'backupCallbackUrl' => [
-        'pattern' => '',
-    ],
-    'backupStatusUrl' => [
-        'pattern' => '',
-    ],
-    'callbackUrl' => [
-        'minLength' => 1,
-        'pattern' => '',
-    ],
-    'description' => [
-        'pattern' => '[a-zA-Z0-9 ]*',
-    ],
-    'name' => [
-        'minLength' => 1,
-        'pattern' => '[a-zA-Z0-9 ]+',
-    ],
-    'statusUrl' => [
-        'pattern' => '',
-    ],
-];
+        'backupCallbackUrl' => [
+            'pattern' => '',
+        ],
+        'backupStatusUrl' => [
+            'pattern' => '',
+        ],
+        'callbackUrl' => [
+            'minLength' => 1,
+            'pattern' => '',
+        ],
+        'description' => [
+            'pattern' => '[a-zA-Z0-9 ]*',
+        ],
+        'name' => [
+            'minLength' => 1,
+            'pattern' => '[a-zA-Z0-9 ]+',
+        ],
+        'statusUrl' => [
+            'pattern' => '',
+        ],
+    ];
 
     /**
      * If callbackUrl is unavailable this one will be called instead.

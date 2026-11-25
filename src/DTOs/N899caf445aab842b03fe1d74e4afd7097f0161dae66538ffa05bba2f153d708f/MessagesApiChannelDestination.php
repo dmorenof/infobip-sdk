@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiChannelDestination extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel',
-    'to',
-];
+        'channel',
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'messageId' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'to' => [
-        'minLength' => 1,
-    ],
-];
+        'messageId' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'to' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public \InfobipSDK\Enums\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\Channel $channel;
     /**

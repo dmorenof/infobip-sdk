@@ -65,5 +65,4 @@ final class Overrides extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Signals\Resource2\Configs\Blocking\ByConfigId\Overrides::class)->post($configId, $payload);
     }
-
 }

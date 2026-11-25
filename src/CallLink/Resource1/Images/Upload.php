@@ -16,5 +16,4 @@ final class Upload extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\CallLink\Resource1\Images\Upload::class)->postByType($type, $payload);
     }
-
 }

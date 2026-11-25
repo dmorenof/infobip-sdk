@@ -52,5 +52,4 @@ final class Call extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Conferences\ByConferenceId\Call::class)->putByCallId($identifier, $payload);
     }
-
 }

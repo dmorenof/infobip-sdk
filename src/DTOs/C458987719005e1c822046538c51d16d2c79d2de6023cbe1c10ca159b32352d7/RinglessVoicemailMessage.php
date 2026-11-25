@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\C458987719005e1c822046538c51d16d2c79d2de6023cbe1c10ca1
 final class RinglessVoicemailMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'destinations',
-    'sender',
-];
+        'content',
+        'destinations',
+        'sender',
+    ];
 
     protected const array VALIDATION = [
-    'destinations' => [
-        'minItems' => 1,
-        'maxItems' => 10000,
-    ],
-    'sender' => [
-        'minLength' => 1,
-        'pattern' => '\\+?[1-9]\\d{7,14}',
-    ],
-];
+        'destinations' => [
+            'minItems' => 1,
+            'maxItems' => 10000,
+        ],
+        'sender' => [
+            'minLength' => 1,
+            'pattern' => '\\+?[1-9]\\d{7,14}',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\C458987719005e1c822046538c51d16d2c79d2de6023cbe1c10ca159b32352d7\RinglessVoicemailContent $content;
     /**

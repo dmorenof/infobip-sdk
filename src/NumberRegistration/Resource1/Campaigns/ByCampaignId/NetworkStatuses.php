@@ -16,5 +16,4 @@ final class NetworkStatuses extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Campaigns\ByCampaignId\NetworkStatuses::class)->get($campaignId);
     }
-
 }

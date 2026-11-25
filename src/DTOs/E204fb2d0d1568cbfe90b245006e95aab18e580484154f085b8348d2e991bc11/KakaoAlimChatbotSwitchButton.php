@@ -10,29 +10,29 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class KakaoAlimChatbotSwitchButton extends \InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\KakaoAlimButton
 {
     public const array REQUIRED_FIELDS = [
-    'buttonText',
-];
+        'buttonText',
+    ];
 
     protected const array VALIDATION = [
-    'buttonText' => [
-        'minLength' => 1,
-        'maxLength' => 28,
-    ],
-    'chatEvent' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'chatExtra' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-];
+        'buttonText' => [
+            'minLength' => 1,
+            'maxLength' => 28,
+        ],
+        'chatEvent' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'chatExtra' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'buttonText',
-    'chatEvent',
-    'chatExtra',
-];
+        'buttonText',
+        'chatEvent',
+        'chatExtra',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

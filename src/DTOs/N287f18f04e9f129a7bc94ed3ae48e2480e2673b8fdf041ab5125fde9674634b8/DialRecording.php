@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class DialRecording extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'recordingStatusCallbackEvents' => [
-        'uniqueItems' => true,
-    ],
-];
+        'recordingStatusCallbackEvents' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * Custom data to attach to recordings.

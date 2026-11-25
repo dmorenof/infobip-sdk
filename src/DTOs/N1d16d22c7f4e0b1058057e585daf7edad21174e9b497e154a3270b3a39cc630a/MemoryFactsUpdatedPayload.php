@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N1d16d22c7f4e0b1058057e585daf7edad21174e9b497e154a3270
 final class MemoryFactsUpdatedPayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'facts',
-    'interaction',
-    'person',
-];
+        'facts',
+        'interaction',
+        'person',
+    ];
 
     /**
      * Structured facts extracted from the interaction.

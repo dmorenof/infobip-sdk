@@ -16,5 +16,4 @@ final class FreeMessages extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Account\Resource1\FreeMessages::class)->get();
     }
-
 }

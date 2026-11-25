@@ -77,5 +77,4 @@ final class RetrieveContext extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['assistantId' => $assistantId]);
         return $result;
     }
-
 }

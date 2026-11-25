@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N8a19359d3a412667abbd2d38733e247b91417d2a845ae41758328
 final class KycSessionRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'locationInfo',
-    'scenarioName',
-    'webhook',
-];
+        'locationInfo',
+        'scenarioName',
+        'webhook',
+    ];
 
     /**
      * End user will be sent to this URL if they cancel the scenario.

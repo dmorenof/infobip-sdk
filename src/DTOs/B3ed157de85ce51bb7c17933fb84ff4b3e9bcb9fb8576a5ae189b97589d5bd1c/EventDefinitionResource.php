@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\B3ed157de85ce51bb7c17933fb84ff4b3e9bcb9fb8576a5ae189b9
 final class EventDefinitionResource extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'fields' => [
-        'uniqueItems' => true,
-    ],
-];
+        'fields' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * Event definition category.

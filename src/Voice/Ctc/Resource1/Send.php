@@ -17,5 +17,4 @@ final class Send extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Voice\Ctc\Resource1\Send::class)->post($payload);
     }
-
 }

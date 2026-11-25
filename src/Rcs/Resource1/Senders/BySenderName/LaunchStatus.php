@@ -16,5 +16,4 @@ final class LaunchStatus extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Rcs\Resource1\Senders\BySenderName\LaunchStatus::class)->get($senderName);
     }
-
 }

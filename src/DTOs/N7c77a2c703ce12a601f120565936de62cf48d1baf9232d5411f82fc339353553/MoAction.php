@@ -14,19 +14,19 @@ class MoAction extends \Dmorenof\SdkRuntime\DTO
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.ForwardToExternalIntegrationAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\ForwardToExternalIntegrationAction',
-    '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.HttpForwardAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\HttpForwardAction',
-    '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.MailForwardAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\MailForwardAction',
-    '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.NoAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\NoAction',
-    '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.PullAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\PullAction',
-    '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.SmppForwardAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\SmppForwardAction',
-    'FORWARD_TO_EXTERNAL_INTEGRATION' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\ForwardToExternalIntegrationAction',
-    'HTTP_FORWARD' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\HttpForwardAction',
-    'MAIL_FORWARD' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\MailForwardAction',
-    'NO_ACTION' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\NoAction',
-    'PULL' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\PullAction',
-    'SMPP_FORWARD' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\SmppForwardAction',
-];
+        '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.ForwardToExternalIntegrationAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\ForwardToExternalIntegrationAction',
+        '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.HttpForwardAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\HttpForwardAction',
+        '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.MailForwardAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\MailForwardAction',
+        '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.NoAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\NoAction',
+        '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.PullAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\PullAction',
+        '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.SmppForwardAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\SmppForwardAction',
+        'FORWARD_TO_EXTERNAL_INTEGRATION' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\ForwardToExternalIntegrationAction',
+        'HTTP_FORWARD' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\HttpForwardAction',
+        'MAIL_FORWARD' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\MailForwardAction',
+        'NO_ACTION' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\NoAction',
+        'PULL' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\PullAction',
+        'SMPP_FORWARD' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\SmppForwardAction',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

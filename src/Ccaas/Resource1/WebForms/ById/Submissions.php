@@ -16,5 +16,4 @@ final class Submissions extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\WebForms\ById\Submissions::class)->post($id, $payload);
     }
-
 }

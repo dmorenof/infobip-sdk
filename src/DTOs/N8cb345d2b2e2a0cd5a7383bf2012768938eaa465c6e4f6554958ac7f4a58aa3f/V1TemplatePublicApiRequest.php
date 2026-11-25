@@ -10,21 +10,21 @@ namespace InfobipSDK\DTOs\N8cb345d2b2e2a0cd5a7383bf2012768938eaa465c6e4f6554958a
 final class V1TemplatePublicApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'category',
-    'language',
-    'name',
-    'structure',
-];
+        'category',
+        'language',
+        'name',
+        'structure',
+    ];
 
     protected const array VALIDATION = [
-    'category' => [
-        'minLength' => 1,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'pattern' => '^[a-z0-9_]{1,512}$',
-    ],
-];
+        'category' => [
+            'minLength' => 1,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'pattern' => '^[a-z0-9_]{1,512}$',
+        ],
+    ];
 
     /**
      * All listed categories will be available until May 1, 2023.

@@ -71,5 +71,4 @@ final class StopRecording extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['conferenceId' => $conferenceId]);
         return $result;
     }
-
 }

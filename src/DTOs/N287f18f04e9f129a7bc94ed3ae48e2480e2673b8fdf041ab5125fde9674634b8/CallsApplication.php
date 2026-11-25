@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class CallsApplication extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 1,
-    ],
-    'timeout' => [
-        'minimum' => 0,
-        'exclusiveMinimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'applicationId' => [
+            'minLength' => 1,
+        ],
+        'timeout' => [
+            'minimum' => 0,
+            'exclusiveMinimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * ID of an application to which a call is to be transferred.

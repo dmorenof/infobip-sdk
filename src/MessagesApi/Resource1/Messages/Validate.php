@@ -20,5 +20,4 @@ final class Validate extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         return self::client()->resource(\InfobipSDK\Resources\MessagesApi\Resource1\Messages\Validate::class)->post($payload);
     }
-
 }

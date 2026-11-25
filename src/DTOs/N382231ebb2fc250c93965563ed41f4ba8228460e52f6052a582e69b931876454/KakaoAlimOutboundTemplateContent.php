@@ -14,23 +14,23 @@ final class KakaoAlimOutboundTemplateContent extends \InfobipSDK\DTOs\N382231ebb
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 0,
-        'maxItems' => 5,
-    ],
-    'templateCode' => [
-        'minLength' => 0,
-        'maxLength' => 30,
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-];
+        'buttons' => [
+            'minItems' => 0,
+            'maxItems' => 5,
+        ],
+        'templateCode' => [
+            'minLength' => 0,
+            'maxLength' => 30,
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

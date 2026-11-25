@@ -73,5 +73,4 @@ final class Validate extends \InfobipSDK\Client
         $result = func_num_args() > 0 ? $this->executeBody(self::operation(self::POST), $payload) : $this->executeArguments(self::operation(self::POST));
         return $result;
     }
-
 }

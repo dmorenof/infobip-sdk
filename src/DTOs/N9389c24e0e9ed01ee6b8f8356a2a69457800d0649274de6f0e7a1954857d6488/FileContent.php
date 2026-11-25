@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class FileContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'filename',
-    'mediaUrl',
-];
+        'filename',
+        'mediaUrl',
+    ];
 
     protected const array VALIDATION = [
-    'filename' => [
-        'minLength' => 0,
-        'maxLength' => 25,
-        'pattern' => '.*\\.(docx?|dotx?|xlsx?|f?ods|f?odt|rtf|odf|txt|info|pdf|xps|pdax|eps|csv|xlsm|xltx)$',
-    ],
-    'mediaUrl' => [
-        'minLength' => 1,
-        'pattern' => '',
-    ],
-];
+        'filename' => [
+            'minLength' => 0,
+            'maxLength' => 25,
+            'pattern' => '.*\\.(docx?|dotx?|xlsx?|f?ods|f?odt|rtf|odf|txt|info|pdf|xps|pdax|eps|csv|xlsm|xltx)$',
+        ],
+        'mediaUrl' => [
+            'minLength' => 1,
+            'pattern' => '',
+        ],
+    ];
 
     /**
      * Name of the file being sent (file extension included).

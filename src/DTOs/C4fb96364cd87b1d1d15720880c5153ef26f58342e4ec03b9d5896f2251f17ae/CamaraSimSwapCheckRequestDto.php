@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896
 final class CamaraSimSwapCheckRequestDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'phoneNumber',
-];
+        'phoneNumber',
+    ];
 
     protected const array VALIDATION = [
-    'maxAge' => [
-        'minimum' => 1,
-        'maximum' => 2400,
-        'format' => 'int32',
-    ],
-];
+        'maxAge' => [
+            'minimum' => 1,
+            'maximum' => 2400,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * SIM swap check will be verified with MNO in "period" amount of hours from when this request was received. The value should be greater than 0.

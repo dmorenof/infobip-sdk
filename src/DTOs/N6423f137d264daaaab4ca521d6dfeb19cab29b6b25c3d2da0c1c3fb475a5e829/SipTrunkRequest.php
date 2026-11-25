@@ -10,34 +10,34 @@ namespace InfobipSDK\DTOs\N6423f137d264daaaab4ca521d6dfeb19cab29b6b25c3d2da0c1c3
 class SipTrunkRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'billingPackage',
-    'channelLimit',
-    'name',
-];
+        'billingPackage',
+        'channelLimit',
+        'name',
+    ];
 
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611.AuthenticatedSipTrunkRequest' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\AuthenticatedSipTrunkRequest',
-    '4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611.ProviderSipTrunkRequest' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\ProviderSipTrunkRequest',
-    '4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611.RegisteredSipTrunkRequest' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\RegisteredSipTrunkRequest',
-    '4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611.StaticSipTrunkRequest' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\StaticSipTrunkRequest',
-    'AUTHENTICATED' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\AuthenticatedSipTrunkRequest',
-    'PROVIDER' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\ProviderSipTrunkRequest',
-    'REGISTERED' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\RegisteredSipTrunkRequest',
-    'STATIC' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\StaticSipTrunkRequest',
-];
+        '4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611.AuthenticatedSipTrunkRequest' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\AuthenticatedSipTrunkRequest',
+        '4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611.ProviderSipTrunkRequest' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\ProviderSipTrunkRequest',
+        '4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611.RegisteredSipTrunkRequest' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\RegisteredSipTrunkRequest',
+        '4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611.StaticSipTrunkRequest' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\StaticSipTrunkRequest',
+        'AUTHENTICATED' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\AuthenticatedSipTrunkRequest',
+        'PROVIDER' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\ProviderSipTrunkRequest',
+        'REGISTERED' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\RegisteredSipTrunkRequest',
+        'STATIC' => 'InfobipSDK\\DTOs\\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\\StaticSipTrunkRequest',
+    ];
 
     protected const array VALIDATION = [
-    'channelLimit' => [
-        'maximum' => 1000,
-        'format' => 'int32',
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 128,
-    ],
-];
+        'channelLimit' => [
+            'maximum' => 1000,
+            'format' => 'int32',
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 128,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

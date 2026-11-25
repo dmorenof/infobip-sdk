@@ -66,5 +66,4 @@ final class Assign extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['conversationId' => $conversationId], parameters: $params);
         return $result;
     }
-
 }

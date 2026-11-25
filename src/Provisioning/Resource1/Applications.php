@@ -60,5 +60,4 @@ final class Applications extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Provisioning\Resource1\Applications::class)->putByApplicationId($applicationId, $payload);
     }
-
 }

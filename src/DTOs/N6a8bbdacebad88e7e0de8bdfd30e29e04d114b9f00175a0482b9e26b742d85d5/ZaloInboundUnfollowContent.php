@@ -12,10 +12,10 @@ final class ZaloInboundUnfollowContent extends \InfobipSDK\DTOs\N6a8bbdacebad88e
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'source' => [
-        'minLength' => 1,
-    ],
-];
+        'source' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

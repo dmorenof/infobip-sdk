@@ -12,11 +12,11 @@ final class CardRcsApiMtContent extends \InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dc
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'suggestions' => [
-        'minItems' => 0,
-        'maxItems' => 10,
-    ],
-];
+        'suggestions' => [
+            'minItems' => 0,
+            'maxItems' => 10,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -17,5 +17,4 @@ final class UrlButton extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Message\Interactive\UrlButton::class)->post($payload);
     }
-
 }

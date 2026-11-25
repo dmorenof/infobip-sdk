@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class ToDestination extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'to',
-];
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'messageId' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'to' => [
-        'minLength' => 1,
-    ],
-];
+        'messageId' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'to' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * The ID that uniquely identifies the message sent.

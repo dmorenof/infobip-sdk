@@ -16,5 +16,4 @@ final class Content extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Mms\Resource1\Content::class)->post($params);
     }
-
 }

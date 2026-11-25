@@ -13,15 +13,15 @@ namespace InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82
 final class AutoResponseActionV2Request extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-];
+        'message',
+    ];
 
     protected const array VALIDATION = [
-    'message' => [
-        'minLength' => 0,
-        'maxLength' => 1080,
-    ],
-];
+        'message' => [
+            'minLength' => 0,
+            'maxLength' => 1080,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\DeliveryTimeWindow $deliveryTimeWindow;
     /**

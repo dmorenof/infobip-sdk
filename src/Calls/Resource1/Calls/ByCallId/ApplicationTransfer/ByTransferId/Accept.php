@@ -16,5 +16,4 @@ final class Accept extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Calls\ByCallId\ApplicationTransfer\ByTransferId\Accept::class)->post($identifier);
     }
-
 }

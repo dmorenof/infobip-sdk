@@ -12,30 +12,30 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiDeliveryResult extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bulkId',
-    'channel',
-    'destination',
-    'doneAt',
-    'error',
-    'event',
-    'messageCount',
-    'messageId',
-    'sender',
-    'sentAt',
-    'status',
-];
+        'bulkId',
+        'channel',
+        'destination',
+        'doneAt',
+        'error',
+        'event',
+        'messageCount',
+        'messageId',
+        'sender',
+        'sentAt',
+        'status',
+    ];
 
     protected const array VALIDATION = [
-    'mccMnc' => [
-        'format' => 'int32',
-    ],
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-    'networkId' => [
-        'format' => 'int32',
-    ],
-];
+        'mccMnc' => [
+            'format' => 'int32',
+        ],
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+        'networkId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The ID that uniquely identifies the request.

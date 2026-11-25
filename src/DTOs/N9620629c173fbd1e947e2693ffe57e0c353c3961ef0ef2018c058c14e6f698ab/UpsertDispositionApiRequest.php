@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N9620629c173fbd1e947e2693ffe57e0c353c3961ef0ef2018c058
 final class UpsertDispositionApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fields',
-];
+        'fields',
+    ];
 
     protected const array VALIDATION = [
-    'fields' => [
-        'minItems' => 1,
-        'maxItems' => 2147483647,
-    ],
-];
+        'fields' => [
+            'minItems' => 1,
+            'maxItems' => 2147483647,
+        ],
+    ];
 
     /**
      * List of fields and agent inputs to those fields.

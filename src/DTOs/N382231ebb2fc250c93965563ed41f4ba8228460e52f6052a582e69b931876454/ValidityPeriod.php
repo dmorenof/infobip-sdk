@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N382231ebb2fc250c93965563ed41f4ba8228460e52f6052a582e6
 final class ValidityPeriod extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-];
+        'amount',
+    ];
 
     protected const array VALIDATION = [
-    'amount' => [
-        'minimum' => 0,
-        'exclusiveMinimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'amount' => [
+            'minimum' => 0,
+            'exclusiveMinimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Message validity period's value. If `timeUnit` is not set, it will default to `MINUTES`.

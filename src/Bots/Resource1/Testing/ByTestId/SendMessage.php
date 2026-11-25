@@ -16,5 +16,4 @@ final class SendMessage extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Bots\Resource1\Testing\ByTestId\SendMessage::class)->post($testId, $payload);
     }
-
 }

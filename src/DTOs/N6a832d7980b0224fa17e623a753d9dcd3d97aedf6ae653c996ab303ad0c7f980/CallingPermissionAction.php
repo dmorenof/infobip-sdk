@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N6a832d7980b0224fa17e623a753d9dcd3d97aedf6ae653c996ab3
 final class CallingPermissionAction extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'canPerformAction',
-    'limits',
-    'name',
-];
+        'canPerformAction',
+        'limits',
+        'name',
+    ];
 
     /**
      * Whether the action can be performed now, taking into account all limits.

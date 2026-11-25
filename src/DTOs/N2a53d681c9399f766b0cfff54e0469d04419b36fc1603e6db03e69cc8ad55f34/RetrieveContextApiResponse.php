@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N2a53d681c9399f766b0cfff54e0469d04419b36fc1603e6db03e6
 final class RetrieveContextApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contexts',
-];
+        'contexts',
+    ];
 
     /**
      * List of retrieved context nodes.

@@ -60,5 +60,4 @@ final class HoldConfigsPerQueue extends \InfobipSDK\InfobipOpenAPISpecificationS
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\HoldConfigsPerQueue::class)->putById($id, $payload);
     }
-
 }

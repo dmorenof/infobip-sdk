@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class ZaloReportSingle extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bulkId',
-    'channel',
-    'messageId',
-    'to',
-];
+        'bulkId',
+        'channel',
+        'messageId',
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Application used in request.

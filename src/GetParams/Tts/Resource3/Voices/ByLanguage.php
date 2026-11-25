@@ -7,12 +7,12 @@ namespace InfobipSDK\GetParams\Tts\Resource3\Voices;
 final class ByLanguage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'includeNeural' => 'includeNeural',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'includeNeural' => 'includeNeural',
+        ],
+        'header' => [],
+    ];
 
     public ?bool $includeNeural;
 }

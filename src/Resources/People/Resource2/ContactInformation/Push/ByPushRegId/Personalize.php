@@ -72,5 +72,4 @@ final class Personalize extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['pushRegId' => $pushRegId], parameters: $params);
         return $result;
     }
-
 }

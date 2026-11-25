@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class RcsIsTypingEvents extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'eventCount',
-    'pendingEventCount',
-    'results',
-];
+        'eventCount',
+        'pendingEventCount',
+        'results',
+    ];
 
     protected const array VALIDATION = [
-    'eventCount' => [
-        'format' => 'int32',
-    ],
-    'pendingEventCount' => [
-        'format' => 'int32',
-    ],
-];
+        'eventCount' => [
+            'format' => 'int32',
+        ],
+        'pendingEventCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The number of events returned in the results array.

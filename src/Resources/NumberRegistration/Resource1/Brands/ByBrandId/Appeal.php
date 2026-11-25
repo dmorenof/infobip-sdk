@@ -82,5 +82,4 @@ final class Appeal extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['brandId' => $brandId]);
         return $result;
     }
-
 }

@@ -202,5 +202,4 @@ final class Calls extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_CALL_ID), path: ['callId' => $callId]);
         return $result;
     }
-
 }

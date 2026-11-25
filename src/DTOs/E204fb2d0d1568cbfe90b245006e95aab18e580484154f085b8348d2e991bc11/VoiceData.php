@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class VoiceData extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'validityPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'validityPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'language',
-    'text',
-    'validityPeriod',
-];
+        'language',
+        'text',
+        'validityPeriod',
+    ];
 
     /**
      * Supported languages for Voice messages. List of supported languages can be found [here](https://www.infobip.com/docs/voice-and-video/getting-started#text-to-speech)

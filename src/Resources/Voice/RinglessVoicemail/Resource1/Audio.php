@@ -202,5 +202,4 @@ final class Audio extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::DELETE_BY_AUDIO_ID), path: ['audioId' => $audioId]);
         return;
     }
-
 }

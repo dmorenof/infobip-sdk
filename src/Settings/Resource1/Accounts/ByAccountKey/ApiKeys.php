@@ -57,5 +57,4 @@ final class ApiKeys extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Settings\Resource1\Accounts\ByAccountKey\ApiKeys::class)->putByKey($identifier, $payload);
     }
-
 }

@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N73e6f414ccb2e1e41274c061b50cf5765f69b642a3e0cca54b024
 final class RecordingResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'application',
-    'recording',
-];
+        'application',
+        'recording',
+    ];
 
     public \InfobipSDK\DTOs\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\CallLinkRecordingApplication $application;
     public \InfobipSDK\DTOs\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\Recording $recording;

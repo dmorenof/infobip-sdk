@@ -10,30 +10,30 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class ButtonsLineTemplatePayload extends \InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\LineTemplatePayload
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'actions' => [
-        'minItems' => 1,
-        'maxItems' => 4,
-    ],
-    'imageBackgroundColor' => [
-        'pattern' => '^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$',
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 160,
-    ],
-    'thumbnailImageUrl' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 40,
-    ],
-];
+        'actions' => [
+            'minItems' => 1,
+            'maxItems' => 4,
+        ],
+        'imageBackgroundColor' => [
+            'pattern' => '^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$',
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 160,
+        ],
+        'thumbnailImageUrl' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 40,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

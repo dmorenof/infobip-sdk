@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class TemplateRcsApiMtContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'templateName',
-];
+        'templateName',
+    ];
 
     protected const array VALIDATION = [
-    'templateName' => [
-        'minLength' => 1,
-    ],
-];
+        'templateName' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Name-Value pairs of parameters included in the template, as defined in the Vi RBM Portal

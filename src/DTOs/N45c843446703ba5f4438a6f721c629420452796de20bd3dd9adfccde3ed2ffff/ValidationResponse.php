@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N45c843446703ba5f4438a6f721c629420452796de20bd3dd9adfc
 final class ValidationResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'catchAll',
-    'disposable',
-    'risk',
-    'roleBased',
-    'to',
-    'validMailbox',
-    'validSyntax',
-];
+        'catchAll',
+        'disposable',
+        'risk',
+        'roleBased',
+        'to',
+        'validMailbox',
+        'validSyntax',
+    ];
 
     /**
      * Indicates catch all status of email address.

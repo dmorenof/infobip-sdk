@@ -12,56 +12,56 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class TenDlcAiReviewRequest extends \InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\CampaignInfoReviewRequest
 {
     public const array REQUIRED_FIELDS = [
-    'brandName',
-    'brandSupportEmail',
-    'brandWebsite',
-    'customerCareEmail',
-    'messageExamples',
-    'programDescription',
-    'reviewType',
-];
+        'brandName',
+        'brandSupportEmail',
+        'brandWebsite',
+        'customerCareEmail',
+        'messageExamples',
+        'programDescription',
+        'reviewType',
+    ];
 
     protected const array VALIDATION = [
-    'brandName' => [
-        'minLength' => 1,
-    ],
-    'brandSupportEmail' => [
-        'minLength' => 1,
-    ],
-    'brandWebsite' => [
-        'minLength' => 1,
-    ],
-    'ctaWebsite' => [
-        'minLength' => 1,
-    ],
-    'ctas' => [
-        'minItems' => 1,
-    ],
-    'customerCareEmail' => [
-        'minLength' => 1,
-    ],
-    'helpMessage' => [
-        'minLength' => 1,
-    ],
-    'messageExamples' => [
-        'minItems' => 1,
-    ],
-    'messageFlow' => [
-        'minLength' => 1,
-    ],
-    'optInMessage' => [
-        'minLength' => 1,
-    ],
-    'optOutMessage' => [
-        'minLength' => 1,
-    ],
-    'programDescription' => [
-        'minLength' => 1,
-    ],
-    'useCases' => [
-        'minItems' => 1,
-    ],
-];
+        'brandName' => [
+            'minLength' => 1,
+        ],
+        'brandSupportEmail' => [
+            'minLength' => 1,
+        ],
+        'brandWebsite' => [
+            'minLength' => 1,
+        ],
+        'ctaWebsite' => [
+            'minLength' => 1,
+        ],
+        'ctas' => [
+            'minItems' => 1,
+        ],
+        'customerCareEmail' => [
+            'minLength' => 1,
+        ],
+        'helpMessage' => [
+            'minLength' => 1,
+        ],
+        'messageExamples' => [
+            'minItems' => 1,
+        ],
+        'messageFlow' => [
+            'minLength' => 1,
+        ],
+        'optInMessage' => [
+            'minLength' => 1,
+        ],
+        'optOutMessage' => [
+            'minLength' => 1,
+        ],
+        'programDescription' => [
+            'minLength' => 1,
+        ],
+        'useCases' => [
+            'minItems' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

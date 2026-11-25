@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\C8df889022018062dfcb44e930a391e7e1c8e669bd11a10a717da5
 final class TextRequirementValidation extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'maxLength' => [
-        'format' => 'int32',
-    ],
-    'minLength' => [
-        'format' => 'int32',
-    ],
-];
+        'maxLength' => [
+            'format' => 'int32',
+        ],
+        'minLength' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The maximum length of the text.

@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class CustomDataEntry extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'key',
-];
+        'key',
+    ];
 
     protected const array VALIDATION = [
-    'key' => [
-        'minLength' => 1,
-    ],
-];
+        'key' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Custom data key. Example: `key1`.

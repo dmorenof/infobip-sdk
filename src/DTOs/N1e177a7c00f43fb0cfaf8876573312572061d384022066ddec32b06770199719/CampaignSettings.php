@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\N1e177a7c00f43fb0cfaf8876573312572061d384022066ddec32b
 final class CampaignSettings extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'maxDailyAttemptsPerCampaign' => [
-        'minimum' => 1,
-    ],
-    'maxDailyAttemptsPerUser' => [
-        'minimum' => 1,
-    ],
-];
+        'maxDailyAttemptsPerCampaign' => [
+            'minimum' => 1,
+        ],
+        'maxDailyAttemptsPerUser' => [
+            'minimum' => 1,
+        ],
+    ];
 
     /**
      * Maximum number of times all users can participate in the campaign in one day.

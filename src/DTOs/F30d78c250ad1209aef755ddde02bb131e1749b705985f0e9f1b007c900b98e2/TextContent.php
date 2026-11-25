@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class TextContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 4096,
-    ],
-];
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 4096,
+        ],
+    ];
 
     /**
      * Allows for URL preview from within the message. If set to `true`, the message content must contain a URL starting with `https://` or `http://` and the flag removeProtocol must be set to `false`.

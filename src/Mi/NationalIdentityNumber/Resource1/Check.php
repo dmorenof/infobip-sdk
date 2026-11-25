@@ -17,5 +17,4 @@ final class Check extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Mi\NationalIdentityNumber\Resource1\Check::class)->post($payload);
     }
-
 }

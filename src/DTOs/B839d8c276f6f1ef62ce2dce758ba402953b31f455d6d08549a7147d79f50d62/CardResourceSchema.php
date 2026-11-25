@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class CardResourceSchema extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'url',
-];
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 1,
-        'maxLength' => 2048,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'url' => [
+            'minLength' => 1,
+            'maxLength' => 2048,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * Specifies the URL of the media resource. For supported file formats and aspect ratios, see documentation:

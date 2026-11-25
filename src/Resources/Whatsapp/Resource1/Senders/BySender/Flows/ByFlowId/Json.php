@@ -164,5 +164,4 @@ final class Json extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload, path: $identifier);
         return $result;
     }
-
 }

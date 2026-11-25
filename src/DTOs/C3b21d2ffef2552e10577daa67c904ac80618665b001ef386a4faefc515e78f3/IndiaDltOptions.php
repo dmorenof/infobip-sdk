@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\C3b21d2ffef2552e10577daa67c904ac80618665b001ef386a4fae
 final class IndiaDltOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'contentTemplateId' => [
-        'minLength' => 0,
-        'maxLength' => 30,
-    ],
-    'principalEntityId' => [
-        'minLength' => 0,
-        'maxLength' => 30,
-    ],
-    'teleMarketerId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'contentTemplateId' => [
+            'minLength' => 0,
+            'maxLength' => 30,
+        ],
+        'principalEntityId' => [
+            'minLength' => 0,
+            'maxLength' => 30,
+        ],
+        'teleMarketerId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Registered DLT content template ID which matches message you are sending.

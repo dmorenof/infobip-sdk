@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N61cea6785aa06882a92b0d6cc8c922ce1d44b92bfbdfd6cde0df0
 final class IpPoolCreateApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * IP pool name.

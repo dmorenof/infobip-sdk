@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class Phone extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'phone',
-    'type',
-    'waId',
-];
+        'phone',
+        'type',
+        'waId',
+    ];
 
     /**
      * Phone of  contact.

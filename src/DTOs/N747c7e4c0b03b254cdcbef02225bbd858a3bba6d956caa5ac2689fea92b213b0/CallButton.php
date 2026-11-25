@@ -12,14 +12,14 @@ final class CallButton extends \InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225bbd8
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'payload' => [
-        'minLength' => 1,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-];
+        'payload' => [
+            'minLength' => 1,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

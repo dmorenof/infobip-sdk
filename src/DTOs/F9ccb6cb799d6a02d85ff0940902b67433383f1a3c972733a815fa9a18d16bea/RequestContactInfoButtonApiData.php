@@ -12,8 +12,8 @@ final class RequestContactInfoButtonApiData extends \InfobipSDK\DTOs\F9ccb6cb799
     public const array REQUIRED_FIELDS = [];
 
     protected const array READ_ONLY_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

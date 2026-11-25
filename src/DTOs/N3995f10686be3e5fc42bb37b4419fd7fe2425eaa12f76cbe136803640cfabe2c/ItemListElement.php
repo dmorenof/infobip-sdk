@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class ItemListElement extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'title',
-    'url',
-    'urlMobile',
-];
+        'title',
+        'url',
+        'urlMobile',
+    ];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 0,
-        'maxLength' => 250,
-        'pattern' => '',
-    ],
-    'urlMobile' => [
-        'minLength' => 1,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'url' => [
+            'minLength' => 0,
+            'maxLength' => 250,
+            'pattern' => '',
+        ],
+        'urlMobile' => [
+            'minLength' => 1,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * Custom scheme when user operates on Android environment.

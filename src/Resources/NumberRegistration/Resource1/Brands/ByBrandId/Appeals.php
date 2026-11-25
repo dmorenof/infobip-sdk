@@ -66,5 +66,4 @@ final class Appeals extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['brandId' => $brandId]);
         return $result;
     }
-
 }

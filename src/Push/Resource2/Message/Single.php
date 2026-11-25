@@ -18,5 +18,4 @@ final class Single extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Push\Resource2\Message\Single::class)->post($payload);
     }
-
 }

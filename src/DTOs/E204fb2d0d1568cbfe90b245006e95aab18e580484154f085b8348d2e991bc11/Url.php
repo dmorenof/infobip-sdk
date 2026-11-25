@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class Url extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'type',
-    'url',
-];
+        'type',
+        'url',
+    ];
 
     /**
      * Type of a url. Can be HOME, WORK.

@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class ApplePayLineItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-    'label',
-];
+        'amount',
+        'label',
+    ];
 
     protected const array VALIDATION = [
-    'amount' => [
-        'minLength' => 1,
-        'pattern' => '^-?[0-9]+(\\.[0-9][0-9])?$',
-    ],
-    'label' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'type' => [
-        'pattern' => '^(final|pending)$',
-    ],
-];
+        'amount' => [
+            'minLength' => 1,
+            'pattern' => '^-?[0-9]+(\\.[0-9][0-9])?$',
+        ],
+        'label' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'type' => [
+            'pattern' => '^(final|pending)$',
+        ],
+    ];
 
     /**
      * The monetary amount of the line item. Must be a number with optional decimal part (exactly 2 digits after decimal point). Examples: '100', '99.99', '-10.50'

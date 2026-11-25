@@ -10,12 +10,12 @@ namespace InfobipSDK\DTOs\D1778b306237beb41d9922fd3fd38c085ddcf463c618d1f8ceed14
 final class SystemEvent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'description',
-    'hash',
-    'type',
-    'userId',
-    'userNumber',
-];
+        'description',
+        'hash',
+        'type',
+        'userId',
+        'userNumber',
+    ];
 
     /**
      * Description of the event.

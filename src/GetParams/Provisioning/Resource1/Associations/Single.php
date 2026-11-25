@@ -7,34 +7,34 @@ namespace InfobipSDK\GetParams\Provisioning\Resource1\Associations;
 final class Single extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'applicationId',
-    'channel',
-    'resourceId',
-    'resourceType',
-];
+        'applicationId',
+        'channel',
+        'resourceId',
+        'resourceType',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'applicationId' => 'applicationId',
-        'channel' => 'channel',
-        'entityId' => 'entityId',
-        'resourceId' => 'resourceId',
-        'resourceType' => 'resourceType',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'applicationId' => 'applicationId',
+            'channel' => 'channel',
+            'entityId' => 'entityId',
+            'resourceId' => 'resourceId',
+            'resourceType' => 'resourceType',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'maxLength' => 255,
-    ],
-    'entityId' => [
-        'maxLength' => 255,
-    ],
-    'resourceId' => [
-        'maxLength' => 255,
-    ],
-];
+        'applicationId' => [
+            'maxLength' => 255,
+        ],
+        'entityId' => [
+            'maxLength' => 255,
+        ],
+        'resourceId' => [
+            'maxLength' => 255,
+        ],
+    ];
 
     public string $applicationId {
         set {

@@ -12,11 +12,11 @@ final class LiveChatOutboundTextContent extends \InfobipSDK\DTOs\N245a74e48cd7ce
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 4096,
-    ],
-];
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 4096,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

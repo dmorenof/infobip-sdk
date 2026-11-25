@@ -12,26 +12,26 @@ namespace InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa
 class V1ButtonApiData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    'PHONE_NUMBER' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\V1PhoneNumberButtonApiData',
-    'QUICK_REPLY' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\V1QuickReplyButtonApiData',
-    'URL' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\V1UrlButtonApiData',
-    'f9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea.V1PhoneNumberButtonApiData' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\V1PhoneNumberButtonApiData',
-    'f9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea.V1QuickReplyButtonApiData' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\V1QuickReplyButtonApiData',
-    'f9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea.V1UrlButtonApiData' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\V1UrlButtonApiData',
-];
+        'PHONE_NUMBER' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\V1PhoneNumberButtonApiData',
+        'QUICK_REPLY' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\V1QuickReplyButtonApiData',
+        'URL' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\V1UrlButtonApiData',
+        'f9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea.V1PhoneNumberButtonApiData' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\V1PhoneNumberButtonApiData',
+        'f9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea.V1QuickReplyButtonApiData' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\V1QuickReplyButtonApiData',
+        'f9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea.V1UrlButtonApiData' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\V1UrlButtonApiData',
+    ];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 25,
-    ],
-];
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 25,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

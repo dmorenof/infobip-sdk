@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessagePayment extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'subtotal' => [
-        'minimum' => 0,
-    ],
-];
+        'subtotal' => [
+            'minimum' => 0,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\MessagesApiMessagePaymentConfiguration $configuration;
     public \InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\MessagesApiMessageDescriptiveDiscountAmount $discount;

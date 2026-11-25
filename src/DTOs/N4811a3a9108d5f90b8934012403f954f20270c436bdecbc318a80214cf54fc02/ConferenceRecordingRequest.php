@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N4811a3a9108d5f90b8934012403f954f20270c436bdecbc318a80
 final class ConferenceRecordingRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'recordingType',
-];
+        'recordingType',
+    ];
 
     public \InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\ConferenceComposition $conferenceComposition;
     /**

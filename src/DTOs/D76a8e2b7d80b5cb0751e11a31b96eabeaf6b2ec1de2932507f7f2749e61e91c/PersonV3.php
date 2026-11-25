@@ -12,56 +12,56 @@ namespace InfobipSDK\DTOs\D76a8e2b7d80b5cb0751e11a31b96eabeaf6b2ec1de2932507f7f2
 final class PersonV3 extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'address' => [
-        'minLength' => 0,
-        'maxLength' => 256,
-    ],
-    'city' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'country' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'externalId' => [
-        'minLength' => 0,
-        'maxLength' => 256,
-    ],
-    'firstName' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'lastName' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'middleName' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'nickName' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'profilePicture' => [
-        'minLength' => 0,
-        'maxLength' => 2083,
-        'pattern' => '',
-    ],
-    'tags' => [
-        'uniqueItems' => true,
-    ],
-];
+        'address' => [
+            'minLength' => 0,
+            'maxLength' => 256,
+        ],
+        'city' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'country' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'externalId' => [
+            'minLength' => 0,
+            'maxLength' => 256,
+        ],
+        'firstName' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'lastName' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'middleName' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'nickName' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'profilePicture' => [
+            'minLength' => 0,
+            'maxLength' => 2083,
+            'pattern' => '',
+        ],
+        'tags' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'computedAttributes',
-    'createdAt',
-    'createdBy',
-    'id',
-    'modifiedAt',
-    'modifiedBy',
-];
+        'computedAttributes',
+        'createdAt',
+        'createdBy',
+        'id',
+        'modifiedAt',
+        'modifiedBy',
+    ];
 
     /**
      * Person's address, 256 characters max.

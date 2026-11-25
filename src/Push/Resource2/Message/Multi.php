@@ -18,5 +18,4 @@ final class Multi extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Push\Resource2\Message\Multi::class)->post($payload);
     }
-
 }

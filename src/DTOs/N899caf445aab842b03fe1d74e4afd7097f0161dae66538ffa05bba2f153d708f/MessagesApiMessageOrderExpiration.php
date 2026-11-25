@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageOrderExpiration extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'description' => [
-        'minLength' => 0,
-        'maxLength' => 120,
-    ],
-];
+        'description' => [
+            'minLength' => 0,
+            'maxLength' => 120,
+        ],
+    ];
 
     /**
      * Description of the expiration.

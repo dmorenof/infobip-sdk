@@ -12,14 +12,13 @@ final class LegalEntityIdentifier extends \InfobipSDK\DTOs\N2700ea5ecfd0574f2101
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'id' => [
-        'minLength' => 20,
-        'maxLength' => 20,
-        'pattern' => '(\\d{4})(00)([A-Z0-9]{12})(\\d{2})',
-    ],
-];
+        'id' => [
+            'minLength' => 20,
+            'maxLength' => 20,
+            'pattern' => '(\\d{4})(00)([A-Z0-9]{12})(\\d{2})',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

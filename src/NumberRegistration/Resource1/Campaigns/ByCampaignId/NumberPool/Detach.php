@@ -16,5 +16,4 @@ final class Detach extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Campaigns\ByCampaignId\NumberPool\Detach::class)->post($campaignId);
     }
-
 }

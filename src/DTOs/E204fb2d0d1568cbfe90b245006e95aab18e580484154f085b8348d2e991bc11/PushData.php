@@ -12,26 +12,26 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class PushData extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'deviceSubscriptions' => [
-        'uniqueItems' => true,
-    ],
-    'personSubscriptions' => [
-        'uniqueItems' => true,
-    ],
-    'validityPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'deviceSubscriptions' => [
+            'uniqueItems' => true,
+        ],
+        'personSubscriptions' => [
+            'uniqueItems' => true,
+        ],
+        'validityPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'customPayload',
-    'deviceSubscriptions',
-    'includeNotificationsDisabledDevices',
-    'personSubscriptions',
-    'targetOnlyPrimaryDevices',
-    'text',
-    'validityPeriod',
-];
+        'customPayload',
+        'deviceSubscriptions',
+        'includeNotificationsDisabledDevices',
+        'personSubscriptions',
+        'targetOnlyPrimaryDevices',
+        'text',
+        'validityPeriod',
+    ];
 
     /**
      * Additional custom data delivered with the Push message.

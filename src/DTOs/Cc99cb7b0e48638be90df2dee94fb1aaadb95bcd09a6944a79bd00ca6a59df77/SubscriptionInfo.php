@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\Cc99cb7b0e48638be90df2dee94fb1aaadb95bcd09a6944a79bd00
 final class SubscriptionInfo extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'numSubscribersInvalidEntries' => [
-        'format' => 'int32',
-    ],
-    'numSubscribersReceived' => [
-        'format' => 'int32',
-    ],
-];
+        'numSubscribersInvalidEntries' => [
+            'format' => 'int32',
+        ],
+        'numSubscribersReceived' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of invalid subscriber entries.

@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N42b3068683a04f02f0303cd880adeb4415571c6aad33d9a3c6850
 final class VoiceReport extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'duration' => [
-        'format' => 'int32',
-    ],
-];
+        'duration' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Date and time when the voice message was answered. Has the following format: `yyyy-MM-dd'T'HH:mm:ss.SSSZ`.

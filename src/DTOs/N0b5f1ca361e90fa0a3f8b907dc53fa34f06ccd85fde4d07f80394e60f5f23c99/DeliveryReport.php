@@ -12,22 +12,21 @@ final class DeliveryReport extends \InfobipSDK\DTOs\N31df1a57142f86aa8caefaa914e
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'bulkId',
-    'contact',
-    'doneAt',
-    'error',
-    'messageCount',
-    'messageId',
-    'price',
-    'sentAt',
-    'status',
-    'to',
-];
-
+        'bulkId',
+        'contact',
+        'doneAt',
+        'error',
+        'messageCount',
+        'messageId',
+        'price',
+        'sentAt',
+        'status',
+        'to',
+    ];
 }

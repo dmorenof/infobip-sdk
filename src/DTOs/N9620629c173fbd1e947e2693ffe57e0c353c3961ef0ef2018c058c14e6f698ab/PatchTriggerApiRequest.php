@@ -11,14 +11,14 @@ namespace InfobipSDK\DTOs\N9620629c173fbd1e947e2693ffe57e0c353c3961ef0ef2018c058
 final class PatchTriggerApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'orderIndex' => [
-        'format' => 'int32',
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-];
+        'orderIndex' => [
+            'format' => 'int32',
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Condition which resolves in destination form.

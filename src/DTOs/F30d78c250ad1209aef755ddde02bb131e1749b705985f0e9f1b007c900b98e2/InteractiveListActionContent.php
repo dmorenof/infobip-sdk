@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveListActionContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'sections',
-    'title',
-];
+        'sections',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'sections' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-    'title' => [
-        'minLength' => 1,
-        'maxLength' => 20,
-    ],
-];
+        'sections' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+        'title' => [
+            'minLength' => 1,
+            'maxLength' => 20,
+        ],
+    ];
 
     /**
      * Array of sections in the list.

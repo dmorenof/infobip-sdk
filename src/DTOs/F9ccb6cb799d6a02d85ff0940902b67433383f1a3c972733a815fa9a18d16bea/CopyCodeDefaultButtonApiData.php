@@ -12,24 +12,24 @@ final class CopyCodeDefaultButtonApiData extends \InfobipSDK\DTOs\F9ccb6cb799d6a
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'example' => [
-        'minLength' => 1,
-        'maxLength' => 20,
-        'pattern' => '^[a-z0-9]*$',
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 25,
-    ],
-];
+        'example' => [
+            'minLength' => 1,
+            'maxLength' => 20,
+            'pattern' => '^[a-z0-9]*$',
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 25,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'example',
-];
+        'example',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

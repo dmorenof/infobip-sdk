@@ -77,5 +77,4 @@ final class Speech extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['callId' => $callId]);
         return $result;
     }
-
 }

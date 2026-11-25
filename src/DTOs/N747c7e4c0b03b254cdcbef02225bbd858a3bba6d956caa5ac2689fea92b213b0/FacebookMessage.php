@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225bbd858a3bba6d956caa5ac2689
 final class FacebookMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'destinations',
-    'sender',
-];
+        'content',
+        'destinations',
+        'sender',
+    ];
 
     protected const array VALIDATION = [
-    'destinations' => [
-        'minItems' => 1,
-    ],
-    'sender' => [
-        'minLength' => 1,
-    ],
-];
+        'destinations' => [
+            'minItems' => 1,
+        ],
+        'sender' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225bbd858a3bba6d956caa5ac2689fea92b213b0\FacebookOutboundContent $content;
     /**

@@ -285,5 +285,4 @@ final class Nodes extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_NODE_ID), $payload, path: ['nodeId' => $nodeId]);
         return $result;
     }
-
 }

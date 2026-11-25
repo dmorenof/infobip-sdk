@@ -193,5 +193,4 @@ final class Conferences extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_CONFERENCE_ID), path: ['conferenceId' => $conferenceId], parameters: $params);
         return $result;
     }
-
 }

@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896
 final class SimSwapCheckRequestDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'consentGranted',
-    'period',
-    'phoneNumber',
-];
+        'consentGranted',
+        'period',
+        'phoneNumber',
+    ];
 
     protected const array VALIDATION = [
-    'period' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'period' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Indicates whether you have consent from mobile phone number's owner to perform this request. All requests that do not have this property set to "true" will be rejected.

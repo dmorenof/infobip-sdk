@@ -10,12 +10,12 @@ namespace InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31
 final class CreateMessageApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel',
-    'content',
-    'contentType',
-    'from',
-    'to',
-];
+        'channel',
+        'content',
+        'contentType',
+        'from',
+        'to',
+    ];
 
     /**
      * Available communication channels

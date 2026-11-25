@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageFormPickerPageItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'identifier',
-    'title',
-    'value',
-];
+        'identifier',
+        'title',
+        'value',
+    ];
 
     protected const array VALIDATION = [
-    'identifier' => [
-        'minLength' => 1,
-    ],
-    'title' => [
-        'minLength' => 1,
-    ],
-    'value' => [
-        'minLength' => 1,
-    ],
-];
+        'identifier' => [
+            'minLength' => 1,
+        ],
+        'title' => [
+            'minLength' => 1,
+        ],
+        'value' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Unique identifier of the item.

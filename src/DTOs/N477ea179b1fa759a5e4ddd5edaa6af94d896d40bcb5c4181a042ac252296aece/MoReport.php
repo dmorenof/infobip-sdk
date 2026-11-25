@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042a
 final class MoReport extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'callbackData',
-    'from',
-    'integrationType',
-    'message',
-    'messageId',
-    'pairedMessageId',
-    'price',
-    'receivedAt',
-    'to',
-];
+        'callbackData',
+        'from',
+        'integrationType',
+        'message',
+        'messageId',
+        'pairedMessageId',
+        'price',
+        'receivedAt',
+        'to',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

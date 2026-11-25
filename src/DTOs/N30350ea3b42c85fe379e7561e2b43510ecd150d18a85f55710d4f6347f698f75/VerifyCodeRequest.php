@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N30350ea3b42c85fe379e7561e2b43510ecd150d18a85f55710d4f
 final class VerifyCodeRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'code',
-];
+        'code',
+    ];
 
     protected const array VALIDATION = [
-    'code' => [
-        'pattern' => '\\d+',
-    ],
-];
+        'code' => [
+            'pattern' => '\\d+',
+        ],
+    ];
 
     /**
      * Verification code.

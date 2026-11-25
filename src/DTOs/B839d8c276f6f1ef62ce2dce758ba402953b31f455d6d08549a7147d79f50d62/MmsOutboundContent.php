@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class MmsOutboundContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messageSegments',
-];
+        'messageSegments',
+    ];
 
     protected const array VALIDATION = [
-    'messageSegments' => [
-        'minItems' => 1,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 66,
-    ],
-];
+        'messageSegments' => [
+            'minItems' => 1,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 66,
+        ],
+    ];
 
     /**
      * Content of the message being sent.

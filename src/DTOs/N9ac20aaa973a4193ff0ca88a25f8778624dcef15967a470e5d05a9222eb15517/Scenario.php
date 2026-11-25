@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N9ac20aaa973a4193ff0ca88a25f8778624dcef15967a470e5d05a
 final class Scenario extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'default' => 'default_',
-];
+        'default' => 'default_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'default_' => 'default',
-];
+        'default_' => 'default',
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'key',
-];
+        'key',
+    ];
 
     /**
      * Indicates if created scenario should be set as a default.

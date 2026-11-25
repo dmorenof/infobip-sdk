@@ -14,10 +14,10 @@ final class HttpForwardAction extends \InfobipSDK\DTOs\N7c77a2c703ce12a601f12056
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 1,
-    ],
-];
+        'url' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

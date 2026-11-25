@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class FileAudioSourceApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'fileDescriptor' => [
-        'minLength' => 0,
-        'maxLength' => 128,
-    ],
-];
+        'fileDescriptor' => [
+            'minLength' => 0,
+            'maxLength' => 128,
+        ],
+    ];
 
     /**
      * File audio source descriptor.

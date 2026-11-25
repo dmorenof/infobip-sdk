@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N41037c0c5bdf4509c49aaf5c9a141a8857afc7b3859839aa4c690
 final class UpsertRequestDocsSchema extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'persons',
-];
+        'persons',
+    ];
 
     protected const array VALIDATION = [
-    'persons' => [
-        'minItems' => 1,
-        'maxItems' => 1000,
-    ],
-];
+        'persons' => [
+            'minItems' => 1,
+            'maxItems' => 1000,
+        ],
+    ];
 
     public \InfobipSDK\Collections\N41037c0c5bdf4509c49aaf5c9a141a8857afc7b3859839aa4c690d84fb75d2e2\UpsertRequestDocsSchema\PersonsCollection $persons {
         set {

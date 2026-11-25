@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\N0b5f1ca361e90fa0a3f8b907dc53fa34f06ccd85fde4d07f80394
 final class InboundLocationMessage extends \InfobipSDK\DTOs\N0b5f1ca361e90fa0a3f8b907dc53fa34f06ccd85fde4d07f80394e60f5f23c99\InboundMessage
 {
     public const array REQUIRED_FIELDS = [
-    'latitude',
-    'longitude',
-];
+        'latitude',
+        'longitude',
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'address',
-    'latitude',
-    'longitude',
-    'name',
-    'url',
-];
+        'address',
+        'latitude',
+        'longitude',
+        'name',
+        'url',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

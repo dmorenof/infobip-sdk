@@ -147,5 +147,4 @@ final class Templates extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['sender' => $sender]);
         return $result;
     }
-
 }

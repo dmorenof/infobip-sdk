@@ -13,5 +13,4 @@ final class CallsHangUpInboundMessageContent extends \InfobipSDK\DTOs\N781c30920
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

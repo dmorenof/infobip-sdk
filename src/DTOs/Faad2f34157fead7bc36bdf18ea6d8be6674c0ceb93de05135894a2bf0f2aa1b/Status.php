@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\Faad2f34157fead7bc36bdf18ea6d8be6674c0ceb93de05135894a
 final class Status extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'description',
-    'groupId',
-    'groupName',
-    'id',
-    'name',
-];
+        'description',
+        'groupId',
+        'groupName',
+        'id',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'groupId' => [
-        'format' => 'int32',
-    ],
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'groupId' => [
+            'format' => 'int32',
+        ],
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Status description.

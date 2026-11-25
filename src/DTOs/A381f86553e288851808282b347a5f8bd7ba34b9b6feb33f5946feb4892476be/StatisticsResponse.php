@@ -10,12 +10,12 @@ namespace InfobipSDK\DTOs\A381f86553e288851808282b347a5f8bd7ba34b9b6feb33f5946fe
 final class StatisticsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'delivered',
-    'delivery',
-    'errors',
-    'seen',
-    'totalSent',
-];
+        'delivered',
+        'delivery',
+        'errors',
+        'seen',
+        'totalSent',
+    ];
 
     /**
      * Total number of delivered messages.

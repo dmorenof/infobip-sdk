@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class RequestSchedulingSettings extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'bulkId' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-];
+        'bulkId' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Unique ID assigned to the request if messaging multiple recipients or sending multiple messages via a single API request. If not provided, it will be auto-generated and returned in the API response.

@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\Faad2f34157fead7bc36bdf18ea6d8be6674c0ceb93de05135894a
 final class GroupDestination extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'group',
-];
+        'group',
+    ];
 
     protected const array VALIDATION = [
-    'group' => [
-        'minItems' => 1,
-        'maxItems' => 200,
-    ],
-];
+        'group' => [
+            'minItems' => 1,
+            'maxItems' => 200,
+        ],
+    ];
 
     public \InfobipSDK\Collections\Faad2f34157fead7bc36bdf18ea6d8be6674c0ceb93de05135894a2bf0f2aa1b\GroupDestination\GroupCollection $group {
         set {
@@ -26,5 +26,4 @@ final class GroupDestination extends \Dmorenof\SdkRuntime\DTO
             $this->group = $value;
         }
     }
-
 }

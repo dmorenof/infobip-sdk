@@ -71,5 +71,4 @@ final class Add extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PATCH_BY_SECONDS), path: $identifier);
         return $result;
     }
-
 }

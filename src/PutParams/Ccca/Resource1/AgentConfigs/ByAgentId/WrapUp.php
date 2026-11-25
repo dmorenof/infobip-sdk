@@ -7,21 +7,21 @@ namespace InfobipSDK\PutParams\Ccca\Resource1\AgentConfigs\ByAgentId;
 final class WrapUp extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'wrapUpSeconds' => 'wrapUpSeconds',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'wrapUpSeconds' => 'wrapUpSeconds',
+        ],
+        'header' => [],
+    ];
 
     public const bool OPERATION_BODY = true;
 
     protected const array VALIDATION = [
-    'wrapUpSeconds' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'wrapUpSeconds' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     public ?int $wrapUpSeconds {
         set {

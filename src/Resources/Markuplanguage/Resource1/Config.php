@@ -330,5 +330,4 @@ final class Config extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_CONFIG_ID), $payload, path: ['configId' => $configId]);
         return $result;
     }
-
 }

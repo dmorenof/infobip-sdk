@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N2be764ef53499e28cc8da8dff3890f0787860aba10984e520352c
 final class ModifyEntity extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'entityName' => [
-        'maxLength' => 255,
-    ],
-];
+        'entityName' => [
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Descriptive name of the resource.

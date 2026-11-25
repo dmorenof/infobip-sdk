@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc95
 final class UpdateTreeNodeRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 40,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 40,
+        ],
+    ];
 
     /**
      * New non-blank name of the tree node.

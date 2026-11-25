@@ -62,5 +62,4 @@ final class Stats extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['campaignId' => $campaignId]);
         return $result;
     }
-
 }

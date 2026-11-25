@@ -17,5 +17,4 @@ final class Persons extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource3\Segments\BySegmentId\Persons::class)->get($segmentId, $params);
     }
-
 }

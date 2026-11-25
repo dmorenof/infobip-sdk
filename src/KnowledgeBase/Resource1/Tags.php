@@ -49,5 +49,4 @@ final class Tags extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\KnowledgeBase\Resource1\Tags::class)->putByTagId($tagId, $payload);
     }
-
 }

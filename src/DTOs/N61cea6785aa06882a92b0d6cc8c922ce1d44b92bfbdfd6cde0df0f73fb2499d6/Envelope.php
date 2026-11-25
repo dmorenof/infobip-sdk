@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N61cea6785aa06882a92b0d6cc8c922ce1d44b92bfbdfd6cde0df0
 final class Envelope extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'from',
-    'to',
-];
+        'from',
+        'to',
+    ];
 
     /**
      * The sender name and sender address from which the inbound email was sent.

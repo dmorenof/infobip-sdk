@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiTemplateMultiProductButtonSection extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'productIds',
-    'title',
-];
+        'productIds',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'productIds' => [
-        'minItems' => 1,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 24,
-    ],
-];
+        'productIds' => [
+            'minItems' => 1,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 24,
+        ],
+    ];
 
     /**
      * An array of product-unique identifiers as defined in the catalog. If product retailer ID doesn't exist in your catalog, the product won't be displayed.

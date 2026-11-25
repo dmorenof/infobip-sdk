@@ -350,5 +350,4 @@ final class Businesses extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::PUT_BY_BUSINESS_ID), $payload, path: ['businessId' => $businessId]);
         return;
     }
-
 }

@@ -8,43 +8,43 @@ final class EventsDTO extends \Dmorenof\SdkRuntime\OneOf
 {
     protected const array TYPES = [\InfobipSDK\Enums\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920dd3d0d3e33f\SimpleMmsEvents::class, \InfobipSDK\DTOs\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920dd3d0d3e33f\FormatAwareMmsEvents::class];
     protected const array BRANCH_SCHEMAS = [
-    [
-        'kind' => 'reference',
-        'ref' => '6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920dd3d0d3e33f.SimpleMmsEvents',
-    ],
-    [
-        'kind' => 'reference',
-        'ref' => '6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920dd3d0d3e33f.FormatAwareMmsEvents',
-    ],
-];
+        [
+            'kind' => 'reference',
+            'ref' => '6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920dd3d0d3e33f.SimpleMmsEvents',
+        ],
+        [
+            'kind' => 'reference',
+            'ref' => '6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920dd3d0d3e33f.FormatAwareMmsEvents',
+        ],
+    ];
     protected const array SCHEMA_DEFINITIONS = [
-    '6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920dd3d0d3e33f.FormatAwareMmsEvents' => [
-        'kind' => 'object',
-        'properties' => [
-            'event' => [
-                'kind' => 'string',
-                'enum' => [
-                    'CLICK',
-                    'DELIVERY',
-                    'INBOUND_MESSAGE',
+        '6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920dd3d0d3e33f.FormatAwareMmsEvents' => [
+            'kind' => 'object',
+            'properties' => [
+                'event' => [
+                    'kind' => 'string',
+                    'enum' => [
+                        'CLICK',
+                        'DELIVERY',
+                        'INBOUND_MESSAGE',
+                    ],
+                ],
+                'format' => [
+                    'kind' => 'string',
                 ],
             ],
-            'format' => [
-                'kind' => 'string',
+            'required' => [
+                'event',
+                'format',
             ],
         ],
-        'required' => [
-            'event',
-            'format',
+        '6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920dd3d0d3e33f.SimpleMmsEvents' => [
+            'kind' => 'string',
+            'enum' => [
+                'CLICK',
+                'DELIVERY',
+                'INBOUND_MESSAGE',
+            ],
         ],
-    ],
-    '6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920dd3d0d3e33f.SimpleMmsEvents' => [
-        'kind' => 'string',
-        'enum' => [
-            'CLICK',
-            'DELIVERY',
-            'INBOUND_MESSAGE',
-        ],
-    ],
-];
+    ];
 }

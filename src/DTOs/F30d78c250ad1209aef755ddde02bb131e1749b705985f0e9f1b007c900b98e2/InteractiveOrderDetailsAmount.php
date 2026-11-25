@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveOrderDetailsAmount extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'value',
-];
+        'value',
+    ];
 
     protected const array VALIDATION = [
-    'value' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'value' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Value multiplied by the offset (100 for INR and BRL).

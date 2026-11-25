@@ -14,12 +14,12 @@ final class Filler extends \InfobipSDK\DTOs\N267b6ecf9b18ace076c5287f2f55ab49369
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'flex' => [
-        'minimum' => 0,
-        'maximum' => 20,
-        'format' => 'int32',
-    ],
-];
+        'flex' => [
+            'minimum' => 0,
+            'maximum' => 20,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Ratio of the width or height of this component within the parent box.

@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N6665694460cb56ab854a173ada36805c85c7ec55584901d2f0622
 final class CallSendMessageRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-];
+        'message',
+    ];
 
     /**
      * Message to send.

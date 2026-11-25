@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N1e177a7c00f43fb0cfaf8876573312572061d384022066ddec32b
 final class LeaderboardEntry extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'date',
-    'score',
-    'userId',
-];
+        'date',
+        'score',
+        'userId',
+    ];
 
     /**
      * Date and time when the score was recorded, in ISO 8601 format (e.g., 2023-10-01T00:00:00Z).

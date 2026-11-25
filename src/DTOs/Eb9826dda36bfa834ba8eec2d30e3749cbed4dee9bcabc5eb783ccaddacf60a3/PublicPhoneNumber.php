@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\Eb9826dda36bfa834ba8eec2d30e3749cbed4dee9bcabc5eb783cc
 final class PublicPhoneNumber extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'phoneNumber',
-    'status',
-];
+        'phoneNumber',
+        'status',
+    ];
 
     public \InfobipSDK\DTOs\Eb9826dda36bfa834ba8eec2d30e3749cbed4dee9bcabc5eb783ccaddacf60a3\PublicReputationDetail $currentReputation;
     /**

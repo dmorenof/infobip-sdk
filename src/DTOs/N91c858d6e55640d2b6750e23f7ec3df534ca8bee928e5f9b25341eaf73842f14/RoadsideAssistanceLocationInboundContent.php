@@ -12,10 +12,10 @@ final class RoadsideAssistanceLocationInboundContent extends \InfobipSDK\DTOs\N9
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'messageNumber' => [
-        'format' => 'int32',
-    ],
-];
+        'messageNumber' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

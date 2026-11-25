@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class CarouselTail extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'urlMobile',
-];
+        'urlMobile',
+    ];
 
     protected const array VALIDATION = [
-    'urlMobile' => [
-        'minLength' => 1,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'urlMobile' => [
+            'minLength' => 1,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * Custom scheme when user operates on Android environment.

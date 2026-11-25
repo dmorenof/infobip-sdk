@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class Preview extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'charactersRemaining' => [
-        'format' => 'int32',
-    ],
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'charactersRemaining' => [
+            'format' => 'int32',
+        ],
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of remaining characters in the last part of the SMS.

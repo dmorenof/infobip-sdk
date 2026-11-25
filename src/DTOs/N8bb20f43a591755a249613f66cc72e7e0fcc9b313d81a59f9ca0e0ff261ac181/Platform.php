@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N8bb20f43a591755a249613f66cc72e7e0fcc9b313d81a59f9ca0e
 final class Platform extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'entityId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'entityId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Used when specifying an application in outbound send requests. It is also returned in notification events. For detailed usage, refer to the [documentation](https://www.infobip.com/docs/cpaas-x/application-and-entity-management).

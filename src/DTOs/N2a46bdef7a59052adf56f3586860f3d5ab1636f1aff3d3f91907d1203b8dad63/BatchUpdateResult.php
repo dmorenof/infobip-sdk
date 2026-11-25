@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N2a46bdef7a59052adf56f3586860f3d5ab1636f1aff3d3f91907d
 final class BatchUpdateResult extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'status' => [
-        'format' => 'int32',
-    ],
-];
+        'status' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * List of errors

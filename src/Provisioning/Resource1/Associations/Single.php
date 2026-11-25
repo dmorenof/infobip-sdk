@@ -16,5 +16,4 @@ final class Single extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Provisioning\Resource1\Associations\Single::class)->get($params);
     }
-
 }

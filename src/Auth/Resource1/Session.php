@@ -27,5 +27,4 @@ final class Session extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Auth\Resource1\Session::class)->post($payload);
     }
-
 }

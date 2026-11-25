@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N977e3573b6848c404863a30ecae06e08186a75a9070af48acc4b4
 final class ClickToCallApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messages',
-];
+        'messages',
+    ];
 
     protected const array VALIDATION = [
-    'messages' => [
-        'minItems' => 1,
-    ],
-];
+        'messages' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * The ID which uniquely identifies the request.

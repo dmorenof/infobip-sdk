@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\Febbeec59369f28c0a6e3ddd1a2666aea9869953e0893914d340d3
 final class Subdomain extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'name' => [
-        'pattern' => '^[A-Za-z0-9](?:[A-Za-z0-9\\-]{0,61}[A-Za-z0-9])?$',
-    ],
-];
+        'name' => [
+            'pattern' => '^[A-Za-z0-9](?:[A-Za-z0-9\\-]{0,61}[A-Za-z0-9])?$',
+        ],
+    ];
 
     /**
      * Identifier of a created subdomain.

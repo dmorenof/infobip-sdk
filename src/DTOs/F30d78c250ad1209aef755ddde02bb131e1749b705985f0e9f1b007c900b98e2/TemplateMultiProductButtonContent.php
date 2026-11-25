@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class TemplateMultiProductButtonContent extends \InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\TemplateButtonContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'sections' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-    'thumbnailProductRetailerId' => [
-        'minLength' => 0,
-        'maxLength' => 3000,
-    ],
-];
+        'sections' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+        'thumbnailProductRetailerId' => [
+            'minLength' => 0,
+            'maxLength' => 3000,
+        ],
+    ];
 
     /**
      * An array of multi product sections.

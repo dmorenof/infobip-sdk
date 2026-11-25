@@ -12,15 +12,15 @@ final class ViberBotOutboundFileContent extends \InfobipSDK\DTOs\N14dcd0f25fe0ff
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'fileName' => [
-        'minLength' => 0,
-        'maxLength' => 256,
-    ],
-    'size' => [
-        'maximum' => 52428800,
-        'format' => 'int32',
-    ],
-];
+        'fileName' => [
+            'minLength' => 0,
+            'maxLength' => 256,
+        ],
+        'size' => [
+            'maximum' => 52428800,
+            'format' => 'int32',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

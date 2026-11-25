@@ -17,5 +17,4 @@ final class Messages extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\KakaoAlim\Resource1\Messages::class)->post($payload);
     }
-
 }

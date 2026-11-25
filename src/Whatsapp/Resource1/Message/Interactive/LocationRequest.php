@@ -17,5 +17,4 @@ final class LocationRequest extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Message\Interactive\LocationRequest::class)->post($payload);
     }
-
 }

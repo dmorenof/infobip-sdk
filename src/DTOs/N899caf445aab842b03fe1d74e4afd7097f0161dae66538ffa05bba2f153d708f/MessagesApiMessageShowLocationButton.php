@@ -10,26 +10,26 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageShowLocationButton extends \InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\MessagesApiMessageButton
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'latitude' => [
-        'minimum' => -90,
-        'maximum' => 90,
-    ],
-    'longitude' => [
-        'minimum' => -180,
-        'maximum' => 180,
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'text' => [
-        'minLength' => 1,
-    ],
-];
+        'latitude' => [
+            'minimum' => -90,
+            'maximum' => 90,
+        ],
+        'longitude' => [
+            'minimum' => -180,
+            'maximum' => 180,
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'text' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

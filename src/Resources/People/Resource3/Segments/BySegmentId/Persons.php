@@ -70,5 +70,4 @@ final class Persons extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['segmentId' => $segmentId], parameters: $params);
         return $result;
     }
-
 }

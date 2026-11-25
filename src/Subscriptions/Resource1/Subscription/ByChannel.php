@@ -38,5 +38,4 @@ final class ByChannel extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Subscriptions\Resource1\Subscription\ByChannel::class)->putBySubscriptionId($identifier, $payload);
     }
-
 }

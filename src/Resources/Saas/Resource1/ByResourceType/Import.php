@@ -75,5 +75,4 @@ final class Import extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['resourceType' => $resourceType], body: $payload);
         return $result;
     }
-
 }

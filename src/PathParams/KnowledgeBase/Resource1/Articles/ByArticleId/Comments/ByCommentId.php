@@ -7,17 +7,17 @@ namespace InfobipSDK\PathParams\KnowledgeBase\Resource1\Articles\ByArticleId\Com
 final class ByCommentId extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'articleId',
-    'commentId',
-];
+        'articleId',
+        'commentId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'articleId' => 'articleId',
-        'commentId' => 'commentId',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'articleId' => 'articleId',
+            'commentId' => 'commentId',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     public string $articleId;
     public string $commentId;

@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa
 final class CarouselApiData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'cards',
-];
+        'cards',
+    ];
 
     protected const array VALIDATION = [
-    'cards' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-];
+        'cards' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+    ];
 
     /**
      * List of cards.

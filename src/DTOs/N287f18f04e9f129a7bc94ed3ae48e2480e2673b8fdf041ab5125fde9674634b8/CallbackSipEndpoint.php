@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class CallbackSipEndpoint extends \InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125fde9674634b8\CallbackEndpoint
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'sipTrunkId' => [
-        'minLength' => 1,
-    ],
-    'username' => [
-        'minLength' => 1,
-    ],
-];
+        'sipTrunkId' => [
+            'minLength' => 1,
+        ],
+        'username' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Custom headers. Only headers starting with `X-Client-` prefix will be propagated.

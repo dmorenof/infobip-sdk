@@ -13,9 +13,9 @@ namespace InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31
 final class LinkedConversation extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'childConversation',
-    'parentConversation',
-];
+        'childConversation',
+        'parentConversation',
+    ];
 
     public \InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31c5a8d865a2\LinkedConversationMember $childConversation;
     public \InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31c5a8d865a2\LinkedConversationMember $parentConversation;

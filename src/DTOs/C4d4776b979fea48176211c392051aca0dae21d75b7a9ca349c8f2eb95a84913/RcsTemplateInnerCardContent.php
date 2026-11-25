@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class RcsTemplateInnerCardContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'description' => [
-        'minLength' => 1,
-        'maxLength' => 2000,
-    ],
-    'suggestions' => [
-        'minItems' => 0,
-        'maxItems' => 4,
-    ],
-    'title' => [
-        'minLength' => 1,
-        'maxLength' => 200,
-    ],
-];
+        'description' => [
+            'minLength' => 1,
+            'maxLength' => 2000,
+        ],
+        'suggestions' => [
+            'minItems' => 0,
+            'maxItems' => 4,
+        ],
+        'title' => [
+            'minLength' => 1,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * Description of the card, displayed as regular text.

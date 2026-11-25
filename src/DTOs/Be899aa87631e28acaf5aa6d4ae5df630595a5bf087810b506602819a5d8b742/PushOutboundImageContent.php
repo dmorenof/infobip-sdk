@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\Be899aa87631e28acaf5aa6d4ae5df630595a5bf087810b5066028
 final class PushOutboundImageContent extends \InfobipSDK\DTOs\Be899aa87631e28acaf5aa6d4ae5df630595a5bf087810b506602819a5d8b742\PushOutboundContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 4000,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'url' => [
-        'minLength' => 1,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 4000,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'url' => [
+            'minLength' => 1,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -41,5 +41,4 @@ final class Templates extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\KakaoBrandMessages\Resource1\Templates::class)->putByTemplateCode($templateCode, $payload);
     }
-
 }

@@ -74,5 +74,4 @@ final class Openapi extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_PRODUCT), path: ['product' => $product]);
         return $result;
     }
-
 }

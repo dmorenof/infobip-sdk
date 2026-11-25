@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class UrlMediaCarouselCard extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'body',
-    'button',
-    'header',
-];
+        'body',
+        'button',
+        'header',
+    ];
 
     public \InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\MediaCarouselCardBody $body;
     public \InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\UrlCardActionButton $button;

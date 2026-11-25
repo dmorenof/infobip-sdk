@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N245a74e48cd7ce0a3e2f108689f6fc8d5a08a4d75c5aeb1883fc9
 final class LivechatInboundMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'from',
-    'integrationType',
-    'message',
-    'messageId',
-    'price',
-    'receivedAt',
-    'to',
-];
+        'from',
+        'integrationType',
+        'message',
+        'messageId',
+        'price',
+        'receivedAt',
+        'to',
+    ];
 
     /**
      * Callback data sent through the ‛callbackData‛ field when sending a message.

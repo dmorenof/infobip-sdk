@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\N5fc49137a7b003ca1d8c4957601417b8ed884356b7fbc49afe416
 final class DialogCallRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'connectTimeout' => [
-        'maximum' => 60,
-        'format' => 'int32',
-    ],
-];
+        'connectTimeout' => [
+            'maximum' => 60,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Time to wait, in seconds, before the called party answers the call.

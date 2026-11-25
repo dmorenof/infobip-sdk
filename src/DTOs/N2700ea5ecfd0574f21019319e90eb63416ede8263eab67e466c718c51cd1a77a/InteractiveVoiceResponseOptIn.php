@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class InteractiveVoiceResponseOptIn extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'callToAction' => [
-        'minLength' => 20,
-        'maxLength' => 1024,
-    ],
-];
+        'callToAction' => [
+            'minLength' => 20,
+            'maxLength' => 1024,
+        ],
+    ];
 
     /**
      *     The message sent to the user to tell them how to subscribe. Must include:

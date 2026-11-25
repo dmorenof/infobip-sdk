@@ -11,15 +11,15 @@ namespace InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31
 final class CreateQueueApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     public string $externalId;
     /**

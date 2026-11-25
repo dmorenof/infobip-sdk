@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\N900634339512041dd9c6cd5c4ad62d6cf43ea57e0548f5deeceb9
 final class AddFlowParticipantsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'participants',
-];
+        'participants',
+    ];
 
     protected const array VALIDATION = [
-    'callbackData' => [
-        'maxLength' => 2000,
-    ],
-    'notifyUrl' => [
-        'maxLength' => 1000,
-    ],
-];
+        'callbackData' => [
+            'maxLength' => 2000,
+        ],
+        'notifyUrl' => [
+            'maxLength' => 1000,
+        ],
+    ];
 
     /**
      * Additional data will be passed in the request to your callback server along with the operation results report.

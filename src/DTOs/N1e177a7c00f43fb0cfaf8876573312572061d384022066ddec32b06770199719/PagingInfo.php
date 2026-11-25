@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\N1e177a7c00f43fb0cfaf8876573312572061d384022066ddec32b
 final class PagingInfo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'totalPages',
-    'totalResults',
-];
+        'totalPages',
+        'totalResults',
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'minimum' => 0,
-    ],
-    'size' => [
-        'maximum' => 100,
-        'exclusiveMinimum' => 0,
-    ],
-];
+        'page' => [
+            'minimum' => 0,
+        ],
+        'size' => [
+            'maximum' => 100,
+            'exclusiveMinimum' => 0,
+        ],
+    ];
 
     /**
      * Page number.

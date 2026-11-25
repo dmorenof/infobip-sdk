@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N87cf6d665490382407be009353007f071b1d6d4a375e96d31d3bf
 final class IndiaDltOptions extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'principalEntityId',
-];
+        'principalEntityId',
+    ];
 
     protected const array VALIDATION = [
-    'principalEntityId' => [
-        'minLength' => 1,
-    ],
-];
+        'principalEntityId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Registered DLT content template ID which matches message you are sending.

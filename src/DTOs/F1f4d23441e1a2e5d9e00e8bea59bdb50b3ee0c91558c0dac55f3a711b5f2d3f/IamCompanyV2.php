@@ -10,55 +10,55 @@ namespace InfobipSDK\DTOs\F1f4d23441e1a2e5d9e00e8bea59bdb50b3ee0c91558c0dac55f3a
 final class IamCompanyV2 extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'accountManager' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'country' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'customerStage' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'industry' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'notes' => [
-        'minLength' => 0,
-        'maxLength' => 1023,
-    ],
-    'region' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'segment' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'vatNumber' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-];
+        'accountManager' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'country' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'customerStage' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'industry' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'notes' => [
+            'minLength' => 0,
+            'maxLength' => 1023,
+        ],
+        'region' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'segment' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'vatNumber' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'createdAt',
-    'id',
-    'modifiedAt',
-    'modifiedFrom',
-    'origin',
-];
+        'createdAt',
+        'id',
+        'modifiedAt',
+        'modifiedFrom',
+        'origin',
+    ];
 
     /**
      * Account manager.

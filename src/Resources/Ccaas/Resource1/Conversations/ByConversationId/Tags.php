@@ -133,5 +133,4 @@ final class Tags extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::DELETE_BY_TAG_NAME), path: $identifier);
         return $result;
     }
-
 }

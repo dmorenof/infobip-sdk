@@ -27,5 +27,4 @@ final class Accounts extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Settings\Resource1\Accounts::class)->putByAccountKey($accountKey, $payload);
     }
-
 }

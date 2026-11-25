@@ -12,26 +12,26 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class CreateTemplateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'note',
-    'templateContent',
-    'templateName',
-    'trackingId',
-];
+        'note',
+        'templateContent',
+        'templateName',
+        'trackingId',
+    ];
 
     protected const array VALIDATION = [
-    'note' => [
-        'minLength' => 1,
-        'maxLength' => 400,
-    ],
-    'templateName' => [
-        'minLength' => 10,
-        'maxLength' => 60,
-    ],
-    'trackingId' => [
-        'minLength' => 1,
-        'maxLength' => 200,
-    ],
-];
+        'note' => [
+            'minLength' => 1,
+            'maxLength' => 400,
+        ],
+        'templateName' => [
+            'minLength' => 10,
+            'maxLength' => 60,
+        ],
+        'trackingId' => [
+            'minLength' => 1,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * Template note.

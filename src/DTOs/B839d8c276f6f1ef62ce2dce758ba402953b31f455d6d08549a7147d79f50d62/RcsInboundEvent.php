@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class RcsInboundEvent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'conversation',
-    'integrationType',
-    'interactionType',
-    'message',
-    'messageId',
-    'platform',
-    'price',
-    'receivedAt',
-    'sender',
-    'to',
-];
+        'conversation',
+        'integrationType',
+        'interactionType',
+        'message',
+        'messageId',
+        'platform',
+        'price',
+        'receivedAt',
+        'sender',
+        'to',
+    ];
 
     /**
      * Callback data sent through ‛callbackData‛ field when sending message.

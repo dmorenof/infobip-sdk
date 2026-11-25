@@ -12,31 +12,31 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class PaymentConfiguration extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'currencyCode' => [
-        'pattern' => '^[A-Z]{3}$',
-    ],
-    'fallbackUrl' => [
-        'pattern' => '',
-    ],
-    'merchantCountryCode' => [
-        'pattern' => '^[A-Z]{2}$',
-    ],
-    'merchantPaymentGatewayUrl' => [
-        'pattern' => '',
-    ],
-    'orderTrackingUrl' => [
-        'pattern' => '',
-    ],
-    'paymentMethodUpdateUrl' => [
-        'pattern' => '',
-    ],
-    'shippingContactUpdateUrl' => [
-        'pattern' => '',
-    ],
-    'shippingMethodUpdateUrl' => [
-        'pattern' => '',
-    ],
-];
+        'currencyCode' => [
+            'pattern' => '^[A-Z]{3}$',
+        ],
+        'fallbackUrl' => [
+            'pattern' => '',
+        ],
+        'merchantCountryCode' => [
+            'pattern' => '^[A-Z]{2}$',
+        ],
+        'merchantPaymentGatewayUrl' => [
+            'pattern' => '',
+        ],
+        'orderTrackingUrl' => [
+            'pattern' => '',
+        ],
+        'paymentMethodUpdateUrl' => [
+            'pattern' => '',
+        ],
+        'shippingContactUpdateUrl' => [
+            'pattern' => '',
+        ],
+        'shippingMethodUpdateUrl' => [
+            'pattern' => '',
+        ],
+    ];
 
     /**
      * The three-letter ISO 4217 currency code for the payment.

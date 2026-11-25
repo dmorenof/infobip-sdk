@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\Eaaf11bb9830fc826a8597df01bea6f2a14ef6d1ed129a4f662398
 final class MarkupLanguageConfigResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'httpMethod',
-    'markupUrl',
-    'name',
-];
+        'httpMethod',
+        'markupUrl',
+        'name',
+    ];
 
     /**
      * Timestamp when the configuration was created, in ISO-8601 UTC format (yyyy-MM-dd'T'HH:mm:ss.SSSZ).

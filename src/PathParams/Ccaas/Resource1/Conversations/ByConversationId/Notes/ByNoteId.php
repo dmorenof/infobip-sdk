@@ -7,23 +7,23 @@ namespace InfobipSDK\PathParams\Ccaas\Resource1\Conversations\ByConversationId\N
 final class ByNoteId extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'conversationId',
-    'noteId',
-];
+        'conversationId',
+        'noteId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'conversationId' => 'conversationId',
-        'noteId' => 'noteId',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'conversationId' => 'conversationId',
+            'noteId' => 'noteId',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'noteId' => [
-        'minLength' => 1,
-    ],
-];
+        'noteId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public string $conversationId;
     public string $noteId {

@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N1ed350d65e634c5446c08244298a26d3b0bb68a76782ab9246a80
 final class BlockingConfig extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'configId',
-    'enabled',
-    'sensitivity',
-];
+        'configId',
+        'enabled',
+        'sensitivity',
+    ];
 
     /**
      * External ID of the application this configuration applies to.

@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\C458987719005e1c822046538c51d16d2c79d2de6023cbe1c10ca1
 final class AudioListResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'hasNext',
-    'page',
-    'results',
-    'size',
-];
+        'hasNext',
+        'page',
+        'results',
+        'size',
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'format' => 'int32',
-    ],
-    'size' => [
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'format' => 'int32',
+        ],
+        'size' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Whether another page of results is available.

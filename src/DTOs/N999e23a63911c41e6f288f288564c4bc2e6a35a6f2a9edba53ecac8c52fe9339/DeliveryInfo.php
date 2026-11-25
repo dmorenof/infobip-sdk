@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N999e23a63911c41e6f288f288564c4bc2e6a35a6f2a9edba53eca
 final class DeliveryInfo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'rate',
-    'time',
-];
+        'rate',
+        'time',
+    ];
 
     /**
      * Delivery rate. Ratio between total delivered and total sent messages in a specific bulk sending process.

@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N9620629c173fbd1e947e2693ffe57e0c353c3961ef0ef2018c058
 final class UpdateFormFieldApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fieldId',
-    'isRequired',
-];
+        'fieldId',
+        'isRequired',
+    ];
 
     public \InfobipSDK\Collections\N9620629c173fbd1e947e2693ffe57e0c353c3961ef0ef2018c058c14e6f698ab\UpdateFormFieldApiRequest\ConditionsCollection $conditions;
     public string $fieldId;

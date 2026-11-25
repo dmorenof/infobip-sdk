@@ -16,5 +16,4 @@ final class Create extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Markuplanguage\Resource1\Create::class)->post($payload);
     }
-
 }

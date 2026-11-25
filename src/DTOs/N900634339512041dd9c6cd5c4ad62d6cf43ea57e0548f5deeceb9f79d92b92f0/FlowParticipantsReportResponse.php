@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N900634339512041dd9c6cd5c4ad62d6cf43ea57e0548f5deeceb9
 final class FlowParticipantsReportResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'campaignId',
-    'operationId',
-    'participants',
-];
+        'campaignId',
+        'operationId',
+        'participants',
+    ];
 
     /**
      * Additional data will be passed in the request to your callback server along with the operation results report.

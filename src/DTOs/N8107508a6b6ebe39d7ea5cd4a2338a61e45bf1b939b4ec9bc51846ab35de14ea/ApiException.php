@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N8107508a6b6ebe39d7ea5cd4a2338a61e45bf1b939b4ec9bc5184
 final class ApiException extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'requestError',
-];
+        'requestError',
+    ];
 
     public \InfobipSDK\DTOs\Api\RequestError $requestError;
 

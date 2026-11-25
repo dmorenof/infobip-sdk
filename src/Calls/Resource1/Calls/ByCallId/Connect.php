@@ -16,5 +16,4 @@ final class Connect extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Calls\ByCallId\Connect::class)->post($callId, $payload);
     }
-
 }

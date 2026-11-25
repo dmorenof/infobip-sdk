@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\B3ed157de85ce51bb7c17933fb84ff4b3e9bcb9fb8576a5ae189b9
 final class ErrorDetailsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'code',
-    'index',
-    'message',
-];
+        'code',
+        'index',
+        'message',
+    ];
 
     protected const array VALIDATION = [
-    'code' => [
-        'format' => 'int32',
-    ],
-    'index' => [
-        'format' => 'int32',
-    ],
-];
+        'code' => [
+            'format' => 'int32',
+        ],
+        'index' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * A specific error code that categorizes the type of error, aiding in quick identification and resolution.

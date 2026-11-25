@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class NotificationOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'badge' => [
-        'format' => 'int32',
-    ],
-];
+        'badge' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'badge',
-    'category',
-    'contentUrl',
-    'inboxTopic',
-    'isSilent',
-    'soundEnabled',
-    'soundName',
-    'title',
-    'vibrationEnabled',
-    'webViewUrl',
-];
+        'badge',
+        'category',
+        'contentUrl',
+        'inboxTopic',
+        'isSilent',
+        'soundEnabled',
+        'soundName',
+        'title',
+        'vibrationEnabled',
+        'webViewUrl',
+    ];
 
     /**
      * Badge counter (iOS only).

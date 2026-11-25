@@ -7,29 +7,29 @@ namespace InfobipSDK\GetParams\Messenger\Resource1\Pages\ByPageId;
 final class Subscriptions extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'cursor' => 'cursor',
-        'customAudienceIds' => 'customAudienceIds',
-        'limit' => 'limit',
-        'useCursor' => 'useCursor',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'cursor' => 'cursor',
+            'customAudienceIds' => 'customAudienceIds',
+            'limit' => 'limit',
+            'useCursor' => 'useCursor',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'customAudienceIds' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'customAudienceIds' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
         ],
-    ],
-    'limit' => [
-        'minimum' => 1,
-        'maximum' => 1000,
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'minimum' => 1,
+            'maximum' => 1000,
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $cursor;
     /** @var list<string>|null */

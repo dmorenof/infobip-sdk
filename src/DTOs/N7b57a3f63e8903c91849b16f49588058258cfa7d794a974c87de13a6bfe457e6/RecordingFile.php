@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N7b57a3f63e8903c91849b16f49588058258cfa7d794a974c87de1
 final class RecordingFile extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fileFormat',
-    'name',
-];
+        'fileFormat',
+        'name',
+    ];
 
     /**
      * File creation time.

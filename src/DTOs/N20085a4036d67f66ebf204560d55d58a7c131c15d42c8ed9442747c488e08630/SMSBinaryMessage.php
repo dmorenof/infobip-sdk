@@ -12,44 +12,44 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class SMSBinaryMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'destinations',
-];
+        'destinations',
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 0,
-        'maxLength' => 66,
-    ],
-    'callbackData' => [
-        'minLength' => 0,
-        'maxLength' => 4000,
-    ],
-    'campaignReferenceId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'destinations' => [
-        'minItems' => 1,
-    ],
-    'entityId' => [
-        'minLength' => 0,
-        'maxLength' => 66,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 0,
+            'maxLength' => 66,
+        ],
+        'callbackData' => [
+            'minLength' => 0,
+            'maxLength' => 4000,
+        ],
+        'campaignReferenceId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'destinations' => [
+            'minItems' => 1,
+        ],
+        'entityId' => [
+            'minLength' => 0,
+            'maxLength' => 66,
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'applicationId',
-    'callbackData',
-    'destinations',
-    'entityId',
-    'flash',
-    'from',
-    'intermediateReport',
-    'notifyContentType',
-    'notifyUrl',
-    'sendAt',
-    'validityPeriod',
-];
+        'applicationId',
+        'callbackData',
+        'destinations',
+        'entityId',
+        'flash',
+        'from',
+        'intermediateReport',
+        'notifyContentType',
+        'notifyUrl',
+        'sendAt',
+        'validityPeriod',
+    ];
 
     /**
      * Required for application use in a send request for outbound traffic. Returned in notification events. For more details, see our [documentation](https://www.infobip.com/docs/cpaas-x/application-and-entity-management).

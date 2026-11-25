@@ -308,5 +308,4 @@ final class Applications extends \InfobipSDK\Client
         $result = func_num_args() > 1 ? $this->executeBody(self::operation(self::PUT_BY_APP_ID), $payload, path: ['appId' => $appId]) : $this->executeArguments(self::operation(self::PUT_BY_APP_ID), path: ['appId' => $appId]);
         return $result;
     }
-
 }

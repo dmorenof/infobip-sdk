@@ -7,20 +7,20 @@ namespace InfobipSDK\GetParams\Settings\Resource1;
 final class Accounts extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'enabled' => 'enabled',
-        'limit' => 'limit',
-        'name' => 'name',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'enabled' => 'enabled',
+            'limit' => 'limit',
+            'name' => 'name',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'limit' => [
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?bool $enabled;
     public ?int $limit {

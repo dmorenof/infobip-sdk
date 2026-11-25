@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class SynthesisVoiceResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'default' => 'default_',
-];
+        'default' => 'default_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'default_' => 'default',
-];
+        'default_' => 'default',
+    ];
 
     public bool $default_;
     /**

@@ -41,5 +41,4 @@ final class Audiences extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Messenger\Resource1\Audiences::class)->deleteByAudienceId($audienceId);
     }
-
 }

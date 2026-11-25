@@ -16,5 +16,4 @@ final class Person extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Context\Resource1\Summary\Person::class)->getByPersonId($personId);
     }
-
 }

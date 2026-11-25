@@ -14,13 +14,13 @@ class BusinessIdentifier extends \Dmorenof\SdkRuntime\DTO
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.DataUniversalNumberingSystemNumber' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\DataUniversalNumberingSystemNumber',
-    '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.GlobalIntermediaryIdentificationNumber' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\GlobalIntermediaryIdentificationNumber',
-    '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.LegalEntityIdentifier' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\LegalEntityIdentifier',
-    'DUNS' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\DataUniversalNumberingSystemNumber',
-    'GIIN' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\GlobalIntermediaryIdentificationNumber',
-    'LEI' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\LegalEntityIdentifier',
-];
+        '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.DataUniversalNumberingSystemNumber' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\DataUniversalNumberingSystemNumber',
+        '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.GlobalIntermediaryIdentificationNumber' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\GlobalIntermediaryIdentificationNumber',
+        '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.LegalEntityIdentifier' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\LegalEntityIdentifier',
+        'DUNS' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\DataUniversalNumberingSystemNumber',
+        'GIIN' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\GlobalIntermediaryIdentificationNumber',
+        'LEI' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\LegalEntityIdentifier',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

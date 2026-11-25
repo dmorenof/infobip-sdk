@@ -7,32 +7,32 @@ namespace InfobipSDK\GetParams\CallLink\Resource1;
 final class Recordings extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'callLinkConfigId' => 'callLinkConfigId',
-        'callLinkId' => 'callLinkId',
-        'destinationData' => 'destinationData',
-        'destinationType' => 'destinationType',
-        'location' => 'location',
-        'page' => 'page',
-        'size' => 'size',
-        'sortBy' => 'sortBy',
-        'sortDirection' => 'sortDirection',
-        'startTimeAfter' => 'startTimeAfter',
-        'startTimeBefore' => 'startTimeBefore',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'callLinkConfigId' => 'callLinkConfigId',
+            'callLinkId' => 'callLinkId',
+            'destinationData' => 'destinationData',
+            'destinationType' => 'destinationType',
+            'location' => 'location',
+            'page' => 'page',
+            'size' => 'size',
+            'sortBy' => 'sortBy',
+            'sortDirection' => 'sortDirection',
+            'startTimeAfter' => 'startTimeAfter',
+            'startTimeBefore' => 'startTimeBefore',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'minimum' => 0,
-    ],
-    'size' => [
-        'minimum' => 1,
-        'maximum' => 100,
-    ],
-];
+        'page' => [
+            'minimum' => 0,
+        ],
+        'size' => [
+            'minimum' => 1,
+            'maximum' => 100,
+        ],
+    ];
 
     public ?string $callLinkConfigId;
     public ?string $callLinkId;

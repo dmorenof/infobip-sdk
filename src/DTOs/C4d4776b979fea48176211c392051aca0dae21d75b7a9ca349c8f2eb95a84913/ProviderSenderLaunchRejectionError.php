@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class ProviderSenderLaunchRejectionError extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'details',
-    'key',
-    'reason',
-];
+        'details',
+        'key',
+        'reason',
+    ];
 
     /**
      * Additional details and recommended actions for the error.

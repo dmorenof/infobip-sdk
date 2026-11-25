@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class Rating extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'items',
-];
+        'items',
+    ];
 
     /**
      * Rating items for each rate level. Must contain exactly 3 or 5 items depending on chosen option (one for each rate level).

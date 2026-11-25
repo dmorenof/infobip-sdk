@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class Provider extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'status',
-    'updatedAt',
-];
+        'name',
+        'status',
+        'updatedAt',
+    ];
 
     /**
      * Name of the provider that became available.

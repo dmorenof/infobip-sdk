@@ -143,5 +143,4 @@ final class Subscriptions extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::DELETE_BY_NOTIFICATION_MESSAGES_TOKEN), path: $identifier);
         return;
     }
-
 }

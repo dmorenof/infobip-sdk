@@ -12,26 +12,26 @@ namespace InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa
 final class V1TemplateStructureApiData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'body',
-];
+        'body',
+    ];
 
     protected const array VALIDATION = [
-    'body' => [
-        'minLength' => 1,
-    ],
-    'buttons' => [
-        'minItems' => 1,
-        'maxItems' => 3,
-    ],
-    'footer' => [
-        'minLength' => 0,
-        'maxLength' => 60,
-    ],
-];
+        'body' => [
+            'minLength' => 1,
+        ],
+        'buttons' => [
+            'minItems' => 1,
+            'maxItems' => 3,
+        ],
+        'footer' => [
+            'minLength' => 0,
+            'maxLength' => 60,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     /**
      * Template body. Can be registered as plain text or text with placeholders. Placeholders have to be correctly formatted and in the correct order, regardless of other sections. Example: {{1}}, {{2}}, {{3}}...

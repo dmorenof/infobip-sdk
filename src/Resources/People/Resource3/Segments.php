@@ -334,5 +334,4 @@ final class Segments extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_SEGMENT_ID), $payload, path: ['segmentId' => $segmentId]);
         return $result;
     }
-
 }

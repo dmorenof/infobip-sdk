@@ -18,5 +18,4 @@ final class Query extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRiskScore\Resource1\Query::class)->post($payload);
     }
-
 }

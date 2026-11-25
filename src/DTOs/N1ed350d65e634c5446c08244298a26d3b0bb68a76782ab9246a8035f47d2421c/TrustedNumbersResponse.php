@@ -13,8 +13,8 @@ namespace InfobipSDK\DTOs\N1ed350d65e634c5446c08244298a26d3b0bb68a76782ab9246a80
 final class TrustedNumbersResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'phoneNumbers',
-];
+        'phoneNumbers',
+    ];
 
     /**
      * Phone numbers from the request, in international format without the leading plus sign.

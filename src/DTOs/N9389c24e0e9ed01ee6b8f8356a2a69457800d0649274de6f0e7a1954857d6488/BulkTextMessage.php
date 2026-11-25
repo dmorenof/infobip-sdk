@@ -10,18 +10,18 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class BulkTextMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messages',
-];
+        'messages',
+    ];
 
     protected const array VALIDATION = [
-    'bulkId' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-    'messages' => [
-        'minItems' => 1,
-    ],
-];
+        'bulkId' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+        'messages' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * The ID that uniquely identifies the request. Bulk ID will be received only when you send a message to more than one destination address.

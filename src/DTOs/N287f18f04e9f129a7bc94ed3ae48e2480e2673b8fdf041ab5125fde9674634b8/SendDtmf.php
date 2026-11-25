@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class SendDtmf extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'dtmf',
-];
+        'action',
+        'dtmf',
+    ];
 
     protected const array VALIDATION = [
-    'dtmf' => [
-        'minLength' => 1,
-    ],
-];
+        'dtmf' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Action discriminator.

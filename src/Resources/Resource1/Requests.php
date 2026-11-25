@@ -53,5 +53,4 @@ final class Requests extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Resources\Resource1\Requests::class)->patchById($id, $payload);
     }
-
 }

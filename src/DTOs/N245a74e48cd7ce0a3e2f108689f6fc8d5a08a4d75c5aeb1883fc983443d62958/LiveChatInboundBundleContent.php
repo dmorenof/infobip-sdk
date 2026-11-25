@@ -12,10 +12,10 @@ final class LiveChatInboundBundleContent extends \InfobipSDK\DTOs\N245a74e48cd7c
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'outboundMessages' => [
-        'minItems' => 1,
-    ],
-];
+        'outboundMessages' => [
+            'minItems' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

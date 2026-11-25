@@ -16,5 +16,4 @@ final class ApplicationTransfer extends \InfobipSDK\InfobipOpenAPISpecificationS
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Calls\ByCallId\ApplicationTransfer::class)->post($callId, $payload);
     }
-
 }

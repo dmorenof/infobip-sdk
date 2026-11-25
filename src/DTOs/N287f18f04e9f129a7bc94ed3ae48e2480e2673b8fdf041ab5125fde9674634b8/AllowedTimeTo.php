@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class AllowedTimeTo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'hour',
-    'minute',
-];
+        'hour',
+        'minute',
+    ];
 
     protected const array VALIDATION = [
-    'hour' => [
-        'minimum' => 0,
-        'maximum' => 23,
-        'format' => 'int32',
-    ],
-    'minute' => [
-        'minimum' => 0,
-        'maximum' => 59,
-        'format' => 'int32',
-    ],
-];
+        'hour' => [
+            'minimum' => 0,
+            'maximum' => 23,
+            'format' => 'int32',
+        ],
+        'minute' => [
+            'minimum' => 0,
+            'maximum' => 59,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Hour when the time window closes.

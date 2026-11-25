@@ -85,5 +85,4 @@ final class PlatformParameters extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH), $payload, path: ['senderName' => $senderName]);
         return $result;
     }
-
 }

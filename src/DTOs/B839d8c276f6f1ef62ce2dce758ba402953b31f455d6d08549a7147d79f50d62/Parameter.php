@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class Parameter extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'value',
-];
+        'name',
+        'value',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Parameter name.

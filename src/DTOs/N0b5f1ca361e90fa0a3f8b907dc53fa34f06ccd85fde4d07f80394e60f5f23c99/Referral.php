@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\N0b5f1ca361e90fa0a3f8b907dc53fa34f06ccd85fde4d07f80394
 final class Referral extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'body',
-    'ctwaClickId',
-    'headline',
-    'sourceId',
-    'sourceType',
-    'sourceUrl',
-];
+        'body',
+        'ctwaClickId',
+        'headline',
+        'sourceId',
+        'sourceType',
+        'sourceUrl',
+    ];
 
     /**
      * Body from the ad that generated the message.

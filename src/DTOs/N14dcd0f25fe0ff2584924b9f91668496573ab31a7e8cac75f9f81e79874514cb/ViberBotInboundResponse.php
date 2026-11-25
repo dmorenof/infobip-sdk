@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81
 final class ViberBotInboundResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-    'pendingMessageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+        'pendingMessageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The number of messages returned in the results array.

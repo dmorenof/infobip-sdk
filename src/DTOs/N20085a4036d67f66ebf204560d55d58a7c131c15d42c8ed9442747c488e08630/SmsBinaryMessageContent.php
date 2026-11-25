@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class SmsBinaryMessageContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'dataCoding' => [
-        'format' => 'int32',
-    ],
-    'esmClass' => [
-        'format' => 'int32',
-    ],
-    'hex' => [
-        'minLength' => 1,
-    ],
-];
+        'dataCoding' => [
+            'format' => 'int32',
+        ],
+        'esmClass' => [
+            'format' => 'int32',
+        ],
+        'hex' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Binary content data coding. The default value is (`0`) for GSM7. Example: (`8`) for  Unicode data.

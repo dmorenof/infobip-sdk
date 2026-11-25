@@ -17,5 +17,4 @@ final class Logo extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\BusinessInfo\Logo::class)->get($sender);
     }
-
 }

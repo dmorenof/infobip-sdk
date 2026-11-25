@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class ExternalLink extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'label' => [
-        'minLength' => 0,
-        'maxLength' => 30,
-    ],
-    'linkUri' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'label' => [
+            'minLength' => 0,
+            'maxLength' => 30,
+        ],
+        'linkUri' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     /**
      * Label of the external link.

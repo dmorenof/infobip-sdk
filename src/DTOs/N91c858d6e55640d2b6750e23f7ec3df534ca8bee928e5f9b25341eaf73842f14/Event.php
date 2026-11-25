@@ -12,28 +12,28 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class Event extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'identifier',
-    'timeslots',
-    'title',
-];
+        'identifier',
+        'timeslots',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'identifier' => [
-        'minLength' => 1,
-    ],
-    'timeslots' => [
-        'minItems' => 1,
-    ],
-    'timezoneOffset' => [
-        'minimum' => -720,
-        'maximum' => 840,
-        'format' => 'int32',
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-];
+        'identifier' => [
+            'minLength' => 1,
+        ],
+        'timeslots' => [
+            'minItems' => 1,
+        ],
+        'timezoneOffset' => [
+            'minimum' => -720,
+            'maximum' => 840,
+            'format' => 'int32',
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * Identifier of the event.

@@ -12,21 +12,21 @@ class CreateSipTrunkResponse extends \Dmorenof\SdkRuntime\DTO
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f.CreateAuthenticatedSipTrunkResponse' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateAuthenticatedSipTrunkResponse',
-    '74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f.CreateProviderSipTrunkResponse' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateProviderSipTrunkResponse',
-    '74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f.CreateRegisteredSipTrunkResponse' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateRegisteredSipTrunkResponse',
-    '74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f.CreateStaticSipTrunkResponse' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateStaticSipTrunkResponse',
-    'AUTHENTICATED' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateAuthenticatedSipTrunkResponse',
-    'PROVIDER' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateProviderSipTrunkResponse',
-    'REGISTERED' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateRegisteredSipTrunkResponse',
-    'STATIC' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateStaticSipTrunkResponse',
-];
+        '74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f.CreateAuthenticatedSipTrunkResponse' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateAuthenticatedSipTrunkResponse',
+        '74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f.CreateProviderSipTrunkResponse' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateProviderSipTrunkResponse',
+        '74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f.CreateRegisteredSipTrunkResponse' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateRegisteredSipTrunkResponse',
+        '74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f.CreateStaticSipTrunkResponse' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateStaticSipTrunkResponse',
+        'AUTHENTICATED' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateAuthenticatedSipTrunkResponse',
+        'PROVIDER' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateProviderSipTrunkResponse',
+        'REGISTERED' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateRegisteredSipTrunkResponse',
+        'STATIC' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\CreateStaticSipTrunkResponse',
+    ];
 
     protected const array VALIDATION = [
-    'channelLimit' => [
-        'format' => 'int32',
-    ],
-];
+        'channelLimit' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

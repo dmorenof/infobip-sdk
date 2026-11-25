@@ -16,5 +16,4 @@ final class Deregister extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Campaigns\ByCampaignId\Deregister::class)->post($campaignId);
     }
-
 }

@@ -290,5 +290,4 @@ final class Senders extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_SENDER_NAME), $payload, path: ['senderName' => $senderName]);
         return $result;
     }
-
 }

@@ -38,5 +38,4 @@ final class Actions extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Push\Resource1\Applications\ByApplicationCode\Configurations\ByConfigurationKey\Actions::class)->deleteByActionKey($identifier);
     }
-
 }

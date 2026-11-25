@@ -12,34 +12,34 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class Payment extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'accountName',
-    'amount',
-    'bankAccount',
-    'bankCode',
-    'note',
-];
+        'accountName',
+        'amount',
+        'bankAccount',
+        'bankCode',
+        'note',
+    ];
 
     protected const array VALIDATION = [
-    'accountName' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'amount' => [
-        'minLength' => 1,
-    ],
-    'bankAccount' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'bankCode' => [
-        'minLength' => 1,
-        'pattern' => '\\d{6}',
-    ],
-    'note' => [
-        'minLength' => 0,
-        'maxLength' => 90,
-    ],
-];
+        'accountName' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'amount' => [
+            'minLength' => 1,
+        ],
+        'bankAccount' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'bankCode' => [
+            'minLength' => 1,
+            'pattern' => '\\d{6}',
+        ],
+        'note' => [
+            'minLength' => 0,
+            'maxLength' => 90,
+        ],
+    ];
 
     /**
      * Account holder name.

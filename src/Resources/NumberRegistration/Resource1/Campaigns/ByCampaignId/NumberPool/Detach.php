@@ -72,5 +72,4 @@ final class Detach extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::POST), path: ['campaignId' => $campaignId]);
         return;
     }
-
 }

@@ -8,8 +8,8 @@ final class UrlsCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = 'string';
     protected const array ITEM_VALIDATION = [
-    'minLength' => 0,
-    'maxLength' => 1000,
-    'pattern' => '',
-];
+        'minLength' => 0,
+        'maxLength' => 1000,
+        'pattern' => '',
+    ];
 }

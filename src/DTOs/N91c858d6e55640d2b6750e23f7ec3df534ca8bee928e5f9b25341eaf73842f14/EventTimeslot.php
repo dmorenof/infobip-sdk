@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class EventTimeslot extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'duration',
-    'identifier',
-    'startTime',
-];
+        'duration',
+        'identifier',
+        'startTime',
+    ];
 
     protected const array VALIDATION = [
-    'duration' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'identifier' => [
-        'minLength' => 1,
-    ],
-];
+        'duration' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'identifier' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Duration of the time slot in seconds.

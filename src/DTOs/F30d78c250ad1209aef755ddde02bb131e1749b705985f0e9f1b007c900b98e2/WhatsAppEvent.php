@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class WhatsAppEvent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'destinations',
-    'sender',
-];
+        'content',
+        'destinations',
+        'sender',
+    ];
 
     protected const array VALIDATION = [
-    'destinations' => [
-        'minItems' => 1,
-        'maxItems' => 1,
-    ],
-    'sender' => [
-        'minLength' => 1,
-    ],
-];
+        'destinations' => [
+            'minItems' => 1,
+            'maxItems' => 1,
+        ],
+        'sender' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\WhatsAppOutboundEventContent $content;
     /**

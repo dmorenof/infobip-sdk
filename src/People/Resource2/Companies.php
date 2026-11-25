@@ -52,5 +52,4 @@ final class Companies extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         return self::client()->resource(\InfobipSDK\Resources\People\Resource2\Companies::class)->post($payload);
     }
-
 }

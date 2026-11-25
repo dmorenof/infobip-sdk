@@ -16,5 +16,4 @@ final class Hold extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\ByConversationId\Hold::class)->patch($conversationId);
     }
-
 }

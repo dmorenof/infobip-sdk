@@ -14,19 +14,19 @@ final class ChatbotSwitchButton extends \InfobipSDK\DTOs\N382231ebb2fc250c939655
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'chatEvent' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'chatExtra' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 28,
-    ],
-];
+        'chatEvent' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'chatExtra' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 28,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

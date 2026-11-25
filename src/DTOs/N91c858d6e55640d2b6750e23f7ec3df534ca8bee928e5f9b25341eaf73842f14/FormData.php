@@ -12,26 +12,26 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class FormData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'pages',
-    'startPageIdentifier',
-];
+        'pages',
+        'startPageIdentifier',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'private' => 'private_',
-];
+        'private' => 'private_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'private_' => 'private',
-];
+        'private_' => 'private',
+    ];
 
     protected const array VALIDATION = [
-    'pages' => [
-        'minItems' => 1,
-    ],
-    'startPageIdentifier' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-];
+        'pages' => [
+            'minItems' => 1,
+        ],
+        'startPageIdentifier' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+    ];
 
     /**
      * An array of different pages to be shown in the form.

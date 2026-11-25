@@ -18,5 +18,4 @@ final class Cancel extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Resources\Resource1\Requests\ById\Cancel::class)->post($id);
     }
-
 }

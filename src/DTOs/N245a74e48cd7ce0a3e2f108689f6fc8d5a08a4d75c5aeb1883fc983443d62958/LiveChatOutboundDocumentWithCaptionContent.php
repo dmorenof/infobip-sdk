@@ -12,16 +12,16 @@ final class LiveChatOutboundDocumentWithCaptionContent extends \InfobipSDK\DTOs\
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'caption' => [
-        'minLength' => 0,
-        'maxLength' => 240,
-    ],
-    'url' => [
-        'minLength' => 0,
-        'maxLength' => 2048,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'caption' => [
+            'minLength' => 0,
+            'maxLength' => 240,
+        ],
+        'url' => [
+            'minLength' => 0,
+            'maxLength' => 2048,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

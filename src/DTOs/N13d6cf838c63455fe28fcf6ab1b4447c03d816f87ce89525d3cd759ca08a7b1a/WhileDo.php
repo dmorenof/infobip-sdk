@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class WhileDo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'do_',
-    'while_',
-];
+        'do_',
+        'while_',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'do' => 'do_',
-    'while' => 'while_',
-];
+        'do' => 'do_',
+        'while' => 'while_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'do_' => 'do',
-    'while_' => 'while',
-];
+        'do_' => 'do',
+        'while_' => 'while',
+    ];
 
     /**
      * Array of actions to execute if none of the conditions above are met.

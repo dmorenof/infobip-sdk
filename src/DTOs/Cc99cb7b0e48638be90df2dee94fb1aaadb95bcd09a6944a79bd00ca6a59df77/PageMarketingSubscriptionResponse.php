@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\Cc99cb7b0e48638be90df2dee94fb1aaadb95bcd09a6944a79bd00
 final class PageMarketingSubscriptionResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'notificationMessagesToken',
-];
+        'notificationMessagesToken',
+    ];
 
     /**
      * Creation Datetime.

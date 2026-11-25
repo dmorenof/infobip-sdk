@@ -12,25 +12,25 @@ namespace InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225bbd858a3bba6d956caa5ac2689
 final class InboundMessageFacebookInboundContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'integrationType',
-    'message',
-    'messageId',
-    'price',
-    'receivedAt',
-    'sender',
-    'to',
-];
+        'integrationType',
+        'message',
+        'messageId',
+        'price',
+        'receivedAt',
+        'sender',
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'entityId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'entityId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Used when specifying an application in outbound send requests. It is also returned in notification events. For detailed usage, refer to the [documentation](https://www.infobip.com/docs/cpaas-x/application-and-entity-management).

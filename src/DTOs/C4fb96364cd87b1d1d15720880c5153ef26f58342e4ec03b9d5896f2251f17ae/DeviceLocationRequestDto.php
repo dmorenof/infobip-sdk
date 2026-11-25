@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896
 final class DeviceLocationRequestDto extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'accuracy' => [
-        'minimum' => 2,
-        'maximum' => 20,
-        'format' => 'int32',
-    ],
-    'latitude' => [
-        'minimum' => -90,
-        'maximum' => 90,
-    ],
-    'longitude' => [
-        'minimum' => -180,
-        'maximum' => 180,
-    ],
-];
+        'accuracy' => [
+            'minimum' => 2,
+            'maximum' => 20,
+            'format' => 'int32',
+        ],
+        'latitude' => [
+            'minimum' => -90,
+            'maximum' => 90,
+        ],
+        'longitude' => [
+            'minimum' => -180,
+            'maximum' => 180,
+        ],
+    ];
 
     /**
      * Accuracy in km that will be used to check for location of a mobile phone for provided phone number.

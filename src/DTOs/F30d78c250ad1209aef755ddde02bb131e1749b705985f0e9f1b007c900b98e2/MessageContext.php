@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class MessageContext extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'replyToMessageId',
-];
+        'replyToMessageId',
+    ];
 
     protected const array VALIDATION = [
-    'replyToMessageId' => [
-        'minLength' => 1,
-    ],
-];
+        'replyToMessageId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Inbound message ID used for a reply. Contextual bubble will not appear for template messages.

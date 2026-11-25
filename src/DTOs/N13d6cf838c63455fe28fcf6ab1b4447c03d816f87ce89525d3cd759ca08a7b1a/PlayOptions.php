@@ -10,12 +10,12 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class PlayOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'loopCount' => [
-        'minimum' => 1,
-        'maximum' => 10,
-        'format' => 'int32',
-    ],
-];
+        'loopCount' => [
+            'minimum' => 1,
+            'maximum' => 10,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of times the file will be played.

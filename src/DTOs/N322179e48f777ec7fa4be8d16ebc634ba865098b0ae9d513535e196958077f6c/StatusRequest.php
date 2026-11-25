@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N322179e48f777ec7fa4be8d16ebc634ba865098b0ae9d513535e1
 final class StatusRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'calculatedDuration' => [
-        'format' => 'int32',
-    ],
-    'duration' => [
-        'format' => 'int32',
-    ],
-    'inboundDuration' => [
-        'format' => 'int32',
-    ],
-];
+        'calculatedDuration' => [
+            'format' => 'int32',
+        ],
+        'duration' => [
+            'format' => 'int32',
+        ],
+        'inboundDuration' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Requested action (dial, audio, captureDtmf).

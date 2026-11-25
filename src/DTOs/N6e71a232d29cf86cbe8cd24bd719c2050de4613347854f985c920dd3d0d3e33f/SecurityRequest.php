@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920
 final class SecurityRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'authId',
-];
+        'authId',
+    ];
 
     protected const array VALIDATION = [
-    'authId' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-];
+        'authId' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Unique security setting ID. Used as part of a URL path and must not include any characters that require URL encoding. You cannot change the ID once an item is created.

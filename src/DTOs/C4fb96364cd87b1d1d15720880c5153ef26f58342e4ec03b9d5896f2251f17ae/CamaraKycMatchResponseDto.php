@@ -12,46 +12,46 @@ namespace InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896
 final class CamaraKycMatchResponseDto extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'addressMatchScore' => [
-        'format' => 'int32',
-    ],
-    'emailMatchScore' => [
-        'format' => 'int32',
-    ],
-    'familyNameAtBirthMatchScore' => [
-        'format' => 'int32',
-    ],
-    'familyNameMatchScore' => [
-        'format' => 'int32',
-    ],
-    'givenNameMatchScore' => [
-        'format' => 'int32',
-    ],
-    'localityMatchScore' => [
-        'format' => 'int32',
-    ],
-    'middleNamesMatchScore' => [
-        'format' => 'int32',
-    ],
-    'nameKanaHankakuMatchScore' => [
-        'format' => 'int32',
-    ],
-    'nameKanaZenkakuMatchScore' => [
-        'format' => 'int32',
-    ],
-    'nameMatchScore' => [
-        'format' => 'int32',
-    ],
-    'regionMatchScore' => [
-        'format' => 'int32',
-    ],
-    'streetNameMatchScore' => [
-        'format' => 'int32',
-    ],
-    'streetNumberMatchScore' => [
-        'format' => 'int32',
-    ],
-];
+        'addressMatchScore' => [
+            'format' => 'int32',
+        ],
+        'emailMatchScore' => [
+            'format' => 'int32',
+        ],
+        'familyNameAtBirthMatchScore' => [
+            'format' => 'int32',
+        ],
+        'familyNameMatchScore' => [
+            'format' => 'int32',
+        ],
+        'givenNameMatchScore' => [
+            'format' => 'int32',
+        ],
+        'localityMatchScore' => [
+            'format' => 'int32',
+        ],
+        'middleNamesMatchScore' => [
+            'format' => 'int32',
+        ],
+        'nameKanaHankakuMatchScore' => [
+            'format' => 'int32',
+        ],
+        'nameKanaZenkakuMatchScore' => [
+            'format' => 'int32',
+        ],
+        'nameMatchScore' => [
+            'format' => 'int32',
+        ],
+        'regionMatchScore' => [
+            'format' => 'int32',
+        ],
+        'streetNameMatchScore' => [
+            'format' => 'int32',
+        ],
+        'streetNumberMatchScore' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\Enums\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896f2251f17ae\MatchResult $addressMatch;
     /**

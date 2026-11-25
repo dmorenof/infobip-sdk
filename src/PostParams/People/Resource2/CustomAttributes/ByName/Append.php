@@ -7,14 +7,14 @@ namespace InfobipSDK\PostParams\People\Resource2\CustomAttributes\ByName;
 final class Append extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'identifier' => 'identifier',
-        'sender' => 'sender',
-        'type' => 'type',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'identifier' => 'identifier',
+            'sender' => 'sender',
+            'type' => 'type',
+        ],
+        'header' => [],
+    ];
 
     public const bool OPERATION_BODY = true;
 

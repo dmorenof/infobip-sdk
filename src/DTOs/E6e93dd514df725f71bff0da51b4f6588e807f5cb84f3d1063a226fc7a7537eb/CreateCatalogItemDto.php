@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\E6e93dd514df725f71bff0da51b4f6588e807f5cb84f3d1063a226
 final class CreateCatalogItemDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'values',
-];
+        'values',
+    ];
 
     /**
      * A list of item field values. Maximum <code>1000</code> values.

@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81
 final class ViberBotKeyboard extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'buttonGrid',
-];
+        'buttonGrid',
+    ];
 
     protected const array VALIDATION = [
-    'backgroundColor' => [
-        'pattern' => '^[#]([A-Fa-f0-9]{6})$',
-    ],
-];
+        'backgroundColor' => [
+            'pattern' => '^[#]([A-Fa-f0-9]{6})$',
+        ],
+    ];
 
     public \InfobipSDK\Enums\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81e79874514cb\InputFieldState $actionBarState;
     /**

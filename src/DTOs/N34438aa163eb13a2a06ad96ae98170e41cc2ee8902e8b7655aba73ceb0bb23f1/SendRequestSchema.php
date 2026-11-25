@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class SendRequestSchema extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'to',
-];
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'attachment' => [
-        'items' => [
-            'type' => 'binary',
-            'rules' => [],
+        'attachment' => [
+            'items' => [
+                'type' => 'binary',
+                'rules' => [],
+            ],
         ],
-    ],
-    'inlineImage' => [
-        'items' => [
-            'type' => 'binary',
-            'rules' => [],
+        'inlineImage' => [
+            'items' => [
+                'type' => 'binary',
+                'rules' => [],
+            ],
         ],
-    ],
-];
+    ];
 
     /**
      * Amp HTML body of the message. If `ampHtml` is present, `html` is mandatory. Amp HTML is not supported by all the email clients. Please check this link for configuring gmail client https://developers.google.com/gmail/ampemail/.

@@ -7,25 +7,25 @@ namespace InfobipSDK\GetParams\Email\Resource1\IpManagement\Paginated;
 final class Pools extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'page' => 'page',
-        'size' => 'size',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'page' => 'page',
+            'size' => 'size',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'size' => [
-        'minimum' => 20,
-        'maximum' => 100,
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'size' => [
+            'minimum' => 20,
+            'maximum' => 100,
+            'format' => 'int32',
+        ],
+    ];
 
     public ?int $page {
         set {

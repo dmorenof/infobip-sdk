@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\N62b589527d7474f21f086ddb07e8698e9fcfbbe16400c91718f1a
 final class MMSMoWebhookRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-    'pendingMessageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+        'pendingMessageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of returned messages in this request.

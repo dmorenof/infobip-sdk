@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\F7a48ff9966e7ac9fef5292e0b74f7ccc796492cacffd985bfded9
 class TemplateApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'structure',
-];
+        'structure',
+    ];
 
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'category';
     public const array DISCRIMINATOR_MAPPING = [
-    'AUTHENTICATION' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\AuthenticationTemplateApiResponse',
-    'MARKETING' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\DefaultMarketingTemplateApiResponse',
-    'UTILITY' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\DefaultTemplateApiResponse',
-    'f9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea.AuthenticationTemplateApiResponse' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\AuthenticationTemplateApiResponse',
-    'f9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea.DefaultMarketingTemplateApiResponse' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\DefaultMarketingTemplateApiResponse',
-    'f9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea.DefaultTemplateApiResponse' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\DefaultTemplateApiResponse',
-];
+        'AUTHENTICATION' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\AuthenticationTemplateApiResponse',
+        'MARKETING' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\DefaultMarketingTemplateApiResponse',
+        'UTILITY' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\DefaultTemplateApiResponse',
+        'f9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea.AuthenticationTemplateApiResponse' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\AuthenticationTemplateApiResponse',
+        'f9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea.DefaultMarketingTemplateApiResponse' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\DefaultMarketingTemplateApiResponse',
+        'f9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea.DefaultTemplateApiResponse' => 'InfobipSDK\\DTOs\\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\\DefaultTemplateApiResponse',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

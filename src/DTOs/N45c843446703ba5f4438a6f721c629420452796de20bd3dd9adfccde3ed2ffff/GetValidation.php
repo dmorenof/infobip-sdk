@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N45c843446703ba5f4438a6f721c629420452796de20bd3dd9adfc
 final class GetValidation extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bulkValidationDate',
-    'catchAll',
-    'destination',
-    'disposable',
-    'risk',
-    'roleBased',
-    'validMailbox',
-    'validSyntax',
-];
+        'bulkValidationDate',
+        'catchAll',
+        'destination',
+        'disposable',
+        'risk',
+        'roleBased',
+        'validMailbox',
+        'validSyntax',
+    ];
 
     protected const array VALIDATION = [
-    'validMailbox' => [
-        'pattern' => '^(true|false|unknown)$',
-    ],
-];
+        'validMailbox' => [
+            'pattern' => '^(true|false|unknown)$',
+        ],
+    ];
 
     /**
      * Date and time when email address was validated.

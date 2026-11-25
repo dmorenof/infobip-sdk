@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896
 final class InitZeroRatedRequestDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'consentGranted',
-    'phoneNumber',
-];
+        'consentGranted',
+        'phoneNumber',
+    ];
 
     /**
      * Indicates whether you have consent from mobile phone number's owner to perform this request. All requests that do not have this property set to "true" will be rejected.

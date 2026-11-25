@@ -43,5 +43,4 @@ final class InboundMessageConfigurations extends \InfobipSDK\InfobipOpenAPISpeci
     {
         self::client()->resource(\InfobipSDK\Resources\ResourceManagement\Resource1\InboundMessageConfigurations::class)->deleteByConfigurationKey($configurationKey);
     }
-
 }

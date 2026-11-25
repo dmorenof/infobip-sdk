@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\F92ed732784664dca5efb3669b03438e69cca5f33f4420f5b4996e
 final class RequestDetailsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'account',
-    'status',
-];
+        'account',
+        'status',
+    ];
 
     protected const array VALIDATION = [
-    'errorCode' => [
-        'format' => 'int32',
-    ],
-];
+        'errorCode' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Account identifier.

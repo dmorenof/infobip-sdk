@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\C5d63eb36983d8ea1e54e74166c0e08ea636cff38a55aa9570bd7b
 final class RouteSimulatorRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'endpoint',
-    'to',
-];
+        'endpoint',
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'to' => [
-        'minLength' => 1,
-    ],
-];
+        'to' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125fde9674634b8\SimulatorCallEndpoint $endpoint;
     /**

@@ -71,5 +71,4 @@ final class History extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['articleId' => $articleId], parameters: $params);
         return $result;
     }
-
 }

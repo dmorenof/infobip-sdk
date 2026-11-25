@@ -38,5 +38,4 @@ final class Attachments extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Email\Resource1\Templates\ByTemplateId\Attachments::class)->deleteByAttachmentId($identifier);
     }
-
 }

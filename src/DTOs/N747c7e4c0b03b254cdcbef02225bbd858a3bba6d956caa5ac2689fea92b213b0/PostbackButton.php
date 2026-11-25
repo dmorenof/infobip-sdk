@@ -12,13 +12,13 @@ final class PostbackButton extends \InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'payload' => [
-        'minLength' => 1,
-    ],
-    'title' => [
-        'minLength' => 1,
-    ],
-];
+        'payload' => [
+            'minLength' => 1,
+        ],
+        'title' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

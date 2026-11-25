@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\B3ed157de85ce51bb7c17933fb84ff4b3e9bcb9fb8576a5ae189b9
 final class EventDefinitionCreateResource extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'definitionId' => [
-        'pattern' => '^[a-zA-Z0-9]{0,36}$',
-    ],
-    'fields' => [
-        'maxItems' => 120,
-        'uniqueItems' => true,
-    ],
-    'templateId' => [
-        'pattern' => '^[a-zA-Z0-9]{0,36}$',
-    ],
-];
+        'definitionId' => [
+            'pattern' => '^[a-zA-Z0-9]{0,36}$',
+        ],
+        'fields' => [
+            'maxItems' => 120,
+            'uniqueItems' => true,
+        ],
+        'templateId' => [
+            'pattern' => '^[a-zA-Z0-9]{0,36}$',
+        ],
+    ];
 
     /**
      * Event definition identifier. Must contain only alphanumeric characters `(a–z, A–Z, 0–9)`. Maximum length: `36` characters. Must be `null` if `templateId` is provided. Cannot have a value from the list of predefined (standard) definitions.

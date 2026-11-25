@@ -12,16 +12,16 @@ final class VoiceCallButtonApiData extends \InfobipSDK\DTOs\F9ccb6cb799d6a02d85f
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'callValidityPeriod' => [
-        'minimum' => 1440,
-        'maximum' => 43200,
-        'format' => 'int32',
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 25,
-    ],
-];
+        'callValidityPeriod' => [
+            'minimum' => 1440,
+            'maximum' => 43200,
+            'format' => 'int32',
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 25,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

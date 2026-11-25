@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiSeenResult extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bulkId',
-    'channel',
-    'destination',
-    'event',
-    'messageId',
-    'seenAt',
-    'sender',
-    'sentAt',
-];
+        'bulkId',
+        'channel',
+        'destination',
+        'event',
+        'messageId',
+        'seenAt',
+        'sender',
+        'sentAt',
+    ];
 
     /**
      * The ID that uniquely identifies the request.

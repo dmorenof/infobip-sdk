@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class AppleMfbOutboundAppClipContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'storeRegion' => [
-        'pattern' => '^[A-Z]{2}$',
-    ],
-    'url' => [
-        'minLength' => 1,
-        'pattern' => '',
-    ],
-];
+        'storeRegion' => [
+            'pattern' => '^[A-Z]{2}$',
+        ],
+        'url' => [
+            'minLength' => 1,
+            'pattern' => '',
+        ],
+    ];
 
     /**
      * ISO 3166 alpha-2 country code of the App Store region. By default it is 'US'. Set this value in case the App Clip is not in the US App Store.

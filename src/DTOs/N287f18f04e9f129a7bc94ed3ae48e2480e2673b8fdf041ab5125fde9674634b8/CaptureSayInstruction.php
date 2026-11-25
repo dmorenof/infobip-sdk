@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class CaptureSayInstruction extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'speechRate' => [
-        'minimum' => 0.5,
-        'maximum' => 2,
-    ],
-    'text' => [
-        'minLength' => 1,
-    ],
-];
+        'speechRate' => [
+            'minimum' => 0.5,
+            'maximum' => 2,
+        ],
+        'text' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Text language. Must be defined for correct pronunciation. More info about available languages and voices can be found [here](https://www.infobip.com/docs/voice-and-video/reference#text-to-speech-languages). Use value from Abbreviation column in the table.

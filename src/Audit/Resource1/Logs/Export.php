@@ -16,5 +16,4 @@ final class Export extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Audit\Resource1\Logs\Export::class)->get($params);
     }
-
 }

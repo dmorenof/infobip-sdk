@@ -10,18 +10,18 @@ namespace InfobipSDK\DTOs\N0b5f1ca361e90fa0a3f8b907dc53fa34f06ccd85fde4d07f80394
 final class OrderContent extends \InfobipSDK\DTOs\N0b5f1ca361e90fa0a3f8b907dc53fa34f06ccd85fde4d07f80394e60f5f23c99\InboundMessage
 {
     public const array REQUIRED_FIELDS = [
-    'catalogId',
-    'productItems',
-];
+        'catalogId',
+        'productItems',
+    ];
 
     protected const array VALIDATION = [
-    'catalogId' => [
-        'minLength' => 0,
-    ],
-    'productItems' => [
-        'minItems' => 1,
-    ],
-];
+        'catalogId' => [
+            'minLength' => 0,
+        ],
+        'productItems' => [
+            'minItems' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

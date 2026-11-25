@@ -7,23 +7,23 @@ namespace InfobipSDK\PathParams\Ccaas\Voice\Resource2\Agent\ByAgentId\WrapUpTime
 final class BySeconds extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'agentId',
-    'seconds',
-];
+        'agentId',
+        'seconds',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'agentId' => 'agentId',
-        'seconds' => 'seconds',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'agentId' => 'agentId',
+            'seconds' => 'seconds',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'seconds' => [
-        'format' => 'int32',
-    ],
-];
+        'seconds' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public string $agentId;
     public int $seconds {

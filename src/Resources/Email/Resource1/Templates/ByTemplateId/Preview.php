@@ -80,5 +80,4 @@ final class Preview extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['templateId' => $templateId], body: $payload);
         return $result;
     }
-
 }

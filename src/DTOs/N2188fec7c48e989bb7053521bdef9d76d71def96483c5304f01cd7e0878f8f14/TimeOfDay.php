@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd
 final class TimeOfDay extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'hour' => [
-        'minimum' => 0,
-        'maximum' => 23,
-        'format' => 'int32',
-    ],
-    'minute' => [
-        'minimum' => 0,
-        'maximum' => 59,
-        'format' => 'int32',
-    ],
-];
+        'hour' => [
+            'minimum' => 0,
+            'maximum' => 23,
+            'format' => 'int32',
+        ],
+        'minute' => [
+            'minimum' => 0,
+            'maximum' => 59,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Format: int32

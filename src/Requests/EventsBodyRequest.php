@@ -7,10 +7,10 @@ namespace InfobipSDK\Requests;
 final class EventsBodyRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'definitionId',
-    'identifier',
-    'occurredTime',
-];
+        'definitionId',
+        'identifier',
+        'occurredTime',
+    ];
 
     /**
      * Unique identifier of event schema.

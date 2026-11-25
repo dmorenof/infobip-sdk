@@ -65,5 +65,4 @@ final class Brands extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Brands::class)->putByBrandId($brandId, $params);
     }
-
 }

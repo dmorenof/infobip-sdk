@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\N53ea038e2044401649ce25e79296cd97fe7d6f7f97d15a035e414
 final class DeleteSuppression extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'domainName',
-    'emailAddress',
-    'type',
-];
+        'domainName',
+        'emailAddress',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'emailAddress' => [
-        'minItems' => 1,
-        'maxItems' => 1000,
-    ],
-];
+        'emailAddress' => [
+            'minItems' => 1,
+            'maxItems' => 1000,
+        ],
+    ];
 
     /**
      * Domain name from which suppressions will be deleted.

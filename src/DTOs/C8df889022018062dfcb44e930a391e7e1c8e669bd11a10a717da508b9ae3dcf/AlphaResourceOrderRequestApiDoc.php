@@ -10,22 +10,22 @@ namespace InfobipSDK\DTOs\C8df889022018062dfcb44e930a391e7e1c8e669bd11a10a717da5
 final class AlphaResourceOrderRequestApiDoc extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'countryCode',
-    'requirements',
-    'senderName',
-    'type',
-];
+        'countryCode',
+        'requirements',
+        'senderName',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'additionalContactEmails' => [
-        'minItems' => 0,
-        'maxItems' => 3,
-    ],
-    'senderName' => [
-        'minLength' => 3,
-        'maxLength' => 11,
-    ],
-];
+        'additionalContactEmails' => [
+            'minItems' => 0,
+            'maxItems' => 3,
+        ],
+        'senderName' => [
+            'minLength' => 3,
+            'maxLength' => 11,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

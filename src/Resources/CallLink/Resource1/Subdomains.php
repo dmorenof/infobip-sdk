@@ -199,5 +199,4 @@ final class Subdomains extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::DELETE_BY_ID), path: ['id' => $id]);
         return $result;
     }
-
 }

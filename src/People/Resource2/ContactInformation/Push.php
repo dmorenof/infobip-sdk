@@ -27,5 +27,4 @@ final class Push extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource2\ContactInformation\Push::class)->patchByPushRegId($pushRegId, $params);
     }
-
 }

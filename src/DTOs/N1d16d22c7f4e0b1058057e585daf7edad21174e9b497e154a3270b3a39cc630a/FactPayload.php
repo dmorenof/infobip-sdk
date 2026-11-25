@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N1d16d22c7f4e0b1058057e585daf7edad21174e9b497e154a3270
 final class FactPayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'key',
-    'value',
-];
+        'key',
+        'value',
+    ];
 
     /**
      * Fact name or identifier.

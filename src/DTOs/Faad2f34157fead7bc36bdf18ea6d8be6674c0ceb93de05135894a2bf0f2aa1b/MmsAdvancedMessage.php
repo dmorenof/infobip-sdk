@@ -12,44 +12,44 @@ namespace InfobipSDK\DTOs\Faad2f34157fead7bc36bdf18ea6d8be6674c0ceb93de05135894a
 final class MmsAdvancedMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'destinations',
-    'messageSegments',
-];
+        'destinations',
+        'messageSegments',
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'callbackData' => [
-        'minLength' => 0,
-        'maxLength' => 4000,
-    ],
-    'destinations' => [
-        'minItems' => 1,
-    ],
-    'entityId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 66,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'callbackData' => [
+            'minLength' => 0,
+            'maxLength' => 4000,
+        ],
+        'destinations' => [
+            'minItems' => 1,
+        ],
+        'entityId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 66,
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'applicationId',
-    'callbackData',
-    'destinations',
-    'entityId',
-    'from',
-    'intermediateReport',
-    'messageSegments',
-    'notifyUrl',
-    'sendAt',
-    'validityPeriod',
-];
+        'applicationId',
+        'callbackData',
+        'destinations',
+        'entityId',
+        'from',
+        'intermediateReport',
+        'messageSegments',
+        'notifyUrl',
+        'sendAt',
+        'validityPeriod',
+    ];
 
     /**
      * Required for application use in a send request for outbound traffic. Returned in notification events.

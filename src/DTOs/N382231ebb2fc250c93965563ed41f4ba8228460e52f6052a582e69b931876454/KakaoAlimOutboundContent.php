@@ -14,9 +14,9 @@ class KakaoAlimOutboundContent extends \Dmorenof\SdkRuntime\DTO
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '382231ebb2fc250c93965563ed41f4ba8228460e52f6052a582e69b931876454.KakaoAlimOutboundTemplateContent' => 'InfobipSDK\\DTOs\\N382231ebb2fc250c93965563ed41f4ba8228460e52f6052a582e69b931876454\\KakaoAlimOutboundTemplateContent',
-    'TEMPLATE' => 'InfobipSDK\\DTOs\\N382231ebb2fc250c93965563ed41f4ba8228460e52f6052a582e69b931876454\\KakaoAlimOutboundTemplateContent',
-];
+        '382231ebb2fc250c93965563ed41f4ba8228460e52f6052a582e69b931876454.KakaoAlimOutboundTemplateContent' => 'InfobipSDK\\DTOs\\N382231ebb2fc250c93965563ed41f4ba8228460e52f6052a582e69b931876454\\KakaoAlimOutboundTemplateContent',
+        'TEMPLATE' => 'InfobipSDK\\DTOs\\N382231ebb2fc250c93965563ed41f4ba8228460e52f6052a582e69b931876454\\KakaoAlimOutboundTemplateContent',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

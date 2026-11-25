@@ -7,32 +7,32 @@ namespace InfobipSDK\GetParams\KakaoBrandMessages\Resource1\Templates;
 final class Single extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'templateCode',
-];
+        'templateCode',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'sender' => 'sender',
-        'senderGroup' => 'senderGroup',
-        'templateCode' => 'templateCode',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'sender' => 'sender',
+            'senderGroup' => 'senderGroup',
+            'templateCode' => 'templateCode',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'sender' => [
-        'minLength' => 1,
-        'maxLength' => 40,
-    ],
-    'senderGroup' => [
-        'minLength' => 1,
-        'maxLength' => 40,
-    ],
-    'templateCode' => [
-        'minLength' => 1,
-        'maxLength' => 50,
-    ],
-];
+        'sender' => [
+            'minLength' => 1,
+            'maxLength' => 40,
+        ],
+        'senderGroup' => [
+            'minLength' => 1,
+            'maxLength' => 40,
+        ],
+        'templateCode' => [
+            'minLength' => 1,
+            'maxLength' => 50,
+        ],
+    ];
 
     public ?string $sender {
         set {

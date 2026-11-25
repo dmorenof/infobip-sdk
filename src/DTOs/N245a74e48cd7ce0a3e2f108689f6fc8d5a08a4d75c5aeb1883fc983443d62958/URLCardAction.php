@@ -12,13 +12,13 @@ final class URLCardAction extends \InfobipSDK\DTOs\N245a74e48cd7ce0a3e2f108689f6
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'postbackData' => [
-        'minLength' => 1,
-    ],
-    'title' => [
-        'minLength' => 1,
-    ],
-];
+        'postbackData' => [
+            'minLength' => 1,
+        ],
+        'title' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

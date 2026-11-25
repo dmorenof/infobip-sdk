@@ -35,5 +35,4 @@ final class Messages extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         return self::client()->resource(\InfobipSDK\Resources\Resource2fa\Resource2\Applications\ByAppId\Email\Messages::class)->putByMsgId($identifier, $payload);
     }
-
 }

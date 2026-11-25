@@ -12,27 +12,27 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class DeliveryTimeFrom extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'hour',
-    'minute',
-];
+        'hour',
+        'minute',
+    ];
 
     protected const array VALIDATION = [
-    'hour' => [
-        'minimum' => 0,
-        'maximum' => 23,
-        'format' => 'int32',
-    ],
-    'minute' => [
-        'minimum' => 0,
-        'maximum' => 59,
-        'format' => 'int32',
-    ],
-];
+        'hour' => [
+            'minimum' => 0,
+            'maximum' => 23,
+            'format' => 'int32',
+        ],
+        'minute' => [
+            'minimum' => 0,
+            'maximum' => 59,
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'hour',
-    'minute',
-];
+        'hour',
+        'minute',
+    ];
 
     /**
      * Hour when the time window opens when used in the `from` property or closes when used in the `to` property.

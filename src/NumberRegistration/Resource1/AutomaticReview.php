@@ -27,5 +27,4 @@ final class AutomaticReview extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\AutomaticReview::class)->getByRequestUuid($requestUuid);
     }
-
 }

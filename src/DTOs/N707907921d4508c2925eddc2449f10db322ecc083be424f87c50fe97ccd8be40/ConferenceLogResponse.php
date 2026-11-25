@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N707907921d4508c2925eddc2449f10db322ecc083be424f87c50f
 final class ConferenceLogResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'conferenceId' => [
-        'maxLength' => 128,
-    ],
-];
+        'conferenceId' => [
+            'maxLength' => 128,
+        ],
+    ];
 
     /**
      * Unique conference ID.

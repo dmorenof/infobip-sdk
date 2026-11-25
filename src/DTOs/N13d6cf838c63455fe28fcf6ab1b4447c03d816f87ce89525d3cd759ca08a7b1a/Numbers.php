@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class Numbers extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'number',
-];
+        'number',
+    ];
 
     /**
      * Must be a valid [E.164](https://en.wikipedia.org/wiki/E.164) number; the parameter can be constructed using variables

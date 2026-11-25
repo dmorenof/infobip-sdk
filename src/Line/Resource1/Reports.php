@@ -17,5 +17,4 @@ final class Reports extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Line\Resource1\Reports::class)->get($params);
     }
-
 }

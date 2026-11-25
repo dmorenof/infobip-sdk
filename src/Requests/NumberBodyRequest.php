@@ -7,12 +7,12 @@ namespace InfobipSDK\Requests;
 final class NumberBodyRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'pin',
-];
+        'pin',
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'pin',
-];
+        'pin',
+    ];
 
     /**
      * The PIN code to verify.

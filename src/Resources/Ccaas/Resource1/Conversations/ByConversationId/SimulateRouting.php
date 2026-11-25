@@ -70,5 +70,4 @@ final class SimulateRouting extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['conversationId' => $conversationId]);
         return $result;
     }
-
 }

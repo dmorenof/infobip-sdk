@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\Be899aa87631e28acaf5aa6d4ae5df630595a5bf087810b5066028
 final class PushUnificationMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'destinations',
-    'sender',
-];
+        'content',
+        'destinations',
+        'sender',
+    ];
 
     protected const array VALIDATION = [
-    'destinations' => [
-        'minItems' => 1,
-    ],
-    'sender' => [
-        'minLength' => 1,
-    ],
-];
+        'destinations' => [
+            'minItems' => 1,
+        ],
+        'sender' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\Be899aa87631e28acaf5aa6d4ae5df630595a5bf087810b506602819a5d8b742\PushOutboundContent $content;
     /**

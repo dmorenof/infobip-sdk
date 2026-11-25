@@ -12,19 +12,19 @@ final class PostbackButtonAction extends \InfobipSDK\DTOs\E204fb2d0d1568cbfe90b2
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'data' => [
-        'minLength' => 0,
-        'maxLength' => 300,
-    ],
-    'displayText' => [
-        'minLength' => 0,
-        'maxLength' => 300,
-    ],
-    'label' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-];
+        'data' => [
+            'minLength' => 0,
+            'maxLength' => 300,
+        ],
+        'displayText' => [
+            'minLength' => 0,
+            'maxLength' => 300,
+        ],
+        'label' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

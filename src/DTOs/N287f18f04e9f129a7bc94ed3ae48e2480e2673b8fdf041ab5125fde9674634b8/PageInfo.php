@@ -12,29 +12,29 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class PageInfo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'page',
-    'size',
-    'totalPages',
-    'totalResults',
-];
+        'page',
+        'size',
+        'totalPages',
+        'totalResults',
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'size' => [
-        'minimum' => 1,
-        'format' => 'int32',
-    ],
-    'totalPages' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'totalResults' => [
-        'minimum' => 0,
-    ],
-];
+        'page' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'size' => [
+            'minimum' => 1,
+            'format' => 'int32',
+        ],
+        'totalPages' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'totalResults' => [
+            'minimum' => 0,
+        ],
+    ];
 
     /**
      * Requested page number.

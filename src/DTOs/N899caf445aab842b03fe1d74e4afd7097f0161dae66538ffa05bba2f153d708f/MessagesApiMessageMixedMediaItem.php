@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageMixedMediaItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'url',
-];
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 1,
-        'pattern' => '',
-    ],
-];
+        'url' => [
+            'minLength' => 1,
+            'pattern' => '',
+        ],
+    ];
 
     /**
      * Custom content identifier for the media item. Supported by MMS only (Apple ignores).

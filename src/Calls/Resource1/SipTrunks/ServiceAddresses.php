@@ -60,5 +60,4 @@ final class ServiceAddresses extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\SipTrunks\ServiceAddresses::class)->putBySipTrunkServiceAddressId($sipTrunkServiceAddressId, $payload);
     }
-
 }

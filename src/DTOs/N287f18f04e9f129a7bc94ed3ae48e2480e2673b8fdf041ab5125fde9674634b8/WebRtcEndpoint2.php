@@ -12,10 +12,10 @@ final class WebRtcEndpoint2 extends \InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'identity' => [
-        'minLength' => 1,
-    ],
-];
+        'identity' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * A human-readable name for a given identity.

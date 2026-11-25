@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class Paging extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'page' => [
-        'format' => 'int32',
-    ],
-    'size' => [
-        'format' => 'int32',
-    ],
-    'totalPages' => [
-        'format' => 'int32',
-    ],
-    'totalResults' => [
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'format' => 'int32',
+        ],
+        'size' => [
+            'format' => 'int32',
+        ],
+        'totalPages' => [
+            'format' => 'int32',
+        ],
+        'totalResults' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Format: int32

@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82
 final class NumberCoverageKey extends \InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\IbResourceCoverageKey
 {
     public const array REQUIRED_FIELDS = [
-    'resourceType',
-];
+        'resourceType',
+    ];
 
     protected const array VALIDATION = [
-    'countryCode' => [
-        'minLength' => 1,
-        'pattern' => '^[A-Z]{2}$',
-    ],
-    'number' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'countryCode' => [
+            'minLength' => 1,
+            'pattern' => '^[A-Z]{2}$',
+        ],
+        'number' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

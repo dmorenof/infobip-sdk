@@ -255,5 +255,4 @@ final class ApiKeys extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_KEY), $payload, path: $identifier);
         return $result;
     }
-
 }

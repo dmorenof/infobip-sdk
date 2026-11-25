@@ -17,5 +17,4 @@ final class OutboundCallConversation extends \InfobipSDK\InfobipOpenAPISpecifica
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\OutboundCallConversation::class)->post($payload);
     }
-
 }

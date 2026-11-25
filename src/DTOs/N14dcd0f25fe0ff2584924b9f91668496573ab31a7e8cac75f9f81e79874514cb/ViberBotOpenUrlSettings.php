@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81
 final class ViberBotOpenUrlSettings extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'actionPredefinedUrl' => [
-        'minLength' => 1,
-        'maxLength' => 2147483647,
-    ],
-    'customTitle' => [
-        'minLength' => 0,
-        'maxLength' => 15,
-    ],
-];
+        'actionPredefinedUrl' => [
+            'minLength' => 1,
+            'maxLength' => 2147483647,
+        ],
+        'customTitle' => [
+            'minLength' => 0,
+            'maxLength' => 15,
+        ],
+    ];
 
     public \InfobipSDK\Enums\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81e79874514cb\ViberBotOpenUrlSettingsActionButton $actionButton;
     public string $actionPredefinedUrl {

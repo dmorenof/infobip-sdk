@@ -191,5 +191,4 @@ final class Ips extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_IP_ID), path: ['ipId' => $ipId]);
         return $result;
     }
-
 }

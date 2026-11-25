@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class SipHeader extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'headerName',
-];
+        'headerName',
+    ];
 
     protected const array VALIDATION = [
-    'headerName' => [
-        'minLength' => 1,
-        'pattern' => '^X-.*$',
-    ],
-];
+        'headerName' => [
+            'minLength' => 1,
+            'pattern' => '^X-.*$',
+        ],
+    ];
 
     /**
      * SIP header name starting with `X-`. Example: `X-Identity`.

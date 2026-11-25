@@ -12,14 +12,14 @@ final class VideoHeaderApiData extends \InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff094
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'example' => [
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'example' => [
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'example',
-];
+        'example',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

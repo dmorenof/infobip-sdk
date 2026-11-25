@@ -12,24 +12,24 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class ProductItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'currency',
-    'itemPrice',
-    'productRetailerId',
-    'quantity',
-];
+        'currency',
+        'itemPrice',
+        'productRetailerId',
+        'quantity',
+    ];
 
     protected const array VALIDATION = [
-    'currency' => [
-        'minLength' => 1,
-    ],
-    'productRetailerId' => [
-        'minLength' => 1,
-    ],
-    'quantity' => [
-        'minimum' => 1,
-        'format' => 'int32',
-    ],
-];
+        'currency' => [
+            'minLength' => 1,
+        ],
+        'productRetailerId' => [
+            'minLength' => 1,
+        ],
+        'quantity' => [
+            'minimum' => 1,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Currency of the product.

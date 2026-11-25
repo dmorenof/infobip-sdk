@@ -16,5 +16,4 @@ final class Status extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Rcs\Resource1\Senders\BySender\Templates\ByTemplateName\Status::class)->get($identifier);
     }
-
 }

@@ -12,27 +12,27 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class CreateCalendarEventSuggestion extends \InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a7147d79f50d62\Suggestion
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'description' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'postbackData' => [
-        'minLength' => 1,
-        'maxLength' => 2024,
-    ],
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 25,
-    ],
-    'title' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'description' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'postbackData' => [
+            'minLength' => 1,
+            'maxLength' => 2024,
+        ],
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 25,
+        ],
+        'title' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

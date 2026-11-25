@@ -60,5 +60,4 @@ final class Conversations extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Conversations::class)->putByConversationId($conversationId, $payload);
     }
-
 }

@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveProductActionContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'catalogId',
-    'productRetailerId',
-];
+        'catalogId',
+        'productRetailerId',
+    ];
 
     protected const array VALIDATION = [
-    'catalogId' => [
-        'minLength' => 1,
-    ],
-    'productRetailerId' => [
-        'minLength' => 1,
-    ],
-];
+        'catalogId' => [
+            'minLength' => 1,
+        ],
+        'productRetailerId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * The ID that uniquely identifies the [catalog](https://www.infobip.com/docs/whatsapp/manage-integration#enable-meta-catalog-for-product-based-messaging) registered with Facebook and connected to the WhatsApp Business Account the sender belongs to.

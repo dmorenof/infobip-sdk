@@ -10,35 +10,35 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageApplePayPaymentConfiguration extends \InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\MessagesApiMessagePaymentConfiguration
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'currencyCode' => [
-        'pattern' => '^[A-Z]{3}$',
-    ],
-    'fallbackUrl' => [
-        'pattern' => '',
-    ],
-    'merchantCountryCode' => [
-        'pattern' => '^[A-Z]{2}$',
-    ],
-    'merchantPaymentGatewayUrl' => [
-        'pattern' => '',
-    ],
-    'orderTrackingUrl' => [
-        'pattern' => '',
-    ],
-    'paymentMethodUpdateUrl' => [
-        'pattern' => '',
-    ],
-    'shippingContactUpdateUrl' => [
-        'pattern' => '',
-    ],
-    'shippingMethodUpdateUrl' => [
-        'pattern' => '',
-    ],
-];
+        'currencyCode' => [
+            'pattern' => '^[A-Z]{3}$',
+        ],
+        'fallbackUrl' => [
+            'pattern' => '',
+        ],
+        'merchantCountryCode' => [
+            'pattern' => '^[A-Z]{2}$',
+        ],
+        'merchantPaymentGatewayUrl' => [
+            'pattern' => '',
+        ],
+        'orderTrackingUrl' => [
+            'pattern' => '',
+        ],
+        'paymentMethodUpdateUrl' => [
+            'pattern' => '',
+        ],
+        'shippingContactUpdateUrl' => [
+            'pattern' => '',
+        ],
+        'shippingMethodUpdateUrl' => [
+            'pattern' => '',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -10,28 +10,28 @@ namespace InfobipSDK\DTOs\N08fdb52de63aac13de3ed81c2cf06532bc7e9a861dae97f83fafd
 final class SpeechCaptureRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'language',
-    'timeout',
-];
+        'language',
+        'timeout',
+    ];
 
     protected const array VALIDATION = [
-    'keyPhrases' => [
-        'uniqueItems' => true,
-    ],
-    'maxSilence' => [
-        'minimum' => 1,
-        'maximum' => 5,
-        'format' => 'int32',
-    ],
-    'provider' => [
-        'pattern' => 'GOOGLE|AZURE',
-    ],
-    'timeout' => [
-        'minimum' => 1,
-        'maximum' => 30,
-        'format' => 'int32',
-    ],
-];
+        'keyPhrases' => [
+            'uniqueItems' => true,
+        ],
+        'maxSilence' => [
+            'minimum' => 1,
+            'maximum' => 5,
+            'format' => 'int32',
+        ],
+        'provider' => [
+            'pattern' => 'GOOGLE|AZURE',
+        ],
+        'timeout' => [
+            'minimum' => 1,
+            'maximum' => 30,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Toggles enhanced text formatting features like punctuation, proper casing, numeral normalization, and disfluency filtering. Defaults to `false`.

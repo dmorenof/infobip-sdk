@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class AppleMfbOutboundPayRequestContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'lineItems' => [
-        'minItems' => 1,
-        'maxItems' => 20,
-    ],
-    'requestIdentifier' => [
-        'pattern' => '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$',
-    ],
-];
+        'lineItems' => [
+            'minItems' => 1,
+            'maxItems' => 20,
+        ],
+        'requestIdentifier' => [
+            'pattern' => '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341eaf73842f14\PaymentConfiguration $configuration;
     /**

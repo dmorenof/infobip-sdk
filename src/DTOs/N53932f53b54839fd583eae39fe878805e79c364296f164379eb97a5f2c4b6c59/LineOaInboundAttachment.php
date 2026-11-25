@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class LineOaInboundAttachment extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'downloadId',
-    'fileName',
-];
+        'downloadId',
+        'fileName',
+    ];
 
     protected const array VALIDATION = [
-    'downloadId' => [
-        'minLength' => 1,
-    ],
-    'fileName' => [
-        'minLength' => 1,
-    ],
-];
+        'downloadId' => [
+            'minLength' => 1,
+        ],
+        'fileName' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Identifier used to download the inbound media.

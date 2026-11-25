@@ -16,5 +16,4 @@ final class Sessions extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Livechat\Resource1\Widgets\ByWidgetId\Sessions::class)->deleteBySessionId($identifier);
     }
-
 }

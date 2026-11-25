@@ -10,24 +10,24 @@ namespace InfobipSDK\DTOs\N58b7723d552ea7166ae4b26f13a2e9dab0154f96a724621e17ccb
 final class CreateTemplateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'templateContent',
-];
+        'name',
+        'templateContent',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 200,
-    ],
-    'sender' => [
-        'minLength' => 1,
-        'maxLength' => 40,
-    ],
-    'senderGroup' => [
-        'minLength' => 1,
-        'maxLength' => 40,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 200,
+        ],
+        'sender' => [
+            'minLength' => 1,
+            'maxLength' => 40,
+        ],
+        'senderGroup' => [
+            'minLength' => 1,
+            'maxLength' => 40,
+        ],
+    ];
 
     /**
      * Indicates whether the recipient is an adult.

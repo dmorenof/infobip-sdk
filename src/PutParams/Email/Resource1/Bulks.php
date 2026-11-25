@@ -7,24 +7,24 @@ namespace InfobipSDK\PutParams\Email\Resource1;
 final class Bulks extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bulkId',
-    'body',
-];
+        'bulkId',
+        'body',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'bulkId' => 'bulkId',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'bulkId' => 'bulkId',
+        ],
+        'header' => [],
+    ];
 
     public const bool OPERATION_BODY = true;
 
     protected const array VALIDATION = [
-    'bulkId' => [
-        'minLength' => 1,
-    ],
-];
+        'bulkId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public string $bulkId {
         set {

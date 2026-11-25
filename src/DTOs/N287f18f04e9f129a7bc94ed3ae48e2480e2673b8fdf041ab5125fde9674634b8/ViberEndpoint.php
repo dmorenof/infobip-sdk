@@ -12,10 +12,10 @@ final class ViberEndpoint extends \InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'phoneNumber' => [
-        'minLength' => 1,
-    ],
-];
+        'phoneNumber' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Phone number in the [E.164](https://en.wikipedia.org/wiki/E.164) format.

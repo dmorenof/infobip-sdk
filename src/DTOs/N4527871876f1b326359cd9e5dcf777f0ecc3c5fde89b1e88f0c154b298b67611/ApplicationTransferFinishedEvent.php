@@ -12,16 +12,16 @@ final class ApplicationTransferFinishedEvent extends \InfobipSDK\DTOs\N452787187
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'callId' => [
-        'maxLength' => 128,
-    ],
-    'conferenceId' => [
-        'maxLength' => 128,
-    ],
-    'dialogId' => [
-        'maxLength' => 128,
-    ],
-];
+        'callId' => [
+            'maxLength' => 128,
+        ],
+        'conferenceId' => [
+            'maxLength' => 128,
+        ],
+        'dialogId' => [
+            'maxLength' => 128,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

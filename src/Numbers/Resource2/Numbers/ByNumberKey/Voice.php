@@ -49,5 +49,4 @@ final class Voice extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Numbers\Resource2\Numbers\ByNumberKey\Voice::class)->put($numberKey, $payload);
     }
-
 }

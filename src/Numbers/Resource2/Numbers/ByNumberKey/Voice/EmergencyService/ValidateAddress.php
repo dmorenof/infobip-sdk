@@ -16,5 +16,4 @@ final class ValidateAddress extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Numbers\Resource2\Numbers\ByNumberKey\Voice\EmergencyService\ValidateAddress::class)->post($numberKey, $payload);
     }
-
 }

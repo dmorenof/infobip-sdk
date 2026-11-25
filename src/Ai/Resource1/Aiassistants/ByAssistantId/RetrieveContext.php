@@ -16,5 +16,4 @@ final class RetrieveContext extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ai\Resource1\Aiassistants\ByAssistantId\RetrieveContext::class)->post($assistantId, $payload);
     }
-
 }

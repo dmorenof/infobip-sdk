@@ -68,5 +68,4 @@ final class Settings extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH), $payload, path: ['campaignId' => $campaignId]);
         return $result;
     }
-
 }

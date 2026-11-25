@@ -16,5 +16,4 @@ final class Priorities extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Campaigns\Priorities::class)->get();
     }
-
 }

@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class BlockStyle extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'backgroundColor' => [
-        'pattern' => '^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$',
-    ],
-    'separatorColor' => [
-        'pattern' => '^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$',
-    ],
-];
+        'backgroundColor' => [
+            'pattern' => '^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$',
+        ],
+        'separatorColor' => [
+            'pattern' => '^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$',
+        ],
+    ];
 
     /**
      * Background color of the block. Use a hexadecimal color code.

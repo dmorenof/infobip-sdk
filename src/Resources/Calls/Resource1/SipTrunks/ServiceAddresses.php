@@ -340,5 +340,4 @@ final class ServiceAddresses extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_SIP_TRUNK_SERVICE_ADDRESS_ID), $payload, path: ['sipTrunkServiceAddressId' => $sipTrunkServiceAddressId]);
         return $result;
     }
-
 }

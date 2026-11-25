@@ -41,5 +41,4 @@ final class Identity extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\BySender\Contacts\ByUserIdentifier\Identity::class)->put($identifier, $payload);
     }
-
 }

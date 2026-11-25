@@ -12,12 +12,12 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class RcsSenderUpdateEvent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'event',
-    'reason',
-    'senderName',
-    'senderStatus',
-    'updatedAt',
-];
+        'event',
+        'reason',
+        'senderName',
+        'senderStatus',
+        'updatedAt',
+    ];
 
     /**
      * Event type identifier for webhook notifications. Indicates the type of status change that occurred.

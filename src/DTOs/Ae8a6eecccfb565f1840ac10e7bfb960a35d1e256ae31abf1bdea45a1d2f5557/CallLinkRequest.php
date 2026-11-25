@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\Ae8a6eecccfb565f1840ac10e7bfb960a35d1e256ae31abf1bdea4
 final class CallLinkRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'destination',
-];
+        'destination',
+    ];
 
     protected const array VALIDATION = [
-    'identity' => [
-        'pattern' => '^[\\p{L}\\p{N}\\-_+=/.]{3,64}$',
-    ],
-];
+        'identity' => [
+            'pattern' => '^[\\p{L}\\p{N}\\-_+=/.]{3,64}$',
+        ],
+    ];
 
     /**
      * Identifier of a call link configuration. You can use your existing configuration. If this parameter is not sent and there are call link configurations available, the default one will be used. If there are no configurations, the one with system default values will be used.

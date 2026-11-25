@@ -12,39 +12,39 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class WhatsAppData extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'latitude' => [
-        'minimum' => -90,
-        'maximum' => 90,
-    ],
-    'longitude' => [
-        'minimum' => -180,
-        'maximum' => 180,
-    ],
-    'templateName' => [
-        'pattern' => '^[a-z0-9_]{1,512}$',
-    ],
-    'validityPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'latitude' => [
+            'minimum' => -90,
+            'maximum' => 90,
+        ],
+        'longitude' => [
+            'minimum' => -180,
+            'maximum' => 180,
+        ],
+        'templateName' => [
+            'pattern' => '^[a-z0-9_]{1,512}$',
+        ],
+        'validityPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'address',
-    'audioUrl',
-    'fileUrl',
-    'imageUrl',
-    'language',
-    'latitude',
-    'locationName',
-    'longitude',
-    'previewUrl',
-    'templateData',
-    'templateName',
-    'templateNamespace',
-    'text',
-    'validityPeriod',
-    'videoUrl',
-];
+        'address',
+        'audioUrl',
+        'fileUrl',
+        'imageUrl',
+        'language',
+        'latitude',
+        'locationName',
+        'longitude',
+        'previewUrl',
+        'templateData',
+        'templateName',
+        'templateNamespace',
+        'text',
+        'validityPeriod',
+        'videoUrl',
+    ];
 
     /**
      * Address location. Optional value.

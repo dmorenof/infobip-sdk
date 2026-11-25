@@ -7,19 +7,19 @@ namespace InfobipSDK\PathParams\Push\Resource1\Applications\ByApplicationCode\Co
 final class ByActionKey extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'actionKey',
-    'applicationCode',
-    'configurationKey',
-];
+        'actionKey',
+        'applicationCode',
+        'configurationKey',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'actionKey' => 'actionKey',
-        'applicationCode' => 'applicationCode',
-        'configurationKey' => 'configurationKey',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'actionKey' => 'actionKey',
+            'applicationCode' => 'applicationCode',
+            'configurationKey' => 'configurationKey',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     public string $actionKey;
     public string $applicationCode;

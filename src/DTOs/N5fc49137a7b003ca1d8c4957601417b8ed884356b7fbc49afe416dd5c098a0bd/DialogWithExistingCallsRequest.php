@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N5fc49137a7b003ca1d8c4957601417b8ed884356b7fbc49afe416
 final class DialogWithExistingCallsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'maxDuration' => [
-        'format' => 'int32',
-    ],
-];
+        'maxDuration' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Max duration in seconds.

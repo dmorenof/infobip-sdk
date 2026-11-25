@@ -69,5 +69,4 @@ final class Multi extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload);
         return $result;
     }
-
 }

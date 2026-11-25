@@ -76,5 +76,4 @@ final class Quota extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['sender' => $sender]);
         return $result;
     }
-
 }

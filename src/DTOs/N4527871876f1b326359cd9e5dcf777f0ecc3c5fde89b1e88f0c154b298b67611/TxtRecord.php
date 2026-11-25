@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c15
 final class TxtRecord extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'createdAt',
-    'updatedAt',
-];
+        'createdAt',
+        'updatedAt',
+    ];
 
     /**
      * Date and time when domain verification was set up (Example: 2026-09-07T13:40:11.072+0000).

@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\Cd5e571e477c0b81ca50ad592cf9f67cc32feded2012ec26d7fae0
 final class SmsMoReportResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-    'pendingMessageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+        'pendingMessageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The number of messages returned in the `results` array.

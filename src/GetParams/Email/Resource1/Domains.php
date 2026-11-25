@@ -7,23 +7,23 @@ namespace InfobipSDK\GetParams\Email\Resource1;
 final class Domains extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'page' => 'page',
-        'size' => 'size',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'page' => 'page',
+            'size' => 'size',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'minimum' => 0,
-    ],
-    'size' => [
-        'minimum' => 1,
-        'maximum' => 20,
-    ],
-];
+        'page' => [
+            'minimum' => 0,
+        ],
+        'size' => [
+            'minimum' => 1,
+            'maximum' => 20,
+        ],
+    ];
 
     public ?int $page {
         set {

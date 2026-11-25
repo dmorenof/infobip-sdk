@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageListSection extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'items',
-    'sectionTitle',
-];
+        'items',
+        'sectionTitle',
+    ];
 
     protected const array VALIDATION = [
-    'items' => [
-        'minItems' => 1,
-    ],
-    'sectionTitle' => [
-        'minLength' => 1,
-    ],
-];
+        'items' => [
+            'minItems' => 1,
+        ],
+        'sectionTitle' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * List Items.

@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N17bf4973053f0fd3d8ac737d4e4f0aca51beba611d8f8dda63e2f
 final class ScenariosResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'scenarios',
-];
+        'scenarios',
+    ];
 
     /**
      * Array of OMNI scenarios

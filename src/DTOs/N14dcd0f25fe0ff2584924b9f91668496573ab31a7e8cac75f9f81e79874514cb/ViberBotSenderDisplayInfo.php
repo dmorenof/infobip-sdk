@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81
 final class ViberBotSenderDisplayInfo extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 28,
-    ],
-];
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 28,
+        ],
+    ];
 
     /**
      * The sender’s avatar URL

@@ -17,5 +17,4 @@ final class Publish extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\Flows\ByFlowId\Publish::class)->post($identifier);
     }
-
 }

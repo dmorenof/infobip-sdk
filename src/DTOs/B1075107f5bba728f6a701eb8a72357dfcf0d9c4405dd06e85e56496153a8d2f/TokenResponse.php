@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\B1075107f5bba728f6a701eb8a72357dfcf0d9c4405dd06e85e564
 final class TokenResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'expires_in' => [
-        'format' => 'int32',
-    ],
-];
+        'expires_in' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * OAuth2 token.

@@ -12,11 +12,11 @@ final class WebRtcDestination extends \InfobipSDK\DTOs\N2188fec7c48e989bb7053521
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'identity' => [
-        'minLength' => 1,
-        'pattern' => '^[\\p{L}\\p{N}\\-_+=/.]{3,64}$',
-    ],
-];
+        'identity' => [
+            'minLength' => 1,
+            'pattern' => '^[\\p{L}\\p{N}\\-_+=/.]{3,64}$',
+        ],
+    ];
 
     /**
      * Destination display name, if defined, that the call link UI will use instead of a display name obtained from the Infobip WebRTC platform. If a destination display name is an empty string, the UI will hide it.

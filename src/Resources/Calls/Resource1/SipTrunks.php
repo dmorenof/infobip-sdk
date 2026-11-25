@@ -336,5 +336,4 @@ final class SipTrunks extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_SIP_TRUNK_ID), $payload, path: ['sipTrunkId' => $sipTrunkId]);
         return $result;
     }
-
 }

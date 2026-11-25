@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class ReceivedMessageDTO extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'title',
-];
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'subtitle' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-];
+        'subtitle' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+    ];
 
     public \InfobipSDK\Enums\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341eaf73842f14\InteractiveDataMessageStyle $style;
     /**

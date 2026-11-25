@@ -186,5 +186,4 @@ final class CallTimeouts extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload);
         return $result;
     }
-
 }

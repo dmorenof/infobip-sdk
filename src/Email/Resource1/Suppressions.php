@@ -38,5 +38,4 @@ final class Suppressions extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Email\Resource1\Suppressions::class)->post($payload);
     }
-
 }

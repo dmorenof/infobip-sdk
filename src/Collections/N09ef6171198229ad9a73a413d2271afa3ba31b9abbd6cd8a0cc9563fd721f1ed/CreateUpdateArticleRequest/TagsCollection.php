@@ -8,6 +8,6 @@ final class TagsCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = 'string';
     protected const array ITEM_VALIDATION = [
-    'minLength' => 1,
-];
+        'minLength' => 1,
+    ];
 }

@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\D76a8e2b7d80b5cb0751e11a31b96eabeaf6b2ec1de2932507f7f2
 final class EventClauseDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'definitionId',
-    'timelineCondition',
-];
+        'definitionId',
+        'timelineCondition',
+    ];
 
     protected const array VALIDATION = [
-    'definitionId' => [
-        'minLength' => 1,
-    ],
-];
+        'definitionId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Event definition ID.

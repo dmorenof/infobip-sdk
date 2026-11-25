@@ -12,28 +12,28 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class LocationContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'latitude',
-    'longitude',
-];
+        'latitude',
+        'longitude',
+    ];
 
     protected const array VALIDATION = [
-    'address' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'latitude' => [
-        'minimum' => -90,
-        'maximum' => 90,
-    ],
-    'longitude' => [
-        'minimum' => -180,
-        'maximum' => 180,
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'address' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'latitude' => [
+            'minimum' => -90,
+            'maximum' => 90,
+        ],
+        'longitude' => [
+            'minimum' => -180,
+            'maximum' => 180,
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     /**
      * Location address.

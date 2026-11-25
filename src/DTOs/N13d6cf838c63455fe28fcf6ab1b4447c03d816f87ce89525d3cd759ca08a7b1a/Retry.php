@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class Retry extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'maxCount',
-    'maxPeriod',
-    'minPeriod',
-];
+        'maxCount',
+        'maxPeriod',
+        'minPeriod',
+    ];
 
     protected const array VALIDATION = [
-    'maxCount' => [
-        'format' => 'int32',
-    ],
-    'maxPeriod' => [
-        'format' => 'int32',
-    ],
-    'minPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'maxCount' => [
+            'format' => 'int32',
+        ],
+        'maxPeriod' => [
+            'format' => 'int32',
+        ],
+        'minPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Specify the maximum number of retry attempts. Maximum value of the maxCount is `4`. If the value is higher than `4`, it will be set to `4`.

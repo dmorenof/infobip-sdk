@@ -69,5 +69,4 @@ final class Depersonalize extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::POST), path: ['pushRegId' => $pushRegId], parameters: $params);
         return;
     }
-
 }

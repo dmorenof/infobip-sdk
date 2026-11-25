@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920
 final class ApplicationEntityPair extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'callsConfigurationId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'entityId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'callsConfigurationId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'entityId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * CPaaS X property identifying an application, an use case or an environment on your system. Should only be set if you are using CPaaS X Applications with your traffic.

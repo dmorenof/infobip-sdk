@@ -206,5 +206,4 @@ final class Audiences extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::DELETE_BY_AUDIENCE_ID), path: ['audienceId' => $audienceId]);
         return;
     }
-
 }

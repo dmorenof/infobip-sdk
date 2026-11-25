@@ -17,5 +17,4 @@ final class End extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ct\Resource1\Log\End::class)->postByMessageId($messageId);
     }
-
 }

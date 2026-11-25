@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\Be917819c3f3f7072f44fe3d7909e7b833fe4857710e7f5ab585df
 final class ApplicationTransferRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'destinationCallsConfigurationId',
-];
+        'destinationCallsConfigurationId',
+    ];
 
     protected const array VALIDATION = [
-    'timeout' => [
-        'format' => 'int32',
-    ],
-];
+        'timeout' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Optional parameter to update a call's custom data.

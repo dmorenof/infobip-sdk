@@ -17,5 +17,4 @@ final class Available extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Numbers\Resource1\Numbers\Available::class)->get($params);
     }
-
 }

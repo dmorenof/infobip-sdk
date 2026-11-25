@@ -16,5 +16,4 @@ final class UserActivity extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Webrtc\Resource1\UserActivity::class)->get($params);
     }
-
 }

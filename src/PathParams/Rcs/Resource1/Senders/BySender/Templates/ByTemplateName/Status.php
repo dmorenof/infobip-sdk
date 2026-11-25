@@ -7,17 +7,17 @@ namespace InfobipSDK\PathParams\Rcs\Resource1\Senders\BySender\Templates\ByTempl
 final class Status extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'sender',
-    'templateName',
-];
+        'sender',
+        'templateName',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'sender' => 'sender',
-        'templateName' => 'templateName',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'sender' => 'sender',
+            'templateName' => 'templateName',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     public string $sender;
     public string $templateName;

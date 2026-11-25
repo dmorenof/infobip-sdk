@@ -12,14 +12,14 @@ final class TextAndImageFreeFormBusinessFormButton extends \InfobipSDK\DTOs\N399
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'businessFormKey' => [
-        'minLength' => 1,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 14,
-    ],
-];
+        'businessFormKey' => [
+            'minLength' => 1,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 14,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

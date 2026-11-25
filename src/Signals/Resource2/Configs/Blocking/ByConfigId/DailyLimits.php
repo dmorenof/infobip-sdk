@@ -65,5 +65,4 @@ final class DailyLimits extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Signals\Resource2\Configs\Blocking\ByConfigId\DailyLimits::class)->post($configId, $payload);
     }
-
 }

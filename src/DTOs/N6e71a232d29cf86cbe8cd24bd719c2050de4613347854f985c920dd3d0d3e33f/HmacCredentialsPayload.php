@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920
 final class HmacCredentialsPayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'algorithm',
-    'secretKey',
-];
+        'algorithm',
+        'secretKey',
+    ];
 
     protected const array VALIDATION = [
-    'secretKey' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-];
+        'secretKey' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+    ];
 
     public \InfobipSDK\Enums\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920dd3d0d3e33f\HmacAlgorithm $algorithm;
     /**

@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class ImageComponent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'url',
-];
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'flex' => [
-        'minimum' => 0,
-        'maximum' => 10,
-        'format' => 'int32',
-    ],
-    'url' => [
-        'minLength' => 1,
-        'pattern' => 'https://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?(jpg|png)$',
-    ],
-];
+        'flex' => [
+            'minimum' => 0,
+            'maximum' => 10,
+            'format' => 'int32',
+        ],
+        'url' => [
+            'minLength' => 1,
+            'pattern' => 'https://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?(jpg|png)$',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\ButtonAction $action;
     public \InfobipSDK\Enums\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\Alignment $align;

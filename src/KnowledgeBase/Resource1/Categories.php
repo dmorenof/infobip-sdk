@@ -16,5 +16,4 @@ final class Categories extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\KnowledgeBase\Resource1\Categories::class)->get($params);
     }
-
 }

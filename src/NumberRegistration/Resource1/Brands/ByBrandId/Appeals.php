@@ -16,5 +16,4 @@ final class Appeals extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Brands\ByBrandId\Appeals::class)->get($brandId);
     }
-
 }

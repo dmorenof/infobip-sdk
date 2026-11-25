@@ -12,34 +12,34 @@ namespace InfobipSDK\DTOs\N58b7723d552ea7166ae4b26f13a2e9dab0154f96a724621e17ccb
 final class WideAndVideoTemplateCoupon extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'description',
-    'title',
-    'urlMobile',
-];
+        'description',
+        'title',
+        'urlMobile',
+    ];
 
     protected const array VALIDATION = [
-    'description' => [
-        'minLength' => 1,
-        'maxLength' => 18,
-    ],
-    'schemeAndroid' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'schemeIos' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'urlMobile' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-    'urlPc' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-];
+        'description' => [
+            'minLength' => 1,
+            'maxLength' => 18,
+        ],
+        'schemeAndroid' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'schemeIos' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'urlMobile' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+        'urlPc' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+    ];
 
     /**
      * Coupon content description. Line breaks are not allowed.

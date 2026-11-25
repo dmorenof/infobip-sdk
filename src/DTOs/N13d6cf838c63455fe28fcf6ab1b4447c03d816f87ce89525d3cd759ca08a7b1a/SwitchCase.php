@@ -12,24 +12,24 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class SwitchCase extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'case_',
-    'switch_',
-];
+        'case_',
+        'switch_',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'case' => 'case_',
-    'switch' => 'switch_',
-];
+        'case' => 'case_',
+        'switch' => 'switch_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'case_' => 'case',
-    'switch_' => 'switch',
-];
+        'case_' => 'case',
+        'switch_' => 'switch',
+    ];
 
     protected const array VALIDATION = [
-    'actionId' => [
-        'format' => 'int32',
-    ],
-];
+        'actionId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * User-defined ID of an action that can be used with go-to action.

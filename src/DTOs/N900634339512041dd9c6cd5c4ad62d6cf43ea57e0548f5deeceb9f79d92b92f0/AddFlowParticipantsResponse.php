@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N900634339512041dd9c6cd5c4ad62d6cf43ea57e0548f5deeceb9
 final class AddFlowParticipantsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'operationId',
-];
+        'operationId',
+    ];
 
     /**
      * Unique identifier of the operation.

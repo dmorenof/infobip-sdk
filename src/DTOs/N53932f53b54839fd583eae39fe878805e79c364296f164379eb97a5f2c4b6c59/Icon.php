@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class Icon extends \InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\Component
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 1,
-    ],
-];
+        'url' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Aspect ratio of the icon, expressed as width:height.

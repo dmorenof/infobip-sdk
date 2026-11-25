@@ -310,5 +310,4 @@ final class Flows extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::PATCH_BY_FLOW_ID), $payload, path: $identifier);
         return;
     }
-
 }

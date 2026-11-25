@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N0089ea7cf06f0b77e4c88a7276c6f25dd5c0c5bbab819756fc42c
 final class AddFlowJsonValidationError extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'columnEnd' => [
-        'format' => 'int32',
-    ],
-    'columnStart' => [
-        'format' => 'int32',
-    ],
-    'lineEnd' => [
-        'format' => 'int32',
-    ],
-    'lineStart' => [
-        'format' => 'int32',
-    ],
-];
+        'columnEnd' => [
+            'format' => 'int32',
+        ],
+        'columnStart' => [
+            'format' => 'int32',
+        ],
+        'lineEnd' => [
+            'format' => 'int32',
+        ],
+        'lineStart' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Column that mark end of error.

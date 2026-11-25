@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class CursorPageInfo extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'limit' => [
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Requested limit.

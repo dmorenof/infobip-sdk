@@ -30,5 +30,4 @@ final class Templates extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Templates::class)->getByTemplateId($templateId);
     }
-
 }

@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class Name extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'firstName',
-    'formattedName',
-];
+        'firstName',
+        'formattedName',
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'firstName',
-    'formattedName',
-    'lastName',
-    'middleName',
-    'namePrefix',
-    'nameSuffix',
-];
+        'firstName',
+        'formattedName',
+        'lastName',
+        'middleName',
+        'namePrefix',
+        'nameSuffix',
+    ];
 
     /**
      * First name of a contact. Mandatory value.

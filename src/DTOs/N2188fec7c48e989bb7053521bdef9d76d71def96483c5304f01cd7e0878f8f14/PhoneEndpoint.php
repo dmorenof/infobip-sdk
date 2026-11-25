@@ -12,10 +12,10 @@ final class PhoneEndpoint extends \InfobipSDK\DTOs\N2188fec7c48e989bb7053521bdef
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'phoneNumber' => [
-        'minLength' => 1,
-    ],
-];
+        'phoneNumber' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

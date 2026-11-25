@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\N2c1d05f3dc2f46851efe83e0fa7d26e3f8a2e8ee522f9adaaba58
 final class CampaignReference extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'campaignId' => [
-        'format' => 'int32',
-    ],
-    'versionId' => [
-        'format' => 'int32',
-    ],
-];
+        'campaignId' => [
+            'format' => 'int32',
+        ],
+        'versionId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * ID that allows you to track, analyze, and show an aggregated overview and the performance of individual campaigns per sending channel.

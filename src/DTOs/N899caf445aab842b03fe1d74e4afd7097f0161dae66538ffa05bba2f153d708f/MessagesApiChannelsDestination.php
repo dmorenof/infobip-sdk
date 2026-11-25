@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiChannelsDestination extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'byChannel',
-];
+        'byChannel',
+    ];
 
     protected const array VALIDATION = [
-    'byChannel' => [
-        'minItems' => 1,
-    ],
-    'messageId' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-];
+        'byChannel' => [
+            'minItems' => 1,
+        ],
+        'messageId' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * An array of substitute destinations, each associated with a specific `channel`. Only one substitute destination is allowed per `channel`. A substitute destination must be provided for the main `channel` defined in the `message`.

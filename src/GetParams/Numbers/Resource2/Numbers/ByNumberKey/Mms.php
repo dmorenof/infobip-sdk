@@ -7,23 +7,23 @@ namespace InfobipSDK\GetParams\Numbers\Resource2\Numbers\ByNumberKey;
 final class Mms extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'limit' => 'limit',
-        'page' => 'page',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'limit' => 'limit',
+            'page' => 'page',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'limit' => [
-        'format' => 'int32',
-    ],
-    'page' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'format' => 'int32',
+        ],
+        'page' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     public ?int $limit {
         set {

@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225bbd858a3bba6d956caa5ac2689
 final class FacebookOutboundMarketingTextPayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 2000,
-    ],
-];
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 2000,
+        ],
+    ];
 
     public string $text {
         set {

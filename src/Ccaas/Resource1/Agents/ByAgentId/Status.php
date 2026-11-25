@@ -16,5 +16,4 @@ final class Status extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Agents\ByAgentId\Status::class)->put($agentId, $payload);
     }
-
 }

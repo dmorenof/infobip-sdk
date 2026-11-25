@@ -73,5 +73,4 @@ final class BrandAuthVerification extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::POST), path: ['brandId' => $brandId]);
         return;
     }
-
 }

@@ -70,5 +70,4 @@ final class Commission extends \InfobipSDK\Client
         $result = $this->executeOperation(self::operation(self::POST));
         return $result;
     }
-
 }

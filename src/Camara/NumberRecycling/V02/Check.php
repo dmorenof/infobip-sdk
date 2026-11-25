@@ -17,5 +17,4 @@ final class Check extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Camara\NumberRecycling\V02\Check::class)->post($payload);
     }
-
 }

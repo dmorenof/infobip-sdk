@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\N45c843446703ba5f4438a6f721c629420452796de20bd3dd9adfc
 final class CursorPageInfo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'nextCursor',
-    'previousCursor',
-    'size',
-];
+        'nextCursor',
+        'previousCursor',
+        'size',
+    ];
 
     protected const array VALIDATION = [
-    'size' => [
-        'minimum' => 1,
-        'format' => 'int32',
-    ],
-];
+        'size' => [
+            'minimum' => 1,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The next cursor, empty if there are no subsequent results.

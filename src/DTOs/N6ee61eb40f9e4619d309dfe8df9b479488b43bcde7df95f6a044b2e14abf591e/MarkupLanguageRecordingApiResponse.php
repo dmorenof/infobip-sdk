@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N6ee61eb40f9e4619d309dfe8df9b479488b43bcde7df95f6a044b
 final class MarkupLanguageRecordingApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'application',
-    'recording',
-];
+        'application',
+        'recording',
+    ];
 
     public \InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125fde9674634b8\CallsMarkupLanguageApplication $application;
     public \InfobipSDK\DTOs\N6ee61eb40f9e4619d309dfe8df9b479488b43bcde7df95f6a044b2e14abf591e\RecordingMetadata $recording;

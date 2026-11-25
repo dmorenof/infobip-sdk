@@ -155,5 +155,4 @@ final class Persons extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::PATCH), parameters: $params);
         return;
     }
-
 }

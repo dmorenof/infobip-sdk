@@ -12,10 +12,10 @@ final class CreateRegisteredSipTrunkResponse extends \InfobipSDK\DTOs\N74ef2de88
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'channelLimit' => [
-        'format' => 'int32',
-    ],
-];
+        'channelLimit' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

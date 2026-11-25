@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class CreateRcsTemplateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'providers',
-    'templateName',
-];
+        'content',
+        'providers',
+        'templateName',
+    ];
 
     protected const array VALIDATION = [
-    'providers' => [
-        'uniqueItems' => true,
-    ],
-    'templateName' => [
-        'minLength' => 1,
-        'maxLength' => 20,
-    ],
-];
+        'providers' => [
+            'uniqueItems' => true,
+        ],
+        'templateName' => [
+            'minLength' => 1,
+            'maxLength' => 20,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2eb95a84913\RcsTemplateContent $content;
     /**

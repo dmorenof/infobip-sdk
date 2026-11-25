@@ -11,17 +11,17 @@ namespace InfobipSDK\DTOs\N9620629c173fbd1e947e2693ffe57e0c353c3961ef0ef2018c058
 final class CreateTriggerApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'expression',
-    'formId',
-    'title',
-];
+        'expression',
+        'formId',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-];
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Condition which resolves in destination form.

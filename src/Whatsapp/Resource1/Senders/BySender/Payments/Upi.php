@@ -17,5 +17,4 @@ final class Upi extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\Payments\Upi::class)->getByPaymentId($identifier);
     }
-
 }

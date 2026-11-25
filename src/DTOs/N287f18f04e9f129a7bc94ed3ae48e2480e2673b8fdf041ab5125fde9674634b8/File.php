@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class File extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fileFormat',
-    'name',
-];
+        'fileFormat',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'fileFormat' => [
-        'minLength' => 1,
-    ],
-    'name' => [
-        'minLength' => 1,
-    ],
-    'size' => [
-        'minimum' => 0,
-    ],
-];
+        'fileFormat' => [
+            'minLength' => 1,
+        ],
+        'name' => [
+            'minLength' => 1,
+        ],
+        'size' => [
+            'minimum' => 0,
+        ],
+    ];
 
     /**
      * File creation time.

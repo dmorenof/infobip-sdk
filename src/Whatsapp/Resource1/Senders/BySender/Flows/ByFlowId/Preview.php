@@ -17,5 +17,4 @@ final class Preview extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\Flows\ByFlowId\Preview::class)->get($identifier);
     }
-
 }

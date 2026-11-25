@@ -10,26 +10,26 @@ namespace InfobipSDK\DTOs\N61cea6785aa06882a92b0d6cc8c922ce1d44b92bfbdfd6cde0df0
 final class WebhookPayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'attachment',
-    'attachmentInfo',
-    'dkimCheck',
-    'envelope',
-    'from',
-    'html',
-    'id',
-    'senderIp',
-    'spfCheck',
-    'subject',
-    'text',
-    'to',
-];
+        'attachment',
+        'attachmentInfo',
+        'dkimCheck',
+        'envelope',
+        'from',
+        'html',
+        'id',
+        'senderIp',
+        'spfCheck',
+        'subject',
+        'text',
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'attachment' => [
-        'minItems' => 0,
-        'maxItems' => 999,
-    ],
-];
+        'attachment' => [
+            'minItems' => 0,
+            'maxItems' => 999,
+        ],
+    ];
 
     /**
      * Attachments are received as variables named attachment1, attachment2, attachment3, etc. Each variable contains one part of the attachment in a byte array. The variable names are based on the “attachmentInfo” part of the inbound email.

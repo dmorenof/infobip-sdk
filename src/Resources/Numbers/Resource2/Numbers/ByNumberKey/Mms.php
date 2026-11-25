@@ -345,5 +345,4 @@ final class Mms extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_CONFIGURATION_KEY), $payload, path: $identifier);
         return $result;
     }
-
 }

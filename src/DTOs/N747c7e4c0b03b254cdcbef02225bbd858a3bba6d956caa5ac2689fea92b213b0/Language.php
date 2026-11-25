@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225bbd858a3bba6d956caa5ac2689
 final class Language extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'code',
-];
+        'code',
+    ];
 
     protected const array VALIDATION = [
-    'code' => [
-        'minLength' => 0,
-        'maxLength' => 5,
-    ],
-];
+        'code' => [
+            'minLength' => 0,
+            'maxLength' => 5,
+        ],
+    ];
 
     /**
      * The code of the language the template was created with, for example en or en_US.

@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class KakaoMessageOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'campaignReferenceId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'campaignReferenceId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * ID that allows you to track, analyze, and show an aggregated overview and the performance of individual campaigns per sending channel.

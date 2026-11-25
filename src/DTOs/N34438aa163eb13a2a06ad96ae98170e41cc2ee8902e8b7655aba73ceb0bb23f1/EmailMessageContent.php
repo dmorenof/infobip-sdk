@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class EmailMessageContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'subject' => [
-        'minLength' => 1,
-        'maxLength' => 1000,
-    ],
-];
+        'subject' => [
+            'minLength' => 1,
+            'maxLength' => 1000,
+        ],
+    ];
 
     /**
      * The message's body in AMP HTML format. If you include `ampHtml`, you must also include `html`, which will be displayed if AMP is not supported. Keep in mind that not all email clients support AMP HTML. For guidance on configuring the Gmail client, please visit this link: https://developers.google.com/gmail/ampemail/ .

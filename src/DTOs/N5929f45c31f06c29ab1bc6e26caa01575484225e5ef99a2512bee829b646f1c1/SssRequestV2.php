@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\N5929f45c31f06c29ab1bc6e26caa01575484225e5ef99a2512bee
 final class SssRequestV2 extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'channel' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-];
+        'channel' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Channel for which the Sending Strategy is created. Supported channels: SMS, MMS, RCS. If left empty, Sending Strategy will be applied to all supported channels.

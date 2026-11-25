@@ -21,5 +21,4 @@ final class Messages extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Voice\RinglessVoicemail\Resource1\Messages::class)->post($payload);
     }
-
 }

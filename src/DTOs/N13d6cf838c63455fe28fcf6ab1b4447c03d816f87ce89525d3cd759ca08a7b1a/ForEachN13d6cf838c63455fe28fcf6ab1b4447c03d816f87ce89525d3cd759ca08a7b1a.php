@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class ForEachN13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd759ca08a7b1a extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'do_',
-    'forEach_',
-    'in',
-];
+        'do_',
+        'forEach_',
+        'in',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'do' => 'do_',
-    'for-each' => 'forEach_',
-];
+        'do' => 'do_',
+        'for-each' => 'forEach_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'do_' => 'do',
-    'forEach_' => 'for-each',
-];
+        'do_' => 'do',
+        'forEach_' => 'for-each',
+    ];
 
     /**
      * Delimiter for separating values in the list of values.

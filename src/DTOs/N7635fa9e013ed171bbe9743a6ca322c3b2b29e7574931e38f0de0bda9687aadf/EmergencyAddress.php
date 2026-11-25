@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N7635fa9e013ed171bbe9743a6ca322c3b2b29e7574931e38f0de0
 final class EmergencyAddress extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'address',
-    'enabled',
-];
+        'address',
+        'enabled',
+    ];
 
     public \InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\Address $address;
     /**

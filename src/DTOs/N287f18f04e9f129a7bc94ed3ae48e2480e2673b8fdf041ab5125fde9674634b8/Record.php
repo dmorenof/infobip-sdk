@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class Record extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'callback',
-];
+        'action',
+        'callback',
+    ];
 
     protected const array VALIDATION = [
-    'maxSilence' => [
-        'format' => 'int32',
-    ],
-    'recordingStatusCallbackEvents' => [
-        'uniqueItems' => true,
-    ],
-    'timeout' => [
-        'format' => 'int32',
-    ],
-];
+        'maxSilence' => [
+            'format' => 'int32',
+        ],
+        'recordingStatusCallbackEvents' => [
+            'uniqueItems' => true,
+        ],
+        'timeout' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Action discriminator.

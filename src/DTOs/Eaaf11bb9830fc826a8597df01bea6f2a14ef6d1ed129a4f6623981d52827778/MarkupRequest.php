@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\Eaaf11bb9830fc826a8597df01bea6f2a14ef6d1ed129a4f662398
 final class MarkupRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'callback',
-    'endpoint',
-    'from',
-];
+        'callback',
+        'endpoint',
+        'from',
+    ];
 
     protected const array VALIDATION = [
-    'connectTimeout' => [
-        'maximum' => 60,
-        'format' => 'int32',
-    ],
-    'maxDuration' => [
-        'format' => 'int32',
-    ],
-];
+        'connectTimeout' => [
+            'maximum' => 60,
+            'format' => 'int32',
+        ],
+        'maxDuration' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125fde9674634b8\Callback $callback;
     /**

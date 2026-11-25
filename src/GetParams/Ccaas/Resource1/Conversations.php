@@ -7,50 +7,50 @@ namespace InfobipSDK\GetParams\Ccaas\Resource1;
 final class Conversations extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'agentId' => 'agentId',
-        'closedAfter' => 'closedAfter',
-        'closedBefore' => 'closedBefore',
-        'conversationIds' => 'conversationIds',
-        'createdAfter' => 'createdAfter',
-        'createdBefore' => 'createdBefore',
-        'limit' => 'limit',
-        'orderBy' => 'orderBy',
-        'page' => 'page',
-        'priority' => 'priority',
-        'queueIds' => 'queueIds',
-        'status' => 'status',
-        'tagNames' => 'tagNames',
-        'updatedAfter' => 'updatedAfter',
-        'updatedBefore' => 'updatedBefore',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'agentId' => 'agentId',
+            'closedAfter' => 'closedAfter',
+            'closedBefore' => 'closedBefore',
+            'conversationIds' => 'conversationIds',
+            'createdAfter' => 'createdAfter',
+            'createdBefore' => 'createdBefore',
+            'limit' => 'limit',
+            'orderBy' => 'orderBy',
+            'page' => 'page',
+            'priority' => 'priority',
+            'queueIds' => 'queueIds',
+            'status' => 'status',
+            'tagNames' => 'tagNames',
+            'updatedAfter' => 'updatedAfter',
+            'updatedBefore' => 'updatedBefore',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'conversationIds' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'conversationIds' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
         ],
-    ],
-    'limit' => [
-        'maximum' => 999,
-    ],
-    'queueIds' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'limit' => [
+            'maximum' => 999,
         ],
-    ],
-    'tagNames' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'queueIds' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
         ],
-    ],
-];
+        'tagNames' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+    ];
 
     public ?string $agentId;
     public ?string $closedAfter;

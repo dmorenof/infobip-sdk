@@ -10,26 +10,26 @@ namespace InfobipSDK\DTOs\A09fd2f38320e8e77c07ff55b0f3c0f934582962897bb3b86f1a03
 final class RcsSendRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'to',
-];
+        'content',
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'entityId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'to' => [
-        'minLength' => 1,
-    ],
-    'validityPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'applicationId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'entityId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'to' => [
+            'minLength' => 1,
+        ],
+        'validityPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Required for application use in a send request for outbound traffic. Returned in notification events. For more details, see our [documentation](https://www.infobip.com/docs/cpaas-x/application-and-entity-management).

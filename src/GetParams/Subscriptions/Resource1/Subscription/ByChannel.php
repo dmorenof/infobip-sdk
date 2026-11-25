@@ -7,50 +7,50 @@ namespace InfobipSDK\GetParams\Subscriptions\Resource1\Subscription;
 final class ByChannel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'applicationId' => 'applicationId',
-        'callsConfigurationId' => 'callsConfigurationId',
-        'entityId' => 'entityId',
-        'page' => 'page',
-        'resource' => 'resource',
-        'size' => 'size',
-        'user' => 'user',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'applicationId' => 'applicationId',
+            'callsConfigurationId' => 'callsConfigurationId',
+            'entityId' => 'entityId',
+            'page' => 'page',
+            'resource' => 'resource',
+            'size' => 'size',
+            'user' => 'user',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'callsConfigurationId' => [
-        'minLength' => 1,
-        'maxLength' => 128,
-    ],
-    'entityId' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'page' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'resource' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'size' => [
-        'minimum' => 1,
-        'maximum' => 100,
-        'format' => 'int32',
-    ],
-    'user' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'callsConfigurationId' => [
+            'minLength' => 1,
+            'maxLength' => 128,
+        ],
+        'entityId' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'page' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'resource' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'size' => [
+            'minimum' => 1,
+            'maximum' => 100,
+            'format' => 'int32',
+        ],
+        'user' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+    ];
 
     public ?string $applicationId {
         set {

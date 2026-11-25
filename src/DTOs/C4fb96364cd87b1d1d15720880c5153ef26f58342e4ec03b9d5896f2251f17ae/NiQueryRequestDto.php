@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896
 final class NiQueryRequestDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'attributes',
-    'callbackUrl',
-    'consentGranted',
-    'phoneNumber',
-];
+        'attributes',
+        'callbackUrl',
+        'consentGranted',
+        'phoneNumber',
+    ];
 
     public \InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896f2251f17ae\AttributesRequestDto $attributes;
     /**

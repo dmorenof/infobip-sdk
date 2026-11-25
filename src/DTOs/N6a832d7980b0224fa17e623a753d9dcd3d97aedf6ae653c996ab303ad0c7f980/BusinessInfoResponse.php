@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N6a832d7980b0224fa17e623a753d9dcd3d97aedf6ae653c996ab3
 final class BusinessInfoResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'about',
-    'address',
-    'description',
-    'displayName',
-    'email',
-    'vertical',
-    'websites',
-];
+        'about',
+        'address',
+        'description',
+        'displayName',
+        'email',
+        'vertical',
+        'websites',
+    ];
 
     /**
      * Manages the content of the sender\'s **About** section.

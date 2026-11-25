@@ -10,32 +10,32 @@ namespace InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896
 final class CamaraDeviceLocationVerifyRequestDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'accuracy',
-    'latitude',
-    'longitude',
-    'ueId',
-];
+        'accuracy',
+        'latitude',
+        'longitude',
+        'ueId',
+    ];
 
     protected const array VALIDATION = [
-    'accuracy' => [
-        'minimum' => 2,
-        'maximum' => 200,
-        'format' => 'int32',
-    ],
-    'latitude' => [
-        'minimum' => -90,
-        'maximum' => 90,
-    ],
-    'longitude' => [
-        'minimum' => -180,
-        'maximum' => 180,
-    ],
-    'uePort' => [
-        'minimum' => 0,
-        'maximum' => 65535,
-        'format' => 'int32',
-    ],
-];
+        'accuracy' => [
+            'minimum' => 2,
+            'maximum' => 200,
+            'format' => 'int32',
+        ],
+        'latitude' => [
+            'minimum' => -90,
+            'maximum' => 90,
+        ],
+        'longitude' => [
+            'minimum' => -180,
+            'maximum' => 180,
+        ],
+        'uePort' => [
+            'minimum' => 0,
+            'maximum' => 65535,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Radius of the circle in kilometers.

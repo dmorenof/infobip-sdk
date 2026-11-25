@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N41037c0c5bdf4509c49aaf5c9a141a8857afc7b3859839aa4c690
 final class MergeContactInformationV3DocsSchema extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'identifier' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'sender' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'identifier' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'sender' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Person ID. ID type must match the type parameter. Some channels (e,g., Apple Business Chat) use identifiers that contain unsafe characters. Make sure you URL-encode them in your API request. 255 characters max.

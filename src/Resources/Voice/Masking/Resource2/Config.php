@@ -340,5 +340,4 @@ final class Config extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_KEY), $payload, path: ['key' => $key]);
         return $result;
     }
-
 }

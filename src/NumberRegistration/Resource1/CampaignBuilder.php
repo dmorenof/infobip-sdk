@@ -29,5 +29,4 @@ final class CampaignBuilder extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\CampaignBuilder::class)->getByRequestUuid($requestUuid);
     }
-
 }

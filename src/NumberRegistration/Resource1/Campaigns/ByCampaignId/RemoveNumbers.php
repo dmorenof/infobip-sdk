@@ -16,5 +16,4 @@ final class RemoveNumbers extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Campaigns\ByCampaignId\RemoveNumbers::class)->post($campaignId, $payload);
     }
-
 }

@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\E6e93dd514df725f71bff0da51b4f6588e807f5cb84f3d1063a226
 final class CreateCatalogDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'description',
-    'name',
-    'type',
-];
+        'description',
+        'name',
+        'type',
+    ];
 
     /**
      * Catalog description.

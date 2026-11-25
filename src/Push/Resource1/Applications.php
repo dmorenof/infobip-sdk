@@ -27,5 +27,4 @@ final class Applications extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Push\Resource1\Applications::class)->getByApplicationCode($applicationCode, $params);
     }
-
 }

@@ -46,5 +46,4 @@ final class Audio extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Voice\RinglessVoicemail\Resource1\Audio::class)->deleteByAudioId($audioId);
     }
-
 }

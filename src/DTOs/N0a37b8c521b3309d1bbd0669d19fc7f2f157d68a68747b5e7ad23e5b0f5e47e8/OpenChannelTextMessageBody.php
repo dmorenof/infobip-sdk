@@ -12,11 +12,11 @@ final class OpenChannelTextMessageBody extends \InfobipSDK\DTOs\N0a37b8c521b3309
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 4096,
-    ],
-];
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 4096,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

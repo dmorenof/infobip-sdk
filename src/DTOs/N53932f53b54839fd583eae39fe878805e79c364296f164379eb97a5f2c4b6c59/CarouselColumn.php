@@ -12,28 +12,28 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class CarouselColumn extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'actions',
-    'text',
-];
+        'actions',
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'actions' => [
-        'minItems' => 1,
-        'maxItems' => 3,
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 120,
-    ],
-    'thumbnailImageUrl' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 40,
-    ],
-];
+        'actions' => [
+            'minItems' => 1,
+            'maxItems' => 3,
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 120,
+        ],
+        'thumbnailImageUrl' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 40,
+        ],
+    ];
 
     /**
      * Action buttons shown in the column.

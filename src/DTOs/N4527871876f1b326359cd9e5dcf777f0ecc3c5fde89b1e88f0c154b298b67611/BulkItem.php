@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c15
 final class BulkItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'callRequests',
-];
+        'callRequests',
+    ];
 
     protected const array VALIDATION = [
-    'connectTimeout' => [
-        'maximum' => 60,
-        'format' => 'int32',
-    ],
-    'maxDuration' => [
-        'format' => 'int32',
-    ],
-    'validityPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'connectTimeout' => [
+            'maximum' => 60,
+            'format' => 'int32',
+        ],
+        'maxDuration' => [
+            'format' => 'int32',
+        ],
+        'validityPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\CallRate $callRate;
     /**

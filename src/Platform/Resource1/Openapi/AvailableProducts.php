@@ -16,5 +16,4 @@ final class AvailableProducts extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Platform\Resource1\Openapi\AvailableProducts::class)->get();
     }
-
 }

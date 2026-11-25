@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class CarouselCommerceHead extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'header',
-];
+        'content',
+        'header',
+    ];
 
     protected const array VALIDATION = [
-    'content' => [
-        'minLength' => 1,
-    ],
-    'header' => [
-        'minLength' => 1,
-    ],
-];
+        'content' => [
+            'minLength' => 1,
+        ],
+        'header' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Content of the carousel commerce head.

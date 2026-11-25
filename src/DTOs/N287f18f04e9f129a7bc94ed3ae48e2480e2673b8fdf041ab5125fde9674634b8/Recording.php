@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class Recording extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'recordingType',
-];
+        'recordingType',
+    ];
 
     protected const array VALIDATION = [
-    'filePrefix' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-        'pattern' => '^[a-zA-Z0-9_\\-]*$',
-    ],
-];
+        'filePrefix' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+            'pattern' => '^[a-zA-Z0-9_\\-]*$',
+        ],
+    ];
 
     /**
      * Client-defined data visible when a recording is downloaded.

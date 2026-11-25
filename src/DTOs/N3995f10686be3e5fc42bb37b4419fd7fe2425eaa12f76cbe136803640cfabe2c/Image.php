@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class Image extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'url',
-];
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'link' => [
-        'minLength' => 0,
-        'maxLength' => 250,
-    ],
-    'url' => [
-        'minLength' => 0,
-        'maxLength' => 250,
-        'pattern' => '',
-    ],
-];
+        'link' => [
+            'minLength' => 0,
+            'maxLength' => 250,
+        ],
+        'url' => [
+            'minLength' => 0,
+            'maxLength' => 250,
+            'pattern' => '',
+        ],
+    ];
 
     /**
      * URL to redirect to when clicking on the image in the message.

@@ -38,5 +38,4 @@ final class Associations extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Provisioning\Resource1\Associations::class)->post($payload);
     }
-
 }

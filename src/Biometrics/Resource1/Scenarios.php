@@ -16,5 +16,4 @@ final class Scenarios extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Biometrics\Resource1\Scenarios::class)->get($params);
     }
-
 }

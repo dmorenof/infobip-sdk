@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225bbd858a3bba6d956caa5ac2689
 final class UtilityTextParameter extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'parameterName',
-    'text',
-];
+        'parameterName',
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'parameterName' => [
-        'minLength' => 0,
-        'maxLength' => 2048,
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 2048,
-    ],
-];
+        'parameterName' => [
+            'minLength' => 0,
+            'maxLength' => 2048,
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 2048,
+        ],
+    ];
 
     /**
      * Name of the placeholder this value fills. Templates have to be created with parameter format NAMED, positional templates are not supported.

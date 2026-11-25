@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\Eb9826dda36bfa834ba8eec2d30e3749cbed4dee9bcabc5eb783cc
 final class PublicReputationDetail extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'flagStatus',
-];
+        'flagStatus',
+    ];
 
     /**
      * Do recipients answer calls from this number?

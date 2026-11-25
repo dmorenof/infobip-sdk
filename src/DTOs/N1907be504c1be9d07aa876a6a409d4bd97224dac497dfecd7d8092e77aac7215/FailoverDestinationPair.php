@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N1907be504c1be9d07aa876a6a409d4bd97224dac497dfecd7d809
 final class FailoverDestinationPair extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'failover',
-    'initial',
-];
+        'failover',
+        'initial',
+    ];
 
     /**
      * The failover destination address to be used instead of the original destination address. Addresses must be in international format (Example: `41793026727`)

@@ -66,5 +66,4 @@ final class Heartbeat extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT), path: ['agentId' => $agentId]);
         return $result;
     }
-
 }

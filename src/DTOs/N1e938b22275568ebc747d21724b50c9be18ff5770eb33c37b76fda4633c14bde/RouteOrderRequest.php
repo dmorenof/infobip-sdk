@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N1e938b22275568ebc747d21724b50c9be18ff5770eb33c37b76fd
 final class RouteOrderRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'order',
-];
+        'order',
+    ];
 
     protected const array VALIDATION = [
-    'order' => [
-        'minimum' => 1,
-        'format' => 'int32',
-    ],
-];
+        'order' => [
+            'minimum' => 1,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Route order.

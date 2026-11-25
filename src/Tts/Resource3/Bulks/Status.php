@@ -27,5 +27,4 @@ final class Status extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Tts\Resource3\Bulks\Status::class)->put($params);
     }
-
 }

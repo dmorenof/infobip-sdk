@@ -66,5 +66,4 @@ final class Resume extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['bulkId' => $bulkId]);
         return $result;
     }
-
 }

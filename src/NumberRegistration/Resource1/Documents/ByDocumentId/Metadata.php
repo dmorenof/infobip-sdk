@@ -16,5 +16,4 @@ final class Metadata extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Documents\ByDocumentId\Metadata::class)->get($documentId);
     }
-
 }

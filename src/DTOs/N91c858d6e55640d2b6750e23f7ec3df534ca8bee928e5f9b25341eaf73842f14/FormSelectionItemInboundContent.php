@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class FormSelectionItemInboundContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'title',
-    'value',
-];
+        'title',
+        'value',
+    ];
 
     protected const array VALIDATION = [
-    'title' => [
-        'minLength' => 1,
-    ],
-    'value' => [
-        'minLength' => 1,
-    ],
-];
+        'title' => [
+            'minLength' => 1,
+        ],
+        'value' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Title of the item.

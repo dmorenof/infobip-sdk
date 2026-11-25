@@ -16,5 +16,4 @@ final class History extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Dialogs\ByDialogId\History::class)->get($dialogId);
     }
-
 }

@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c184
 final class DeleteFactsApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'ids',
-];
+        'ids',
+    ];
 
     /**
      * Ids of fact definitions to delete. Unknown ids are ignored silently.

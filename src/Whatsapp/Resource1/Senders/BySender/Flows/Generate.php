@@ -17,5 +17,4 @@ final class Generate extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\Flows\Generate::class)->post($sender, $payload);
     }
-
 }

@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N62d9ebafb4f8a59174952b52d2134c8b74a981fb89910acb47a5d
 final class BatchDeleteResult extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'status' => [
-        'format' => 'int32',
-    ],
-];
+        'status' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * List of errors

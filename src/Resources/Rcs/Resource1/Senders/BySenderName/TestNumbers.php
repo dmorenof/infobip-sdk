@@ -294,5 +294,4 @@ final class TestNumbers extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH_BY_TEST_NUMBER), $payload, path: $identifier);
         return $result;
     }
-
 }

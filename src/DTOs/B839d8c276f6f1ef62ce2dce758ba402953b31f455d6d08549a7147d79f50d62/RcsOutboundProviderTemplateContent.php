@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class RcsOutboundProviderTemplateContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'templateId',
-    'type',
-];
+        'templateId',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'templateId' => [
-        'minLength' => 1,
-    ],
-];
+        'templateId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Template parameters. Parameter names should match ones defined in template and value to be replaced in message. Mismatch will result in EC7018.

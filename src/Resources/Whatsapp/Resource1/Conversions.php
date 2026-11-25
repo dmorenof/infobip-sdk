@@ -74,5 +74,4 @@ final class Conversions extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::POST), $payload);
         return;
     }
-
 }

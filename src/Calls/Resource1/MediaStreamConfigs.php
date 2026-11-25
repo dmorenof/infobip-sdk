@@ -60,5 +60,4 @@ final class MediaStreamConfigs extends \InfobipSDK\InfobipOpenAPISpecificationSD
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\MediaStreamConfigs::class)->putByMediaStreamConfigId($mediaStreamConfigId, $payload);
     }
-
 }

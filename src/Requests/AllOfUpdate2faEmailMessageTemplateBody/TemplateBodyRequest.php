@@ -7,15 +7,15 @@ namespace InfobipSDK\Requests\AllOfUpdate2faEmailMessageTemplateBody;
 final class TemplateBodyRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'pinLength' => [
-        'format' => 'int32',
-    ],
-];
+        'pinLength' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'pinLength',
-    'pinType',
-];
+        'pinLength',
+        'pinType',
+    ];
 
     /**
      * Email template ID that should reference a previously created Email template.

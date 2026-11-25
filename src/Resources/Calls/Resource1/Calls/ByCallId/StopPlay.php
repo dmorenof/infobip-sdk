@@ -77,5 +77,4 @@ final class StopPlay extends \InfobipSDK\Client
         $result = func_num_args() > 1 ? $this->executeBody(self::operation(self::POST), $payload, path: ['callId' => $callId]) : $this->executeArguments(self::operation(self::POST), path: ['callId' => $callId]);
         return $result;
     }
-
 }

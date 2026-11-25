@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class TemplateNamedBodyParameter extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'parameterName',
-    'text',
-];
+        'parameterName',
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'parameterName' => [
-        'minLength' => 1,
-    ],
-    'text' => [
-        'minLength' => 1,
-    ],
-];
+        'parameterName' => [
+            'minLength' => 1,
+        ],
+        'text' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Name of the parameter as defined in the template.

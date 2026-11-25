@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class Priority extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'dailySubmitLimit' => [
-        'format' => 'int32',
-    ],
-];
+        'dailySubmitLimit' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The limit on how many campaigns you can submit a day with this priority.

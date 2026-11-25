@@ -7,28 +7,28 @@ namespace InfobipSDK\GetParams\People\Resource2;
 final class Persons extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'filter' => 'filter',
-        'identifier' => 'identifier',
-        'includeTotalCount' => 'includeTotalCount',
-        'limit' => 'limit',
-        'orderBy' => 'orderBy',
-        'page' => 'page',
-        'sender' => 'sender',
-        'type' => 'type',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'filter' => 'filter',
+            'identifier' => 'identifier',
+            'includeTotalCount' => 'includeTotalCount',
+            'limit' => 'limit',
+            'orderBy' => 'orderBy',
+            'page' => 'page',
+            'sender' => 'sender',
+            'type' => 'type',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'limit' => [
-        'format' => 'int32',
-    ],
-    'page' => [
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'format' => 'int32',
+        ],
+        'page' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $filter;
     public ?string $identifier;

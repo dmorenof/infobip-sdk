@@ -12,24 +12,24 @@ namespace InfobipSDK\DTOs\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81
 final class ViberBotButtonGrid extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'buttons',
-];
+        'buttons',
+    ];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 1,
-        'maxItems' => 2147483647,
-    ],
-    'buttonsGroupColumns' => [
-        'minimum' => 1,
-        'maximum' => 6,
-        'format' => 'int32',
-    ],
-    'buttonsGroupRows' => [
-        'minimum' => 1,
-        'format' => 'int32',
-    ],
-];
+        'buttons' => [
+            'minItems' => 1,
+            'maxItems' => 2147483647,
+        ],
+        'buttonsGroupColumns' => [
+            'minimum' => 1,
+            'maximum' => 6,
+            'format' => 'int32',
+        ],
+        'buttonsGroupRows' => [
+            'minimum' => 1,
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\Collections\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81e79874514cb\ViberBotButtonGrid\ButtonsCollection $buttons {
         set {

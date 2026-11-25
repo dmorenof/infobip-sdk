@@ -17,5 +17,4 @@ final class MediaCarousel extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Message\Interactive\MediaCarousel::class)->post($payload);
     }
-
 }

@@ -366,5 +366,4 @@ final class Persons extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT), parameters: $params);
         return $result;
     }
-
 }

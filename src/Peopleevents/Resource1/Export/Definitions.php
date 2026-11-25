@@ -18,5 +18,4 @@ final class Definitions extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Peopleevents\Resource1\Export\Definitions::class)->get();
     }
-
 }

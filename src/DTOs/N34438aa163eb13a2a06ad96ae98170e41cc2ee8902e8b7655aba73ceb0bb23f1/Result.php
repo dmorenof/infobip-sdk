@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class Result extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'attemptCount' => [
-        'format' => 'int32',
-    ],
-    'smsCount' => [
-        'format' => 'int32',
-    ],
-];
+        'attemptCount' => [
+            'format' => 'int32',
+        ],
+        'smsCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Used when specifying an application in outbound send requests. It is also returned in notification events. For detailed usage, refer to the [documentation](https://www.infobip.com/docs/cpaas-x/application-and-entity-management).

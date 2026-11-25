@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N46339420b556d1893a150250c0e3220eb8057cd2fc4110e601753
 final class SimpleReport extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'callbackData',
-    'from',
-    'integrationType',
-    'messageId',
-    'pairedMessageId',
-    'price',
-    'receivedAt',
-    'to',
-];
+        'callbackData',
+        'from',
+        'integrationType',
+        'messageId',
+        'pairedMessageId',
+        'price',
+        'receivedAt',
+        'to',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

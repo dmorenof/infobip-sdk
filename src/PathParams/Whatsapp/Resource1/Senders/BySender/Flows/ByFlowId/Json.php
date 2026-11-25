@@ -7,26 +7,26 @@ namespace InfobipSDK\PathParams\Whatsapp\Resource1\Senders\BySender\Flows\ByFlow
 final class Json extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'flowId',
-    'sender',
-];
+        'flowId',
+        'sender',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'flowId' => 'flowId',
-        'sender' => 'sender',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'flowId' => 'flowId',
+            'sender' => 'sender',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'flowId' => [
-        'minLength' => 1,
-    ],
-    'sender' => [
-        'minLength' => 1,
-    ],
-];
+        'flowId' => [
+            'minLength' => 1,
+        ],
+        'sender' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public string $flowId {
         set {

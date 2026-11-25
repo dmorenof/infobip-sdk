@@ -73,5 +73,4 @@ final class Definitions extends \InfobipSDK\Client
         $result = $this->executeOperation(self::operation(self::GET));
         return $result;
     }
-
 }

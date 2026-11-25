@@ -12,11 +12,11 @@ final class InstagramDmOutboundImageContent extends \InfobipSDK\DTOs\N8bb20f43a5
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'url' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N58b7723d552ea7166ae4b26f13a2e9dab0154f96a724621e17ccb
 final class GetTemplateResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'templateContent',
-];
+        'name',
+        'templateContent',
+    ];
 
     /**
      * Template name.

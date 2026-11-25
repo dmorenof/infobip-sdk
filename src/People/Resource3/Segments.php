@@ -65,5 +65,4 @@ final class Segments extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource3\Segments::class)->putBySegmentId($segmentId, $payload);
     }
-
 }

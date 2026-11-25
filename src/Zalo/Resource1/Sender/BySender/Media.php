@@ -27,5 +27,4 @@ final class Media extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Zalo\Resource1\Sender\BySender\Media::class)->getByMediaId($identifier);
     }
-
 }

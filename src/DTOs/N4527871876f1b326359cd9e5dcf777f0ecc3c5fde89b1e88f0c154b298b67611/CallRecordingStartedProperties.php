@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c15
 final class CallRecordingStartedProperties extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'maxDuration' => [
-        'format' => 'int32',
-    ],
-    'maxSilence' => [
-        'format' => 'int32',
-    ],
-];
+        'maxDuration' => [
+            'format' => 'int32',
+        ],
+        'maxSilence' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Flag indicating if a beep sound should be played before recording.

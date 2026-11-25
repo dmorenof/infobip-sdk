@@ -12,15 +12,15 @@ final class TextFacebookMtQuickReply extends \InfobipSDK\DTOs\N747c7e4c0b03b254c
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'payload' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-];
+        'payload' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

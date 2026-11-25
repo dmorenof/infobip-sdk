@@ -326,5 +326,4 @@ final class Pools extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_POOL_ID), $payload, path: ['poolId' => $poolId]);
         return $result;
     }
-
 }

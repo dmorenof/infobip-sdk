@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class CapabilityCheckRequestState extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messageId',
-    'phoneNumber',
-    'status',
-];
+        'messageId',
+        'phoneNumber',
+        'status',
+    ];
 
     /**
      * A unique message ID. This ID is automatically generated and will be included in the API response.

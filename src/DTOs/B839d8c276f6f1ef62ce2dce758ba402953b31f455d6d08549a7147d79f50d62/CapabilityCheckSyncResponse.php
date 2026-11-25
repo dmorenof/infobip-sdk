@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class CapabilityCheckSyncResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'capabilityCheckResults',
-];
+        'capabilityCheckResults',
+    ];
 
     /**
      * The result of the RCS capability check for the specified phone numbers.

@@ -72,5 +72,4 @@ final class Mms extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Numbers\Resource2\Numbers\ByNumberKey\Mms::class)->putByConfigurationKey($identifier, $payload);
     }
-
 }

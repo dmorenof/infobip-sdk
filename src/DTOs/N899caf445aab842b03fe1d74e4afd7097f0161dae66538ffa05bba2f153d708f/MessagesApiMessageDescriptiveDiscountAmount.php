@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageDescriptiveDiscountAmount extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'value' => [
-        'minimum' => 0,
-    ],
-];
+        'value' => [
+            'minimum' => 0,
+        ],
+    ];
 
     /**
      * Additional description of the amount. Optional for WhatsApp.

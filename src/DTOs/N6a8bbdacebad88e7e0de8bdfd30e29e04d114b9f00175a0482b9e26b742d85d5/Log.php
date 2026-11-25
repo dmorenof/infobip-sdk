@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class Log extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'smsCount' => [
-        'format' => 'int32',
-    ],
-];
+        'smsCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The ID that uniquely identifies the request.

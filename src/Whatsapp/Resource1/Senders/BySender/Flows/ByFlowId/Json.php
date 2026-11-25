@@ -29,5 +29,4 @@ final class Json extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\Flows\ByFlowId\Json::class)->put($identifier, $payload);
     }
-
 }

@@ -14,11 +14,11 @@ final class DeliveryTrackingButton extends \InfobipSDK\DTOs\N382231ebb2fc250c939
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 28,
-    ],
-];
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 28,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

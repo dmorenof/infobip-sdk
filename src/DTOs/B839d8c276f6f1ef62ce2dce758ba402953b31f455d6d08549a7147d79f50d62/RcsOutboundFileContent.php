@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class RcsOutboundFileContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'file',
-    'type',
-];
+        'file',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'suggestions' => [
-        'minItems' => 0,
-        'maxItems' => 11,
-    ],
-];
+        'suggestions' => [
+            'minItems' => 0,
+            'maxItems' => 11,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a7147d79f50d62\ResourceSchema $file;
     /**

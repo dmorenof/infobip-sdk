@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N1e177a7c00f43fb0cfaf8876573312572061d384022066ddec32b
 final class ScoreResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'score',
-    'stats',
-];
+        'score',
+        'stats',
+    ];
 
     /**
      * The score data including all scoring details and best score for the participant.

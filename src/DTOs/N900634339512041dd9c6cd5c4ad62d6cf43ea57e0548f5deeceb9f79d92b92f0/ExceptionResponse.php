@@ -27,10 +27,10 @@ namespace InfobipSDK\DTOs\N900634339512041dd9c6cd5c4ad62d6cf43ea57e0548f5deeceb9
 final class ExceptionResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'errorCode' => [
-        'format' => 'int32',
-    ],
-];
+        'errorCode' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Format: int32

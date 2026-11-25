@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\B3ed157de85ce51bb7c17933fb84ff4b3e9bcb9fb8576a5ae189b9
 final class ProblemDetailsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'status',
-    'title',
-    'type',
-];
+        'status',
+        'title',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'status' => [
-        'format' => 'int32',
-    ],
-];
+        'status' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * An array containing detailed information about each error encountered.

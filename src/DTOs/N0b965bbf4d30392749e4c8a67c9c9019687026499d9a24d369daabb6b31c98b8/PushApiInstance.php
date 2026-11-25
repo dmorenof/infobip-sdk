@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N0b965bbf4d30392749e4c8a67c9c9019687026499d9a24d369daa
 final class PushApiInstance extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'applicationId',
-    'registrationId',
-];
+        'applicationId',
+        'registrationId',
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'applicationId',
-    'registrationId',
-];
+        'applicationId',
+        'registrationId',
+    ];
 
     /**
      * Custom attributes set for a device

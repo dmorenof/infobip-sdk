@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\N1e177a7c00f43fb0cfaf8876573312572061d384022066ddec32b
 final class ScoreReturn extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'audioUrl',
-    'bestScore',
-    'campaignId',
-    'finalScore',
-    'languageCode',
-    'userId',
-];
+        'audioUrl',
+        'bestScore',
+        'campaignId',
+        'finalScore',
+        'languageCode',
+        'userId',
+    ];
 
     /**
      * Number of attempts made by the participant in the campaign.

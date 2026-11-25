@@ -71,5 +71,4 @@ final class Domains extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_DOMAIN_ID), path: ['domainId' => $domainId]);
         return $result;
     }
-
 }

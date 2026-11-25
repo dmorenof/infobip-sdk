@@ -71,5 +71,4 @@ final class ResetPassword extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['sipTrunkId' => $sipTrunkId]);
         return $result;
     }
-
 }

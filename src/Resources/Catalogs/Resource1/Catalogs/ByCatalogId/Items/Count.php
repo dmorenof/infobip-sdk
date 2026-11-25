@@ -71,5 +71,4 @@ final class Count extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['catalogId' => $catalogId]);
         return $result;
     }
-
 }

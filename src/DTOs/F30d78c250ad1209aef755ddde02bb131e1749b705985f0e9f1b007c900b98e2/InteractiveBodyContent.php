@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveBodyContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 1024,
-    ],
-];
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 1024,
+        ],
+    ];
 
     /**
      * Content of the message body.

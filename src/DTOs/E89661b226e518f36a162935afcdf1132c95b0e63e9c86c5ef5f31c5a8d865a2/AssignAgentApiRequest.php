@@ -11,15 +11,15 @@ namespace InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31
 final class AssignAgentApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'agentId',
-];
+        'agentId',
+    ];
 
     protected const array VALIDATION = [
-    'agentId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'agentId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Id of the conversation assignee.

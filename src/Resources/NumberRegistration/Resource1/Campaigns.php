@@ -366,5 +366,4 @@ final class Campaigns extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_CAMPAIGN_ID), $payload, path: ['campaignId' => $campaignId]);
         return $result;
     }
-
 }

@@ -71,5 +71,4 @@ final class LaunchStatus extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['senderName' => $senderName]);
         return $result;
     }
-
 }

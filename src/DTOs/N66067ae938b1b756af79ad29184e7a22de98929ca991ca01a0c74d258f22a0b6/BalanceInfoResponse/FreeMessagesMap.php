@@ -9,6 +9,6 @@ final class FreeMessagesMap extends \Dmorenof\SdkRuntime\Map
     protected const string VALUE_TYPE = 'int';
     protected const bool VALUE_NULLABLE = false;
     protected const array VALUE_VALIDATION = [
-    'format' => 'int32',
-];
+        'format' => 'int32',
+    ];
 }

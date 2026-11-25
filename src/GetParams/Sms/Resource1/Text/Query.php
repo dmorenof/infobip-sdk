@@ -7,59 +7,59 @@ namespace InfobipSDK\GetParams\Sms\Resource1\Text;
 final class Query extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'password',
-    'to',
-    'username',
-];
+        'password',
+        'to',
+        'username',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'bulkId' => 'bulkId',
-        'callbackData' => 'callbackData',
-        'flash' => 'flash',
-        'from' => 'from',
-        'indiaDltContentTemplateId' => 'indiaDltContentTemplateId',
-        'indiaDltPrincipalEntityId' => 'indiaDltPrincipalEntityId',
-        'indiaDltTelemarketerId' => 'indiaDltTelemarketerId',
-        'intermediateReport' => 'intermediateReport',
-        'languageCode' => 'languageCode',
-        'notifyContentType' => 'notifyContentType',
-        'notifyUrl' => 'notifyUrl',
-        'password' => 'password',
-        'processKey' => 'processKey',
-        'sendAt' => 'sendAt',
-        'southKoreaResellerCode' => 'southKoreaResellerCode',
-        'text' => 'text',
-        'to' => 'to',
-        'track' => 'track',
-        'trackingType' => 'trackingType',
-        'transliteration' => 'transliteration',
-        'turkeyIysBrandCode' => 'turkeyIysBrandCode',
-        'turkeyIysRecipientType' => 'turkeyIysRecipientType',
-        'username' => 'username',
-        'validityPeriod' => 'validityPeriod',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'bulkId' => 'bulkId',
+            'callbackData' => 'callbackData',
+            'flash' => 'flash',
+            'from' => 'from',
+            'indiaDltContentTemplateId' => 'indiaDltContentTemplateId',
+            'indiaDltPrincipalEntityId' => 'indiaDltPrincipalEntityId',
+            'indiaDltTelemarketerId' => 'indiaDltTelemarketerId',
+            'intermediateReport' => 'intermediateReport',
+            'languageCode' => 'languageCode',
+            'notifyContentType' => 'notifyContentType',
+            'notifyUrl' => 'notifyUrl',
+            'password' => 'password',
+            'processKey' => 'processKey',
+            'sendAt' => 'sendAt',
+            'southKoreaResellerCode' => 'southKoreaResellerCode',
+            'text' => 'text',
+            'to' => 'to',
+            'track' => 'track',
+            'trackingType' => 'trackingType',
+            'transliteration' => 'transliteration',
+            'turkeyIysBrandCode' => 'turkeyIysBrandCode',
+            'turkeyIysRecipientType' => 'turkeyIysRecipientType',
+            'username' => 'username',
+            'validityPeriod' => 'validityPeriod',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'callbackData' => [
-        'minLength' => 0,
-        'maxLength' => 4000,
-    ],
-    'southKoreaResellerCode' => [
-        'format' => 'int32',
-    ],
-    'to' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'callbackData' => [
+            'minLength' => 0,
+            'maxLength' => 4000,
         ],
-    ],
-    'turkeyIysBrandCode' => [
-        'format' => 'int32',
-    ],
-];
+        'southKoreaResellerCode' => [
+            'format' => 'int32',
+        ],
+        'to' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+        'turkeyIysBrandCode' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $bulkId;
     public ?string $callbackData {

@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N53ea038e2044401649ce25e79296cd97fe7d6f7f97d15a035e414
 final class DeleteSuppressionRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'suppressions',
-];
+        'suppressions',
+    ];
 
     protected const array VALIDATION = [
-    'suppressions' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-];
+        'suppressions' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+    ];
 
     /**
      * Email addresses to delete from the suppression list. Number of destinations cannot exceed 10,000.

@@ -21,5 +21,4 @@ final class Validation extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         return self::client()->resource(\InfobipSDK\Resources\Email\Resource2\Validation::class)->post($payload);
     }
-
 }

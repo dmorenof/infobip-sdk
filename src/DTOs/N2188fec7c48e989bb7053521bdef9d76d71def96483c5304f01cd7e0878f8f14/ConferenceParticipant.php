@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd
 final class ConferenceParticipant extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'state',
-];
+        'state',
+    ];
 
     protected const array VALIDATION = [
-    'duration' => [
-        'format' => 'int32',
-    ],
-    'ringDuration' => [
-        'format' => 'int32',
-    ],
-];
+        'duration' => [
+            'format' => 'int32',
+        ],
+        'ringDuration' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Id of the call leg of this participant.

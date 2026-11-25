@@ -16,5 +16,4 @@ final class Status extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\KnowledgeBase\Resource1\Articles\ByArticleId\Status::class)->patch($articleId, $payload);
     }
-
 }

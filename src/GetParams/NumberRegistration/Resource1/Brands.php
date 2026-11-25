@@ -7,53 +7,53 @@ namespace InfobipSDK\GetParams\NumberRegistration\Resource1;
 final class Brands extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'applicationId' => 'applicationId',
-        'entityId' => 'entityId',
-        'id' => 'id',
-        'nameLike' => 'nameLike',
-        'page' => 'page',
-        'referenceId' => 'referenceId',
-        'size' => 'size',
-        'sort' => 'sort',
-        'type' => 'type',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'applicationId' => 'applicationId',
+            'entityId' => 'entityId',
+            'id' => 'id',
+            'nameLike' => 'nameLike',
+            'page' => 'page',
+            'referenceId' => 'referenceId',
+            'size' => 'size',
+            'sort' => 'sort',
+            'type' => 'type',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'id' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
         ],
-    ],
-    'page' => [
-        'format' => 'int32',
-    ],
-    'referenceId' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'page' => [
+            'format' => 'int32',
         ],
-    ],
-    'size' => [
-        'format' => 'int32',
-    ],
-    'sort' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'referenceId' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
         ],
-    ],
-    'type' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'size' => [
+            'format' => 'int32',
         ],
-    ],
-];
+        'sort' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+        'type' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+    ];
 
     public ?string $applicationId;
     public ?string $entityId;

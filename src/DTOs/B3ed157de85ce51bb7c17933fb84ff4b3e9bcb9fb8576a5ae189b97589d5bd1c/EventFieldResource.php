@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\B3ed157de85ce51bb7c17933fb84ff4b3e9bcb9fb8576a5ae189b9
 final class EventFieldResource extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'type',
-];
+        'name',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 128,
-        'pattern' => '^[a-z_][a-zA-Z0-9_]*$',
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 128,
+            'pattern' => '^[a-z_][a-zA-Z0-9_]*$',
+        ],
+    ];
 
     /**
      * Field name. Must not exceed `128` characters. Must start with a lowercase letter `(a–z)` and can contain alphanumeric characters `(A–Z, a–z, 0–9)` and underscores `(_)`.

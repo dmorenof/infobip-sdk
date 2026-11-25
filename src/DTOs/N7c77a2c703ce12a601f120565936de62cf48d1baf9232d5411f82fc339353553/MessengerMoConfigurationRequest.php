@@ -10,30 +10,30 @@ namespace InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82
 final class MessengerMoConfigurationRequest extends \InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\MoConfigurationRequest
 {
     public const array REQUIRED_FIELDS = [
-    'channel',
-];
+        'channel',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'unset' => 'unset_',
-];
+        'unset' => 'unset_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'unset_' => 'unset',
-];
+        'unset_' => 'unset',
+    ];
 
     protected const array VALIDATION = [
-    'keyword' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'unset_' => [
-        'uniqueItems' => true,
-    ],
-    'username' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-        'pattern' => '^(?!\\s*$).+',
-    ],
-];
+        'keyword' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'unset_' => [
+            'uniqueItems' => true,
+        ],
+        'username' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+            'pattern' => '^(?!\\s*$).+',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

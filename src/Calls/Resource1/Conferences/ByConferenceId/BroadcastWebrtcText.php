@@ -18,5 +18,4 @@ final class BroadcastWebrtcText extends \InfobipSDK\InfobipOpenAPISpecificationS
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Conferences\ByConferenceId\BroadcastWebrtcText::class)->post($conferenceId, $payload);
     }
-
 }

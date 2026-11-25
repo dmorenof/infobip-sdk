@@ -11,32 +11,32 @@ namespace InfobipSDK\DTOs\N25bc6165974db08bf3072efbf58365d643c5a11027c569c8010b7
 final class WorkingHoursApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-    'name',
-    'timezone',
-    'workWeek',
-];
+        'message',
+        'name',
+        'timezone',
+        'workWeek',
+    ];
 
     protected const array VALIDATION = [
-    'holidays' => [
-        'uniqueItems' => true,
-    ],
-    'message' => [
-        'minLength' => 0,
-        'maxLength' => 4000,
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'timezone' => [
-        'minLength' => 1,
-    ],
-];
+        'holidays' => [
+            'uniqueItems' => true,
+        ],
+        'message' => [
+            'minLength' => 0,
+            'maxLength' => 4000,
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'timezone' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'id',
-];
+        'id',
+    ];
 
     /**
      * Close conversation created outside of working hours toggle.

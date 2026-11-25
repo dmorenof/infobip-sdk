@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N2c1d05f3dc2f46851efe83e0fa7d26e3f8a2e8ee522f9adaaba58
 final class ToCreate extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'to',
-];
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'to' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-];
+        'to' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Destination address that needs to be blocklisted. Addresses must be a number in international format (example: `41793026727`),  a valid email address (example: `recipient&#64;example.com`) or valid email domain (example: `example.com`).

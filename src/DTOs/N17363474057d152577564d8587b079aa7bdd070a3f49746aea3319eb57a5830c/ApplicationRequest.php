@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N17363474057d152577564d8587b079aa7bdd070a3f49746aea331
 final class ApplicationRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'configuration',
-    'enabled',
-    'name',
-];
+        'configuration',
+        'enabled',
+        'name',
+    ];
 
     /**
      * Created 2FA application configuration.

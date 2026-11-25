@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class AppleMfbOutboundListPickerContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'requestIdentifier' => [
-        'pattern' => '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$',
-    ],
-];
+        'requestIdentifier' => [
+            'pattern' => '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$',
+        ],
+    ];
 
     /**
      * An array of images. Make sure sum of sizes of all images does not exceed 5 MB.

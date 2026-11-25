@@ -186,5 +186,4 @@ final class Persons extends \InfobipSDK\Client
         func_num_args() > 1 ? $this->executeBody(self::operation(self::PATCH), $payload, path: ['name' => $name]) : $this->executeArguments(self::operation(self::PATCH), path: ['name' => $name]);
         return;
     }
-
 }

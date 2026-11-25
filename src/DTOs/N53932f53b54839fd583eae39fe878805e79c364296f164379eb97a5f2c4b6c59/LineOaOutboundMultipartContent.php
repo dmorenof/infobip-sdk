@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class LineOaOutboundMultipartContent extends \InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\LineOaOutboundContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'parts' => [
-        'minItems' => 1,
-        'maxItems' => 5,
-    ],
-];
+        'parts' => [
+            'minItems' => 1,
+            'maxItems' => 5,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
@@ -32,5 +32,4 @@ final class LineOaOutboundMultipartContent extends \InfobipSDK\DTOs\N53932f53b54
             $this->parts = $value;
         }
     }
-
 }

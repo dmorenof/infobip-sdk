@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N08ae7804593580772b7e2fc86ecf932ee109db81004beca72391a
 final class PersonDestinationRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contactInformation',
-];
+        'contactInformation',
+    ];
 
     /**
      * Person's contact information

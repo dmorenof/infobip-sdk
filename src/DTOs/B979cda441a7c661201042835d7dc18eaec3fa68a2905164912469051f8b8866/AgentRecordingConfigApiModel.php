@@ -11,14 +11,14 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class AgentRecordingConfigApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'agentId',
-    'mediaType',
-];
+        'agentId',
+        'mediaType',
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'agentId',
-    'enabledChangedAt',
-];
+        'agentId',
+        'enabledChangedAt',
+    ];
 
     /**
      * ID of the agent to which the recording configuration belongs.

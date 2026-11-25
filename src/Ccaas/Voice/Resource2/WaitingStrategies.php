@@ -60,5 +60,4 @@ final class WaitingStrategies extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\WaitingStrategies::class)->putById($id, $payload);
     }
-
 }

@@ -10,26 +10,26 @@ namespace InfobipSDK\DTOs\N0b5f1ca361e90fa0a3f8b907dc53fa34f06ccd85fde4d07f80394
 final class PaymentConfirmationContent extends \InfobipSDK\DTOs\N0b5f1ca361e90fa0a3f8b907dc53fa34f06ccd85fde4d07f80394e60f5f23c99\InboundMessage
 {
     public const array REQUIRED_FIELDS = [
-    'currency',
-    'paymentId',
-    'referenceId',
-    'status',
-    'totalAmount',
-    'transactionId',
-    'transactionType',
-];
+        'currency',
+        'paymentId',
+        'referenceId',
+        'status',
+        'totalAmount',
+        'transactionId',
+        'transactionType',
+    ];
 
     protected const array VALIDATION = [
-    'paymentId' => [
-        'minLength' => 1,
-    ],
-    'referenceId' => [
-        'minLength' => 1,
-    ],
-    'transactionId' => [
-        'minLength' => 1,
-    ],
-];
+        'paymentId' => [
+            'minLength' => 1,
+        ],
+        'referenceId' => [
+            'minLength' => 1,
+        ],
+        'transactionId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class BrandVet extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'score' => [
-        'format' => 'int32',
-    ],
-];
+        'score' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'brandId',
-    'enhancedVettedDate',
-    'imported',
-    'score',
-    'vetId',
-    'vettedDate',
-];
+        'brandId',
+        'enhancedVettedDate',
+        'imported',
+        'score',
+        'vetId',
+        'vettedDate',
+    ];
 
     /**
      * The ID of the brand the vet belongs to.

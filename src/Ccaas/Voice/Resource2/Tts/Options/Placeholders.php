@@ -16,5 +16,4 @@ final class Placeholders extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\Tts\Options\Placeholders::class)->getByTtsPurpose($ttsPurpose);
     }
-
 }

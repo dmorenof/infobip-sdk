@@ -49,5 +49,4 @@ final class Definitions extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Peopleevents\Resource2\Definitions::class)->postByDefinitionId($definitionId, $payload);
     }
-
 }

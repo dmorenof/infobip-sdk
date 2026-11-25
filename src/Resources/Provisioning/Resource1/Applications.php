@@ -356,5 +356,4 @@ final class Applications extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::PUT_BY_APPLICATION_ID), $payload, path: ['applicationId' => $applicationId]);
         return;
     }
-
 }

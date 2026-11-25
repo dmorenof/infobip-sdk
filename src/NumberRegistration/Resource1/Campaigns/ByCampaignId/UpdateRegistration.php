@@ -16,5 +16,4 @@ final class UpdateRegistration extends \InfobipSDK\InfobipOpenAPISpecificationSD
     {
         self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Campaigns\ByCampaignId\UpdateRegistration::class)->post($campaignId, $payload);
     }
-
 }

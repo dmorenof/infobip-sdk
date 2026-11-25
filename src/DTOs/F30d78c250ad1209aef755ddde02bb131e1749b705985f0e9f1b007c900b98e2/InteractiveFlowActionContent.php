@@ -12,26 +12,26 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveFlowActionContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'callToActionButton',
-    'flowId',
-    'flowToken',
-];
+        'callToActionButton',
+        'flowId',
+        'flowToken',
+    ];
 
     protected const array VALIDATION = [
-    'callToActionButton' => [
-        'minLength' => 1,
-        'maxLength' => 20,
-    ],
-    'flowId' => [
-        'minLength' => 1,
-    ],
-    'flowMessageVersion' => [
-        'format' => 'int32',
-    ],
-    'flowToken' => [
-        'minLength' => 1,
-    ],
-];
+        'callToActionButton' => [
+            'minLength' => 1,
+            'maxLength' => 20,
+        ],
+        'flowId' => [
+            'minLength' => 1,
+        ],
+        'flowMessageVersion' => [
+            'format' => 'int32',
+        ],
+        'flowToken' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Call to action button text.

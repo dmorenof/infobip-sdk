@@ -317,5 +317,4 @@ final class Lists extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_LIST_NAME), $payload, path: $identifier);
         return $result;
     }
-
 }

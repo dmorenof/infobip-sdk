@@ -12,12 +12,11 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class TemplateOrderStatusContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'orderStatuses',
-];
+        'orderStatuses',
+    ];
 
     /**
      * Array of order statuses information.
      */
     public \InfobipSDK\Collections\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\TemplateOrderStatusContent\OrderStatusesCollection $orderStatuses;
-
 }

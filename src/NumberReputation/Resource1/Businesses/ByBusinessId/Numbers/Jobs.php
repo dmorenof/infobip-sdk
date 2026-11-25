@@ -16,5 +16,4 @@ final class Jobs extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberReputation\Resource1\Businesses\ByBusinessId\Numbers\Jobs::class)->get($businessId, $params);
     }
-
 }

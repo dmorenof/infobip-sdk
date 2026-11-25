@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N5929f45c31f06c29ab1bc6e26caa01575484225e5ef99a2512bee
 final class SendingStrategyId extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'sendingStrategyId',
-];
+        'sendingStrategyId',
+    ];
 
     /**
      * Id of the sending strategy.

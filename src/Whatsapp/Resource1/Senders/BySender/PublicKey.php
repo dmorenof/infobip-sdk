@@ -32,5 +32,4 @@ final class PublicKey extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\PublicKey::class)->post($sender, $payload);
     }
-
 }

@@ -38,5 +38,4 @@ final class Form extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource2\Conversations\ByConversationId\Form::class)->deleteById($identifier);
     }
-
 }

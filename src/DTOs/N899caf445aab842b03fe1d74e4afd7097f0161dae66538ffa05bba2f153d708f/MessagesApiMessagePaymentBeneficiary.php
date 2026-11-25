@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessagePaymentBeneficiary extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'firstAddressLine' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'postalCode' => [
-        'pattern' => '^[0-9]{6}$',
-    ],
-    'secondAddressLine' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-];
+        'firstAddressLine' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'postalCode' => [
+            'pattern' => '^[0-9]{6}$',
+        ],
+        'secondAddressLine' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * City name.

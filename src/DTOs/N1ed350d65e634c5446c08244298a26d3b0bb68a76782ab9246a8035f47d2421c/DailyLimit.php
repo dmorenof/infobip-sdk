@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N1ed350d65e634c5446c08244298a26d3b0bb68a76782ab9246a80
 final class DailyLimit extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'countryCode',
-    'messageCountLimit',
-];
+        'countryCode',
+        'messageCountLimit',
+    ];
 
     protected const array VALIDATION = [
-    'messageCountLimit' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCountLimit' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * ISO alpha-2 country code.

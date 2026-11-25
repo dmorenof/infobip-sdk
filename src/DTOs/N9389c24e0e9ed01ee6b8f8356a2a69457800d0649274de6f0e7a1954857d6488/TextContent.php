@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class TextContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 1000,
-    ],
-];
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 1000,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1954857d6488\ButtonWithAction $button;
     /**

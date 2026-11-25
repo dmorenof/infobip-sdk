@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class Table extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'rows',
-];
+        'rows',
+    ];
 
     protected const array VALIDATION = [
-    'rows' => [
-        'minItems' => 2,
-        'maxItems' => 8,
-    ],
-];
+        'rows' => [
+            'minItems' => 2,
+            'maxItems' => 8,
+        ],
+    ];
 
     /**
      * List of rows.

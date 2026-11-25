@@ -8,6 +8,6 @@ final class InitialScreensCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = 'string';
     protected const array COLLECTION_VALIDATION = [
-    'uniqueItems' => true,
-];
+        'uniqueItems' => true,
+    ];
 }

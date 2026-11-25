@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N2c1d05f3dc2f46851efe83e0fa7d26e3f8a2e8ee522f9adaaba58
 final class BlocklistCreateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'blocklist',
-];
+        'blocklist',
+    ];
 
     protected const array VALIDATION = [
-    'blocklist' => [
-        'minItems' => 1,
-    ],
-];
+        'blocklist' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * Blocklist elements that need to be blocklisted. Number of destinations cannot exceed 50 000.

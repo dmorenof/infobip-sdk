@@ -357,5 +357,4 @@ final class Security extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_AUTH_ID), $payload, path: ['authId' => $authId]);
         return $result;
     }
-
 }

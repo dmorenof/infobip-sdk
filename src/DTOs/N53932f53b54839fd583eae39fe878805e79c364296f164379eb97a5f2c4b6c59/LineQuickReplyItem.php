@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class LineQuickReplyItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-];
+        'action',
+    ];
 
     protected const array VALIDATION = [
-    'imageUrl' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'imageUrl' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\LineQuickReplyAction $action;
     /**

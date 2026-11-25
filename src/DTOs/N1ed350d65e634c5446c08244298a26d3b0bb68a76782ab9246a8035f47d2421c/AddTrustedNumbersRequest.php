@@ -13,15 +13,15 @@ namespace InfobipSDK\DTOs\N1ed350d65e634c5446c08244298a26d3b0bb68a76782ab9246a80
 final class AddTrustedNumbersRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'phoneNumbers',
-];
+        'phoneNumbers',
+    ];
 
     protected const array VALIDATION = [
-    'phoneNumbers' => [
-        'minItems' => 1,
-        'maxItems' => 1000,
-    ],
-];
+        'phoneNumbers' => [
+            'minItems' => 1,
+            'maxItems' => 1000,
+        ],
+    ];
 
     /**
      * Phone numbers to add to the trusted phone numbers list. They should be in international format without leading plus sign.

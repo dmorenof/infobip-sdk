@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class InputPageOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'labelText' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'maximumCharacterCount' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'placeholder' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'prefixText' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-];
+        'labelText' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'maximumCharacterCount' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'placeholder' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'prefixText' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+    ];
 
     public \InfobipSDK\Enums\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341eaf73842f14\TextContentType $appleTextContentType;
     public \InfobipSDK\Enums\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341eaf73842f14\InputType $inputType;

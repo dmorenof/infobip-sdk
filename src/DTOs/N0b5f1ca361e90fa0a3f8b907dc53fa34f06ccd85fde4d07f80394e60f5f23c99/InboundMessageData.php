@@ -12,13 +12,13 @@ final class InboundMessageData extends \InfobipSDK\DTOs\N0b5f1ca361e90fa0a3f8b90
     public const array REQUIRED_FIELDS = [];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'contact',
-    'from',
-    'messageId',
-    'price',
-    'receivedAt',
-    'to',
-];
+        'contact',
+        'from',
+        'messageId',
+        'price',
+        'receivedAt',
+        'to',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

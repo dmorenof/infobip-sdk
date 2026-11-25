@@ -7,24 +7,24 @@ namespace InfobipSDK\DeleteParams\People\Resource2\Persons\ByPersonId;
 final class Lists extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'listNames',
-];
+        'listNames',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'listNames' => 'listNames',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'listNames' => 'listNames',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'listNames' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'listNames' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
         ],
-    ],
-];
+    ];
 
     /** @var list<string> */
     public array $listNames;

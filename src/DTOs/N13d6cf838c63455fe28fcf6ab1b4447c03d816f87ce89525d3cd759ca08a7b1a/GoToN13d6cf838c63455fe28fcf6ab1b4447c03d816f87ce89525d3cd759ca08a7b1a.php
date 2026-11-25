@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class GoToN13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd759ca08a7b1a extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'goTo_',
-];
+        'goTo_',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'goTo' => 'goTo_',
-];
+        'goTo' => 'goTo_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'goTo_' => 'goTo',
-];
+        'goTo_' => 'goTo',
+    ];
 
     protected const array VALIDATION = [
-    'goTo_' => [
-        'format' => 'int32',
-    ],
-];
+        'goTo_' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The actionId of an action to which to jump

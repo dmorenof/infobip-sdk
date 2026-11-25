@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiEventRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'events',
-];
+        'events',
+    ];
 
     protected const array VALIDATION = [
-    'events' => [
-        'minItems' => 1,
-    ],
-];
+        'events' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * Array of event objects of a single event or multiple events sent
@@ -28,5 +28,4 @@ final class MessagesApiEventRequest extends \Dmorenof\SdkRuntime\DTO
             $this->events = $value;
         }
     }
-
 }

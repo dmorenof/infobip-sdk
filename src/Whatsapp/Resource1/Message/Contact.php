@@ -17,5 +17,4 @@ final class Contact extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Message\Contact::class)->post($payload);
     }
-
 }

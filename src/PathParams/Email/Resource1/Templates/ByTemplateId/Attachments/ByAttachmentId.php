@@ -7,17 +7,17 @@ namespace InfobipSDK\PathParams\Email\Resource1\Templates\ByTemplateId\Attachmen
 final class ByAttachmentId extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'attachmentId',
-    'templateId',
-];
+        'attachmentId',
+        'templateId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'attachmentId' => 'attachmentId',
-        'templateId' => 'templateId',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'attachmentId' => 'attachmentId',
+            'templateId' => 'templateId',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     public string $attachmentId;
     public int $templateId;

@@ -15,5 +15,4 @@ final class TextAndImageFreeFormAddChannelButton extends \InfobipSDK\DTOs\N3995f
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

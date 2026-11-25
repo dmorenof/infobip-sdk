@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\N2a53d681c9399f766b0cfff54e0469d04419b36fc1603e6db03e6
 final class RetrieveContextRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-];
+        'message',
+    ];
 
     protected const array VALIDATION = [
-    'k' => [
-        'format' => 'int32',
-    ],
-    'reRankK' => [
-        'format' => 'int32',
-    ],
-];
+        'k' => [
+            'format' => 'int32',
+        ],
+        'reRankK' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of context chunks to return. Overrides the assistant's default K value. Use this to get more or fewer context chunks.

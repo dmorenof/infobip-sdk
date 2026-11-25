@@ -13,5 +13,4 @@ final class NoAction extends \InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62c
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

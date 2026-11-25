@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N4811a3a9108d5f90b8934012403f954f20270c436bdecbc318a80
 final class ConferencePlayRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-];
+        'content',
+    ];
 
     protected const array VALIDATION = [
-    'loopCount' => [
-        'format' => 'int32',
-    ],
-];
+        'loopCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c154b298b67611\PublicPlayContent $content;
     /**

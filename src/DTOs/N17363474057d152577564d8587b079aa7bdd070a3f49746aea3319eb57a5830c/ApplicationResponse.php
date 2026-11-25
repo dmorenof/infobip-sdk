@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\N17363474057d152577564d8587b079aa7bdd070a3f49746aea331
 final class ApplicationResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'applicationId',
-    'configuration',
-    'enabled',
-    'name',
-];
+        'applicationId',
+        'configuration',
+        'enabled',
+        'name',
+    ];
 
     /**
      * The ID of the application that represents your service, e.g. 2FA for login, 2FA for changing the password, etc.

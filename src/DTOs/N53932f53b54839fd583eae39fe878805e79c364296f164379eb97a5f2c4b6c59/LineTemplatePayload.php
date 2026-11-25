@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 class LineTemplatePayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59.ButtonsLineTemplatePayload' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\ButtonsLineTemplatePayload',
-    '53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59.CarouselLineTemplatePayload' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\CarouselLineTemplatePayload',
-    '53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59.ConfirmLineTemplatePayload' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\ConfirmLineTemplatePayload',
-    '53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59.ImageCarouselLineTemplatePayload' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\ImageCarouselLineTemplatePayload',
-    'BUTTONS' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\ButtonsLineTemplatePayload',
-    'CAROUSEL' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\CarouselLineTemplatePayload',
-    'CONFIRM' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\ConfirmLineTemplatePayload',
-    'IMAGE_CAROUSEL' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\ImageCarouselLineTemplatePayload',
-];
+        '53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59.ButtonsLineTemplatePayload' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\ButtonsLineTemplatePayload',
+        '53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59.CarouselLineTemplatePayload' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\CarouselLineTemplatePayload',
+        '53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59.ConfirmLineTemplatePayload' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\ConfirmLineTemplatePayload',
+        '53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59.ImageCarouselLineTemplatePayload' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\ImageCarouselLineTemplatePayload',
+        'BUTTONS' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\ButtonsLineTemplatePayload',
+        'CAROUSEL' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\CarouselLineTemplatePayload',
+        'CONFIRM' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\ConfirmLineTemplatePayload',
+        'IMAGE_CAROUSEL' => 'InfobipSDK\\DTOs\\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\\ImageCarouselLineTemplatePayload',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

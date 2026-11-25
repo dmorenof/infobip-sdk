@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N7c9f96abfad3f4dcf2c0a97ec8d627a73c6fe4ecaf776deaddf2a
 final class InstagramDmRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messages',
-];
+        'messages',
+    ];
 
     /**
      * An array of message objects of a single message or multiple messages sent under one bulk ID.

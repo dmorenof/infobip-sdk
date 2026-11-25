@@ -16,5 +16,4 @@ final class PlatformParameters extends \InfobipSDK\InfobipOpenAPISpecificationSD
     {
         return self::client()->resource(\InfobipSDK\Resources\Rcs\Resource1\Senders\BySenderName\PlatformParameters::class)->patch($senderName, $payload);
     }
-
 }

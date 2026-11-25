@@ -224,5 +224,4 @@ final class Numbers extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::POST), $payload, path: ['businessId' => $businessId]);
         return;
     }
-
 }

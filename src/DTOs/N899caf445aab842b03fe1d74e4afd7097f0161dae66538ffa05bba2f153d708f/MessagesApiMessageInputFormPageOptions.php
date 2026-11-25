@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageInputFormPageOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'maximumCharacterCount' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'maximumCharacterCount' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Text to give the user more input context that displays below the Input field.

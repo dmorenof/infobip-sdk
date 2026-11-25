@@ -52,5 +52,4 @@ final class Cnam extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Numbers\Resource2\Numbers\ByNumberKey\Voice\Cnam::class)->put($numberKey, $payload);
     }
-
 }

@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N0089ea7cf06f0b77e4c88a7276c6f25dd5c0c5bbab819756fc42c
 final class GetSenderFlowsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'flows',
-];
+        'flows',
+    ];
 
     /**
      * List of found flows.

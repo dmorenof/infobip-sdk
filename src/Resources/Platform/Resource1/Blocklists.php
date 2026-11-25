@@ -212,5 +212,4 @@ final class Blocklists extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::POST), $payload);
         return;
     }
-
 }

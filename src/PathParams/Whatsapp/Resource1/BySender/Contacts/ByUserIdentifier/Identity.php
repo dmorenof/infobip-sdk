@@ -7,17 +7,17 @@ namespace InfobipSDK\PathParams\Whatsapp\Resource1\BySender\Contacts\ByUserIdent
 final class Identity extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'sender',
-    'userIdentifier',
-];
+        'sender',
+        'userIdentifier',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'sender' => 'sender',
-        'userIdentifier' => 'userIdentifier',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'sender' => 'sender',
+            'userIdentifier' => 'userIdentifier',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     public string $sender;
     public string $userIdentifier;

@@ -12,14 +12,14 @@ final class ButtonFacebookTemplatePayload extends \InfobipSDK\DTOs\N747c7e4c0b03
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 1,
-        'maxItems' => 2147483647,
-    ],
-    'text' => [
-        'minLength' => 1,
-    ],
-];
+        'buttons' => [
+            'minItems' => 1,
+            'maxItems' => 2147483647,
+        ],
+        'text' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class KakaoChinguOutboundItemListFreeFormContent extends \InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe136803640cfabe2c\KakaoChinguOutboundContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 1,
-        'maxItems' => 2,
-    ],
-    'header' => [
-        'minLength' => 1,
-        'maxLength' => 20,
-    ],
-    'itemList' => [
-        'minItems' => 3,
-        'maxItems' => 5,
-    ],
-];
+        'buttons' => [
+            'minItems' => 1,
+            'maxItems' => 2,
+        ],
+        'header' => [
+            'minLength' => 1,
+            'maxLength' => 20,
+        ],
+        'itemList' => [
+            'minItems' => 3,
+            'maxItems' => 5,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

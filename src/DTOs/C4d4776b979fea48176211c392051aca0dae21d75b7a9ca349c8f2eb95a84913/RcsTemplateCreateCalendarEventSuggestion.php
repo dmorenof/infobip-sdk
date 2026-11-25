@@ -12,35 +12,35 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class RcsTemplateCreateCalendarEventSuggestion extends \InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2eb95a84913\RcsTemplateSuggestion
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'description' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'endTime' => [
-        'schema' => true,
-        'jsonSchema' => '{"type":"object","oneOf":[{"type":"string"},{"type":"string"}]}',
-    ],
-    'postbackData' => [
-        'minLength' => 1,
-        'maxLength' => 2048,
-    ],
-    'startTime' => [
-        'schema' => true,
-        'jsonSchema' => '{"type":"object","oneOf":[{"type":"string"},{"type":"string"}]}',
-    ],
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 25,
-    ],
-    'title' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'description' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'endTime' => [
+            'schema' => true,
+            'jsonSchema' => '{"type":"object","oneOf":[{"type":"string"},{"type":"string"}]}',
+        ],
+        'postbackData' => [
+            'minLength' => 1,
+            'maxLength' => 2048,
+        ],
+        'startTime' => [
+            'schema' => true,
+            'jsonSchema' => '{"type":"object","oneOf":[{"type":"string"},{"type":"string"}]}',
+        ],
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 25,
+        ],
+        'title' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

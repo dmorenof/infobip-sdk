@@ -200,5 +200,4 @@ final class InboundMessageConfigurations extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::DELETE_BY_CONFIGURATION_KEY), path: ['configurationKey' => $configurationKey]);
         return;
     }
-
 }

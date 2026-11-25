@@ -16,5 +16,4 @@ final class Pools extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Email\Resource1\IpManagement\Paginated\Pools::class)->get($params);
     }
-
 }

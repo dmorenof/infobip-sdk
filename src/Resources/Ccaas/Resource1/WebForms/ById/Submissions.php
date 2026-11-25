@@ -72,5 +72,4 @@ final class Submissions extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['id' => $id]);
         return $result;
     }
-
 }

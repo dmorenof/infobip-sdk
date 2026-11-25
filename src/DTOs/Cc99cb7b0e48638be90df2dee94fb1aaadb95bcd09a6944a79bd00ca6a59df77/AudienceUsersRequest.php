@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\Cc99cb7b0e48638be90df2dee94fb1aaadb95bcd09a6944a79bd00
 final class AudienceUsersRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'data',
-];
+        'data',
+    ];
 
     protected const array VALIDATION = [
-    'data' => [
-        'minItems' => 1,
-        'maxItems' => 10000,
-    ],
-];
+        'data' => [
+            'minItems' => 1,
+            'maxItems' => 10000,
+        ],
+    ];
 
     /**
      * Users to match against Meta's user database. Each entry must contain a hashed phone number, a hashed email address, or both. Providing both identifiers for the same person increases the chance of a match.

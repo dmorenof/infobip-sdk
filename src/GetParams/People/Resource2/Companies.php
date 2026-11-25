@@ -7,29 +7,29 @@ namespace InfobipSDK\GetParams\People\Resource2;
 final class Companies extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'domain' => 'domain',
-        'externalId' => 'externalId',
-        'filter' => 'filter',
-        'id' => 'id',
-        'includeTotalCount' => 'includeTotalCount',
-        'limit' => 'limit',
-        'name' => 'name',
-        'orderBy' => 'orderBy',
-        'page' => 'page',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'domain' => 'domain',
+            'externalId' => 'externalId',
+            'filter' => 'filter',
+            'id' => 'id',
+            'includeTotalCount' => 'includeTotalCount',
+            'limit' => 'limit',
+            'name' => 'name',
+            'orderBy' => 'orderBy',
+            'page' => 'page',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'limit' => [
-        'format' => 'int32',
-    ],
-    'page' => [
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'format' => 'int32',
+        ],
+        'page' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $domain;
     public ?string $externalId;

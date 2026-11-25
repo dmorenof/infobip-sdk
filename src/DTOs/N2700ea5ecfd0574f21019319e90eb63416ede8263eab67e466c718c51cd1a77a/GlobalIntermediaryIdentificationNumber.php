@@ -12,14 +12,13 @@ final class GlobalIntermediaryIdentificationNumber extends \InfobipSDK\DTOs\N270
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'id' => [
-        'minLength' => 19,
-        'maxLength' => 19,
-        'pattern' => '([A-NP-Z0-9]{6})\\.([A-NP-Z0-9]{5})\\.(LE|SL|ME|BR|SP)\\.(\\d{3})',
-    ],
-];
+        'id' => [
+            'minLength' => 19,
+            'maxLength' => 19,
+            'pattern' => '([A-NP-Z0-9]{6})\\.([A-NP-Z0-9]{5})\\.(LE|SL|ME|BR|SP)\\.(\\d{3})',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

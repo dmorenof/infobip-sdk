@@ -7,9 +7,9 @@ namespace InfobipSDK\Requests\AllOfResend2faPinCodeOverSmsBody;
 final class SmsBodyRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'placeholders',
-    'trackDelivery',
-];
+        'placeholders',
+        'trackDelivery',
+    ];
 
     /**
      * Key value pairs that will be replaced during message sending. Placeholder keys should NOT contain curly brackets and should NOT contain a `pin` placeholder. Valid example: `"placeholders":{"firstName":"John"}`

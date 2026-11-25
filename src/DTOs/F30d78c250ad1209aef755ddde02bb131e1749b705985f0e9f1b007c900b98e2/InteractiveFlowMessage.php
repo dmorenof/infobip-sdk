@@ -10,42 +10,42 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveFlowMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'from',
-    'to',
-];
+        'content',
+        'from',
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'callbackData' => [
-        'minLength' => 0,
-        'maxLength' => 4000,
-    ],
-    'entityId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'from' => [
-        'minLength' => 1,
-        'maxLength' => 24,
-    ],
-    'messageId' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'notifyUrl' => [
-        'minLength' => 0,
-        'maxLength' => 2048,
-        'pattern' => '',
-    ],
-    'to' => [
-        'minLength' => 1,
-        'maxLength' => 150,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'callbackData' => [
+            'minLength' => 0,
+            'maxLength' => 4000,
+        ],
+        'entityId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'from' => [
+            'minLength' => 1,
+            'maxLength' => 24,
+        ],
+        'messageId' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'notifyUrl' => [
+            'minLength' => 0,
+            'maxLength' => 2048,
+            'pattern' => '',
+        ],
+        'to' => [
+            'minLength' => 1,
+            'maxLength' => 150,
+        ],
+    ];
 
     /**
      * Required for application use in a send request for outbound traffic. Returned in notification events. For more details, see our [documentation](https://www.infobip.com/docs/cpaas-x/application-and-entity-management).

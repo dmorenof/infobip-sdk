@@ -27,5 +27,4 @@ final class Status extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\SipTrunks\BySipTrunkId\Status::class)->post($sipTrunkId, $payload);
     }
-
 }

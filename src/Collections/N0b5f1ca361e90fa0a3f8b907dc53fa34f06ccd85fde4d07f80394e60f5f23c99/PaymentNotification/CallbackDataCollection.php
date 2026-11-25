@@ -8,6 +8,6 @@ final class CallbackDataCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = 'string';
     protected const array ITEM_VALIDATION = [
-    'minLength' => 0,
-];
+        'minLength' => 0,
+    ];
 }

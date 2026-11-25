@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\Eb9826dda36bfa834ba8eec2d30e3749cbed4dee9bcabc5eb783cc
 final class PublicCreateBusinessResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'businessId',
-];
+        'businessId',
+    ];
 
     /**
      * Unique business identifier (UUID).

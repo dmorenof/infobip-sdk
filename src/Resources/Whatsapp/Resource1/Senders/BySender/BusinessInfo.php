@@ -160,5 +160,4 @@ final class BusinessInfo extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::PATCH), $payload, path: ['sender' => $sender]);
         return;
     }
-
 }

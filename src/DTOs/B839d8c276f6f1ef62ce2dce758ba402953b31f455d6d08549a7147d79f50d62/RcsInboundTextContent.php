@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class RcsInboundTextContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-    'type',
-];
+        'text',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 1,
-    ],
-];
+        'text' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * The text which is sent in an incoming message.

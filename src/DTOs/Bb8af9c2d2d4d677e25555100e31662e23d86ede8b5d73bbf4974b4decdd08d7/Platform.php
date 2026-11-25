@@ -13,18 +13,18 @@ namespace InfobipSDK\DTOs\Bb8af9c2d2d4d677e25555100e31662e23d86ede8b5d73bbf4974b
 final class Platform extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'applicationId',
-];
+        'applicationId',
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 1,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'key',
-];
+        'key',
+    ];
 
     public \InfobipSDK\Enums\Bb8af9c2d2d4d677e25555100e31662e23d86ede8b5d73bbf4974b4decdd08d7\Action $action;
     /**

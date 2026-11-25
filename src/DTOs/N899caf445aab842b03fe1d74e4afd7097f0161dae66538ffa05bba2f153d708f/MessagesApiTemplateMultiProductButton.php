@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiTemplateMultiProductButton extends \InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\MessagesApiTemplateButton
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'productId' => [
-        'minLength' => 0,
-        'maxLength' => 3000,
-    ],
-    'sections' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-];
+        'productId' => [
+            'minLength' => 0,
+            'maxLength' => 3000,
+        ],
+        'sections' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\C18e27d419b307552daa9403b0085ee796da1a5e57e2a4e6fb73f4
 final class Conference extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'id' => [
-        'maxLength' => 128,
-    ],
-];
+        'id' => [
+            'maxLength' => 128,
+        ],
+    ];
 
     /**
      * Calls Configuration ID.

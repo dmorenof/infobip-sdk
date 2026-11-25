@@ -10,26 +10,26 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class BinaryContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'hex',
-];
+        'hex',
+    ];
 
     protected const array VALIDATION = [
-    'dataCoding' => [
-        'format' => 'int32',
-    ],
-    'esmClass' => [
-        'format' => 'int32',
-    ],
-    'hex' => [
-        'minLength' => 1,
-    ],
-];
+        'dataCoding' => [
+            'format' => 'int32',
+        ],
+        'esmClass' => [
+            'format' => 'int32',
+        ],
+        'hex' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'dataCoding',
-    'esmClass',
-    'hex',
-];
+        'dataCoding',
+        'esmClass',
+        'hex',
+    ];
 
     /**
      * Binary content data coding. The default value is (`0`) for GSM7. Example: (`8`) for  Unicode data.

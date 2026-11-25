@@ -12,14 +12,14 @@ final class PhoneDestination extends \InfobipSDK\DTOs\N2188fec7c48e989bb7053521b
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'from' => [
-        'pattern' => '^[\\p{N}\\-_+=/.]+$',
-    ],
-    'phoneNumber' => [
-        'minLength' => 1,
-        'pattern' => '^[\\p{N}\\-_+=/.]+$',
-    ],
-];
+        'from' => [
+            'pattern' => '^[\\p{N}\\-_+=/.]+$',
+        ],
+        'phoneNumber' => [
+            'minLength' => 1,
+            'pattern' => '^[\\p{N}\\-_+=/.]+$',
+        ],
+    ];
 
     /**
      * Destination display name, if defined, that the call Link UI will use instead of an agent name. If a destination display name is an empty string, the UI will hide it.

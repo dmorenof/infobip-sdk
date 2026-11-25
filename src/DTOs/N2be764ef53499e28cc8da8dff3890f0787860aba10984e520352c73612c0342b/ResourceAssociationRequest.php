@@ -10,24 +10,24 @@ namespace InfobipSDK\DTOs\N2be764ef53499e28cc8da8dff3890f0787860aba10984e520352c
 final class ResourceAssociationRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'applicationId',
-    'channel',
-    'entityId',
-    'resourceId',
-    'resourceType',
-];
+        'applicationId',
+        'channel',
+        'entityId',
+        'resourceId',
+        'resourceType',
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'maxLength' => 255,
-    ],
-    'entityId' => [
-        'maxLength' => 255,
-    ],
-    'resourceId' => [
-        'maxLength' => 255,
-    ],
-];
+        'applicationId' => [
+            'maxLength' => 255,
+        ],
+        'entityId' => [
+            'maxLength' => 255,
+        ],
+        'resourceId' => [
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * The unique identifier of the application. This ID will be a URL path parameter. We recommend using values that do not need URL encoding for easier interaction with other API endpoints.

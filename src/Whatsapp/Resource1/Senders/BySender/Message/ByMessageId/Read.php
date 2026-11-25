@@ -17,5 +17,4 @@ final class Read extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\Message\ByMessageId\Read::class)->post($identifier);
     }
-
 }

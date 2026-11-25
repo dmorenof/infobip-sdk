@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\D787c8758e54290e2bc82a005b86f9050517ec4ab2e17f0a4cc094
 final class ConversionEventRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'conversions',
-];
+        'conversions',
+    ];
 
     protected const array VALIDATION = [
-    'conversions' => [
-        'minItems' => 1,
-        'maxItems' => 1000,
-    ],
-];
+        'conversions' => [
+            'minItems' => 1,
+            'maxItems' => 1000,
+        ],
+    ];
 
     /**
      * Conversion events collection.

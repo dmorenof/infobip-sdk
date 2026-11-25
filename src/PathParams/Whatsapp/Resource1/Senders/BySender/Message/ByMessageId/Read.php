@@ -7,17 +7,17 @@ namespace InfobipSDK\PathParams\Whatsapp\Resource1\Senders\BySender\Message\ByMe
 final class Read extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messageId',
-    'sender',
-];
+        'messageId',
+        'sender',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'messageId' => 'messageId',
-        'sender' => 'sender',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'messageId' => 'messageId',
+            'sender' => 'sender',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     public string $messageId;
     public string $sender;

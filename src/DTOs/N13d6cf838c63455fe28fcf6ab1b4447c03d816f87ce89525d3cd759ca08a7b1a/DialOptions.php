@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class DialOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'maxCallDuration' => [
-        'minimum' => 1,
-        'format' => 'int32',
-    ],
-];
+        'maxCallDuration' => [
+            'minimum' => 1,
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd759ca08a7b1a\CustomRingback $customRingback;
     /**

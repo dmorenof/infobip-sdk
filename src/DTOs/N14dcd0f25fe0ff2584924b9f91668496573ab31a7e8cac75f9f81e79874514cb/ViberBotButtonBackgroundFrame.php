@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81
 final class ViberBotButtonBackgroundFrame extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'borderColor' => [
-        'pattern' => '^[#]([A-Fa-f0-9]{6})$',
-    ],
-    'borderWidth' => [
-        'minimum' => 0,
-        'maximum' => 10,
-        'format' => 'int32',
-    ],
-    'cornerRadius' => [
-        'minimum' => 0,
-        'maximum' => 10,
-        'format' => 'int32',
-    ],
-];
+        'borderColor' => [
+            'pattern' => '^[#]([A-Fa-f0-9]{6})$',
+        ],
+        'borderWidth' => [
+            'minimum' => 0,
+            'maximum' => 10,
+            'format' => 'int32',
+        ],
+        'cornerRadius' => [
+            'minimum' => 0,
+            'maximum' => 10,
+            'format' => 'int32',
+        ],
+    ];
 
     public string $borderColor {
         set {

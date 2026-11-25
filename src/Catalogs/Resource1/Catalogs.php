@@ -62,5 +62,4 @@ final class Catalogs extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Catalogs\Resource1\Catalogs::class)->patchById($id, $payload);
     }
-
 }

@@ -27,5 +27,4 @@ final class Tags extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Conversations\ByConversationId\Tags::class)->deleteByTagName($identifier);
     }
-
 }

@@ -10,12 +10,12 @@ namespace InfobipSDK\DTOs\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81
 final class ViberBotKeyboardDisplay extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'percentageOfKeyboardOccupancy' => [
-        'minimum' => 40,
-        'maximum' => 70,
-        'format' => 'int32',
-    ],
-];
+        'percentageOfKeyboardOccupancy' => [
+            'minimum' => 40,
+            'maximum' => 70,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * When true - the keyboard will always be displayed with the same height as the native keyboard

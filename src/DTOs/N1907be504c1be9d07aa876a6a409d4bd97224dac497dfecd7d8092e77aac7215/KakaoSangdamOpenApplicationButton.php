@@ -14,29 +14,29 @@ final class KakaoSangdamOpenApplicationButton extends \InfobipSDK\DTOs\N1907be50
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'fallbackUrlMobile' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-        'pattern' => '',
-    ],
-    'fallbackUrlPc' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-        'pattern' => '',
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 28,
-    ],
-    'schemeAndroid' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-    'schemeIos' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-];
+        'fallbackUrlMobile' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+            'pattern' => '',
+        ],
+        'fallbackUrlPc' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+            'pattern' => '',
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 28,
+        ],
+        'schemeAndroid' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+        'schemeIos' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

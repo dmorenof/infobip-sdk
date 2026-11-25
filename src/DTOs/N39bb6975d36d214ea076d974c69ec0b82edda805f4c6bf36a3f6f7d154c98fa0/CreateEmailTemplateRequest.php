@@ -10,22 +10,22 @@ namespace InfobipSDK\DTOs\N39bb6975d36d214ea076d974c69ec0b82edda805f4c6bf36a3f6f
 final class CreateEmailTemplateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'html',
-];
+        'html',
+    ];
 
     protected const array VALIDATION = [
-    'html' => [
-        'minLength' => 1,
-    ],
-    'preheader' => [
-        'minLength' => 0,
-        'maxLength' => 75,
-    ],
-    'subject' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-];
+        'html' => [
+            'minLength' => 1,
+        ],
+        'preheader' => [
+            'minLength' => 0,
+            'maxLength' => 75,
+        ],
+        'subject' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * JSON string of attachments to be sent with the email template.

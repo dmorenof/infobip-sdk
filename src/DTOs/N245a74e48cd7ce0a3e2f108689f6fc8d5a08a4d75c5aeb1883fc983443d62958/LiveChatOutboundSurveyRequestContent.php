@@ -12,11 +12,11 @@ final class LiveChatOutboundSurveyRequestContent extends \InfobipSDK\DTOs\N245a7
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'question' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'question' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

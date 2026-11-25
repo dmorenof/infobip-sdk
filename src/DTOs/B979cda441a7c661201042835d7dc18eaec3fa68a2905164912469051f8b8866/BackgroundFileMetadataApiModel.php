@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class BackgroundFileMetadataApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fileId',
-    'fileName',
-    'fileUrl',
-];
+        'fileId',
+        'fileName',
+        'fileUrl',
+    ];
 
     /**
      * Id of specified background image file.

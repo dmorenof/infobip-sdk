@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\N322179e48f777ec7fa4be8d16ebc634ba865098b0ae9d513535e1
 final class CredentialsBody extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apiId',
-    'key',
-];
+        'apiId',
+        'key',
+    ];
 
     protected const array VALIDATION = [
-    'apiId' => [
-        'minLength' => 1,
-        'pattern' => '[a-zA-Z0-9-]+',
-    ],
-    'key' => [
-        'minLength' => 1,
-        'pattern' => '[a-zA-Z0-9-]+',
-    ],
-];
+        'apiId' => [
+            'minLength' => 1,
+            'pattern' => '[a-zA-Z0-9-]+',
+        ],
+        'key' => [
+            'minLength' => 1,
+            'pattern' => '[a-zA-Z0-9-]+',
+        ],
+    ];
 
     /**
      * The first part of the generate Authorization header.

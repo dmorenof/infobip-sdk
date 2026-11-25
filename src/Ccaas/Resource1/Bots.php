@@ -61,5 +61,4 @@ final class Bots extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Bots::class)->putByBotId($botId, $payload);
     }
-
 }

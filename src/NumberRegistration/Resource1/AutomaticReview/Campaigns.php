@@ -16,5 +16,4 @@ final class Campaigns extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\AutomaticReview\Campaigns::class)->postByCampaignUuid($campaignUuid);
     }
-
 }

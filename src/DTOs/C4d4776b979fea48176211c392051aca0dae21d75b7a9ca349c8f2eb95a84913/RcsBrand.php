@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class RcsBrand extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'brandName',
-];
+        'brandName',
+    ];
 
     protected const array VALIDATION = [
-    'brandName' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'brandName' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Name of the brand.

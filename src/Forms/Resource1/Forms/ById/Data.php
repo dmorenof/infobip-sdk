@@ -16,5 +16,4 @@ final class Data extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Forms\Resource1\Forms\ById\Data::class)->post($id, $params);
     }
-
 }

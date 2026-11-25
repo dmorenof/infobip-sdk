@@ -72,5 +72,4 @@ final class Verify extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::POST), path: ['domainName' => $domainName]);
         return;
     }
-
 }

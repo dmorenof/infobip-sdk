@@ -16,5 +16,4 @@ final class Stats extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Vocalize\Resource2\Scores\Stats::class)->get($params);
     }
-
 }

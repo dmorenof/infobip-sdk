@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class RecordOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'maxSilence' => [
-        'format' => 'int32',
-    ],
-];
+        'maxSilence' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Flag indicating a beep sound should be played at the start of the recording.

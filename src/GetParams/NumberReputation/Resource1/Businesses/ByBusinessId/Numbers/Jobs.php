@@ -7,23 +7,23 @@ namespace InfobipSDK\GetParams\NumberReputation\Resource1\Businesses\ByBusinessI
 final class Jobs extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'jobName' => 'jobName',
-        'page' => 'page',
-        'size' => 'size',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'jobName' => 'jobName',
+            'page' => 'page',
+            'size' => 'size',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'format' => 'int32',
-    ],
-    'size' => [
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'format' => 'int32',
+        ],
+        'size' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $jobName;
     public ?int $page {

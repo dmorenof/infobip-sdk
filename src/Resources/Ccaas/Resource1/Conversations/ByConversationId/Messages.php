@@ -147,5 +147,4 @@ final class Messages extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['conversationId' => $conversationId]);
         return $result;
     }
-
 }

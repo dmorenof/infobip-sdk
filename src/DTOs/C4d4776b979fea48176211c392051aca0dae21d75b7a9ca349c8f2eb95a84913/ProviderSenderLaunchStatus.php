@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class ProviderSenderLaunchStatus extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'status',
-    'updatedAt',
-];
+        'name',
+        'status',
+        'updatedAt',
+    ];
 
     /**
      * Detailed feedback for rejection if the sender launch has been rejected by the provider. Present only if launch request has been created with `structuredFeedback` opt-in feature. Please check [Submit resource request](#platform/resources/resource-request/submit-resource-request) for more details.

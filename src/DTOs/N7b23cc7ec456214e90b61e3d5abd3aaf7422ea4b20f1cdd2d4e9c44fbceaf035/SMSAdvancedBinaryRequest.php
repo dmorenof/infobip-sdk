@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N7b23cc7ec456214e90b61e3d5abd3aaf7422ea4b20f1cdd2d4e9c
 final class SMSAdvancedBinaryRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messages',
-];
+        'messages',
+    ];
 
     protected const array VALIDATION = [
-    'messages' => [
-        'minItems' => 1,
-    ],
-];
+        'messages' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * Unique ID assigned to the request if messaging multiple recipients or sending multiple messages via a single API request. If not provided, it will be auto-generated and returned in the API response. Typically, used to fetch [delivery reports](#channels/sms/get-outbound-sms-message-delivery-reports) and [message logs](#channels/sms/get-outbound-sms-message-logs). Anything above 100 characters passed in the request will be clipped during processing and returned in response, reports and logs.

@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N3307df001c42dd833d79f33c79b6946b4d01c30ce33030254141d
 final class Price extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'currency',
-    'pricePerMessage',
-];
+        'currency',
+        'pricePerMessage',
+    ];
 
     /**
      * The currency in which the price is displayed.

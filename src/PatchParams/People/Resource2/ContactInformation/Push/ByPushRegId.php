@@ -7,16 +7,16 @@ namespace InfobipSDK\PatchParams\People\Resource2\ContactInformation\Push;
 final class ByPushRegId extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'AppCode',
-    'body',
-];
+        'AppCode',
+        'body',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [],
-    'header' => [
-        'AppCode' => 'AppCode',
-    ],
-];
+        'path' => [],
+        'query' => [],
+        'header' => [
+            'AppCode' => 'AppCode',
+        ],
+    ];
 
     public const bool OPERATION_BODY = true;
 

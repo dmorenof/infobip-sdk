@@ -16,5 +16,4 @@ final class Queue extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\Conversation\ByConversationId\Transfer\Queue::class)->patch($conversationId, $payload);
     }
-
 }

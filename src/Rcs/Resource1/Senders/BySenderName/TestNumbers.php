@@ -51,5 +51,4 @@ final class TestNumbers extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Rcs\Resource1\Senders\BySenderName\TestNumbers::class)->patchByTestNumber($identifier, $payload);
     }
-
 }

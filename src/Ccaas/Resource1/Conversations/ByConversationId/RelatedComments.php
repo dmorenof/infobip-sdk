@@ -18,5 +18,4 @@ final class RelatedComments extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Conversations\ByConversationId\RelatedComments::class)->get($conversationId);
     }
-
 }

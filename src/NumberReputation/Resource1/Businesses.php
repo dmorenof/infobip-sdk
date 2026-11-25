@@ -61,5 +61,4 @@ final class Businesses extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\NumberReputation\Resource1\Businesses::class)->putByBusinessId($businessId, $payload);
     }
-
 }

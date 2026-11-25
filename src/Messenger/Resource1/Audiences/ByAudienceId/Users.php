@@ -29,5 +29,4 @@ final class Users extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Messenger\Resource1\Audiences\ByAudienceId\Users::class)->post($audienceId, $payload);
     }
-
 }

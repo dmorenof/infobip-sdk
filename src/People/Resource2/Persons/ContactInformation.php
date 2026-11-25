@@ -38,5 +38,4 @@ final class ContactInformation extends \InfobipSDK\InfobipOpenAPISpecificationSD
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource2\Persons\ContactInformation::class)->put($params);
     }
-
 }

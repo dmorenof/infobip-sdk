@@ -12,34 +12,34 @@ namespace InfobipSDK\DTOs\N09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc95
 final class ArticleVersionDetailResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'attachmentsAdded',
-    'attachmentsRemoved',
-    'author',
-    'contentModified',
-    'id',
-    'nameModified',
-    'tagsAdded',
-    'tagsRemoved',
-    'versionTimestamp',
-    'visibility',
-    'workflowStatus',
-    'workflowStatusModified',
-];
+        'attachmentsAdded',
+        'attachmentsRemoved',
+        'author',
+        'contentModified',
+        'id',
+        'nameModified',
+        'tagsAdded',
+        'tagsRemoved',
+        'versionTimestamp',
+        'visibility',
+        'workflowStatus',
+        'workflowStatusModified',
+    ];
 
     protected const array VALIDATION = [
-    'attachmentsAdded' => [
-        'format' => 'int32',
-    ],
-    'attachmentsRemoved' => [
-        'format' => 'int32',
-    ],
-    'tagsAdded' => [
-        'format' => 'int32',
-    ],
-    'tagsRemoved' => [
-        'format' => 'int32',
-    ],
-];
+        'attachmentsAdded' => [
+            'format' => 'int32',
+        ],
+        'attachmentsRemoved' => [
+            'format' => 'int32',
+        ],
+        'tagsAdded' => [
+            'format' => 'int32',
+        ],
+        'tagsRemoved' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of attachments added in this version.

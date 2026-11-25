@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N1ed350d65e634c5446c08244298a26d3b0bb68a76782ab9246a80
 final class Override extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'countryCode',
-    'enabled',
-    'sensitivity',
-];
+        'countryCode',
+        'enabled',
+        'sensitivity',
+    ];
 
     /**
      * ISO alpha-2 country code to which this override applies.

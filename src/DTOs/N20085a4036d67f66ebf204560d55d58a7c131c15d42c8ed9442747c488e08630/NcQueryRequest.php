@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class NcQueryRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'to',
-];
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'to' => [
-        'minItems' => 1,
-        'maxItems' => 1000,
-    ],
-];
+        'to' => [
+            'minItems' => 1,
+            'maxItems' => 1000,
+        ],
+    ];
 
     /**
      * Array of phone numbers to look up. Numbers must be in international format (Example: `41793026727`). Numbers longer than 256 characters in the request will be clipped during processing. The clipped numbers will be included in the response, reports, and logs.

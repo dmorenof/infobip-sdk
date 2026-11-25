@@ -79,5 +79,4 @@ final class Download extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_RECORDING_ID), path: ['recordingId' => $recordingId], parameters: $params);
         return $result;
     }
-
 }

@@ -77,5 +77,4 @@ final class Import extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload, path: ['brandId' => $brandId]);
         return $result;
     }
-
 }

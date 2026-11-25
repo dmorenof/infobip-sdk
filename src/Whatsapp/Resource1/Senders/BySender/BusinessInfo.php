@@ -29,5 +29,4 @@ final class BusinessInfo extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\BusinessInfo::class)->patch($sender, $payload);
     }
-
 }

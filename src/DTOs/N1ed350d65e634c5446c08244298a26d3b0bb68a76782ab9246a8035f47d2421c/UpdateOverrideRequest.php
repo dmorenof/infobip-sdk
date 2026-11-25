@@ -13,15 +13,15 @@ namespace InfobipSDK\DTOs\N1ed350d65e634c5446c08244298a26d3b0bb68a76782ab9246a80
 final class UpdateOverrideRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'overrides',
-];
+        'overrides',
+    ];
 
     protected const array VALIDATION = [
-    'overrides' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-];
+        'overrides' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+    ];
 
     /**
      * List of existing country-level overrides to update.

@@ -10,18 +10,18 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class AppleMfbOutboundQuickReplyContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'items' => [
-        'minItems' => 2,
-        'maxItems' => 5,
-    ],
-    'requestIdentifier' => [
-        'pattern' => '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$',
-    ],
-    'summaryText' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-];
+        'items' => [
+            'minItems' => 2,
+            'maxItems' => 5,
+        ],
+        'requestIdentifier' => [
+            'pattern' => '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$',
+        ],
+        'summaryText' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * An array of possible replies.

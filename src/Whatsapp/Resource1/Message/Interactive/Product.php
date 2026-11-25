@@ -17,5 +17,4 @@ final class Product extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Message\Interactive\Product::class)->post($payload);
     }
-
 }

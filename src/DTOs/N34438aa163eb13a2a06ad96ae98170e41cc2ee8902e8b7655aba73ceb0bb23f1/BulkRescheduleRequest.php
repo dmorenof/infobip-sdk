@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class BulkRescheduleRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'sendAt',
-];
+        'sendAt',
+    ];
 
     /**
      * The new date and time to send the scheduled messages. Has the following format: `yyyy-MM-dd'T'HH:mm:ss.SSSZ`.

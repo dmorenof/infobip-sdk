@@ -71,5 +71,4 @@ final class WebrtcPushConfig extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Webrtc\Resource1\WebrtcPushConfig::class)->putById($id, $payload);
     }
-
 }

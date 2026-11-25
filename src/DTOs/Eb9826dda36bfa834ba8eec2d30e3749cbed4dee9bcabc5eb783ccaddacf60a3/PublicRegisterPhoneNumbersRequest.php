@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\Eb9826dda36bfa834ba8eec2d30e3749cbed4dee9bcabc5eb783cc
 final class PublicRegisterPhoneNumbersRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'jobName',
-    'phoneNumbers',
-];
+        'jobName',
+        'phoneNumbers',
+    ];
 
     protected const array VALIDATION = [
-    'phoneNumbers' => [
-        'minItems' => 1,
-        'maxItems' => 100,
-    ],
-];
+        'phoneNumbers' => [
+            'minItems' => 1,
+            'maxItems' => 100,
+        ],
+    ];
 
     /**
      * Identifier for the registration job/batch.

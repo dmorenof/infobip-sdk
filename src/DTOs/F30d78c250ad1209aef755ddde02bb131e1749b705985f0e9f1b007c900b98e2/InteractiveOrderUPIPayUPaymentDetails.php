@@ -10,35 +10,35 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveOrderUPIPayUPaymentDetails extends \InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\InteractiveAllowedOrderPaymentDetails
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'callbackData' => [
-        'minItems' => 0,
-        'maxItems' => 5,
-    ],
-    'customerEmail' => [
-        'minLength' => 1,
-        'maxLength' => 50,
-    ],
-    'customerFirstName' => [
-        'minLength' => 1,
-        'maxLength' => 60,
-    ],
-    'customerLastName' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-    'id' => [
-        'minLength' => 1,
-        'maxLength' => 25,
-    ],
-    'productDescription' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'callbackData' => [
+            'minItems' => 0,
+            'maxItems' => 5,
+        ],
+        'customerEmail' => [
+            'minLength' => 1,
+            'maxLength' => 50,
+        ],
+        'customerFirstName' => [
+            'minLength' => 1,
+            'maxLength' => 60,
+        ],
+        'customerLastName' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+        'id' => [
+            'minLength' => 1,
+            'maxLength' => 25,
+        ],
+        'productDescription' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

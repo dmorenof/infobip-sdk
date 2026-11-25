@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\C8df889022018062dfcb44e930a391e7e1c8e669bd11a10a717da5
 final class WebhookStatusNotifApiDocResult extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'event',
-    'receivedAt',
-];
+        'content',
+        'event',
+        'receivedAt',
+    ];
 
     /**
      * Object containing event data.

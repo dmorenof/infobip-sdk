@@ -24,5 +24,4 @@ final class Authorize extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Camara\NumberVerification\V0\Authorize::class)->get($params);
     }
-
 }

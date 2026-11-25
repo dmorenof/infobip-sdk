@@ -16,5 +16,4 @@ final class Views extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Forms\Resource1\Forms\ById\Views::class)->post($id);
     }
-
 }

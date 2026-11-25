@@ -16,5 +16,4 @@ final class Count extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Catalogs\Resource1\Catalogs\ByCatalogId\Items\Count::class)->get($catalogId);
     }
-
 }

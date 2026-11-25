@@ -17,5 +17,4 @@ final class Query extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Sms\Resource3\Text\Query::class)->get($params);
     }
-
 }

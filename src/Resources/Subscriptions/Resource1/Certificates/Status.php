@@ -143,5 +143,4 @@ final class Status extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_CERTIFICATE_ID), path: ['certificateId' => $certificateId]);
         return $result;
     }
-
 }

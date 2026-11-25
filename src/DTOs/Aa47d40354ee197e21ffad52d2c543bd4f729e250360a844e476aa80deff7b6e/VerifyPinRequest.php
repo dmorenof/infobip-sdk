@@ -10,12 +10,12 @@ namespace InfobipSDK\DTOs\Aa47d40354ee197e21ffad52d2c543bd4f729e250360a844e476aa
 final class VerifyPinRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'pin',
-];
+        'pin',
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'pin',
-];
+        'pin',
+    ];
 
     /**
      * The PIN code to verify.

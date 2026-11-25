@@ -12,11 +12,11 @@ final class InstagramDmOutboundCarouselContent extends \InfobipSDK\DTOs\N8bb20f4
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'elements' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-];
+        'elements' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

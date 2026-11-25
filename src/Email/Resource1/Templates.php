@@ -71,5 +71,4 @@ final class Templates extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Email\Resource1\Templates::class)->putByTemplateId($templateId, $payload);
     }
-
 }

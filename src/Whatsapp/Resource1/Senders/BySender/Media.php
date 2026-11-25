@@ -41,5 +41,4 @@ final class Media extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\Media::class)->headByMediaId($identifier);
     }
-
 }

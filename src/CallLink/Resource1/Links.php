@@ -49,5 +49,4 @@ final class Links extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\CallLink\Resource1\Links::class)->getById($id);
     }
-
 }

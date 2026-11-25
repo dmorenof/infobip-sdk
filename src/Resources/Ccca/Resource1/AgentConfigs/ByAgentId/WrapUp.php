@@ -77,5 +77,4 @@ final class WrapUp extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT), path: ['agentId' => $agentId], parameters: $params);
         return $result;
     }
-
 }

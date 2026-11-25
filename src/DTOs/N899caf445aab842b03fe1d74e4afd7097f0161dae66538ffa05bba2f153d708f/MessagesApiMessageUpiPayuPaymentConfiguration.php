@@ -10,39 +10,39 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageUpiPayuPaymentConfiguration extends \InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\MessagesApiMessagePaymentConfiguration
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'callbackData' => [
-        'minItems' => 0,
-        'maxItems' => 5,
-    ],
-    'customerEmail' => [
-        'minLength' => 1,
-        'maxLength' => 50,
-    ],
-    'customerFirstName' => [
-        'minLength' => 1,
-        'maxLength' => 60,
-    ],
-    'customerLastName' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-    'id' => [
-        'minLength' => 1,
-        'maxLength' => 25,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 60,
-    ],
-    'productDescription' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'callbackData' => [
+            'minItems' => 0,
+            'maxItems' => 5,
+        ],
+        'customerEmail' => [
+            'minLength' => 1,
+            'maxLength' => 50,
+        ],
+        'customerFirstName' => [
+            'minLength' => 1,
+            'maxLength' => 60,
+        ],
+        'customerLastName' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+        'id' => [
+            'minLength' => 1,
+            'maxLength' => 25,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 60,
+        ],
+        'productDescription' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

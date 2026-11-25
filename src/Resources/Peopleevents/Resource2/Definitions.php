@@ -257,5 +257,4 @@ final class Definitions extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST_BY_DEFINITION_ID), $payload, path: ['definitionId' => $definitionId]);
         return $result;
     }
-
 }

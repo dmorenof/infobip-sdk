@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\Ab7498b77a5058e37557279988a806092938b5b30ecbfd39229d94
 final class IdentityInfo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'acknowledged',
-    'createdAt',
-    'hash',
-];
+        'acknowledged',
+        'createdAt',
+        'hash',
+    ];
 
     /**
      * Identity acknowledge status

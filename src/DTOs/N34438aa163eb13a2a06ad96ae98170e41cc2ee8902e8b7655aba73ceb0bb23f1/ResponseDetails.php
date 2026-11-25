@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class ResponseDetails extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messageId',
-    'status',
-    'to',
-];
+        'messageId',
+        'status',
+        'to',
+    ];
 
     /**
      * The ID that uniquely identifies a message response.

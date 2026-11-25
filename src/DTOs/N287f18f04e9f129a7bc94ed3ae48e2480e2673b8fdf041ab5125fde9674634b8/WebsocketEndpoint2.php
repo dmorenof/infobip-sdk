@@ -12,10 +12,10 @@ final class WebsocketEndpoint2 extends \InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'websocketEndpointConfigId' => [
-        'minLength' => 1,
-    ],
-];
+        'websocketEndpointConfigId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Optional identifier for websocket calls.

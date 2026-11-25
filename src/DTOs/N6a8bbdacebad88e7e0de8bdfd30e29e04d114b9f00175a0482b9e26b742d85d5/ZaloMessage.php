@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class ZaloMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'destinations',
-    'sender',
-];
+        'content',
+        'destinations',
+        'sender',
+    ];
 
     protected const array VALIDATION = [
-    'destinations' => [
-        'minItems' => 1,
-    ],
-    'sender' => [
-        'minLength' => 1,
-    ],
-];
+        'destinations' => [
+            'minItems' => 1,
+        ],
+        'sender' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e26b742d85d5\ZaloOutboundContent $content;
     /**

@@ -12,29 +12,29 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class CaptureSpeech extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'callback',
-    'language',
-];
+        'action',
+        'callback',
+        'language',
+    ];
 
     protected const array VALIDATION = [
-    'keyPhrases' => [
-        'uniqueItems' => true,
-    ],
-    'language' => [
-        'minLength' => 1,
-    ],
-    'maxSilence' => [
-        'minimum' => 1,
-        'maximum' => 5,
-        'format' => 'int32',
-    ],
-    'timeout' => [
-        'minimum' => 1,
-        'maximum' => 30,
-        'format' => 'int32',
-    ],
-];
+        'keyPhrases' => [
+            'uniqueItems' => true,
+        ],
+        'language' => [
+            'minLength' => 1,
+        ],
+        'maxSilence' => [
+            'minimum' => 1,
+            'maximum' => 5,
+            'format' => 'int32',
+        ],
+        'timeout' => [
+            'minimum' => 1,
+            'maximum' => 30,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Action discriminator.

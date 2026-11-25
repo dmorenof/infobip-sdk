@@ -12,30 +12,30 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class IvrMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'destinations',
-    'scenarioId',
-];
+        'destinations',
+        'scenarioId',
+    ];
 
     protected const array VALIDATION = [
-    'callTimeout' => [
-        'format' => 'int32',
-    ],
-    'destinations' => [
-        'minItems' => 1,
-    ],
-    'notifyContentVersion' => [
-        'format' => 'int32',
-    ],
-    'pause' => [
-        'format' => 'int32',
-    ],
-    'ringTimeout' => [
-        'format' => 'int32',
-    ],
-    'validityPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'callTimeout' => [
+            'format' => 'int32',
+        ],
+        'destinations' => [
+            'minItems' => 1,
+        ],
+        'notifyContentVersion' => [
+            'format' => 'int32',
+        ],
+        'pause' => [
+            'format' => 'int32',
+        ],
+        'ringTimeout' => [
+            'format' => 'int32',
+        ],
+        'validityPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Maximum possible duration of the call to be set, shown in seconds.

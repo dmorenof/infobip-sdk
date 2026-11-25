@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class Fetch extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'url',
-];
+        'action',
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 1,
-    ],
-];
+        'url' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Action discriminator.

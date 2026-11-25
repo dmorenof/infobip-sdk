@@ -7,27 +7,27 @@ namespace InfobipSDK\PathParams\Whatsapp\Resource1\Senders\BySender\Payments\Upi
 final class ByPaymentId extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'paymentId',
-    'sender',
-];
+        'paymentId',
+        'sender',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'paymentId' => 'paymentId',
-        'sender' => 'sender',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'paymentId' => 'paymentId',
+            'sender' => 'sender',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'paymentId' => [
-        'minLength' => 1,
-        'maxLength' => 25,
-    ],
-    'sender' => [
-        'minLength' => 1,
-    ],
-];
+        'paymentId' => [
+            'minLength' => 1,
+            'maxLength' => 25,
+        ],
+        'sender' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public string $paymentId {
         set {

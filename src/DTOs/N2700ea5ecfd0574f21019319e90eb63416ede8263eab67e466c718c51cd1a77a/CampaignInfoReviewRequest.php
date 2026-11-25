@@ -12,42 +12,42 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 class CampaignInfoReviewRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'brandName',
-    'brandSupportEmail',
-    'brandWebsite',
-    'customerCareEmail',
-    'messageExamples',
-    'programDescription',
-    'reviewType',
-];
+        'brandName',
+        'brandSupportEmail',
+        'brandWebsite',
+        'customerCareEmail',
+        'messageExamples',
+        'programDescription',
+        'reviewType',
+    ];
 
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'reviewType';
     public const array DISCRIMINATOR_MAPPING = [
-    '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.TenDlcAiReviewRequest' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TenDlcAiReviewRequest',
-    'TEN_DIGIT_LONG_CODE' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TenDlcAiReviewRequest',
-];
+        '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.TenDlcAiReviewRequest' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TenDlcAiReviewRequest',
+        'TEN_DIGIT_LONG_CODE' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TenDlcAiReviewRequest',
+    ];
 
     protected const array VALIDATION = [
-    'brandName' => [
-        'minLength' => 1,
-    ],
-    'brandSupportEmail' => [
-        'minLength' => 1,
-    ],
-    'brandWebsite' => [
-        'minLength' => 1,
-    ],
-    'customerCareEmail' => [
-        'minLength' => 1,
-    ],
-    'messageExamples' => [
-        'minItems' => 1,
-    ],
-    'programDescription' => [
-        'minLength' => 1,
-    ],
-];
+        'brandName' => [
+            'minLength' => 1,
+        ],
+        'brandSupportEmail' => [
+            'minLength' => 1,
+        ],
+        'brandWebsite' => [
+            'minLength' => 1,
+        ],
+        'customerCareEmail' => [
+            'minLength' => 1,
+        ],
+        'messageExamples' => [
+            'minItems' => 1,
+        ],
+        'programDescription' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

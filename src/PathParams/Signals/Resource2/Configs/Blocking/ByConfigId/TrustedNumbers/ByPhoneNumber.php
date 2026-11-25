@@ -7,24 +7,24 @@ namespace InfobipSDK\PathParams\Signals\Resource2\Configs\Blocking\ByConfigId\Tr
 final class ByPhoneNumber extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'configId',
-    'phoneNumber',
-];
+        'configId',
+        'phoneNumber',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'configId' => 'configId',
-        'phoneNumber' => 'phoneNumber',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'configId' => 'configId',
+            'phoneNumber' => 'phoneNumber',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'configId' => [
-        'minLength' => 32,
-        'maxLength' => 32,
-    ],
-];
+        'configId' => [
+            'minLength' => 32,
+            'maxLength' => 32,
+        ],
+    ];
 
     public string $configId {
         set {

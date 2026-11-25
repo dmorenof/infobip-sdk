@@ -16,5 +16,4 @@ final class Numbers extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Campaigns\ByCampaignId\Numbers::class)->get($campaignId);
     }
-
 }

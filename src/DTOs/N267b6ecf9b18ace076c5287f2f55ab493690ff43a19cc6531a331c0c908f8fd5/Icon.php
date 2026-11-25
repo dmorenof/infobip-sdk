@@ -12,10 +12,10 @@ final class Icon extends \InfobipSDK\DTOs\N267b6ecf9b18ace076c5287f2f55ab493690f
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 1,
-    ],
-];
+        'url' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Aspect ratio of the icon, in width:height format.

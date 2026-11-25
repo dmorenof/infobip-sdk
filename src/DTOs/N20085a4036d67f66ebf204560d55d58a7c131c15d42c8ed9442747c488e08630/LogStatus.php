@@ -10,22 +10,22 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class LogStatus extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'groupId' => [
-        'format' => 'int32',
-    ],
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'groupId' => [
+            'format' => 'int32',
+        ],
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'action',
-    'description',
-    'groupId',
-    'groupName',
-    'id',
-    'name',
-];
+        'action',
+        'description',
+        'groupId',
+        'groupName',
+        'id',
+        'name',
+    ];
 
     /**
      * Action that should be taken to recover from the error.

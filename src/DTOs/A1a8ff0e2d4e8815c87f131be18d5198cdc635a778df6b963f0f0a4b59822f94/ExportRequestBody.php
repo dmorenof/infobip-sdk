@@ -10,30 +10,30 @@ namespace InfobipSDK\DTOs\A1a8ff0e2d4e8815c87f131be18d5198cdc635a778df6b963f0f0a
 final class ExportRequestBody extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bucket',
-    'endTime',
-    'region',
-    'roleArn',
-    'startTime',
-];
+        'bucket',
+        'endTime',
+        'region',
+        'roleArn',
+        'startTime',
+    ];
 
     protected const array VALIDATION = [
-    'definitionIdList' => [
-        'maxItems' => 200,
-        'uniqueItems' => true,
-    ],
-];
+        'definitionIdList' => [
+            'maxItems' => 200,
+            'uniqueItems' => true,
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'bucket',
-    'definitionIdList',
-    'directoryPath',
-    'endTime',
-    'enrichWithMomentsInfo',
-    'region',
-    'roleArn',
-    'startTime',
-];
+        'bucket',
+        'definitionIdList',
+        'directoryPath',
+        'endTime',
+        'enrichWithMomentsInfo',
+        'region',
+        'roleArn',
+        'startTime',
+    ];
 
     /**
      * AWS S3 bucket name. Must only contain safe characters, as defined in [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html).

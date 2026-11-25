@@ -19,5 +19,4 @@ final class Init extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Mi\Verification\Resource1\ZeroRated\Init::class)->post($payload);
     }
-
 }

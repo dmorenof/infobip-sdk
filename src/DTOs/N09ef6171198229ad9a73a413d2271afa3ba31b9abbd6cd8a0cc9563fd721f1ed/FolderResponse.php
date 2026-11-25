@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc95
 final class FolderResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'name',
-];
+        'id',
+        'name',
+    ];
 
     /**
      * Unique identifier of the folder.

@@ -16,5 +16,4 @@ final class Add extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\Agent\ByAgentId\WrapUpTime\Add::class)->patchBySeconds($identifier);
     }
-
 }

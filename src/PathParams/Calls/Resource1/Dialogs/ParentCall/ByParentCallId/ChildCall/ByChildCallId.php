@@ -7,17 +7,17 @@ namespace InfobipSDK\PathParams\Calls\Resource1\Dialogs\ParentCall\ByParentCallI
 final class ByChildCallId extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'childCallId',
-    'parentCallId',
-];
+        'childCallId',
+        'parentCallId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'childCallId' => 'childCallId',
-        'parentCallId' => 'parentCallId',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'childCallId' => 'childCallId',
+            'parentCallId' => 'parentCallId',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     public string $childCallId;
     public string $parentCallId;

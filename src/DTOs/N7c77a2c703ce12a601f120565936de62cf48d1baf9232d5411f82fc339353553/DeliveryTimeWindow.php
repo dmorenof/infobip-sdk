@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82
 final class DeliveryTimeWindow extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'days',
-    'from',
-    'to',
-];
+        'days',
+        'from',
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'days' => [
-        'minItems' => 1,
-        'maxItems' => 7,
-        'uniqueItems' => true,
-    ],
-];
+        'days' => [
+            'minItems' => 1,
+            'maxItems' => 7,
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * Days which are included in the delivery time window.

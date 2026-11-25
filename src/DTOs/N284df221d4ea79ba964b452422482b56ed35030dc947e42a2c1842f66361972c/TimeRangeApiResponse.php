@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c184
 final class TimeRangeApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'from',
-    'to',
-];
+        'from',
+        'to',
+    ];
 
     /**
      * Start of the window (UTC, ISO-8601).

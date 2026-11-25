@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c184
 final class InteractionFactApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'name',
-    'value',
-];
+        'createdAt',
+        'name',
+        'value',
+    ];
 
     /**
      * Timestamp (UTC, ISO-8601) when the fact was first persisted.

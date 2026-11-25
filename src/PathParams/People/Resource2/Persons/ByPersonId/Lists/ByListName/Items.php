@@ -7,26 +7,26 @@ namespace InfobipSDK\PathParams\People\Resource2\Persons\ByPersonId\Lists\ByList
 final class Items extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'listName',
-    'personId',
-];
+        'listName',
+        'personId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'listName' => 'listName',
-        'personId' => 'personId',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'listName' => 'listName',
+            'personId' => 'personId',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'listName' => [
-        'minLength' => 1,
-    ],
-    'personId' => [
-        'minimum' => 1,
-    ],
-];
+        'listName' => [
+            'minLength' => 1,
+        ],
+        'personId' => [
+            'minimum' => 1,
+        ],
+    ];
 
     public string $listName {
         set {

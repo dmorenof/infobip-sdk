@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N8a19359d3a412667abbd2d38733e247b91417d2a845ae41758328
 final class WebhookInfo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'url',
-];
+        'url',
+    ];
 
     /**
      * Defines what kind of requests you want to receive on a webhook. `ON_END` - only final status at the end, `ON_STATUS_CHANGE` - any change in the scenario.

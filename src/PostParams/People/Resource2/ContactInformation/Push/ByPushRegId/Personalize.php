@@ -7,21 +7,21 @@ namespace InfobipSDK\PostParams\People\Resource2\ContactInformation\Push\ByPushR
 final class Personalize extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'AppCode',
-    'body',
-];
+        'AppCode',
+        'body',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'forceDepersonalize' => 'forceDepersonalize',
-        'keepAsLead' => 'keepAsLead',
-        'returnPush' => 'returnPush',
-        'setDeviceAsPrimary' => 'setDeviceAsPrimary',
-    ],
-    'header' => [
-        'AppCode' => 'AppCode',
-    ],
-];
+        'path' => [],
+        'query' => [
+            'forceDepersonalize' => 'forceDepersonalize',
+            'keepAsLead' => 'keepAsLead',
+            'returnPush' => 'returnPush',
+            'setDeviceAsPrimary' => 'setDeviceAsPrimary',
+        ],
+        'header' => [
+            'AppCode' => 'AppCode',
+        ],
+    ];
 
     public const bool OPERATION_BODY = true;
 

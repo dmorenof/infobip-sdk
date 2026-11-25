@@ -200,5 +200,4 @@ final class Actions extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::DELETE_BY_ACTION_KEY), path: $identifier);
         return;
     }
-
 }

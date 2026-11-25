@@ -12,26 +12,26 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class MediaTemplateHeaderContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'documentUrl' => [
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-    'imageUrl' => [
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-    'videoUrl' => [
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'documentUrl' => [
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+        'imageUrl' => [
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+        'videoUrl' => [
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'documentFilename',
-    'documentUrl',
-    'imageUrl',
-    'latitude',
-    'longitude',
-    'textPlaceholder',
-    'videoUrl',
-];
+        'documentFilename',
+        'documentUrl',
+        'imageUrl',
+        'latitude',
+        'longitude',
+        'textPlaceholder',
+        'videoUrl',
+    ];
 
     /**
      * Document name. Required for templates that contain a document header.

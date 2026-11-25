@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31
 final class CreateNoteApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-];
+        'content',
+    ];
 
     protected const array VALIDATION = [
-    'agentId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'agentId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Agent Id, creator of note.

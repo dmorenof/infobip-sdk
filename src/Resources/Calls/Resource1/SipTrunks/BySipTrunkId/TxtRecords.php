@@ -285,5 +285,4 @@ final class TxtRecords extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload, path: ['sipTrunkId' => $sipTrunkId]);
         return $result;
     }
-
 }

@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class SmsFailover extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'from',
-    'text',
-];
+        'from',
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'from' => [
-        'minLength' => 1,
-        'maxLength' => 24,
-    ],
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 4096,
-    ],
-    'validityPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'from' => [
+            'minLength' => 1,
+            'maxLength' => 24,
+        ],
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 4096,
+        ],
+        'validityPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * SMS sender number. Must be in international format.

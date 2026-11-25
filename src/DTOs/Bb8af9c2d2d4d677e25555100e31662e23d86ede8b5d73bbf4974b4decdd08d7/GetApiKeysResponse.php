@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\Bb8af9c2d2d4d677e25555100e31662e23d86ede8b5d73bbf4974b
 final class GetApiKeysResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'paging',
-];
+        'paging',
+    ];
 
     /**
      * List of API keys.

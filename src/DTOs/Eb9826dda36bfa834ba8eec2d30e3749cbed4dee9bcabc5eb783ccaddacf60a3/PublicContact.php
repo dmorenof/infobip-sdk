@@ -12,27 +12,27 @@ namespace InfobipSDK\DTOs\Eb9826dda36bfa834ba8eec2d30e3749cbed4dee9bcabc5eb783cc
 final class PublicContact extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'email',
-    'firstName',
-    'lastName',
-    'phoneNumber',
-    'title',
-];
+        'email',
+        'firstName',
+        'lastName',
+        'phoneNumber',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'email' => [
-        'minLength' => 0,
-        'maxLength' => 254,
-    ],
-    'firstName' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-    'lastName' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-];
+        'email' => [
+            'minLength' => 0,
+            'maxLength' => 254,
+        ],
+        'firstName' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+        'lastName' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Contact email address.

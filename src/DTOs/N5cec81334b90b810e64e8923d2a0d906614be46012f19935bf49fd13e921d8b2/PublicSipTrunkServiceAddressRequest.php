@@ -12,12 +12,12 @@ namespace InfobipSDK\DTOs\N5cec81334b90b810e64e8923d2a0d906614be46012f19935bf49f
 final class PublicSipTrunkServiceAddressRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'city',
-    'countryCode',
-    'name',
-    'postCode',
-    'street',
-];
+        'city',
+        'countryCode',
+        'name',
+        'postCode',
+        'street',
+    ];
 
     /**
      * SIP trunk service address city.

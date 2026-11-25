@@ -10,22 +10,22 @@ namespace InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225bbd858a3bba6d956caa5ac2689
 final class OptInCarouselTemplateElement extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'payload',
-    'title',
-];
+        'payload',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'imageUrl' => [
-        'pattern' => '',
-    ],
-    'payload' => [
-        'minLength' => 1,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 65,
-    ],
-];
+        'imageUrl' => [
+            'pattern' => '',
+        ],
+        'payload' => [
+            'minLength' => 1,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 65,
+        ],
+    ];
 
     public string $imageUrl {
         set {

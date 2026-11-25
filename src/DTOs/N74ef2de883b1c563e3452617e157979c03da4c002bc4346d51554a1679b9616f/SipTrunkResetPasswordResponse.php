@@ -12,11 +12,11 @@ class SipTrunkResetPasswordResponse extends \Dmorenof\SdkRuntime\DTO
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f.SipTrunkAuthenticatedResetPasswordResponse' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\SipTrunkAuthenticatedResetPasswordResponse',
-    '74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f.SipTrunkRegisteredResetPasswordResponse' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\SipTrunkRegisteredResetPasswordResponse',
-    'AUTHENTICATED' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\SipTrunkAuthenticatedResetPasswordResponse',
-    'REGISTERED' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\SipTrunkRegisteredResetPasswordResponse',
-];
+        '74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f.SipTrunkAuthenticatedResetPasswordResponse' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\SipTrunkAuthenticatedResetPasswordResponse',
+        '74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f.SipTrunkRegisteredResetPasswordResponse' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\SipTrunkRegisteredResetPasswordResponse',
+        'AUTHENTICATED' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\SipTrunkAuthenticatedResetPasswordResponse',
+        'REGISTERED' => 'InfobipSDK\\DTOs\\N74ef2de883b1c563e3452617e157979c03da4c002bc4346d51554a1679b9616f\\SipTrunkRegisteredResetPasswordResponse',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

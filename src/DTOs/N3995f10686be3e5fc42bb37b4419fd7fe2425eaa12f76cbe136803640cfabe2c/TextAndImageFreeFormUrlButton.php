@@ -12,20 +12,20 @@ final class TextAndImageFreeFormUrlButton extends \InfobipSDK\DTOs\N3995f10686be
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 14,
-    ],
-    'urlMobile' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-    'urlPc' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 14,
+        ],
+        'urlMobile' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+        'urlPc' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -77,5 +77,4 @@ final class Status extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH), $payload, path: ['articleId' => $articleId]);
         return $result;
     }
-
 }

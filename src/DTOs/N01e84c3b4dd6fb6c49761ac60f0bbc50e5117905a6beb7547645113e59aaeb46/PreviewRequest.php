@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\N01e84c3b4dd6fb6c49761ac60f0bbc50e5117905a6beb75476451
 final class PreviewRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'languageCode' => [
-        'pattern' => '^(TR|ES|PT|AUTODETECT)$',
-    ],
-    'text' => [
-        'minLength' => 1,
-    ],
-    'transliteration' => [
-        'pattern' => '^(TURKISH|GREEK|CYRILLIC|SERBIAN_CYRILLIC|BULGARIAN_CYRILLIC|CENTRAL_EUROPEAN|BALTIC|PORTUGUESE|COLOMBIAN|NON_UNICODE|NONE|ALL)$',
-    ],
-];
+        'languageCode' => [
+            'pattern' => '^(TR|ES|PT|AUTODETECT)$',
+        ],
+        'text' => [
+            'minLength' => 1,
+        ],
+        'transliteration' => [
+            'pattern' => '^(TURKISH|GREEK|CYRILLIC|SERBIAN_CYRILLIC|BULGARIAN_CYRILLIC|CENTRAL_EUROPEAN|BALTIC|PORTUGUESE|COLOMBIAN|NON_UNICODE|NONE|ALL)$',
+        ],
+    ];
 
     /**
      * [Language code](https://www.infobip.com/docs/sms/language#national-language-identifier) for the correct character set. `AUTODETECT` lets the platform select the character set based on message content only for supported languages.

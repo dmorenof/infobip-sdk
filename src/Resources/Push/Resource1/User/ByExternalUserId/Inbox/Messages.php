@@ -77,5 +77,4 @@ final class Messages extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::DELETE), path: ['externalUserId' => $externalUserId], parameters: $params);
         return $result;
     }
-
 }

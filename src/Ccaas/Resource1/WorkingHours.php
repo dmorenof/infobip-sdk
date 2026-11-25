@@ -74,5 +74,4 @@ final class WorkingHours extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\WorkingHours::class)->putById($id, $payload);
     }
-
 }

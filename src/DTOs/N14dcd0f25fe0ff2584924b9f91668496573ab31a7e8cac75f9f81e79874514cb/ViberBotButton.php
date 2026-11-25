@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81
 final class ViberBotButton extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-];
+        'action',
+    ];
 
     protected const array VALIDATION = [
-    'columns' => [
-        'minimum' => 1,
-        'maximum' => 6,
-        'format' => 'int32',
-    ],
-    'rows' => [
-        'minimum' => 1,
-        'format' => 'int32',
-    ],
-];
+        'columns' => [
+            'minimum' => 1,
+            'maximum' => 6,
+            'format' => 'int32',
+        ],
+        'rows' => [
+            'minimum' => 1,
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81e79874514cb\ViberBotButtonAction $action;
     public \InfobipSDK\DTOs\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81e79874514cb\ViberBotButtonBackground $background;

@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd
 final class Webhook extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'url',
-];
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 1,
-        'pattern' => '',
-    ],
-];
+        'url' => [
+            'minLength' => 1,
+            'pattern' => '',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\SecurityConfig $securityConfig;
     /**

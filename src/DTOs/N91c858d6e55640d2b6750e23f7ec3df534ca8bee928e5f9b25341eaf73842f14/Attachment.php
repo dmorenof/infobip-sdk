@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class Attachment extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'downloadId',
-    'fileName',
-    'url',
-];
+        'downloadId',
+        'fileName',
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'downloadId' => [
-        'minLength' => 1,
-    ],
-    'fileName' => [
-        'minLength' => 1,
-    ],
-    'url' => [
-        'minLength' => 1,
-    ],
-];
+        'downloadId' => [
+            'minLength' => 1,
+        ],
+        'fileName' => [
+            'minLength' => 1,
+        ],
+        'url' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Download identifier of the attachment.

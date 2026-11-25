@@ -12,47 +12,47 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class ViberData extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'buttonText' => [
-        'minLength' => 0,
-        'maxLength' => 30,
-    ],
-    'buttonURL' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'fileName' => [
-        'minLength' => 0,
-        'maxLength' => 25,
-    ],
-    'fileUrl' => [
-        'pattern' => '^(https?)://.*$',
-    ],
-    'imageURL' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'trackingData' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-    'validityPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'buttonText' => [
+            'minLength' => 0,
+            'maxLength' => 30,
+        ],
+        'buttonURL' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'fileName' => [
+            'minLength' => 0,
+            'maxLength' => 25,
+        ],
+        'fileUrl' => [
+            'pattern' => '^(https?)://.*$',
+        ],
+        'imageURL' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'trackingData' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+        'validityPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'buttonText',
-    'buttonURL',
-    'fileName',
-    'fileType',
-    'fileUrl',
-    'forcePrimaryDevice',
-    'imageURL',
-    'isPromotional',
-    'text',
-    'trackingData',
-    'validityPeriod',
-];
+        'buttonText',
+        'buttonURL',
+        'fileName',
+        'fileType',
+        'fileUrl',
+        'forcePrimaryDevice',
+        'imageURL',
+        'isPromotional',
+        'text',
+        'trackingData',
+        'validityPeriod',
+    ];
 
     /**
      * Viber button label. Max 30 characters.

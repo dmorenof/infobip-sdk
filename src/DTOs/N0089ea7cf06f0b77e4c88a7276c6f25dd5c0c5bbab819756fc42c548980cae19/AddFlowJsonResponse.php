@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N0089ea7cf06f0b77e4c88a7276c6f25dd5c0c5bbab819756fc42c
 final class AddFlowJsonResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'validationErrors',
-];
+        'validationErrors',
+    ];
 
     /**
      * Errors found during validation of the uploaded file.

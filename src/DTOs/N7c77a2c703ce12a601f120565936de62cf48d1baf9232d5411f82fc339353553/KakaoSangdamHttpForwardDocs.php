@@ -12,10 +12,10 @@ final class KakaoSangdamHttpForwardDocs extends \InfobipSDK\DTOs\N7c77a2c703ce12
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 1,
-    ],
-];
+        'url' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Specifies pushed content format.

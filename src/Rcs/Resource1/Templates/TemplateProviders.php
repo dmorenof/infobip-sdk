@@ -16,5 +16,4 @@ final class TemplateProviders extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Rcs\Resource1\Templates\TemplateProviders::class)->get($params);
     }
-
 }

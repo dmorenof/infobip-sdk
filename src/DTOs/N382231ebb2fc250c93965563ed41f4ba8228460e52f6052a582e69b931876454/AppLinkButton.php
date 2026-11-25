@@ -14,27 +14,27 @@ final class AppLinkButton extends \InfobipSDK\DTOs\N382231ebb2fc250c93965563ed41
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 28,
-    ],
-    'schemeAndroid' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'schemeIos' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'urlMobile' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'urlPc' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-];
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 28,
+        ],
+        'schemeAndroid' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'schemeIos' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'urlMobile' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'urlPc' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

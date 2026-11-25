@@ -12,26 +12,26 @@ namespace InfobipSDK\DTOs\N2c1d05f3dc2f46851efe83e0fa7d26e3f8a2e8ee522f9adaaba58
 final class PagingResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'page',
-    'size',
-    'totalPages',
-    'totalResults',
-];
+        'page',
+        'size',
+        'totalPages',
+        'totalResults',
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'format' => 'int32',
-    ],
-    'size' => [
-        'format' => 'int32',
-    ],
-    'totalPages' => [
-        'format' => 'int32',
-    ],
-    'totalResults' => [
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'format' => 'int32',
+        ],
+        'size' => [
+            'format' => 'int32',
+        ],
+        'totalPages' => [
+            'format' => 'int32',
+        ],
+        'totalResults' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Requested page number.

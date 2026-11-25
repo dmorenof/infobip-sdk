@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N747c7e4c0b03b254cdcbef02225bbd858a3bba6d956caa5ac2689
 final class UtilityBodyComponent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'parameters',
-];
+        'parameters',
+    ];
 
     /**
      * Values for the placeholders in the template body. Each value names the placeholder it fills. May be empty when the body has no placeholders.

@@ -16,5 +16,4 @@ final class Numbers extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberReputation\Resource1\Numbers::class)->get($params);
     }
-
 }

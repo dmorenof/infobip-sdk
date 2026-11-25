@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N08fdb52de63aac13de3ed81c2cf06532bc7e9a861dae97f83fafd
 final class PublicSayRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'language',
-    'text',
-];
+        'language',
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'loopCount' => [
-        'format' => 'int32',
-    ],
-];
+        'loopCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Optional parameter to update a call's custom data.

@@ -17,5 +17,4 @@ final class CoverageLookup extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Resources\Resource1\CoverageLookup::class)->post($payload);
     }
-
 }

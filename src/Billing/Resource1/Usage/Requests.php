@@ -16,5 +16,4 @@ final class Requests extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Billing\Resource1\Usage\Requests::class)->getByRequestId($requestId);
     }
-
 }

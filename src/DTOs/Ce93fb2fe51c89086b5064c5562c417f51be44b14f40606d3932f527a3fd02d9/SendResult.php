@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\Ce93fb2fe51c89086b5064c5562c417f51be44b14f40606d3932f5
 final class SendResult extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messages',
-];
+        'messages',
+    ];
 
     /**
      * Unique bulk identifier.

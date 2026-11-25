@@ -7,71 +7,71 @@ namespace InfobipSDK\GetParams\Sms\Resource3\Text;
 final class Query extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-    'to',
-];
+        'text',
+        'to',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'bulkId' => 'bulkId',
-        'callbackData' => 'callbackData',
-        'flash' => 'flash',
-        'from' => 'from',
-        'includeSmsCountInResponse' => 'includeSmsCountInResponse',
-        'indiaDltContentTemplateId' => 'indiaDltContentTemplateId',
-        'indiaDltPrincipalEntityId' => 'indiaDltPrincipalEntityId',
-        'indiaDltTelemarketerId' => 'indiaDltTelemarketerId',
-        'intermediateReport' => 'intermediateReport',
-        'languageCode' => 'languageCode',
-        'notifyContentType' => 'notifyContentType',
-        'notifyUrl' => 'notifyUrl',
-        'sendAt' => 'sendAt',
-        'southKoreaResellerCode' => 'southKoreaResellerCode',
-        'southKoreaTitle' => 'southKoreaTitle',
-        'text' => 'text',
-        'to' => 'to',
-        'trackingType' => 'trackingType',
-        'trackingUrl' => 'trackingUrl',
-        'transliteration' => 'transliteration',
-        'turkeyIysBrandCode' => 'turkeyIysBrandCode',
-        'turkeyIysRecipientType' => 'turkeyIysRecipientType',
-        'validityPeriod' => 'validityPeriod',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'bulkId' => 'bulkId',
+            'callbackData' => 'callbackData',
+            'flash' => 'flash',
+            'from' => 'from',
+            'includeSmsCountInResponse' => 'includeSmsCountInResponse',
+            'indiaDltContentTemplateId' => 'indiaDltContentTemplateId',
+            'indiaDltPrincipalEntityId' => 'indiaDltPrincipalEntityId',
+            'indiaDltTelemarketerId' => 'indiaDltTelemarketerId',
+            'intermediateReport' => 'intermediateReport',
+            'languageCode' => 'languageCode',
+            'notifyContentType' => 'notifyContentType',
+            'notifyUrl' => 'notifyUrl',
+            'sendAt' => 'sendAt',
+            'southKoreaResellerCode' => 'southKoreaResellerCode',
+            'southKoreaTitle' => 'southKoreaTitle',
+            'text' => 'text',
+            'to' => 'to',
+            'trackingType' => 'trackingType',
+            'trackingUrl' => 'trackingUrl',
+            'transliteration' => 'transliteration',
+            'turkeyIysBrandCode' => 'turkeyIysBrandCode',
+            'turkeyIysRecipientType' => 'turkeyIysRecipientType',
+            'validityPeriod' => 'validityPeriod',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'bulkId' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-    'callbackData' => [
-        'minLength' => 0,
-        'maxLength' => 4000,
-    ],
-    'southKoreaResellerCode' => [
-        'format' => 'int32',
-    ],
-    'southKoreaTitle' => [
-        'minLength' => 0,
-        'maxLength' => 66,
-    ],
-    'text' => [
-        'minLength' => 1,
-    ],
-    'to' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'bulkId' => [
+            'minLength' => 0,
+            'maxLength' => 100,
         ],
-    ],
-    'turkeyIysBrandCode' => [
-        'format' => 'int32',
-    ],
-    'validityPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'callbackData' => [
+            'minLength' => 0,
+            'maxLength' => 4000,
+        ],
+        'southKoreaResellerCode' => [
+            'format' => 'int32',
+        ],
+        'southKoreaTitle' => [
+            'minLength' => 0,
+            'maxLength' => 66,
+        ],
+        'text' => [
+            'minLength' => 1,
+        ],
+        'to' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+        'turkeyIysBrandCode' => [
+            'format' => 'int32',
+        ],
+        'validityPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $bulkId {
         set {

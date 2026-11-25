@@ -209,5 +209,4 @@ final class Attachments extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_ATTACHMENT_ID), path: ['attachmentId' => $attachmentId]);
         return $result;
     }
-
 }

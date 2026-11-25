@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\N1d16d22c7f4e0b1058057e585daf7edad21174e9b497e154a3270
 final class Message extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel',
-    'conversationId',
-    'from',
-    'id',
-    'messageId',
-    'to',
-];
+        'channel',
+        'conversationId',
+        'from',
+        'id',
+        'messageId',
+        'to',
+    ];
 
     /**
      * Message channel. See the list of [supported Conversations channels](https://www.infobip.com/docs/conversations#available-channels).

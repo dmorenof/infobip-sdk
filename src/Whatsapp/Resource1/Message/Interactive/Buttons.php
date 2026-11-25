@@ -17,5 +17,4 @@ final class Buttons extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Message\Interactive\Buttons::class)->post($payload);
     }
-
 }

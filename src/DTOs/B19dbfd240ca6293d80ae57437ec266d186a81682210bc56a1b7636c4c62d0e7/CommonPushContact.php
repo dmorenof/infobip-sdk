@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\B19dbfd240ca6293d80ae57437ec266d186a81682210bc56a1b763
 final class CommonPushContact extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'additionalData',
-    'applicationId',
-    'registrationId',
-    'systemData',
-];
+        'additionalData',
+        'applicationId',
+        'registrationId',
+        'systemData',
+    ];
 
     /**
      * Additional data collected from the user's profile

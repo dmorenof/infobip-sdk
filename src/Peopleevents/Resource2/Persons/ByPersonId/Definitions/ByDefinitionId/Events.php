@@ -16,5 +16,4 @@ final class Events extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Peopleevents\Resource2\Persons\ByPersonId\Definitions\ByDefinitionId\Events::class)->post($identifier, $params);
     }
-
 }

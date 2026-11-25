@@ -12,36 +12,36 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class CommerceFreeForm extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'regularPrice',
-    'title',
-];
+        'regularPrice',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'discountFixed' => [
-        'minimum' => 0,
-        'maximum' => 999999,
-        'format' => 'int32',
-    ],
-    'discountPrice' => [
-        'minimum' => 0,
-        'maximum' => 99999999,
-        'format' => 'int32',
-    ],
-    'discountRate' => [
-        'minimum' => 0,
-        'maximum' => 100,
-        'format' => 'int32',
-    ],
-    'regularPrice' => [
-        'minimum' => 0,
-        'maximum' => 99999999,
-        'format' => 'int32',
-    ],
-    'title' => [
-        'minLength' => 1,
-        'maxLength' => 30,
-    ],
-];
+        'discountFixed' => [
+            'minimum' => 0,
+            'maximum' => 999999,
+            'format' => 'int32',
+        ],
+        'discountPrice' => [
+            'minimum' => 0,
+            'maximum' => 99999999,
+            'format' => 'int32',
+        ],
+        'discountRate' => [
+            'minimum' => 0,
+            'maximum' => 100,
+            'format' => 'int32',
+        ],
+        'regularPrice' => [
+            'minimum' => 0,
+            'maximum' => 99999999,
+            'format' => 'int32',
+        ],
+        'title' => [
+            'minLength' => 1,
+            'maxLength' => 30,
+        ],
+    ];
 
     /**
      * Fixed discount amount.

@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\N31df1a57142f86aa8caefaa914e5a897a1c5c119e96ae8d3d5f19
 class Report extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'bulkId',
-    'contact',
-    'doneAt',
-    'error',
-    'messageCount',
-    'messageId',
-    'price',
-    'sentAt',
-    'status',
-    'to',
-];
+        'bulkId',
+        'contact',
+        'doneAt',
+        'error',
+        'messageCount',
+        'messageId',
+        'price',
+        'sentAt',
+        'status',
+        'to',
+    ];
 
     /**
      * The ID that uniquely identifies the request.

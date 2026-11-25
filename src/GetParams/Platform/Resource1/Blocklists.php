@@ -7,44 +7,44 @@ namespace InfobipSDK\GetParams\Platform\Resource1;
 final class Blocklists extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'accountKey' => 'accountKey',
-        'campaign' => 'campaign',
-        'channel' => 'channel',
-        'createdDateFrom' => 'createdDateFrom',
-        'createdDateTo' => 'createdDateTo',
-        'destination' => 'destination',
-        'getAllAccountKeysBlocklists' => 'getAllAccountKeysBlocklists',
-        'page' => 'page',
-        'sender' => 'sender',
-        'size' => 'size',
-        'sourceType' => 'sourceType',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'accountKey' => 'accountKey',
+            'campaign' => 'campaign',
+            'channel' => 'channel',
+            'createdDateFrom' => 'createdDateFrom',
+            'createdDateTo' => 'createdDateTo',
+            'destination' => 'destination',
+            'getAllAccountKeysBlocklists' => 'getAllAccountKeysBlocklists',
+            'page' => 'page',
+            'sender' => 'sender',
+            'size' => 'size',
+            'sourceType' => 'sourceType',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'campaign' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'destination' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'page' => [
-        'minimum' => 0,
-    ],
-    'sender' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'size' => [
-        'minimum' => 1,
-        'maximum' => 1000,
-    ],
-];
+        'campaign' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'destination' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'page' => [
+            'minimum' => 0,
+        ],
+        'sender' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'size' => [
+            'minimum' => 1,
+            'maximum' => 1000,
+        ],
+    ];
 
     public ?string $accountKey;
     public ?string $campaign {

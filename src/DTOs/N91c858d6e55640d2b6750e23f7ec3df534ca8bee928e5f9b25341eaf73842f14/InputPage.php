@@ -10,31 +10,31 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class InputPage extends \InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341eaf73842f14\FormPage
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'hintText' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'nextPageIdentifier' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-    'pageIdentifier' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-    'subtitle' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-];
+        'hintText' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'nextPageIdentifier' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+        'pageIdentifier' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+        'subtitle' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

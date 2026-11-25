@@ -14,9 +14,9 @@ final class ShortCodeCampaignBuilderResultData extends \InfobipSDK\DTOs\N2700ea5
     public const array REQUIRED_FIELDS = [];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'privacyPolicy',
-    'termsConditions',
-];
+        'privacyPolicy',
+        'termsConditions',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

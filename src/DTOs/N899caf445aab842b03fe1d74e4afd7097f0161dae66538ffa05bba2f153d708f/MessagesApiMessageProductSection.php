@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageProductSection extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'productRetailerIds',
-];
+        'productRetailerIds',
+    ];
 
     protected const array VALIDATION = [
-    'productRetailerIds' => [
-        'minItems' => 1,
-    ],
-];
+        'productRetailerIds' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * Unique product identifier, as defined in catalog.

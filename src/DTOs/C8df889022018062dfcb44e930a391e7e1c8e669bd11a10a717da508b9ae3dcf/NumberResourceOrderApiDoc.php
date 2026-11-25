@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\C8df889022018062dfcb44e930a391e7e1c8e669bd11a10a717da5
 final class NumberResourceOrderApiDoc extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'quantity' => [
-        'format' => 'int32',
-    ],
-];
+        'quantity' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

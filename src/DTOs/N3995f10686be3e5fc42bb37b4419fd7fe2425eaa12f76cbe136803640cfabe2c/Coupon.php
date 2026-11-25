@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class Coupon extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'description',
-    'title',
-    'urlMobile',
-];
+        'description',
+        'title',
+        'urlMobile',
+    ];
 
     protected const array VALIDATION = [
-    'description' => [
-        'minLength' => 1,
-    ],
-    'urlMobile' => [
-        'minLength' => 1,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'description' => [
+            'minLength' => 1,
+        ],
+        'urlMobile' => [
+            'minLength' => 1,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * Coupon content description.

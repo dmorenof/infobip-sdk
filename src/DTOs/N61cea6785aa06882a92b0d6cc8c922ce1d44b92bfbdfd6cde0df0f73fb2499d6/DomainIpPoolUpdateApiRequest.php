@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\N61cea6785aa06882a92b0d6cc8c922ce1d44b92bfbdfd6cde0df0
 final class DomainIpPoolUpdateApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'priority',
-];
+        'priority',
+    ];
 
     protected const array VALIDATION = [
-    'priority' => [
-        'minimum' => 0,
-        'maximum' => 49,
-        'format' => 'int32',
-    ],
-];
+        'priority' => [
+            'minimum' => 0,
+            'maximum' => 49,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * IP pool sending priority.

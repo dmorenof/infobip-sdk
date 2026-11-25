@@ -49,5 +49,4 @@ final class AgentRecordingConfigs extends \InfobipSDK\InfobipOpenAPISpecificatio
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\AgentRecordingConfigs::class)->putByAgentId($agentId, $payload);
     }
-
 }

@@ -199,5 +199,4 @@ final class Notes extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_NOTE_ID), path: $identifier);
         return $result;
     }
-
 }

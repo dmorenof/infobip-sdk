@@ -11,11 +11,11 @@ namespace InfobipSDK\DTOs\N59fee77911b10cc32daa4aa3591d8ca0b6f5fe540a80b499aee90
 final class AgentRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'displayName' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'displayName' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Agent name to be displayed.

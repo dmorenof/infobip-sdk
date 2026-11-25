@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N707907921d4508c2925eddc2449f10db322ecc083be424f87c50f
 final class ConnectRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'callIds',
-];
+        'callIds',
+    ];
 
     protected const array VALIDATION = [
-    'callIds' => [
-        'uniqueItems' => true,
-    ],
-];
+        'callIds' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * IDs of the calls to connect.

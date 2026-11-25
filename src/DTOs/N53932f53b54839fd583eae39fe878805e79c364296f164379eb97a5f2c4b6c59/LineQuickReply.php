@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class LineQuickReply extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'items',
-];
+        'items',
+    ];
 
     protected const array VALIDATION = [
-    'items' => [
-        'minItems' => 0,
-        'maxItems' => 13,
-    ],
-];
+        'items' => [
+            'minItems' => 0,
+            'maxItems' => 13,
+        ],
+    ];
 
     /**
      * Quick reply items shown below the message.

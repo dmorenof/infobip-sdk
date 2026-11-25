@@ -55,5 +55,4 @@ final class EmergencyService extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Numbers\Resource2\Numbers\ByNumberKey\Voice\EmergencyService::class)->put($numberKey, $payload);
     }
-
 }

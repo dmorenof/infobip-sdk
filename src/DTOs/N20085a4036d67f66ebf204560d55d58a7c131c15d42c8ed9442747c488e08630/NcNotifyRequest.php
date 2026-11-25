@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class NcNotifyRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'to',
-];
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'to' => [
-        'minItems' => 1,
-    ],
-];
+        'to' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * Preferred lookup report content type. Can be `application/json` or `application/xml`.

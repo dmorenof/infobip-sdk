@@ -27,5 +27,4 @@ final class Upsert extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource3\Persons\Upsert::class)->put($payload);
     }
-
 }

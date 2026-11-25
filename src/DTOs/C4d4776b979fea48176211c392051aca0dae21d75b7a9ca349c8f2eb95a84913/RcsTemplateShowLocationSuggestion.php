@@ -12,31 +12,31 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class RcsTemplateShowLocationSuggestion extends \InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2eb95a84913\RcsTemplateSuggestion
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'label' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'latitude' => [
-        'schema' => true,
-        'jsonSchema' => '{"type":"object","oneOf":[{"type":"number","format":"double","maximum":90,"minimum":-90},{"type":"string"}]}',
-    ],
-    'longitude' => [
-        'schema' => true,
-        'jsonSchema' => '{"type":"object","oneOf":[{"type":"number","format":"double","maximum":180,"minimum":-180},{"type":"string"}]}',
-    ],
-    'postbackData' => [
-        'minLength' => 1,
-        'maxLength' => 2048,
-    ],
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 25,
-    ],
-];
+        'label' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'latitude' => [
+            'schema' => true,
+            'jsonSchema' => '{"type":"object","oneOf":[{"type":"number","format":"double","maximum":90,"minimum":-90},{"type":"string"}]}',
+        ],
+        'longitude' => [
+            'schema' => true,
+            'jsonSchema' => '{"type":"object","oneOf":[{"type":"number","format":"double","maximum":180,"minimum":-180},{"type":"string"}]}',
+        ],
+        'postbackData' => [
+            'minLength' => 1,
+            'maxLength' => 2048,
+        ],
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 25,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

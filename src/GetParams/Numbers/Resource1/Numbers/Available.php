@@ -7,67 +7,67 @@ namespace InfobipSDK\GetParams\Numbers\Resource1\Numbers;
 final class Available extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'capabilities' => 'capabilities',
-        'country' => 'country',
-        'lata' => 'lata',
-        'limit' => 'limit',
-        'npa' => 'npa',
-        'number' => 'number',
-        'nxx' => 'nxx',
-        'rateCenter' => 'rateCenter',
-        'state' => 'state',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'capabilities' => 'capabilities',
+            'country' => 'country',
+            'lata' => 'lata',
+            'limit' => 'limit',
+            'npa' => 'npa',
+            'number' => 'number',
+            'nxx' => 'nxx',
+            'rateCenter' => 'rateCenter',
+            'state' => 'state',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'capabilities' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [
-                'enum' => [
-                    'MMS',
-                    'SMS',
-                    'VOICE',
-                    'WHATSAPP',
-                    'WHATSAPP_VOICE',
+        'capabilities' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [
+                    'enum' => [
+                        'MMS',
+                        'SMS',
+                        'VOICE',
+                        'WHATSAPP',
+                        'WHATSAPP_VOICE',
+                    ],
                 ],
             ],
         ],
-    ],
-    'country' => [
-        'pattern' => '^[A-Z]{2}$',
-    ],
-    'lata' => [
-        'minimum' => 100,
-        'maximum' => 99999,
-        'format' => 'int32',
-    ],
-    'limit' => [
-        'minimum' => 1,
-        'format' => 'int32',
-    ],
-    'npa' => [
-        'minimum' => 200,
-        'maximum' => 999,
-        'format' => 'int32',
-    ],
-    'nxx' => [
-        'minimum' => 200,
-        'maximum' => 999,
-        'format' => 'int32',
-    ],
-    'rateCenter' => [
-        'minLength' => 3,
-        'maxLength' => 10,
-    ],
-    'state' => [
-        'minLength' => 2,
-        'maxLength' => 2,
-    ],
-];
+        'country' => [
+            'pattern' => '^[A-Z]{2}$',
+        ],
+        'lata' => [
+            'minimum' => 100,
+            'maximum' => 99999,
+            'format' => 'int32',
+        ],
+        'limit' => [
+            'minimum' => 1,
+            'format' => 'int32',
+        ],
+        'npa' => [
+            'minimum' => 200,
+            'maximum' => 999,
+            'format' => 'int32',
+        ],
+        'nxx' => [
+            'minimum' => 200,
+            'maximum' => 999,
+            'format' => 'int32',
+        ],
+        'rateCenter' => [
+            'minLength' => 3,
+            'maxLength' => 10,
+        ],
+        'state' => [
+            'minLength' => 2,
+            'maxLength' => 2,
+        ],
+    ];
 
     /** @var list<string>|null */
     public ?array $capabilities;

@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c15
 final class MediaStreamMultiChannel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'enabled',
-];
+        'enabled',
+    ];
 
     public bool $enabled;
 

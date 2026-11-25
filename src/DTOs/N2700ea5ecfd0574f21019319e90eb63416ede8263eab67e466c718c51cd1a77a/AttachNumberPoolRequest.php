@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class AttachNumberPoolRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'numberPoolId' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'reason' => [
-        'minLength' => 1,
-        'maxLength' => 1000,
-    ],
-];
+        'numberPoolId' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'reason' => [
+            'minLength' => 1,
+            'maxLength' => 1000,
+        ],
+    ];
 
     /**
      * Unique identifier of the number pool to be used for this campaign. If not provided, a default number pool will be automatically assigned.

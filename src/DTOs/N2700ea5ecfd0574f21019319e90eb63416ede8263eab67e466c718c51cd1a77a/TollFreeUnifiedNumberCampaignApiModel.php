@@ -10,127 +10,127 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class TollFreeUnifiedNumberCampaignApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'businessContactFirstName',
-    'businessContactLastName',
-    'businessWebsite',
-    'exampleMessage',
-    'legalEntityType',
-    'legalName',
-    'messageVolume',
-    'name',
-    'optInImageURLs',
-    'optIns',
-    'programSummary',
-    'supportEmail',
-    'supportPhone',
-    'useCase',
-];
+        'businessContactFirstName',
+        'businessContactLastName',
+        'businessWebsite',
+        'exampleMessage',
+        'legalEntityType',
+        'legalName',
+        'messageVolume',
+        'name',
+        'optInImageURLs',
+        'optIns',
+        'programSummary',
+        'supportEmail',
+        'supportPhone',
+        'useCase',
+    ];
 
     protected const array VALIDATION = [
-    'additionalInformation' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-    'businessContactFirstName' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'businessContactLastName' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'businessDBA' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-    'businessName' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-    'businessWebsite' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-    'countryCode' => [
-        'minLength' => 1,
-        'maxLength' => 2,
-    ],
-    'customerCareEmail' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'exampleMessage' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'legalName' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 30,
-        'pattern' => '[A-Za-z0-9_ ]*',
-    ],
-    'numberKeys' => [
-        'minItems' => 1,
-        'maxItems' => 25,
-        'uniqueItems' => true,
-    ],
-    'numberPreviews' => [
-        'uniqueItems' => true,
-    ],
-    'numbers' => [
-        'uniqueItems' => true,
-    ],
-    'optInImageURLs' => [
-        'minItems' => 1,
-        'uniqueItems' => true,
-    ],
-    'privacyPolicyUrl' => [
-        'pattern' => '',
-    ],
-    'programSummary' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-    'referenceId' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'supportEmail' => [
-        'minLength' => 1,
-    ],
-    'supportPhone' => [
-        'minLength' => 3,
-        'maxLength' => 16,
-        'pattern' => '\\+?[1-9]\\d{1,14}',
-    ],
-    'taxId' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'taxIdIssuingCountry' => [
-        'minLength' => 1,
-        'maxLength' => 2,
-    ],
-    'termsAndConditionsUrl' => [
-        'pattern' => '',
-    ],
-];
+        'additionalInformation' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+        'businessContactFirstName' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'businessContactLastName' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'businessDBA' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+        'businessName' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+        'businessWebsite' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+        'countryCode' => [
+            'minLength' => 1,
+            'maxLength' => 2,
+        ],
+        'customerCareEmail' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'exampleMessage' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'legalName' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 30,
+            'pattern' => '[A-Za-z0-9_ ]*',
+        ],
+        'numberKeys' => [
+            'minItems' => 1,
+            'maxItems' => 25,
+            'uniqueItems' => true,
+        ],
+        'numberPreviews' => [
+            'uniqueItems' => true,
+        ],
+        'numbers' => [
+            'uniqueItems' => true,
+        ],
+        'optInImageURLs' => [
+            'minItems' => 1,
+            'uniqueItems' => true,
+        ],
+        'privacyPolicyUrl' => [
+            'pattern' => '',
+        ],
+        'programSummary' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+        'referenceId' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'supportEmail' => [
+            'minLength' => 1,
+        ],
+        'supportPhone' => [
+            'minLength' => 3,
+            'maxLength' => 16,
+            'pattern' => '\\+?[1-9]\\d{1,14}',
+        ],
+        'taxId' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'taxIdIssuingCountry' => [
+            'minLength' => 1,
+            'maxLength' => 2,
+        ],
+        'termsAndConditionsUrl' => [
+            'pattern' => '',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'createdDate',
-    'id',
-    'lastModifiedDate',
-    'numberPreviews',
-];
+        'createdDate',
+        'id',
+        'lastModifiedDate',
+        'numberPreviews',
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'numberKeys',
-    'numbers',
-    'priorityId',
-];
+        'numberKeys',
+        'numbers',
+        'priorityId',
+    ];
 
     /**
      * Free-form field for any extra details relevant to the campaign—such as custom use cases or compliance clarification.

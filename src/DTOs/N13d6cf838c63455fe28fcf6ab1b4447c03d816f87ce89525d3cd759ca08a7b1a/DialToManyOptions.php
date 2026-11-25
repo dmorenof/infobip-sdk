@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class DialToManyOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'maxCallDuration' => [
-        'minimum' => 1,
-        'format' => 'int32',
-    ],
-];
+        'maxCallDuration' => [
+            'minimum' => 1,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * If set, call transfer will be limited by `maxCallDuration` seconds; must be a positive number, no upper bound.

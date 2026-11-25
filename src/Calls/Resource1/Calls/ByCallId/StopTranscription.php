@@ -16,5 +16,4 @@ final class StopTranscription extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Calls\ByCallId\StopTranscription::class)->post($callId);
     }
-
 }

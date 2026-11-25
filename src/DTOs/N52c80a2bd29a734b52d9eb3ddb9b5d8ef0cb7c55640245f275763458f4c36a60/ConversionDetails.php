@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N52c80a2bd29a734b52d9eb3ddb9b5d8ef0cb7c55640245f275763
 final class ConversionDetails extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'currency',
-    'value',
-];
+        'currency',
+        'value',
+    ];
 
     /**
      * Currency of the conversion. Has to be the same as it is set on ad account.

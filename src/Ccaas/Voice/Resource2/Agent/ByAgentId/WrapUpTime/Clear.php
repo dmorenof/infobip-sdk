@@ -16,5 +16,4 @@ final class Clear extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\Agent\ByAgentId\WrapUpTime\Clear::class)->patch($agentId);
     }
-
 }

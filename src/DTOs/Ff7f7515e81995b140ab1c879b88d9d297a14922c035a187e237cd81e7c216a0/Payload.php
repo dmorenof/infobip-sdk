@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\Ff7f7515e81995b140ab1c879b88d9d297a14922c035a187e237cd
 final class Payload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'eventDetails',
-    'eventId',
-];
+        'createdAt',
+        'eventDetails',
+        'eventId',
+    ];
 
     /**
      * Epoch milliseconds when the event occurred.

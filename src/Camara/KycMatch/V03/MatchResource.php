@@ -16,5 +16,4 @@ final class MatchResource extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Camara\KycMatch\V03\MatchResource::class)->post($payload);
     }
-
 }

@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31
 final class RuleApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'order' => [
-        'format' => 'int32',
-    ],
-];
+        'order' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Time stamp when rule is created.

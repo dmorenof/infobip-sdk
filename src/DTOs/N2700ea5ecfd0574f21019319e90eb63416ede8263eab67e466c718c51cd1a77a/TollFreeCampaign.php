@@ -10,67 +10,67 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class TollFreeCampaign extends \InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\Campaign
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'additionalInformation' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-    'customerCareEmail' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'exampleMessage' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 30,
-        'pattern' => '[A-Za-z0-9_ ]*',
-    ],
-    'numberKeys' => [
-        'minItems' => 1,
-        'maxItems' => 25,
-        'uniqueItems' => true,
-    ],
-    'numberPreviews' => [
-        'uniqueItems' => true,
-    ],
-    'numbers' => [
-        'uniqueItems' => true,
-    ],
-    'optInImageURLs' => [
-        'uniqueItems' => true,
-    ],
-    'privacyPolicyUrl' => [
-        'pattern' => '',
-    ],
-    'programSummary' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-    'referenceId' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'termsAndConditionsUrl' => [
-        'pattern' => '',
-    ],
-];
+        'additionalInformation' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+        'customerCareEmail' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'exampleMessage' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 30,
+            'pattern' => '[A-Za-z0-9_ ]*',
+        ],
+        'numberKeys' => [
+            'minItems' => 1,
+            'maxItems' => 25,
+            'uniqueItems' => true,
+        ],
+        'numberPreviews' => [
+            'uniqueItems' => true,
+        ],
+        'numbers' => [
+            'uniqueItems' => true,
+        ],
+        'optInImageURLs' => [
+            'uniqueItems' => true,
+        ],
+        'privacyPolicyUrl' => [
+            'pattern' => '',
+        ],
+        'programSummary' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+        'referenceId' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'termsAndConditionsUrl' => [
+            'pattern' => '',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'createdDate',
-    'id',
-    'lastModifiedDate',
-    'numberPreviews',
-];
+        'createdDate',
+        'id',
+        'lastModifiedDate',
+        'numberPreviews',
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'numbers',
-];
+        'numbers',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

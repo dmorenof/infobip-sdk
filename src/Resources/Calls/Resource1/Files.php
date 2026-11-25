@@ -256,5 +256,4 @@ final class Files extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_FILE_ID), path: ['fileId' => $fileId]);
         return $result;
     }
-
 }

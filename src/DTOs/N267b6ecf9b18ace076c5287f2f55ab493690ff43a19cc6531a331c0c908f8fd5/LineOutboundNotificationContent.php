@@ -12,11 +12,11 @@ final class LineOutboundNotificationContent extends \InfobipSDK\DTOs\N267b6ecf9b
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'altText' => [
-        'minLength' => 0,
-        'maxLength' => 400,
-    ],
-];
+        'altText' => [
+            'minLength' => 0,
+            'maxLength' => 400,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

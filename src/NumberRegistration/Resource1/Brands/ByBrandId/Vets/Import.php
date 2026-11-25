@@ -16,5 +16,4 @@ final class Import extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Brands\ByBrandId\Vets\Import::class)->put($brandId, $payload);
     }
-
 }

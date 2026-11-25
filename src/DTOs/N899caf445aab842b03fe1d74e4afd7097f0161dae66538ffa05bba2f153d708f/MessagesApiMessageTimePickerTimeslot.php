@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageTimePickerTimeslot extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'duration',
-    'startTime',
-];
+        'duration',
+        'startTime',
+    ];
 
     protected const array VALIDATION = [
-    'duration' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'duration' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Duration of the time slot in seconds.

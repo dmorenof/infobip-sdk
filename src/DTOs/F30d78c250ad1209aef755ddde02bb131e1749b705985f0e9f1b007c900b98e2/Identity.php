@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class Identity extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'acknowledged',
-    'createdAt',
-    'hash',
-];
+        'acknowledged',
+        'createdAt',
+        'hash',
+    ];
 
     protected const array VALIDATION = [
-    'hash' => [
-        'minLength' => 1,
-    ],
-];
+        'hash' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public bool $acknowledged;
     /**

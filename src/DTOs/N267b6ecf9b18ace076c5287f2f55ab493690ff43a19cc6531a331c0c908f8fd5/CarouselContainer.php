@@ -12,11 +12,11 @@ final class CarouselContainer extends \InfobipSDK\DTOs\N267b6ecf9b18ace076c5287f
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'contents' => [
-        'minItems' => 1,
-        'maxItems' => 12,
-    ],
-];
+        'contents' => [
+            'minItems' => 1,
+            'maxItems' => 12,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
@@ -30,5 +30,4 @@ final class CarouselContainer extends \InfobipSDK\DTOs\N267b6ecf9b18ace076c5287f
             $this->contents = $value;
         }
     }
-
 }

@@ -11,23 +11,23 @@ namespace InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31
 final class QueueApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'enabledAgentsCount' => [
-        'format' => 'int32',
-    ],
-    'enabledRoutesCount' => [
-        'format' => 'int32',
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'enabledAgentsCount' => [
+            'format' => 'int32',
+        ],
+        'enabledRoutesCount' => [
+            'format' => 'int32',
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'createdAt',
-    'id',
-    'updatedAt',
-];
+        'createdAt',
+        'id',
+        'updatedAt',
+    ];
 
     public \InfobipSDK\Enums\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31c5a8d865a2\AutoAssignmentAlgorithm $autoAssignmentAlgorithm;
     /**

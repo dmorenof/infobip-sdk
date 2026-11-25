@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class ValidationBadResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'description',
-    'violations',
-];
+        'action',
+        'description',
+        'violations',
+    ];
 
     /**
      * An action that should be taken to recover from the error.

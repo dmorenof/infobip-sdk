@@ -16,5 +16,4 @@ final class Verify extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Camara\NumberVerification\V0\Verify::class)->post($params);
     }
-
 }

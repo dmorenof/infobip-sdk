@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\N0797f98960a9d1f4df946ffe53c3c4e3e5cdc1dc56732cd123c79
 final class CustomAttributesResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'limit' => [
-        'format' => 'int32',
-    ],
-    'page' => [
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'format' => 'int32',
+        ],
+        'page' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'totalCount',
-];
+        'totalCount',
+    ];
 
     /**
      * List of custom attributes.

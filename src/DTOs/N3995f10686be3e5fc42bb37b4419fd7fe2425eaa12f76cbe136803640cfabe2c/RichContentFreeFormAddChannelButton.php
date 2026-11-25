@@ -15,5 +15,4 @@ final class RichContentFreeFormAddChannelButton extends \InfobipSDK\DTOs\N3995f1
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

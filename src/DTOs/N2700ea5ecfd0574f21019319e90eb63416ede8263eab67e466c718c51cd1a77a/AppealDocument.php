@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class AppealDocument extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'documentId',
-];
+        'documentId',
+    ];
 
     /**
      * ID of the previously uploaded document.

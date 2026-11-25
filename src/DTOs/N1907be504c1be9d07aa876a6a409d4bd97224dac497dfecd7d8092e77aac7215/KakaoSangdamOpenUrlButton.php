@@ -14,21 +14,21 @@ final class KakaoSangdamOpenUrlButton extends \InfobipSDK\DTOs\N1907be504c1be9d0
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 28,
-    ],
-    'urlMobile' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-        'pattern' => '',
-    ],
-    'urlPc' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-        'pattern' => '',
-    ],
-];
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 28,
+        ],
+        'urlMobile' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+            'pattern' => '',
+        ],
+        'urlPc' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+            'pattern' => '',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

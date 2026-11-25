@@ -18,5 +18,4 @@ final class Notify extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Rcs\Resource2\CapabilityCheck\Notify::class)->post($payload);
     }
-
 }

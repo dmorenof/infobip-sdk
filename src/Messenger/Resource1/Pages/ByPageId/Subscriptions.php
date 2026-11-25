@@ -29,5 +29,4 @@ final class Subscriptions extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Messenger\Resource1\Pages\ByPageId\Subscriptions::class)->deleteByNotificationMessagesToken($identifier);
     }
-
 }

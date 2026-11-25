@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N6a832d7980b0224fa17e623a753d9dcd3d97aedf6ae653c996ab3
 final class SenderPublicKeyResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'publicKey',
-    'publicKeySignatureStatus',
-];
+        'publicKey',
+        'publicKeySignatureStatus',
+    ];
 
     /**
      * PEM-formatted customer public key

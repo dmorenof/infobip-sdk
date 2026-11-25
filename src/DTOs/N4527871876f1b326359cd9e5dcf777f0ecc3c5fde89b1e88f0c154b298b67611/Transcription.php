@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c15
 final class Transcription extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'language',
-];
+        'language',
+    ];
 
     protected const array VALIDATION = [
-    'provider' => [
-        'pattern' => 'GOOGLE|AZURE|DEEPGRAM|SONIOX',
-    ],
-];
+        'provider' => [
+            'pattern' => 'GOOGLE|AZURE|DEEPGRAM|SONIOX',
+        ],
+    ];
 
     /**
      * Toggles enhanced text formatting features like punctuation, proper casing, numeral normalization, and disfluency filtering. Defaults to `false`.

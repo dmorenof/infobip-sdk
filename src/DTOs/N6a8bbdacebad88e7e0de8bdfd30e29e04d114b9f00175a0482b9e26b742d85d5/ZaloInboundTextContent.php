@@ -12,10 +12,10 @@ final class ZaloInboundTextContent extends \InfobipSDK\DTOs\N6a8bbdacebad88e7e0d
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 1,
-    ],
-];
+        'text' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

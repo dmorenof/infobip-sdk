@@ -16,5 +16,4 @@ final class Depersonalize extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\People\Resource2\ContactInformation\Push\ByPushRegId\Depersonalize::class)->post($pushRegId, $params);
     }
-
 }

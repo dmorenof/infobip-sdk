@@ -12,35 +12,35 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class VideoContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mediaDuration',
-    'mediaUrl',
-    'thumbnailUrl',
-];
+        'mediaDuration',
+        'mediaUrl',
+        'thumbnailUrl',
+    ];
 
     protected const array VALIDATION = [
-    'buttonTitle' => [
-        'minLength' => 1,
-        'maxLength' => 30,
-    ],
-    'mediaDuration' => [
-        'minimum' => 1,
-        'maximum' => 600,
-        'format' => 'int32',
-    ],
-    'mediaUrl' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-        'pattern' => '',
-    ],
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 1000,
-    ],
-    'thumbnailUrl' => [
-        'minLength' => 1,
-        'pattern' => '',
-    ],
-];
+        'buttonTitle' => [
+            'minLength' => 1,
+            'maxLength' => 30,
+        ],
+        'mediaDuration' => [
+            'minimum' => 1,
+            'maximum' => 600,
+            'format' => 'int32',
+        ],
+        'mediaUrl' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+            'pattern' => '',
+        ],
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 1000,
+        ],
+        'thumbnailUrl' => [
+            'minLength' => 1,
+            'pattern' => '',
+        ],
+    ];
 
     /**
      * Button text.

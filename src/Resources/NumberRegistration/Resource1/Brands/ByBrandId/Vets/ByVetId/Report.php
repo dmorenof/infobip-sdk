@@ -83,5 +83,4 @@ final class Report extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: $identifier);
         return $result;
     }
-
 }

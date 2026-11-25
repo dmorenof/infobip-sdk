@@ -7,12 +7,11 @@ namespace InfobipSDK\Requests\KnowledgeBase\Resource1\Attachments;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'file',
-];
+        'file',
+    ];
 
     /**
      * Format: binary
      */
     public string|\Psr\Http\Message\UploadedFileInterface $file;
-
 }

@@ -38,5 +38,4 @@ final class Attachments extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\KnowledgeBase\Resource1\Attachments::class)->getByAttachmentId($attachmentId);
     }
-
 }

@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\A012797e45a148c14a09b350fd3670874eb3f365931c630a0c2efc
 final class TokenRequestModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'identity',
-];
+        'identity',
+    ];
 
     protected const array VALIDATION = [
-    'identity' => [
-        'pattern' => '^[\\p{L}\\p{N}\\-_+=/.]{3,64}$',
-    ],
-];
+        'identity' => [
+            'pattern' => '^[\\p{L}\\p{N}\\-_+=/.]{3,64}$',
+        ],
+    ];
 
     /**
      * Optional. A human-readable name for a given identity. Does not have to be unique. If set, it will be presented to all other users communicating with the identified user, along with identity. Must contain at least 5 and at most 50 characters.

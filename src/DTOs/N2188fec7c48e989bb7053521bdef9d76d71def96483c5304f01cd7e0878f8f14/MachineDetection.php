@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd
 final class MachineDetection extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'detectionTime' => [
-        'minimum' => 1,
-        'maximum' => 5,
-    ],
-];
+        'detectionTime' => [
+            'minimum' => 1,
+            'maximum' => 5,
+        ],
+    ];
 
     /**
      * Maximum time in seconds to wait for machine detection. Only applicable when machineDetection is enabled.

@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N99c561addf74bb07fd67942658f68818323ce564cc5eef645d487
 final class DateTimeInterval extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'sentSince',
-    'sentUntil',
-];
+        'sentSince',
+        'sentUntil',
+    ];
 
     /**
      * Start of the sent traffic date-time period (inclusive).

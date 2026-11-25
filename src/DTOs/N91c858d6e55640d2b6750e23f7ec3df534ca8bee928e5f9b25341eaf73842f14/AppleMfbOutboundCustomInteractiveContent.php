@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class AppleMfbOutboundCustomInteractiveContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'appIcon' => [
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-    'bundleIdentifier' => [
-        'pattern' => '^com\\.apple\\.messages\\.MSMessageExtensionBalloonPlugin:[A-Z0-9]{10}:[-A-Za-z0-9.]+$',
-    ],
-];
+        'appIcon' => [
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+        'bundleIdentifier' => [
+            'pattern' => '^com\\.apple\\.messages\\.MSMessageExtensionBalloonPlugin:[A-Z0-9]{10}:[-A-Za-z0-9.]+$',
+        ],
+    ];
 
     /**
      * URL of the PNG icon of the iMessage app, smaller than 15 kB. The Messages app displays it when the iMessage extension is not installed on the customer's device.

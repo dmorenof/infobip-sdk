@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82
 final class RcsResourceFilter extends \InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\IbResourcesFilter
 {
     public const array REQUIRED_FIELDS = [
-    'resourceType',
-];
+        'resourceType',
+    ];
 
     protected const array VALIDATION = [
-    'senderName' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-];
+        'senderName' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

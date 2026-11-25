@@ -11,13 +11,13 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class AwayAudioMessageApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'audioSource',
-];
+        'audioSource',
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'id',
-    'workingHoursConfigId',
-];
+        'id',
+        'workingHoursConfigId',
+    ];
 
     public \InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469051f8b8866\OptionWithFileOrTtsAudioSourceApiModel $audioSource;
     public \InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469051f8b8866\DurationApiModel $collectDuration;

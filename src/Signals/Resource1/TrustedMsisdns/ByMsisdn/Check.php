@@ -20,5 +20,4 @@ final class Check extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Signals\Resource1\TrustedMsisdns\ByMsisdn\Check::class)->get($msisdn);
     }
-
 }

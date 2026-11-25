@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class TableRowItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'title',
-    'value',
-];
+        'title',
+        'value',
+    ];
 
     protected const array VALIDATION = [
-    'title' => [
-        'minLength' => 3,
-        'maxLength' => 36,
-    ],
-    'value' => [
-        'minLength' => 3,
-        'maxLength' => 90,
-    ],
-];
+        'title' => [
+            'minLength' => 3,
+            'maxLength' => 36,
+        ],
+        'value' => [
+            'minLength' => 3,
+            'maxLength' => 90,
+        ],
+    ];
 
     public \InfobipSDK\Enums\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e26b742d85d5\TableRowEffect $rowType;
     /**

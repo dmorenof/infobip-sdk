@@ -138,5 +138,4 @@ final class CampaignBuilder extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_REQUEST_UUID), path: ['requestUuid' => $requestUuid]);
         return $result;
     }
-
 }

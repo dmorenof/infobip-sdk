@@ -60,5 +60,4 @@ final class Config extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Voice\Masking\Resource2\Config::class)->putByKey($key, $payload);
     }
-
 }

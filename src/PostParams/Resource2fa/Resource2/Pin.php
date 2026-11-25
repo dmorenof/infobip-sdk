@@ -7,12 +7,12 @@ namespace InfobipSDK\PostParams\Resource2fa\Resource2;
 final class Pin extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'ncNeeded' => 'ncNeeded',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'ncNeeded' => 'ncNeeded',
+        ],
+        'header' => [],
+    ];
 
     public const bool OPERATION_BODY = true;
 

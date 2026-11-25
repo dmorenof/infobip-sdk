@@ -202,5 +202,4 @@ final class Suppressions extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::POST), $payload);
         return;
     }
-
 }

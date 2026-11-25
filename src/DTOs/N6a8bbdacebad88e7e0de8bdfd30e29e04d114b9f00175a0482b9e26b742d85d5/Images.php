@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class Images extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'items' => [
-        'minItems' => 1,
-        'maxItems' => 3,
-    ],
-];
+        'items' => [
+            'minItems' => 1,
+            'maxItems' => 3,
+        ],
+    ];
 
     /**
      * List of image attachments.

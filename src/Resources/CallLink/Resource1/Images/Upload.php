@@ -81,5 +81,4 @@ final class Upload extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST_BY_TYPE), path: ['type' => $type], body: $payload);
         return $result;
     }
-
 }

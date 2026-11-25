@@ -10,43 +10,43 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 class Brand extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'type',
-    'website',
-];
+        'name',
+        'type',
+        'website',
+    ];
 
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.GovernmentBrand' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\GovernmentBrand',
-    '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.NonProfitBrand' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\NonProfitBrand',
-    '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.PrivateCompanyBrand' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\PrivateCompanyBrand',
-    '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.PublicCompanyBrand' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\PublicCompanyBrand',
-    '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.TollFreeBrand' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TollFreeBrand',
-    'TENDLC_GOVERNMENT' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\GovernmentBrand',
-    'TENDLC_NON_PROFIT' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\NonProfitBrand',
-    'TENDLC_PRIVATE_COMPANY' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\PrivateCompanyBrand',
-    'TENDLC_PUBLIC_COMPANY' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\PublicCompanyBrand',
-    'TOLL_FREE_NUMBER' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TollFreeBrand',
-];
+        '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.GovernmentBrand' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\GovernmentBrand',
+        '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.NonProfitBrand' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\NonProfitBrand',
+        '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.PrivateCompanyBrand' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\PrivateCompanyBrand',
+        '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.PublicCompanyBrand' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\PublicCompanyBrand',
+        '2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a.TollFreeBrand' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TollFreeBrand',
+        'TENDLC_GOVERNMENT' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\GovernmentBrand',
+        'TENDLC_NON_PROFIT' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\NonProfitBrand',
+        'TENDLC_PRIVATE_COMPANY' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\PrivateCompanyBrand',
+        'TENDLC_PUBLIC_COMPANY' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\PublicCompanyBrand',
+        'TOLL_FREE_NUMBER' => 'InfobipSDK\\DTOs\\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\\TollFreeBrand',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'website' => [
-        'minLength' => 11,
-        'maxLength' => 100,
-        'pattern' => '',
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'website' => [
+            'minLength' => 11,
+            'maxLength' => 100,
+            'pattern' => '',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'createdDate',
-    'id',
-    'lastModifiedDate',
-];
+        'createdDate',
+        'id',
+        'lastModifiedDate',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

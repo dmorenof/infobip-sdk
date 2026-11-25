@@ -81,5 +81,4 @@ final class Senders extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['businessAccountId' => $businessAccountId]);
         return $result;
     }
-
 }

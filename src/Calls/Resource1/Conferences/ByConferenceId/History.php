@@ -16,5 +16,4 @@ final class History extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Conferences\ByConferenceId\History::class)->get($conferenceId);
     }
-
 }

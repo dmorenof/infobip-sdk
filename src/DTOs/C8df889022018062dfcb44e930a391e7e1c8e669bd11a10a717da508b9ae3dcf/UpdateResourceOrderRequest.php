@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\C8df889022018062dfcb44e930a391e7e1c8e669bd11a10a717da5
 final class UpdateResourceOrderRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'requirements',
-];
+        'requirements',
+    ];
 
     /**
      * List of requirements for the resource.

@@ -7,39 +7,39 @@ namespace InfobipSDK\PostParams\Mms\Resource1;
 final class Content extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'XContentId',
-    'XMediaType',
-    'body',
-];
+        'XContentId',
+        'XMediaType',
+        'body',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [],
-    'header' => [
+        'path' => [],
+        'query' => [],
+        'header' => [
+            'X-Content-Id' => 'XContentId',
+            'X-Media-Type' => 'XMediaType',
+            'X-Validity-Period-Minutes' => 'XValidityPeriodMinutes',
+        ],
+    ];
+
+    protected const array PROPERTY_MAP = [
         'X-Content-Id' => 'XContentId',
         'X-Media-Type' => 'XMediaType',
         'X-Validity-Period-Minutes' => 'XValidityPeriodMinutes',
-    ],
-];
-
-    protected const array PROPERTY_MAP = [
-    'X-Content-Id' => 'XContentId',
-    'X-Media-Type' => 'XMediaType',
-    'X-Validity-Period-Minutes' => 'XValidityPeriodMinutes',
-];
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'XContentId' => 'X-Content-Id',
-    'XMediaType' => 'X-Media-Type',
-    'XValidityPeriodMinutes' => 'X-Validity-Period-Minutes',
-];
+        'XContentId' => 'X-Content-Id',
+        'XMediaType' => 'X-Media-Type',
+        'XValidityPeriodMinutes' => 'X-Validity-Period-Minutes',
+    ];
 
     public const bool OPERATION_BODY = true;
 
     protected const array VALIDATION = [
-    'XContentId' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-];
+        'XContentId' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+    ];
 
     public string $XContentId {
         set {

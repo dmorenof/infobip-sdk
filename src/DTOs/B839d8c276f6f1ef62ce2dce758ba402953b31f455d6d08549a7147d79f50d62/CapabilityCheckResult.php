@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class CapabilityCheckResult extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bulkId',
-    'code',
-    'messageId',
-    'phoneNumber',
-];
+        'bulkId',
+        'code',
+        'messageId',
+        'phoneNumber',
+    ];
 
     /**
      * The ID that uniquely identifies the request. This ID is automatically generated and will be included in the API response.

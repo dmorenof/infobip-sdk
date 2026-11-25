@@ -206,5 +206,4 @@ final class Campaigns extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::DELETE_BY_CAMPAIGN_ID), path: ['campaignId' => $campaignId]);
         return;
     }
-
 }

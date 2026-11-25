@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c184
 final class SearchPersonMemoriesApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'identifier',
-    'query',
-];
+        'identifier',
+        'query',
+    ];
 
     protected const array VALIDATION = [
-    'maxResults' => [
-        'minimum' => 1,
-        'maximum' => 50,
-        'format' => 'int32',
-    ],
-    'query' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'maxResults' => [
+            'minimum' => 1,
+            'maximum' => 50,
+            'format' => 'int32',
+        ],
+        'query' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     /**
      * Start of an absolute time window (UTC, ISO-8601). Must be provided together with `to` and cannot be combined with `relativeTimeRange`.

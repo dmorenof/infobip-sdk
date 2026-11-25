@@ -10,22 +10,22 @@ namespace InfobipSDK\DTOs\N3c57fc8acf96933d1896c672a41450fccb946974464fd5e3ce94e
 final class Payment extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'currency',
-    'paymentStatus',
-    'referenceId',
-    'totalAmountOffset',
-    'totalAmountValue',
-    'transactions',
-];
+        'currency',
+        'paymentStatus',
+        'referenceId',
+        'totalAmountOffset',
+        'totalAmountValue',
+        'transactions',
+    ];
 
     protected const array VALIDATION = [
-    'totalAmountOffset' => [
-        'format' => 'int32',
-    ],
-    'totalAmountValue' => [
-        'format' => 'int32',
-    ],
-];
+        'totalAmountOffset' => [
+            'format' => 'int32',
+        ],
+        'totalAmountValue' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Custom parameters corresponding to the transaction. Available only for PayU UPI Payments and Razorpay.

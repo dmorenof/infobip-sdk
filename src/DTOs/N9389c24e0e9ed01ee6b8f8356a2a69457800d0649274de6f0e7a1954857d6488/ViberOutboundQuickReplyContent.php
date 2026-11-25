@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class ViberOutboundQuickReplyContent extends \InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1954857d6488\ViberOutboundContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'options' => [
-        'minItems' => 2,
-        'maxItems' => 10,
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 85,
-    ],
-];
+        'options' => [
+            'minItems' => 2,
+            'maxItems' => 10,
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 85,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

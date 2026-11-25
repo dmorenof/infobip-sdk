@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\N245a74e48cd7ce0a3e2f108689f6fc8d5a08a4d75c5aeb1883fc9
 final class CardContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'description',
-];
+        'description',
+    ];
 
     protected const array VALIDATION = [
-    'cardActions' => [
-        'minItems' => 0,
-        'maxItems' => 4,
-    ],
-    'description' => [
-        'minLength' => 1,
-        'maxLength' => 2000,
-    ],
-    'title' => [
-        'minLength' => 1,
-        'maxLength' => 200,
-    ],
-];
+        'cardActions' => [
+            'minItems' => 0,
+            'maxItems' => 4,
+        ],
+        'description' => [
+            'minLength' => 1,
+            'maxLength' => 2000,
+        ],
+        'title' => [
+            'minLength' => 1,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * List of buttons displayed on the card.

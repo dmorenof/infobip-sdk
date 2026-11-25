@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class ValidationOkResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'description',
-];
+        'action',
+        'description',
+    ];
 
     /**
      * An action that should be taken.

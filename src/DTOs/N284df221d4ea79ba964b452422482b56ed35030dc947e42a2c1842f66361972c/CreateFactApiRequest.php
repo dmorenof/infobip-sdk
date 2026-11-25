@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c184
 final class CreateFactApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'description',
-    'name',
-    'valueType',
-];
+        'description',
+        'name',
+        'valueType',
+    ];
 
     protected const array VALIDATION = [
-    'description' => [
-        'maxLength' => 500,
-    ],
-    'name' => [
-        'maxLength' => 100,
-    ],
-];
+        'description' => [
+            'maxLength' => 500,
+        ],
+        'name' => [
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Human-readable description of the fact.

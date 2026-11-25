@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\D76a8e2b7d80b5cb0751e11a31b96eabeaf6b2ec1de2932507f7f2
 final class TimelineConditionDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'occurred',
-    'operator',
-];
+        'occurred',
+        'operator',
+    ];
 
     protected const array VALIDATION = [
-    'end' => [
-        'format' => 'int32',
-    ],
-    'start' => [
-        'format' => 'int32',
-    ],
-];
+        'end' => [
+            'format' => 'int32',
+        ],
+        'start' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * End of timespan: For relative operators, specify the number of units. For absolute operators, provide a Unix timestamp.

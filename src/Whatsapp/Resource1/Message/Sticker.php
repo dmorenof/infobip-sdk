@@ -17,5 +17,4 @@ final class Sticker extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Message\Sticker::class)->post($payload);
     }
-
 }

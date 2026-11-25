@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N45c843446703ba5f4438a6f721c629420452796de20bd3dd9adfc
 final class ApiBulkRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'destinations',
-];
+        'destinations',
+    ];
 
     protected const array VALIDATION = [
-    'destinations' => [
-        'minItems' => 1,
-        'maxItems' => 100000,
-    ],
-    'validationRequestId' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-];
+        'destinations' => [
+            'minItems' => 1,
+            'maxItems' => 100000,
+        ],
+        'validationRequestId' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * Array of email addresses to be validated.

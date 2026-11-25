@@ -17,5 +17,4 @@ final class Calls extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\Calls::class)->get($sender);
     }
-
 }

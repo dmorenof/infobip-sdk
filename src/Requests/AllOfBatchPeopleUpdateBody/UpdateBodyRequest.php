@@ -10,5 +10,4 @@ final class UpdateBodyRequest extends \Dmorenof\SdkRuntime\DTO
      * List of people.
      */
     public \InfobipSDK\Collections\AllOfBatchPeopleUpdateBody\UpdateBodyPeopleCollection $people;
-
 }

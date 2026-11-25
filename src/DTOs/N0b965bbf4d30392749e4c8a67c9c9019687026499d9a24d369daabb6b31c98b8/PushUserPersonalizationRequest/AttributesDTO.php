@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N0b965bbf4d30392749e4c8a67c9c9019687026499d9a24d369daa
 final class AttributesDTO extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'tags' => [
-        'uniqueItems' => true,
-    ],
-];
+        'tags' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * Format: date-time

@@ -48,5 +48,4 @@ final class Blocklists extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Platform\Resource1\Blocklists::class)->post($payload);
     }
-
 }

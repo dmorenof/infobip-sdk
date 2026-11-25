@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\C8df889022018062dfcb44e930a391e7e1c8e669bd11a10a717da5
 final class WebhookReminderNotifApiDoc extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'daysUntilRejection',
-    'id',
-    'status',
-    'type',
-];
+        'daysUntilRejection',
+        'id',
+        'status',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'daysUntilRejection' => [
-        'format' => 'int32',
-    ],
-];
+        'daysUntilRejection' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of days remaining before the resource request is automatically rejected due to inactivity.

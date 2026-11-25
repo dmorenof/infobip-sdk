@@ -16,5 +16,4 @@ final class Preview extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Email\Resource1\Templates\ByTemplateId\Preview::class)->post($templateId, $payload);
     }
-
 }

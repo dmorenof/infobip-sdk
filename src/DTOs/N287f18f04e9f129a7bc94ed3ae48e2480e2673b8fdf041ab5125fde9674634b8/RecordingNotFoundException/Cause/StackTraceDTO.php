@@ -7,10 +7,10 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class StackTraceDTO extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'lineNumber' => [
-        'format' => 'int32',
-    ],
-];
+        'lineNumber' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public string $classLoaderName;
     public string $className;

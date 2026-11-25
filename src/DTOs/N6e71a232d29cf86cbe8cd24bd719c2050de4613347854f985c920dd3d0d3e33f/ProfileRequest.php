@@ -12,49 +12,49 @@ namespace InfobipSDK\DTOs\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920
 final class ProfileRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'profileId',
-];
+        'profileId',
+    ];
 
     protected const array VALIDATION = [
-    'clientCertificateId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-        'pattern' => '^[a-zA-Z0-9._-]+$',
-    ],
-    'connectTimeout' => [
-        'minimum' => 300,
-        'maximum' => 30000,
-        'format' => 'int32',
-    ],
-    'enabledSSLProtocols' => [
-        'uniqueItems' => true,
-        'jsonSchema' => '{"enum":["TLSv1.2","TLSv1.3"]}',
-    ],
-    'maxBucketSize' => [
-        'minimum' => 1,
-        'maximum' => 2000,
-        'format' => 'int32',
-    ],
-    'profileId' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'rateLimit' => [
-        'minimum' => 1,
-        'maximum' => 5000,
-        'format' => 'int32',
-    ],
-    'readTimeout' => [
-        'minimum' => 1000,
-        'maximum' => 90000,
-        'format' => 'int32',
-    ],
-    'windowSize' => [
-        'minimum' => 20,
-        'maximum' => 10000,
-        'format' => 'int32',
-    ],
-];
+        'clientCertificateId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+            'pattern' => '^[a-zA-Z0-9._-]+$',
+        ],
+        'connectTimeout' => [
+            'minimum' => 300,
+            'maximum' => 30000,
+            'format' => 'int32',
+        ],
+        'enabledSSLProtocols' => [
+            'uniqueItems' => true,
+            'jsonSchema' => '{"enum":["TLSv1.2","TLSv1.3"]}',
+        ],
+        'maxBucketSize' => [
+            'minimum' => 1,
+            'maximum' => 2000,
+            'format' => 'int32',
+        ],
+        'profileId' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'rateLimit' => [
+            'minimum' => 1,
+            'maximum' => 5000,
+            'format' => 'int32',
+        ],
+        'readTimeout' => [
+            'minimum' => 1000,
+            'maximum' => 90000,
+            'format' => 'int32',
+        ],
+        'windowSize' => [
+            'minimum' => 20,
+            'maximum' => 10000,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Client certificate ID.

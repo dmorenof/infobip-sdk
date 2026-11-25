@@ -13,15 +13,15 @@ namespace InfobipSDK\DTOs\N1ed350d65e634c5446c08244298a26d3b0bb68a76782ab9246a80
 final class UpdateDailyLimitsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'limits',
-];
+        'limits',
+    ];
 
     protected const array VALIDATION = [
-    'limits' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-];
+        'limits' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+    ];
 
     /**
      * List of country daily limits to update.

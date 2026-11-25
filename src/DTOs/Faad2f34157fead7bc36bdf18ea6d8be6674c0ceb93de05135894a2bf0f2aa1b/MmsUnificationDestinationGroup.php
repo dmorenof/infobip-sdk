@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\Faad2f34157fead7bc36bdf18ea6d8be6674c0ceb93de05135894a
 final class MmsUnificationDestinationGroup extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'group',
-];
+        'group',
+    ];
 
     protected const array VALIDATION = [
-    'group' => [
-        'minItems' => 1,
-        'maxItems' => 200,
-    ],
-];
+        'group' => [
+            'minItems' => 1,
+            'maxItems' => 200,
+        ],
+    ];
 
     /**
      * An array of destination objects for where messages are being sent. A valid destination is required.

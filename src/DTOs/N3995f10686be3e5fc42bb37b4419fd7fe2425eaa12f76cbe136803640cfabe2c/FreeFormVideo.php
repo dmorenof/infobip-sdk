@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class FreeFormVideo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'videoUrl',
-];
+        'videoUrl',
+    ];
 
     protected const array VALIDATION = [
-    'thumbnailUrl' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-    'videoUrl' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'thumbnailUrl' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+        'videoUrl' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * URL to thumbnail of the video. Must be a valid URL from Kakao image API.

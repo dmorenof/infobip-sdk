@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\Cc99cb7b0e48638be90df2dee94fb1aaadb95bcd09a6944a79bd00
 final class MarketingMessageClick extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'campaignId',
-    'clickedAt',
-    'from',
-    'messageId',
-    'notificationType',
-    'to',
-];
+        'campaignId',
+        'clickedAt',
+        'from',
+        'messageId',
+        'notificationType',
+        'to',
+    ];
 
     /**
      * Campaign Id.

@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class Image extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'identifier',
-    'imageUrl',
-];
+        'identifier',
+        'imageUrl',
+    ];
 
     protected const array VALIDATION = [
-    'identifier' => [
-        'minLength' => 1,
-    ],
-    'imageUrl' => [
-        'minLength' => 1,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'identifier' => [
+            'minLength' => 1,
+        ],
+        'imageUrl' => [
+            'minLength' => 1,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * Identifier of the image. Each one should be unique per message.

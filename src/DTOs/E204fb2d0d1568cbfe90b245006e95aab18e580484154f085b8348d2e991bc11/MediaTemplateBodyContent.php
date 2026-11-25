@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class MediaTemplateBodyContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'placeholders',
-];
+        'placeholders',
+    ];
 
     /**
      * Media template body placeholders. The value must not be null, but can be an empty array. Values within the array must not be null or empty.

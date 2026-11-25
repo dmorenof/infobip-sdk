@@ -18,5 +18,4 @@ final class Reports extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Voice\RinglessVoicemail\Resource1\Reports::class)->get($params);
     }
-
 }

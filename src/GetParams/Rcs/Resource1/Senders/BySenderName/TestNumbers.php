@@ -7,23 +7,23 @@ namespace InfobipSDK\GetParams\Rcs\Resource1\Senders\BySenderName;
 final class TestNumbers extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'page' => 'page',
-        'size' => 'size',
-        'sort' => 'sort',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'page' => 'page',
+            'size' => 'size',
+            'sort' => 'sort',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'format' => 'int32',
-    ],
-    'size' => [
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'format' => 'int32',
+        ],
+        'size' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?int $page {
         set {

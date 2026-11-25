@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\Eb9826dda36bfa834ba8eec2d30e3749cbed4dee9bcabc5eb783cc
 final class PublicCheckReputationRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'phoneNumbers',
-];
+        'phoneNumbers',
+    ];
 
     protected const array VALIDATION = [
-    'phoneNumbers' => [
-        'minItems' => 1,
-        'maxItems' => 100,
-    ],
-];
+        'phoneNumbers' => [
+            'minItems' => 1,
+            'maxItems' => 100,
+        ],
+    ];
 
     /**
      * Phone numbers to query reputation for. Must be registered under the account.

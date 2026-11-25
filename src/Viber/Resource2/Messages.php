@@ -17,5 +17,4 @@ final class Messages extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Viber\Resource2\Messages::class)->post($payload);
     }
-
 }

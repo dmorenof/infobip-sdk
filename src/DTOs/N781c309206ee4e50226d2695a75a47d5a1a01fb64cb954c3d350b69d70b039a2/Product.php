@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N781c309206ee4e50226d2695a75a47d5a1a01fb64cb954c3d350b
 final class Product extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'quantity' => [
-        'format' => 'int32',
-    ],
-];
+        'quantity' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public string $currency;
     public float $itemPrice;

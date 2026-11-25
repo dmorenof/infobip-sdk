@@ -16,5 +16,4 @@ final class Folders extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\KnowledgeBase\Resource1\Folders::class)->get($params);
     }
-
 }

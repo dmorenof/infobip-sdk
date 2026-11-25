@@ -17,5 +17,4 @@ final class Pin extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Resource2fa\Resource2\Pin::class)->post($params);
     }
-
 }

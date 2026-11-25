@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\Af9b8d75feb9ef8fdc8a04b912e3888bebe39d66ecc19747cc1143
 final class NrsApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'requestId',
-    'status',
-];
+        'requestId',
+        'status',
+    ];
 
     /**
      * Indicator whether or not number had bot like behavior.

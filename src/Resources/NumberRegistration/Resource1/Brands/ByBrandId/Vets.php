@@ -291,5 +291,4 @@ final class Vets extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_VET_ID), $payload, path: $identifier);
         return $result;
     }
-
 }

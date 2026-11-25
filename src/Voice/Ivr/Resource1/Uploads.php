@@ -31,5 +31,4 @@ final class Uploads extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Voice\Ivr\Resource1\Uploads::class)->post($payload);
     }
-
 }

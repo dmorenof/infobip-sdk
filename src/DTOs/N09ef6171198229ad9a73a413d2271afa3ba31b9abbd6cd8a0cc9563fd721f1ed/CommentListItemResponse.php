@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc95
 final class CommentListItemResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'createdAt',
-    'createdBy',
-    'id',
-    'lastContentUpdatedAt',
-    'lastContentUpdatedBy',
-    'lastUpdatedAt',
-    'resolved',
-];
+        'content',
+        'createdAt',
+        'createdBy',
+        'id',
+        'lastContentUpdatedAt',
+        'lastContentUpdatedBy',
+        'lastUpdatedAt',
+        'resolved',
+    ];
 
     /**
      * Content of the comment.

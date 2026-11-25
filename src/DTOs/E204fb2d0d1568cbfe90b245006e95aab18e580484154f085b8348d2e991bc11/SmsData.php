@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class SmsData extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'validityPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'validityPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'text',
-    'validityPeriod',
-];
+        'text',
+        'validityPeriod',
+    ];
 
     public \InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\Language $language;
     public \InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\RegionalData $regional;

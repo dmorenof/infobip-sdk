@@ -7,22 +7,22 @@ namespace InfobipSDK\PostParams\Camara\NumberVerification\V2;
 final class Verify extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'body',
-];
+        'body',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [],
-    'header' => [
-        'X-Correlator' => 'XCorrelator',
-    ],
-];
+        'path' => [],
+        'query' => [],
+        'header' => [
+            'X-Correlator' => 'XCorrelator',
+        ],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'X-Correlator' => 'XCorrelator',
-];
+        'X-Correlator' => 'XCorrelator',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'XCorrelator' => 'X-Correlator',
-];
+        'XCorrelator' => 'X-Correlator',
+    ];
 
     public const bool OPERATION_BODY = true;
 

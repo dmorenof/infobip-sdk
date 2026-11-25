@@ -12,11 +12,11 @@ final class GenericFacebookTemplatePayload extends \InfobipSDK\DTOs\N747c7e4c0b0
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'elements' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-];
+        'elements' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

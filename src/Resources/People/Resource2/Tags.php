@@ -309,5 +309,4 @@ final class Tags extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_NAME), path: ['name' => $name]);
         return $result;
     }
-
 }

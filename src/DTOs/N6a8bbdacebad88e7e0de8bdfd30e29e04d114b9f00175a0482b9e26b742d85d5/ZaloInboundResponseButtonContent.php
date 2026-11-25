@@ -12,19 +12,19 @@ final class ZaloInboundResponseButtonContent extends \InfobipSDK\DTOs\N6a8bbdace
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'buttonText' => [
-        'minLength' => 1,
-    ],
-    'buttonType' => [
-        'minLength' => 1,
-    ],
-    'eventName' => [
-        'minLength' => 1,
-    ],
-    'trackingId' => [
-        'minLength' => 1,
-    ],
-];
+        'buttonText' => [
+            'minLength' => 1,
+        ],
+        'buttonType' => [
+            'minLength' => 1,
+        ],
+        'eventName' => [
+            'minLength' => 1,
+        ],
+        'trackingId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -11,10 +11,10 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class OutboundCallConversationRequestApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'agentId',
-    'from',
-    'to',
-];
+        'agentId',
+        'from',
+        'to',
+    ];
 
     /**
      * Id of the agent originating the call.

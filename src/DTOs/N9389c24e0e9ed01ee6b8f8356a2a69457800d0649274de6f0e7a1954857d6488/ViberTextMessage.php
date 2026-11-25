@@ -12,51 +12,51 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class ViberTextMessage extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'from',
-    'to',
-];
+        'content',
+        'from',
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'callbackData' => [
-        'minLength' => 1,
-        'maxLength' => 4000,
-    ],
-    'entityId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'from' => [
-        'minLength' => 2,
-        'maxLength' => 20,
-    ],
-    'messageId' => [
-        'minLength' => 1,
-        'maxLength' => 50,
-    ],
-    'notifyUrl' => [
-        'minLength' => 0,
-        'maxLength' => 2048,
-        'pattern' => '',
-    ],
-    'to' => [
-        'minLength' => 1,
-        'pattern' => '^[0-9]{1,15}$',
-    ],
-    'trackingData' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'callbackData' => [
+            'minLength' => 1,
+            'maxLength' => 4000,
+        ],
+        'entityId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'from' => [
+            'minLength' => 2,
+            'maxLength' => 20,
+        ],
+        'messageId' => [
+            'minLength' => 1,
+            'maxLength' => 50,
+        ],
+        'notifyUrl' => [
+            'minLength' => 0,
+            'maxLength' => 2048,
+            'pattern' => '',
+        ],
+        'to' => [
+            'minLength' => 1,
+            'pattern' => '^[0-9]{1,15}$',
+        ],
+        'trackingData' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'applicationId',
-    'entityId',
-];
+        'applicationId',
+        'entityId',
+    ];
 
     /**
      * Required for application use in a send request for outbound traffic. Returned in notification events. For more details, see our [documentation](https://www.infobip.com/docs/cpaas-x/application-and-entity-management).

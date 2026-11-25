@@ -78,5 +78,4 @@ final class Move extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::POST), $payload, path: ['nodeId' => $nodeId]);
         return;
     }
-
 }

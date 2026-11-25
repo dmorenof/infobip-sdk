@@ -282,5 +282,4 @@ final class Call extends \InfobipSDK\Client
         $result = func_num_args() > 1 ? $this->executeBody(self::operation(self::PUT_BY_CALL_ID), $payload, path: $identifier) : $this->executeArguments(self::operation(self::PUT_BY_CALL_ID), path: $identifier);
         return $result;
     }
-
 }

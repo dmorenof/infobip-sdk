@@ -13,15 +13,15 @@ namespace InfobipSDK\DTOs\N1ed350d65e634c5446c08244298a26d3b0bb68a76782ab9246a80
 final class DeleteDailyLimitsRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'countryCodes',
-];
+        'countryCodes',
+    ];
 
     protected const array VALIDATION = [
-    'countryCodes' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-];
+        'countryCodes' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+    ];
 
     /**
      * List of ISO alpha-2 country codes to delete daily limits for.

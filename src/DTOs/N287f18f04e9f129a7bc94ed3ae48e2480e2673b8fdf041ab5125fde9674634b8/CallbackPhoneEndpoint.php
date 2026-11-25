@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class CallbackPhoneEndpoint extends \InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125fde9674634b8\CallbackEndpoint
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'phoneNumber' => [
-        'minLength' => 1,
-    ],
-];
+        'phoneNumber' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Phone number in the [E.164](https://en.wikipedia.org/wiki/E.164) format.

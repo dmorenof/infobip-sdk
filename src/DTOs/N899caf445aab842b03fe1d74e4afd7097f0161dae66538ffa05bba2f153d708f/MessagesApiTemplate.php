@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiTemplate extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'templateName',
-];
+        'templateName',
+    ];
 
     protected const array VALIDATION = [
-    'templateName' => [
-        'minLength' => 1,
-    ],
-];
+        'templateName' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Key associated with a group of templates. Used only in KAKAO_ALIM channel for templates registered under a group.

@@ -15,5 +15,4 @@ final class InstagramDmInboundUnknownContent extends \InfobipSDK\DTOs\N8bb20f43a
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
 
     public \InfobipSDK\DTOs\N8bb20f43a591755a249613f66cc72e7e0fcc9b313d81a59f9ca0e0ff261ac181\InstagramDmInboundUnknownContent\RawMap $raw;
-
 }

@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class CarouselFreeFormElement extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'attachment',
-    'header',
-    'message',
-];
+        'attachment',
+        'header',
+        'message',
+    ];
 
     protected const array VALIDATION = [
-    'header' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-    'message' => [
-        'minLength' => 0,
-        'maxLength' => 180,
-    ],
-];
+        'header' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+        'message' => [
+            'minLength' => 0,
+            'maxLength' => 180,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe136803640cfabe2c\CarouselFreeFormElementAttachment $attachment;
     /**

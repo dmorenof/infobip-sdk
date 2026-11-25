@@ -163,5 +163,4 @@ final class Verification extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::PUT), $payload, path: ['sender' => $sender]);
         return;
     }
-
 }

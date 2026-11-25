@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class SMSResponseDetails extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'smsCount' => [
-        'format' => 'int32',
-    ],
-];
+        'smsCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'messageId',
-    'smsCount',
-    'to',
-];
+        'messageId',
+        'smsCount',
+        'to',
+    ];
 
     /**
      * Unique message ID. If not passed, it will be automatically generated and returned in a response.

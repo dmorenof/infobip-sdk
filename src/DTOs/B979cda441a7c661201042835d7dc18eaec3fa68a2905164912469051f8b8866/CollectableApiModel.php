@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class CollectableApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'code',
-    'value',
-];
+        'action',
+        'code',
+        'value',
+    ];
 
     protected const array VALIDATION = [
-    'code' => [
-        'minLength' => 1,
-        'maxLength' => 36,
-    ],
-    'value' => [
-        'minLength' => 1,
-        'maxLength' => 64,
-    ],
-];
+        'code' => [
+            'minLength' => 1,
+            'maxLength' => 36,
+        ],
+        'value' => [
+            'minLength' => 1,
+            'maxLength' => 64,
+        ],
+    ];
 
     public \InfobipSDK\Enums\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469051f8b8866\Action $action;
     /**

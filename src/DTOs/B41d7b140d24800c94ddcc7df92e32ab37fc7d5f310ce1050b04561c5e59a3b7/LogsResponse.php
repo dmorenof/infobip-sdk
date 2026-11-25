@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\B41d7b140d24800c94ddcc7df92e32ab37fc7d5f310ce1050b0456
 final class LogsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'results',
-];
+        'results',
+    ];
 
     /**
      * Collection of logs.

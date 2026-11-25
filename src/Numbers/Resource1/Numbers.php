@@ -62,5 +62,4 @@ final class Numbers extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Numbers\Resource1\Numbers::class)->putByNumberKey($numberKey, $payload);
     }
-
 }

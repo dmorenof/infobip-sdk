@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class PostbackAction extends \InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\Action
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'data' => [
-        'minLength' => 0,
-        'maxLength' => 300,
-    ],
-    'displayText' => [
-        'minLength' => 0,
-        'maxLength' => 300,
-    ],
-    'label' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-];
+        'data' => [
+            'minLength' => 0,
+            'maxLength' => 300,
+        ],
+        'displayText' => [
+            'minLength' => 0,
+            'maxLength' => 300,
+        ],
+        'label' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

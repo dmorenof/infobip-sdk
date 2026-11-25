@@ -16,5 +16,4 @@ final class Status extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Callrouting\Resource1\Routes\ByRouteId\Status::class)->post($routeId, $payload);
     }
-
 }

@@ -16,5 +16,4 @@ final class Events extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Conversations\ByConversationId\Events::class)->post($conversationId, $payload);
     }
-
 }

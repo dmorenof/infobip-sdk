@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\C3b21d2ffef2552e10577daa67c904ac80618665b001ef386a4fae
 final class Message extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'pinLength' => [
-        'format' => 'int32',
-    ],
-];
+        'pinLength' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'language',
-];
+        'language',
+    ];
 
     /**
      * The ID of the application that represents your service (e.g. 2FA for login, 2FA for changing the password, etc.) for which the requested message has been created.

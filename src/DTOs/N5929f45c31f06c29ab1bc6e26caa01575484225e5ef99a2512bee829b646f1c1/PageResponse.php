@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N5929f45c31f06c29ab1bc6e26caa01575484225e5ef99a2512bee
 final class PageResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'paging',
-    'results',
-];
+        'paging',
+        'results',
+    ];
 
     public \InfobipSDK\DTOs\N5929f45c31f06c29ab1bc6e26caa01575484225e5ef99a2512bee829b646f1c1\PageInfo $paging;
     /**

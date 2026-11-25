@@ -16,5 +16,4 @@ final class Webhook extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Subscriptions\Resource1\Certificates\Test\Webhook::class)->post($payload);
     }
-
 }

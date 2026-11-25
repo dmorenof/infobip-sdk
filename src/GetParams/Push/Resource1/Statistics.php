@@ -7,15 +7,15 @@ namespace InfobipSDK\GetParams\Push\Resource1;
 final class Statistics extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bulkId',
-];
+        'bulkId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'bulkId' => 'bulkId',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'bulkId' => 'bulkId',
+        ],
+        'header' => [],
+    ];
 
     public string $bulkId;
 }

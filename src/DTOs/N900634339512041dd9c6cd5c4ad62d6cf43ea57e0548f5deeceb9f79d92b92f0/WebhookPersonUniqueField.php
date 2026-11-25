@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N900634339512041dd9c6cd5c4ad62d6cf43ea57e0548f5deeceb9
 final class WebhookPersonUniqueField extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'identifier',
-    'type',
-];
+        'identifier',
+        'type',
+    ];
 
     /**
      * Unique ID for a person

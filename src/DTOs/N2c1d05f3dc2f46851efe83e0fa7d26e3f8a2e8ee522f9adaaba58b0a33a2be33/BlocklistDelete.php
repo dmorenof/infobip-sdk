@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N2c1d05f3dc2f46851efe83e0fa7d26e3f8a2e8ee522f9adaaba58
 final class BlocklistDelete extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'destinations',
-];
+        'destinations',
+    ];
 
     protected const array VALIDATION = [
-    'destinations' => [
-        'minItems' => 1,
-    ],
-    'sender' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-];
+        'destinations' => [
+            'minItems' => 1,
+        ],
+        'sender' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Account for which blocklist record/s will be removed. Main account can remove blocklist record/s for their subaccounts. Subaccounts can remove blocklist record/s specific to them. [API to retrieve account key](https://www.infobip.com/docs/api/platform/account-management/get-all-accounts).

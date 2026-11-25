@@ -17,5 +17,4 @@ final class Single extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\KakaoBrandMessages\Resource1\Templates\Single::class)->get($params);
     }
-
 }

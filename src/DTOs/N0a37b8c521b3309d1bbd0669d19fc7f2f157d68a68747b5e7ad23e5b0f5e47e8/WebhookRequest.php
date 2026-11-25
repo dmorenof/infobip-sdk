@@ -11,20 +11,20 @@ namespace InfobipSDK\DTOs\N0a37b8c521b3309d1bbd0669d19fc7f2f157d68a68747b5e7ad23
 final class WebhookRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'destination',
-    'message',
-    'sender',
-];
+        'destination',
+        'message',
+        'sender',
+    ];
 
     protected const array VALIDATION = [
-    'destination' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'sender' => [
-        'minLength' => 1,
-    ],
-];
+        'destination' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'sender' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Additional data that can be used for identifying a message response. Included in the inbound message request,  sent as response to inbound message.

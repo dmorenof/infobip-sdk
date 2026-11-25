@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N6a832d7980b0224fa17e623a753d9dcd3d97aedf6ae653c996ab3
 final class WhatsAppSenderQualityResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'results',
-];
+        'results',
+    ];
 
     /**
      * List of the quality information related to specific senders.

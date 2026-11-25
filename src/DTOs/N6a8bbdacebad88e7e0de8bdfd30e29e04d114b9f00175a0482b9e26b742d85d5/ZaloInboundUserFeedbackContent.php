@@ -12,19 +12,19 @@ final class ZaloInboundUserFeedbackContent extends \InfobipSDK\DTOs\N6a8bbdaceba
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'eventName' => [
-        'minLength' => 1,
-    ],
-    'msgId' => [
-        'minLength' => 1,
-    ],
-    'rate' => [
-        'format' => 'int32',
-    ],
-    'trackingId' => [
-        'minLength' => 1,
-    ],
-];
+        'eventName' => [
+            'minLength' => 1,
+        ],
+        'msgId' => [
+            'minLength' => 1,
+        ],
+        'rate' => [
+            'format' => 'int32',
+        ],
+        'trackingId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

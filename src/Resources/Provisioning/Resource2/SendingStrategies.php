@@ -203,5 +203,4 @@ final class SendingStrategies extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::DELETE_BY_SENDING_STRATEGY_ID), path: ['sendingStrategyId' => $sendingStrategyId]);
         return;
     }
-
 }

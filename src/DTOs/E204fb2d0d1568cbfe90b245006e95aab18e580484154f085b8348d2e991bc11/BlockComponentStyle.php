@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class BlockComponentStyle extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'backgroundColor' => [
-        'pattern' => '^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$',
-    ],
-];
+        'backgroundColor' => [
+            'pattern' => '^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$',
+        ],
+    ];
 
     public string $backgroundColor {
         set {

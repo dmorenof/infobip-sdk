@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class RcsSenderRequestAcceptedResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'senderName',
-    'senderStatus',
-];
+        'senderName',
+        'senderStatus',
+    ];
 
     /**
      * Unique identifier of Sender entity for RCS channel within Infobip platform.

@@ -18,5 +18,4 @@ final class Template extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ott\Rcs\Resource1\Message\Template::class)->post($payload);
     }
-
 }

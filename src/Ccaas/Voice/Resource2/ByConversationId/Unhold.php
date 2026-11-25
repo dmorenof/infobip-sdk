@@ -16,5 +16,4 @@ final class Unhold extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\ByConversationId\Unhold::class)->patch($conversationId);
     }
-
 }

@@ -10,21 +10,21 @@ namespace InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa
 final class DefaultMarketingTemplatePublicApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'category',
-    'language',
-    'name',
-    'structure',
-];
+        'category',
+        'language',
+        'name',
+        'structure',
+    ];
 
     protected const array VALIDATION = [
-    'category' => [
-        'minLength' => 1,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'pattern' => '^[a-z0-9_]{1,512}$',
-    ],
-];
+        'category' => [
+            'minLength' => 1,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'pattern' => '^[a-z0-9_]{1,512}$',
+        ],
+    ];
 
     /**
      * Category of the template. Mind that each category has different fields available for the endpoint. If you're sending traffic in India, for `AUTHENTICATION`, use fields available for `UTILITY` with `AUTHENTICATION` as category. Note that category of the template can be automatically changed by Meta.

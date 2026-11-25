@@ -27,5 +27,4 @@ final class Recordings extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Webrtc\Resource1\Recordings::class)->deleteById($id, $params);
     }
-
 }

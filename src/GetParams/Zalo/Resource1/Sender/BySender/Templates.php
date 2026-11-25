@@ -7,25 +7,25 @@ namespace InfobipSDK\GetParams\Zalo\Resource1\Sender\BySender;
 final class Templates extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'page' => 'page',
-        'size' => 'size',
-        'status' => 'status',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'page' => 'page',
+            'size' => 'size',
+            'status' => 'status',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'format' => 'int32',
-    ],
-    'size' => [
-        'minimum' => 1,
-        'maximum' => 100,
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'format' => 'int32',
+        ],
+        'size' => [
+            'minimum' => 1,
+            'maximum' => 100,
+            'format' => 'int32',
+        ],
+    ];
 
     public ?int $page {
         set {

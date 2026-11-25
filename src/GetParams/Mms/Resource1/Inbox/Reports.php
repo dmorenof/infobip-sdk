@@ -7,20 +7,20 @@ namespace InfobipSDK\GetParams\Mms\Resource1\Inbox;
 final class Reports extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'applicationId' => 'applicationId',
-        'entityId' => 'entityId',
-        'limit' => 'limit',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'applicationId' => 'applicationId',
+            'entityId' => 'entityId',
+            'limit' => 'limit',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'limit' => [
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $applicationId;
     public ?string $entityId;

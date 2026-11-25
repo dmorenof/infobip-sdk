@@ -12,26 +12,26 @@ namespace InfobipSDK\DTOs\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920
 final class ProfileResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'connectTimeout' => [
-        'format' => 'int32',
-    ],
-    'enabledSSLProtocols' => [
-        'uniqueItems' => true,
-        'jsonSchema' => '{"enum":["TLSv1.2","TLSv1.3"]}',
-    ],
-    'maxBucketSize' => [
-        'format' => 'int32',
-    ],
-    'rateLimit' => [
-        'format' => 'int32',
-    ],
-    'readTimeout' => [
-        'format' => 'int32',
-    ],
-    'windowSize' => [
-        'format' => 'int32',
-    ],
-];
+        'connectTimeout' => [
+            'format' => 'int32',
+        ],
+        'enabledSSLProtocols' => [
+            'uniqueItems' => true,
+            'jsonSchema' => '{"enum":["TLSv1.2","TLSv1.3"]}',
+        ],
+        'maxBucketSize' => [
+            'format' => 'int32',
+        ],
+        'rateLimit' => [
+            'format' => 'int32',
+        ],
+        'readTimeout' => [
+            'format' => 'int32',
+        ],
+        'windowSize' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Client certificate ID.

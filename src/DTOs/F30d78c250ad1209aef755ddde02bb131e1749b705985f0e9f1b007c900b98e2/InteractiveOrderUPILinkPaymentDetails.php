@@ -10,18 +10,18 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveOrderUPILinkPaymentDetails extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'minLength' => 1,
-        'pattern' => '[A-Za-z0-9\\-_.]{1,35}',
-    ],
-    'paymentLink' => [
-        'minLength' => 1,
-    ],
-];
+        'id' => [
+            'minLength' => 1,
+            'pattern' => '[A-Za-z0-9\\-_.]{1,35}',
+        ],
+        'paymentLink' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\Beneficiary $beneficiary;
     /**

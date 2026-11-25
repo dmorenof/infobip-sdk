@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class BaseSize extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'height',
-    'width',
-];
+        'height',
+        'width',
+    ];
 
     protected const array VALIDATION = [
-    'height' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'width' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'height' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'width' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Height of the base image in pixels.

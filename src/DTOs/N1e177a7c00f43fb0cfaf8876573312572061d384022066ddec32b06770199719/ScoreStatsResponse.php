@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N1e177a7c00f43fb0cfaf8876573312572061d384022066ddec32b
 final class ScoreStatsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'attempts',
-    'attemptsRemaining',
-];
+        'attempts',
+        'attemptsRemaining',
+    ];
 
     /**
      * Total number of attempts made by the participant in the campaign.

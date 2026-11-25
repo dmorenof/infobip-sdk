@@ -10,27 +10,27 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class RcsInboundFileContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contentType',
-    'name',
-    'size',
-    'type',
-    'url',
-];
+        'contentType',
+        'name',
+        'size',
+        'type',
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'contentType' => [
-        'minLength' => 1,
-    ],
-    'name' => [
-        'minLength' => 1,
-    ],
-    'size' => [
-        'minimum' => 0,
-    ],
-    'url' => [
-        'minLength' => 1,
-    ],
-];
+        'contentType' => [
+            'minLength' => 1,
+        ],
+        'name' => [
+            'minLength' => 1,
+        ],
+        'size' => [
+            'minimum' => 0,
+        ],
+        'url' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Content type of a file which is sent in an incoming message.

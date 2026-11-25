@@ -7,26 +7,26 @@ namespace InfobipSDK\PathParams\Ccaas\Resource1\WorkingHours\ByWorkingHoursId\Ho
 final class ById extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'workingHoursId',
-];
+        'id',
+        'workingHoursId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'id' => 'id',
-        'workingHoursId' => 'workingHoursId',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'id' => 'id',
+            'workingHoursId' => 'workingHoursId',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'minLength' => 1,
-    ],
-    'workingHoursId' => [
-        'minLength' => 1,
-    ],
-];
+        'id' => [
+            'minLength' => 1,
+        ],
+        'workingHoursId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public string $id {
         set {

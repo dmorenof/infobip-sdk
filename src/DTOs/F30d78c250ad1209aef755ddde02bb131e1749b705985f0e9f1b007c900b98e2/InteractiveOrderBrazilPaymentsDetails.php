@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveOrderBrazilPaymentsDetails extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'payments' => [
-        'minItems' => 1,
-        'maxItems' => 2,
-    ],
-];
+        'payments' => [
+            'minItems' => 1,
+            'maxItems' => 2,
+        ],
+    ];
 
     /**
      * List of payments. Each payment must have same ID. Maximum 2 payments allowed.

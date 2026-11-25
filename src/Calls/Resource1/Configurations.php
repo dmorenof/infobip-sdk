@@ -60,5 +60,4 @@ final class Configurations extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Configurations::class)->putByCallsConfigurationId($callsConfigurationId, $payload);
     }
-
 }

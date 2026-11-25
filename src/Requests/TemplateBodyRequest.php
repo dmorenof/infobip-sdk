@@ -7,14 +7,14 @@ namespace InfobipSDK\Requests;
 final class TemplateBodyRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'emailTemplateId',
-];
+        'emailTemplateId',
+    ];
 
     protected const array VALIDATION = [
-    'pinLength' => [
-        'format' => 'int32',
-    ],
-];
+        'pinLength' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Email template ID that should reference a previously created [Broadcast template](https://www.infobip.com/docs/email/templates).

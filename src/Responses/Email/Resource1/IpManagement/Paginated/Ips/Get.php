@@ -7,9 +7,9 @@ namespace InfobipSDK\Responses\Email\Resource1\IpManagement\Paginated\Ips;
 final class Get extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'paging',
-    'results',
-];
+        'paging',
+        'results',
+    ];
 
     public \InfobipSDK\DTOs\N61cea6785aa06882a92b0d6cc8c922ce1d44b92bfbdfd6cde0df0f73fb2499d6\PageInfo $paging;
     public \InfobipSDK\Collections\Email\Resource1\IpManagement\Ips\Get\IpManagementIpsCollection $results;

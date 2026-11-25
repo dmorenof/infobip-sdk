@@ -14,15 +14,15 @@ final class KakaoSangdamOutboundButtonListContent extends \InfobipSDK\DTOs\N1907
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 1,
-        'maxItems' => 5,
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'buttons' => [
+            'minItems' => 1,
+            'maxItems' => 5,
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class ButtonItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'title',
-    'type',
-];
+        'content',
+        'title',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'content' => [
-        'minLength' => 1,
-        'maxLength' => 200,
-    ],
-    'title' => [
-        'minLength' => 5,
-        'maxLength' => 30,
-    ],
-];
+        'content' => [
+            'minLength' => 1,
+            'maxLength' => 200,
+        ],
+        'title' => [
+            'minLength' => 5,
+            'maxLength' => 30,
+        ],
+    ];
 
     /**
      * Content/action associated with the button.

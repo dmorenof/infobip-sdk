@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class RcsEventRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'events',
-];
+        'events',
+    ];
 
     protected const array VALIDATION = [
-    'events' => [
-        'minItems' => 1,
-    ],
-];
+        'events' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * An array of event objects of the events to be sent.

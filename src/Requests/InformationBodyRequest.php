@@ -7,8 +7,8 @@ namespace InfobipSDK\Requests;
 final class InformationBodyRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contactInformation',
-];
+        'contactInformation',
+    ];
 
     /**
      * Person's contact information

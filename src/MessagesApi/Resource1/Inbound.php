@@ -17,5 +17,4 @@ final class Inbound extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\MessagesApi\Resource1\Inbound::class)->get($params);
     }
-
 }

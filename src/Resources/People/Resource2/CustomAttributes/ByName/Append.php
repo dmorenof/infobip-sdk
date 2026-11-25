@@ -89,5 +89,4 @@ final class Append extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['name' => $name], parameters: $params);
         return $result;
     }
-
 }

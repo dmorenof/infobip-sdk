@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N1e938b22275568ebc747d21724b50c9be18ff5770eb33c37b76fd
 final class RouteStatusRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'routeStatus',
-];
+        'routeStatus',
+    ];
 
     public \InfobipSDK\Enums\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125fde9674634b8\RouteStatus $routeStatus;
 

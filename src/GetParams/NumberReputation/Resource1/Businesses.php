@@ -7,39 +7,39 @@ namespace InfobipSDK\GetParams\NumberReputation\Resource1;
 final class Businesses extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'businessName' => 'businessName',
-        'page' => 'page',
-        'registeredFrom' => 'registeredFrom',
-        'registeredTo' => 'registeredTo',
-        'size' => 'size',
-        'status' => 'status',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'businessName' => 'businessName',
+            'page' => 'page',
+            'registeredFrom' => 'registeredFrom',
+            'registeredTo' => 'registeredTo',
+            'size' => 'size',
+            'status' => 'status',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'format' => 'int32',
-    ],
-    'size' => [
-        'format' => 'int32',
-    ],
-    'status' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [
-                'enum' => [
-                    'ERROR_DUNS_MISMATCH',
-                    'PENDING',
-                    'REGISTERED',
-                    'UNKNOWN',
+        'page' => [
+            'format' => 'int32',
+        ],
+        'size' => [
+            'format' => 'int32',
+        ],
+        'status' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [
+                    'enum' => [
+                        'ERROR_DUNS_MISMATCH',
+                        'PENDING',
+                        'REGISTERED',
+                        'UNKNOWN',
+                    ],
                 ],
             ],
         ],
-    ],
-];
+    ];
 
     public ?string $businessName;
     public ?int $page {

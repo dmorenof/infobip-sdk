@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N32babbebe659b3766e613639af834c2c8d0ef32612ea561cefb60
 final class MoReportBase extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'callbackData',
-    'from',
-    'messageId',
-    'pairedMessageId',
-    'price',
-    'receivedAt',
-    'to',
-];
+        'callbackData',
+        'from',
+        'messageId',
+        'pairedMessageId',
+        'price',
+        'receivedAt',
+        'to',
+    ];
 
     public string $callbackData;
     /**

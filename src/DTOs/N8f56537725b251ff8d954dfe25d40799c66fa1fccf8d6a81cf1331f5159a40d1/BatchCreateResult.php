@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\N8f56537725b251ff8d954dfe25d40799c66fa1fccf8d6a81cf133
 final class BatchCreateResult extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'index' => [
-        'format' => 'int32',
-    ],
-    'status' => [
-        'format' => 'int32',
-    ],
-];
+        'index' => [
+            'format' => 'int32',
+        ],
+        'status' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * List of errors

@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\D76a8e2b7d80b5cb0751e11a31b96eabeaf6b2ec1de2932507f7f2
 final class ContactInformationV3 extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'identifier',
-    'type',
-];
+        'identifier',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'identifier' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'sender' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'identifier' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'sender' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Person ID. ID type must match the type parameter. Some channels (e,g., Apple Business Chat) use identifiers that contain unsafe characters. Make sure you URL-encode them in your API request. 255 characters max.

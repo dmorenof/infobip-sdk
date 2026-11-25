@@ -148,5 +148,4 @@ final class Status extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT), parameters: $params);
         return $result;
     }
-
 }

@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\F1f4d23441e1a2e5d9e00e8bea59bdb50b3ee0c91558c0dac55f3a
 final class CompaniesResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'limit' => [
-        'format' => 'int32',
-    ],
-    'page' => [
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'format' => 'int32',
+        ],
+        'page' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'totalCount',
-];
+        'totalCount',
+    ];
 
     /**
      * List of companies.

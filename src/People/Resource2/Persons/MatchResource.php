@@ -16,5 +16,4 @@ final class MatchResource extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource2\Persons\MatchResource::class)->post($payload);
     }
-
 }

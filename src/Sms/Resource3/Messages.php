@@ -19,5 +19,4 @@ final class Messages extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Sms\Resource3\Messages::class)->post($payload);
     }
-
 }

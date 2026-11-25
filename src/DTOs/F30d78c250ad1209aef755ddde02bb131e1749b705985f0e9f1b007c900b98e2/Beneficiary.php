@@ -12,28 +12,28 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class Beneficiary extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'country',
-    'firstAddressLine',
-    'name',
-];
+        'country',
+        'firstAddressLine',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'firstAddressLine' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'postalCode' => [
-        'pattern' => '^[0-9]{6}$',
-    ],
-    'secondAddressLine' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-];
+        'firstAddressLine' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'postalCode' => [
+            'pattern' => '^[0-9]{6}$',
+        ],
+        'secondAddressLine' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * City name.

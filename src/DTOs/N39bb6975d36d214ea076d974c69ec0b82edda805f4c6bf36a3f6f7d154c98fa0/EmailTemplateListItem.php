@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N39bb6975d36d214ea076d974c69ec0b82edda805f4c6bf36a3f6f
 final class EmailTemplateListItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-];
+        'id',
+    ];
 
     /**
      * Date and time when the email template was created. Has the following format: `yyyy-MM-dd'T'HH:mm:ss.SSSZ`.

@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class CapabilityCheckAsyncRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'phoneNumbers',
-    'sender',
-];
+        'phoneNumbers',
+        'sender',
+    ];
 
     protected const array VALIDATION = [
-    'phoneNumbers' => [
-        'minItems' => 1,
-        'maxItems' => 10000,
-    ],
-    'sender' => [
-        'minLength' => 1,
-    ],
-];
+        'phoneNumbers' => [
+            'minItems' => 1,
+            'maxItems' => 10000,
+        ],
+        'sender' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * The preferred content type for the RCS capability check report.

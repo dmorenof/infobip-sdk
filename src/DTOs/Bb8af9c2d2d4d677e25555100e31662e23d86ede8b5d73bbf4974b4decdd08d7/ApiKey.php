@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\Bb8af9c2d2d4d677e25555100e31662e23d86ede8b5d73bbf4974b
 final class ApiKey extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'permissions' => [
-        'uniqueItems' => true,
-    ],
-    'scopeGuids' => [
-        'uniqueItems' => true,
-    ],
-];
+        'permissions' => [
+            'uniqueItems' => true,
+        ],
+        'scopeGuids' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * Unique identifier for account this API key belongs to.

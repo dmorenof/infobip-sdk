@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N1e938b22275568ebc747d21724b50c9be18ff5770eb33c37b76fd
 final class RouteRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'destinations',
-    'name',
-];
+        'destinations',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'destinations' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-    'name' => [
-        'minLength' => 1,
-    ],
-];
+        'destinations' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+        'name' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * List of criteria used to match a route. For a route to match, any criterion should be met.

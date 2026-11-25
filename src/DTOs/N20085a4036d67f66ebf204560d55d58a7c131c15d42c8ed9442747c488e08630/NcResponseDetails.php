@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class NcResponseDetails extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'imsi',
-    'mccMnc',
-    'ported',
-    'roaming',
-    'servingMSC',
-    'to',
-];
+        'imsi',
+        'mccMnc',
+        'ported',
+        'roaming',
+        'servingMSC',
+        'to',
+    ];
 
     public \InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed9442747c488e08630\NcError $error;
     /**

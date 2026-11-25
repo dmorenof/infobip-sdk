@@ -11,12 +11,12 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class AccountRecordingConfigApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mediaType',
-];
+        'mediaType',
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'enabledChangedAt',
-];
+        'enabledChangedAt',
+    ];
 
     /**
      * Enables composition of call recordings. If set to true, the call recording will be merged into a single audio or video file.

@@ -13,5 +13,4 @@ final class SyncMachineDetectionMode extends \InfobipSDK\DTOs\N287f18f04e9f129a7
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

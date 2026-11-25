@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class Box extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contents',
-    'layout',
-    'type',
-];
+        'contents',
+        'layout',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'contents' => [
-        'minItems' => 1,
-    ],
-    'flex' => [
-        'minimum' => 0,
-        'maximum' => 10,
-        'format' => 'int32',
-    ],
-];
+        'contents' => [
+            'minItems' => 1,
+        ],
+        'flex' => [
+            'minimum' => 0,
+            'maximum' => 10,
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\Action $action;
     /**

@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMoEventFormItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'title',
-    'value',
-];
+        'title',
+        'value',
+    ];
 
     /**
      * Title of the item.

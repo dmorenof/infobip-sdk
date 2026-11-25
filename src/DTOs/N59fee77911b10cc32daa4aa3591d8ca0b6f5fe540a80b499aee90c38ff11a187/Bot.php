@@ -11,39 +11,39 @@ namespace InfobipSDK\DTOs\N59fee77911b10cc32daa4aa3591d8ca0b6f5fe540a80b499aee90
 final class Bot extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channel',
-    'destination',
-    'displayName',
-];
+        'channel',
+        'destination',
+        'displayName',
+    ];
 
     protected const array VALIDATION = [
-    'destination' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'displayName' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'sessionTimeoutInSec' => [
-        'minimum' => 60,
-        'maximum' => 86400,
-    ],
-    'webhookEventUrl' => [
-        'minLength' => 0,
-        'maxLength' => 2000,
-        'pattern' => '',
-    ],
-    'webhookUrl' => [
-        'minLength' => 0,
-        'maxLength' => 2000,
-        'pattern' => '',
-    ],
-];
+        'destination' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'displayName' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'sessionTimeoutInSec' => [
+            'minimum' => 60,
+            'maximum' => 86400,
+        ],
+        'webhookEventUrl' => [
+            'minLength' => 0,
+            'maxLength' => 2000,
+            'pattern' => '',
+        ],
+        'webhookUrl' => [
+            'minLength' => 0,
+            'maxLength' => 2000,
+            'pattern' => '',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'id',
-];
+        'id',
+    ];
 
     public \InfobipSDK\Enums\N59fee77911b10cc32daa4aa3591d8ca0b6f5fe540a80b499aee90c38ff11a187\MessageChannel $channel;
     /**

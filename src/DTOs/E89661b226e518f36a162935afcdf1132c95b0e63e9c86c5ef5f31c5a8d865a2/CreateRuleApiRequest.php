@@ -11,23 +11,23 @@ namespace InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31
 final class CreateRuleApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'expression',
-    'queueId',
-];
+        'expression',
+        'queueId',
+    ];
 
     protected const array VALIDATION = [
-    'expression' => [
-        'minProperties' => 1,
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'queueId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'expression' => [
+            'minProperties' => 1,
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'queueId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Enabled is a boolean value (TRUE, FALSE), so the rule is engaged or avoided in the routing process. If not provided will be set to default.

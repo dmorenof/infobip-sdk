@@ -72,5 +72,4 @@ final class End extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST_BY_MESSAGE_ID), path: ['messageId' => $messageId]);
         return $result;
     }
-
 }

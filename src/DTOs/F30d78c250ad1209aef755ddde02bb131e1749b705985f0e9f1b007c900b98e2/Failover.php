@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class Failover extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'from',
-    'text',
-];
+        'from',
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'from' => [
-        'minLength' => 1,
-        'maxLength' => 24,
-    ],
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 4096,
-    ],
-];
+        'from' => [
+            'minLength' => 1,
+            'maxLength' => 24,
+        ],
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 4096,
+        ],
+    ];
 
     /**
      * SMS sender number. Must be in international format.

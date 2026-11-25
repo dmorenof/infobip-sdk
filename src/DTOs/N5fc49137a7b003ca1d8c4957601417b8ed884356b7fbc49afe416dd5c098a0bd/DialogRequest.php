@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\N5fc49137a7b003ca1d8c4957601417b8ed884356b7fbc49afe416
 final class DialogRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'parentCallId',
-];
+        'parentCallId',
+    ];
 
     protected const array VALIDATION = [
-    'maxDuration' => [
-        'format' => 'int32',
-    ],
-    'parentCallId' => [
-        'maxLength' => 128,
-    ],
-];
+        'maxDuration' => [
+            'format' => 'int32',
+        ],
+        'parentCallId' => [
+            'maxLength' => 128,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N5fc49137a7b003ca1d8c4957601417b8ed884356b7fbc49afe416dd5c098a0bd\DialogCallRequest $childCallRequest;
     /**

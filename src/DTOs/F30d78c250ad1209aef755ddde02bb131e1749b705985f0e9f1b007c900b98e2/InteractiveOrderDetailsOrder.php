@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveOrderDetailsOrder extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'items',
-    'subtotal',
-    'tax',
-];
+        'items',
+        'subtotal',
+        'tax',
+    ];
 
     protected const array VALIDATION = [
-    'items' => [
-        'minItems' => 1,
-    ],
-];
+        'items' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * The ID that uniquely identifies the [catalog](https://www.infobip.com/docs/whatsapp/manage-integration#enable-meta-catalog-for-product-based-messaging) registered with Facebook and connected to the WhatsApp Business Account the sender belongs to.

@@ -7,24 +7,24 @@ namespace InfobipSDK\GetParams\Ccaas\Voice\Resource2;
 final class HoldConfigsPerQueue extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'pageNumber' => 'pageNumber',
-        'pageSize' => 'pageSize',
-        'sortBy' => 'sortBy',
-        'sortDirection' => 'sortDirection',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'pageNumber' => 'pageNumber',
+            'pageSize' => 'pageSize',
+            'sortBy' => 'sortBy',
+            'sortDirection' => 'sortDirection',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'pageNumber' => [
-        'format' => 'int32',
-    ],
-    'pageSize' => [
-        'format' => 'int32',
-    ],
-];
+        'pageNumber' => [
+            'format' => 'int32',
+        ],
+        'pageSize' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?int $pageNumber {
         set {

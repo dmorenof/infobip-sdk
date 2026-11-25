@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageShipping extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-];
+        'amount',
+    ];
 
     protected const array VALIDATION = [
-    'amount' => [
-        'minimum' => 0,
-    ],
-];
+        'amount' => [
+            'minimum' => 0,
+        ],
+    ];
 
     /**
      * Amount of shipping cost (up to 2 decimal places). For WhatsApp it has to be multiplied by offset (100 for `INR` and `BRL`)

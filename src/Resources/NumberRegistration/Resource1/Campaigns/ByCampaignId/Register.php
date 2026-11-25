@@ -79,5 +79,4 @@ final class Register extends \InfobipSDK\Client
         func_num_args() > 1 ? $this->executeBody(self::operation(self::POST), $payload, path: ['campaignId' => $campaignId]) : $this->executeArguments(self::operation(self::POST), path: ['campaignId' => $campaignId]);
         return;
     }
-
 }

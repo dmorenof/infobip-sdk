@@ -16,5 +16,4 @@ final class WrapUp extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccca\Resource1\AgentConfigs\ByAgentId\WrapUp::class)->put($agentId, $params);
     }
-
 }

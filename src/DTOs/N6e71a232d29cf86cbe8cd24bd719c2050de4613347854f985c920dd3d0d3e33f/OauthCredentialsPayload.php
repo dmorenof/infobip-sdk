@@ -12,48 +12,48 @@ namespace InfobipSDK\DTOs\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920
 final class OauthCredentialsPayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'grantType',
-    'tokenUrl',
-];
+        'grantType',
+        'tokenUrl',
+    ];
 
     protected const array VALIDATION = [
-    'clientId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'clientSecret' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'grantType' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'password' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'refreshToken' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'resource' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'scope' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'tokenUrl' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'username' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'clientId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'clientSecret' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'grantType' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'password' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'refreshToken' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'resource' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'scope' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'tokenUrl' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'username' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Client ID.

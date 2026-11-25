@@ -10,25 +10,25 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageRichLinkBody extends \InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\MessagesApiMessageBody
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'redirectUrl' => [
-        'minLength' => 1,
-        'pattern' => '',
-    ],
-    'text' => [
-        'minLength' => 1,
-    ],
-    'thumbnailUrl' => [
-        'pattern' => '',
-    ],
-    'url' => [
-        'minLength' => 1,
-        'pattern' => '',
-    ],
-];
+        'redirectUrl' => [
+            'minLength' => 1,
+            'pattern' => '',
+        ],
+        'text' => [
+            'minLength' => 1,
+        ],
+        'thumbnailUrl' => [
+            'pattern' => '',
+        ],
+        'url' => [
+            'minLength' => 1,
+            'pattern' => '',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

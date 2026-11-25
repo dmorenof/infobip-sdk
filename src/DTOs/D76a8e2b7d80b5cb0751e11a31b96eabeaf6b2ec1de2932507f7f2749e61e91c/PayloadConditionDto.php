@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\D76a8e2b7d80b5cb0751e11a31b96eabeaf6b2ec1de2932507f7f2
 final class PayloadConditionDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'attribute',
-    'operator',
-    'value',
-];
+        'attribute',
+        'operator',
+        'value',
+    ];
 
     /**
      * Event payload attribute.

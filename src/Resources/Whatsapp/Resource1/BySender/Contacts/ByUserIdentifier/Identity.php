@@ -209,5 +209,4 @@ final class Identity extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::PUT), $payload, path: $identifier);
         return;
     }
-
 }

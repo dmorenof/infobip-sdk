@@ -49,5 +49,4 @@ final class Credentials extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Voice\Masking\Resource2\Credentials::class)->put($payload);
     }
-
 }

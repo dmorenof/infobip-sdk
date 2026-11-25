@@ -7,17 +7,17 @@ namespace InfobipSDK\PathParams\Peopleevents\Resource2\Persons\ByPersonId\Defini
 final class Events extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'definitionId',
-    'personId',
-];
+        'definitionId',
+        'personId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'definitionId' => 'definitionId',
-        'personId' => 'personId',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'definitionId' => 'definitionId',
+            'personId' => 'personId',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     public string $definitionId;
     public string $personId;

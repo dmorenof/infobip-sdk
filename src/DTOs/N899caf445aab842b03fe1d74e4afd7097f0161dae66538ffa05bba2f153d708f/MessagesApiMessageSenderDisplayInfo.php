@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageSenderDisplayInfo extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'avatarUrl' => [
-        'pattern' => '',
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 28,
-    ],
-];
+        'avatarUrl' => [
+            'pattern' => '',
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 28,
+        ],
+    ];
 
     /**
      * The sender's avatar URL.

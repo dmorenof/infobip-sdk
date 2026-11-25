@@ -60,5 +60,4 @@ final class WebForms extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\WebForms::class)->putById($id, $payload);
     }
-
 }

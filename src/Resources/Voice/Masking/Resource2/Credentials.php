@@ -267,5 +267,4 @@ final class Credentials extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload);
         return $result;
     }
-
 }

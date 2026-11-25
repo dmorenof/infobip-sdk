@@ -12,19 +12,19 @@ final class InstagramDmOutboundRichCardContent extends \InfobipSDK\DTOs\N8bb20f4
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 0,
-        'maxItems' => 3,
-    ],
-    'subtitle' => [
-        'minLength' => 0,
-        'maxLength' => 80,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 80,
-    ],
-];
+        'buttons' => [
+            'minItems' => 0,
+            'maxItems' => 3,
+        ],
+        'subtitle' => [
+            'minLength' => 0,
+            'maxLength' => 80,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 80,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

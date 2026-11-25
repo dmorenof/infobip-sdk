@@ -66,5 +66,4 @@ final class Conversations extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['agentId' => $agentId], parameters: $params);
         return $result;
     }
-
 }

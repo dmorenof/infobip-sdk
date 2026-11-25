@@ -7,66 +7,66 @@ namespace InfobipSDK\GetParams\NumberReputation\Resource1;
 final class Numbers extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'jobName' => 'jobName',
-        'lastUpdatedFrom' => 'lastUpdatedFrom',
-        'lastUpdatedTo' => 'lastUpdatedTo',
-        'page' => 'page',
-        'phoneNumbers' => 'phoneNumbers',
-        'registeredFrom' => 'registeredFrom',
-        'registeredTo' => 'registeredTo',
-        'reputationAvailable' => 'reputationAvailable',
-        'size' => 'size',
-        'status' => 'status',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'jobName' => 'jobName',
+            'lastUpdatedFrom' => 'lastUpdatedFrom',
+            'lastUpdatedTo' => 'lastUpdatedTo',
+            'page' => 'page',
+            'phoneNumbers' => 'phoneNumbers',
+            'registeredFrom' => 'registeredFrom',
+            'registeredTo' => 'registeredTo',
+            'reputationAvailable' => 'reputationAvailable',
+            'size' => 'size',
+            'status' => 'status',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'format' => 'int32',
-    ],
-    'phoneNumbers' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'page' => [
+            'format' => 'int32',
         ],
-    ],
-    'reputationAvailable' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [
-                'enum' => [
-                    'AVAILABLE',
-                    'NOT_FOUND',
-                    'UNAVAILABLE',
-                    'UNKNOWN',
+        'phoneNumbers' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+        'reputationAvailable' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [
+                    'enum' => [
+                        'AVAILABLE',
+                        'NOT_FOUND',
+                        'UNAVAILABLE',
+                        'UNKNOWN',
+                    ],
                 ],
             ],
         ],
-    ],
-    'size' => [
-        'format' => 'int32',
-    ],
-    'status' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [
-                'enum' => [
-                    'ERROR_FRAUD',
-                    'ERROR_INVALID',
-                    'ERROR_REGISTERED',
-                    'ERROR_UNEXPECTED',
-                    'NOT_FOUND',
-                    'PENDING',
-                    'REGISTERED',
-                    'UNKNOWN',
+        'size' => [
+            'format' => 'int32',
+        ],
+        'status' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [
+                    'enum' => [
+                        'ERROR_FRAUD',
+                        'ERROR_INVALID',
+                        'ERROR_REGISTERED',
+                        'ERROR_UNEXPECTED',
+                        'NOT_FOUND',
+                        'PENDING',
+                        'REGISTERED',
+                        'UNKNOWN',
+                    ],
                 ],
             ],
         ],
-    ],
-];
+    ];
 
     public ?string $jobName;
     public ?string $lastUpdatedFrom;

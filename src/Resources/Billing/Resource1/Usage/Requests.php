@@ -66,5 +66,4 @@ final class Requests extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_REQUEST_ID), path: ['requestId' => $requestId]);
         return $result;
     }
-
 }

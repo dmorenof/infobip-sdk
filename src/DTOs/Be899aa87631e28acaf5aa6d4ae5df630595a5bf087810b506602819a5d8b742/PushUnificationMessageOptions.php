@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\Be899aa87631e28acaf5aa6d4ae5df630595a5bf087810b5066028
 final class PushUnificationMessageOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'badge' => [
-        'format' => 'int32',
-    ],
-    'campaignReferenceId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'mirroredPushExpirationPeriod' => [
-        'minimum' => 0,
-    ],
-];
+        'badge' => [
+            'format' => 'int32',
+        ],
+        'campaignReferenceId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'mirroredPushExpirationPeriod' => [
+            'minimum' => 0,
+        ],
+    ];
 
     /**
      * Badge counter (iOS only).

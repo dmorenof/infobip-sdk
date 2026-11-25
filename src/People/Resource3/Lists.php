@@ -51,5 +51,4 @@ final class Lists extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource3\Lists::class)->putByListName($listName, $params);
     }
-
 }

@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N4811a3a9108d5f90b8934012403f954f20270c436bdecbc318a80
 final class ConferenceSendMessageRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-];
+        'message',
+    ];
 
     /**
      * Message to send.

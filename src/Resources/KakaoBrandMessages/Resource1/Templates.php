@@ -199,5 +199,4 @@ final class Templates extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::PUT_BY_TEMPLATE_CODE), $payload, path: ['templateCode' => $templateCode]);
         return;
     }
-
 }

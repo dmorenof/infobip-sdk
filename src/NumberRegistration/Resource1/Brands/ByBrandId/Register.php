@@ -18,5 +18,4 @@ final class Register extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Brands\ByBrandId\Register::class)->post($brandId);
     }
-
 }

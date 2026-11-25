@@ -29,5 +29,4 @@ final class Verification extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\EmbeddedSignup\Registrations\Senders\BySender\Verification::class)->put($sender, $payload);
     }
-
 }

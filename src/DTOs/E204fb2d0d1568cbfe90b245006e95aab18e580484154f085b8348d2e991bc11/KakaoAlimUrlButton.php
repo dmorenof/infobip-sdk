@@ -10,38 +10,38 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class KakaoAlimUrlButton extends \InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\KakaoAlimButton
 {
     public const array REQUIRED_FIELDS = [
-    'buttonText',
-];
+        'buttonText',
+    ];
 
     protected const array VALIDATION = [
-    'buttonText' => [
-        'minLength' => 1,
-        'maxLength' => 28,
-    ],
-    'buttonUrl' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'buttonUrlMobile' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'buttonUrlPc' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'target' => [
-        'pattern' => '^out$',
-    ],
-];
+        'buttonText' => [
+            'minLength' => 1,
+            'maxLength' => 28,
+        ],
+        'buttonUrl' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'buttonUrlMobile' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'buttonUrlPc' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'target' => [
+            'pattern' => '^out$',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'buttonText',
-    'buttonUrl',
-    'buttonUrlMobile',
-    'buttonUrlPc',
-    'target',
-];
+        'buttonText',
+        'buttonUrl',
+        'buttonUrlMobile',
+        'buttonUrlPc',
+        'target',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

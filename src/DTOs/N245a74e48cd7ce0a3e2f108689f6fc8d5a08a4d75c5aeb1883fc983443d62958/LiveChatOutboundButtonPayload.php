@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N245a74e48cd7ce0a3e2f108689f6fc8d5a08a4d75c5aeb1883fc9
 final class LiveChatOutboundButtonPayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'payload',
-    'title',
-    'type',
-];
+        'payload',
+        'title',
+        'type',
+    ];
 
     /**
      * Unique identifier for 'call to action' buttons.

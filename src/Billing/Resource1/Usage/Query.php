@@ -16,5 +16,4 @@ final class Query extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Billing\Resource1\Usage\Query::class)->post($payload);
     }
-
 }

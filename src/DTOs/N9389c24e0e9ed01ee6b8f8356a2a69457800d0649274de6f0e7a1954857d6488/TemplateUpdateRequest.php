@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class TemplateUpdateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 64,
-        'pattern' => '^[\\p{L}0-9 ]*$',
-    ],
-];
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 64,
+            'pattern' => '^[\\p{L}0-9 ]*$',
+        ],
+    ];
 
     /**
      * Human-readable name for the template. Must be unique per sender. Maximum 64 characters, allowed: letters, digits, and spaces.

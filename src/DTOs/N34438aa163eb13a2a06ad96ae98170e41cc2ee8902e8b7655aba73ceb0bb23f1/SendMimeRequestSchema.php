@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class SendMimeRequestSchema extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mimeMessage',
-];
+        'mimeMessage',
+    ];
 
     /**
      * Required for application use in a send request for outbound traffic. Returned in notification events.

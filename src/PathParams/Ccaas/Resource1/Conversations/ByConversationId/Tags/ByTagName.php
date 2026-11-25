@@ -7,17 +7,17 @@ namespace InfobipSDK\PathParams\Ccaas\Resource1\Conversations\ByConversationId\T
 final class ByTagName extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'conversationId',
-    'tagName',
-];
+        'conversationId',
+        'tagName',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'conversationId' => 'conversationId',
-        'tagName' => 'tagName',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'conversationId' => 'conversationId',
+            'tagName' => 'tagName',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     public string $conversationId;
     public string $tagName;

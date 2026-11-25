@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\F7a48ff9966e7ac9fef5292e0b74f7ccc796492cacffd985bfded9
 final class TemplatePublicApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'category',
-    'language',
-    'name',
-    'structure',
-];
+        'category',
+        'language',
+        'name',
+        'structure',
+    ];
 
     protected const array VALIDATION = [
-    'category' => [
-        'minLength' => 1,
-    ],
-    'name' => [
-        'minLength' => 1,
-    ],
-];
+        'category' => [
+            'minLength' => 1,
+        ],
+        'name' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -12,16 +12,16 @@ final class Text extends \InfobipSDK\DTOs\N267b6ecf9b18ace076c5287f2f55ab493690f
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'flex' => [
-        'minimum' => 0,
-        'maximum' => 20,
-        'format' => 'int32',
-    ],
-    'maxLines' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'flex' => [
+            'minimum' => 0,
+            'maximum' => 20,
+            'format' => 'int32',
+        ],
+        'maxLines' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N267b6ecf9b18ace076c5287f2f55ab493690ff43a19cc6531a331c0c908f8fd5\Action $action;
     public \InfobipSDK\Enums\N267b6ecf9b18ace076c5287f2f55ab493690ff43a19cc6531a331c0c908f8fd5\Alignment $align;

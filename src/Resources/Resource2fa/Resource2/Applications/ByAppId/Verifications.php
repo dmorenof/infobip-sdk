@@ -72,5 +72,4 @@ final class Verifications extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['appId' => $appId], parameters: $params);
         return $result;
     }
-
 }

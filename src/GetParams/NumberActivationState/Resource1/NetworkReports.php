@@ -7,32 +7,32 @@ namespace InfobipSDK\GetParams\NumberActivationState\Resource1;
 final class NetworkReports extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'dateFrom' => 'dateFrom',
-        'dateTo' => 'dateTo',
-        'generatedDateFrom' => 'generatedDateFrom',
-        'generatedDateTo' => 'generatedDateTo',
-        'networkId' => 'networkId',
-        'networkName' => 'networkName',
-        'page' => 'page',
-        'reportId' => 'reportId',
-        'size' => 'size',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'dateFrom' => 'dateFrom',
+            'dateTo' => 'dateTo',
+            'generatedDateFrom' => 'generatedDateFrom',
+            'generatedDateTo' => 'generatedDateTo',
+            'networkId' => 'networkId',
+            'networkName' => 'networkName',
+            'page' => 'page',
+            'reportId' => 'reportId',
+            'size' => 'size',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'networkId' => [
-        'format' => 'int32',
-    ],
-    'page' => [
-        'format' => 'int32',
-    ],
-    'size' => [
-        'format' => 'int32',
-    ],
-];
+        'networkId' => [
+            'format' => 'int32',
+        ],
+        'page' => [
+            'format' => 'int32',
+        ],
+        'size' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $dateFrom;
     public ?string $dateTo;

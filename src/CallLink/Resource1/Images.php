@@ -38,5 +38,4 @@ final class Images extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\CallLink\Resource1\Images::class)->getById($id);
     }
-
 }

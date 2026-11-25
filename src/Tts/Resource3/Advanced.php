@@ -17,5 +17,4 @@ final class Advanced extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Tts\Resource3\Advanced::class)->post($payload);
     }
-
 }

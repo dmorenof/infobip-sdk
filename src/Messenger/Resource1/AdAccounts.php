@@ -17,5 +17,4 @@ final class AdAccounts extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Messenger\Resource1\AdAccounts::class)->get();
     }
-
 }

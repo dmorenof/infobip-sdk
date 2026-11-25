@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\A4e0c51a24a360282e1a40c61554d239555404b786d84603912030
 final class ReferralMediaImage extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'url',
-];
+        'url',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

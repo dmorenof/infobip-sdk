@@ -12,13 +12,13 @@ final class CallsDtmfMessageContent extends \InfobipSDK\DTOs\N781c309206ee4e5022
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'dtmfMaxCodeLength' => [
-        'format' => 'int32',
-    ],
-    'timeoutSeconds' => [
-        'format' => 'int32',
-    ],
-];
+        'dtmfMaxCodeLength' => [
+            'format' => 'int32',
+        ],
+        'timeoutSeconds' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

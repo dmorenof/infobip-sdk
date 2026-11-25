@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\Be899aa87631e28acaf5aa6d4ae5df630595a5bf087810b5066028
 final class PushRequestNotificationOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'badge' => [
-        'format' => 'int32',
-    ],
-    'inAppExpirationPeriod' => [
-        'minimum' => 0,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 45,
-    ],
-];
+        'badge' => [
+            'format' => 'int32',
+        ],
+        'inAppExpirationPeriod' => [
+            'minimum' => 0,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 45,
+        ],
+    ];
 
     /**
      * Badge counter (iOS only).

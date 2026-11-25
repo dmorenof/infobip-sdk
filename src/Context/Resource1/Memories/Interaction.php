@@ -16,5 +16,4 @@ final class Interaction extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Context\Resource1\Memories\Interaction::class)->getByInteractionId($interactionId);
     }
-
 }

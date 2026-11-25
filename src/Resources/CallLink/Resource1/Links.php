@@ -263,5 +263,4 @@ final class Links extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_ID), path: ['id' => $id]);
         return $result;
     }
-
 }

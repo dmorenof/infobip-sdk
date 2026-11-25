@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\Ff7f7515e81995b140ab1c879b88d9d297a14922c035a187e237cd
 final class HighDomainBounceWarnEvent extends \InfobipSDK\DTOs\Ff7f7515e81995b140ab1c879b88d9d297a14922c035a187e237cd81e7c216a0\EventDetails
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

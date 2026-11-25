@@ -41,5 +41,4 @@ final class Campaigns extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Messenger\Resource1\Campaigns::class)->deleteByCampaignId($campaignId);
     }
-
 }

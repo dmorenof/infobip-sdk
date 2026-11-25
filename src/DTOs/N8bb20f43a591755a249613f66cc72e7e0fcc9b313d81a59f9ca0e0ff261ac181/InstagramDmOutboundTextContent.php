@@ -12,11 +12,11 @@ final class InstagramDmOutboundTextContent extends \InfobipSDK\DTOs\N8bb20f43a59
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

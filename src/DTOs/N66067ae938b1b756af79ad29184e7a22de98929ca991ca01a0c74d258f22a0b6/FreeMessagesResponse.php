@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N66067ae938b1b756af79ad29184e7a22de98929ca991ca01a0c74
 final class FreeMessagesResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'remainingCount' => [
-        'format' => 'int32',
-    ],
-];
+        'remainingCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Format: int32

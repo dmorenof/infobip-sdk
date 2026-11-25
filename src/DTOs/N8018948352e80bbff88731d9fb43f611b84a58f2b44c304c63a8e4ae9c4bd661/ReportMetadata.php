@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\N8018948352e80bbff88731d9fb43f611b84a58f2b44c304c63a8e
 final class ReportMetadata extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dateFrom',
-    'dateTo',
-    'expiryDate',
-    'generatedDate',
-    'networkId',
-    'networkName',
-    'reportId',
-];
+        'dateFrom',
+        'dateTo',
+        'expiryDate',
+        'generatedDate',
+        'networkId',
+        'networkName',
+        'reportId',
+    ];
 
     protected const array VALIDATION = [
-    'networkId' => [
-        'format' => 'int32',
-    ],
-    'reportId' => [
-        'maxLength' => 64,
-    ],
-];
+        'networkId' => [
+            'format' => 'int32',
+        ],
+        'reportId' => [
+            'maxLength' => 64,
+        ],
+    ];
 
     /**
      * Date in UTC that defines since when the report has data about activation changes on a given network. <br />Format: yyyy-MM-ddNote that multiple reports for the same date range on the same network are possible. <br />

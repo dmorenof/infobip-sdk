@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920
 final class BasicCredentialsPayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'password',
-    'username',
-];
+        'password',
+        'username',
+    ];
 
     protected const array VALIDATION = [
-    'password' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'username' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-];
+        'password' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'username' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Password.

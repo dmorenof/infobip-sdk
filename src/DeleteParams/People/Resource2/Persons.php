@@ -7,14 +7,14 @@ namespace InfobipSDK\DeleteParams\People\Resource2;
 final class Persons extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'identifier' => 'identifier',
-        'sender' => 'sender',
-        'type' => 'type',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'identifier' => 'identifier',
+            'sender' => 'sender',
+            'type' => 'type',
+        ],
+        'header' => [],
+    ];
 
     public ?string $identifier;
     public ?string $sender;

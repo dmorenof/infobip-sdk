@@ -409,5 +409,4 @@ final class Items extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_ITEM_ID), $payload, path: $identifier);
         return $result;
     }
-
 }

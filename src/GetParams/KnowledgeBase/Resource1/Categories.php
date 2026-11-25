@@ -7,28 +7,28 @@ namespace InfobipSDK\GetParams\KnowledgeBase\Resource1;
 final class Categories extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'name' => 'name',
-        'page' => 'page',
-        'scope' => 'scope',
-        'size' => 'size',
-        'sort' => 'sort',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'name' => 'name',
+            'page' => 'page',
+            'scope' => 'scope',
+            'size' => 'size',
+            'sort' => 'sort',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'size' => [
-        'minimum' => 1,
-        'maximum' => 5000,
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'size' => [
+            'minimum' => 1,
+            'maximum' => 5000,
+            'format' => 'int32',
+        ],
+    ];
 
     public ?string $name;
     public ?int $page {

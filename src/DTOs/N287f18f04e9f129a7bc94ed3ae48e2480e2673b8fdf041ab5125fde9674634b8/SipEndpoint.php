@@ -12,13 +12,13 @@ final class SipEndpoint extends \InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'sipTrunkId' => [
-        'minLength' => 1,
-    ],
-    'username' => [
-        'minLength' => 1,
-    ],
-];
+        'sipTrunkId' => [
+            'minLength' => 1,
+        ],
+        'username' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Custom headers. Only headers starting with `X-Client-` prefix will be propagated.

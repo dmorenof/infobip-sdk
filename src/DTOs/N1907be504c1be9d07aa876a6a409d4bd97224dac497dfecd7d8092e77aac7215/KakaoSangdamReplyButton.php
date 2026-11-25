@@ -14,15 +14,15 @@ final class KakaoSangdamReplyButton extends \InfobipSDK\DTOs\N1907be504c1be9d07a
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'extra' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 28,
-    ],
-];
+        'extra' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 28,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

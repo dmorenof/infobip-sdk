@@ -7,13 +7,13 @@ namespace InfobipSDK\PostParams\NumberRegistration\Resource1;
 final class Documents extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'applicationId' => 'applicationId',
-        'entityId' => 'entityId',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'applicationId' => 'applicationId',
+            'entityId' => 'entityId',
+        ],
+        'header' => [],
+    ];
 
     public const bool OPERATION_BODY = true;
 

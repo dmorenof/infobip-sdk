@@ -68,5 +68,4 @@ final class Route extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['conversationId' => $conversationId]);
         return $result;
     }
-
 }

@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class ViberOutboundFileContent extends \InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1954857d6488\ViberOutboundContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'fileName' => [
-        'minLength' => 1,
-        'pattern' => '.*\\.(docx?|dotx?|xlsx?|f?ods|f?odt|rtf|odf|txt|info|pdf|xps|pdax|eps|csv|xlsm|xltx)$',
-    ],
-    'mediaUrl' => [
-        'minLength' => 1,
-        'pattern' => '^(https?)://.*$',
-    ],
-];
+        'fileName' => [
+            'minLength' => 1,
+            'pattern' => '.*\\.(docx?|dotx?|xlsx?|f?ods|f?odt|rtf|odf|txt|info|pdf|xps|pdax|eps|csv|xlsm|xltx)$',
+        ],
+        'mediaUrl' => [
+            'minLength' => 1,
+            'pattern' => '^(https?)://.*$',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

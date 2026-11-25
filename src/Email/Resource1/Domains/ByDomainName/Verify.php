@@ -16,5 +16,4 @@ final class Verify extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Email\Resource1\Domains\ByDomainName\Verify::class)->post($domainName);
     }
-
 }

@@ -255,5 +255,4 @@ final class Agents extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_AGENT_ID), $payload, path: ['agentId' => $agentId]);
         return $result;
     }
-
 }

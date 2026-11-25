@@ -7,8 +7,8 @@ namespace InfobipSDK\Responses\Resource2fa\Resource2\Applications\ByAppId\Verifi
 final class ByAppIdVerificationsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'verifications',
-];
+        'verifications',
+    ];
 
     /**
      * Collection of verifications

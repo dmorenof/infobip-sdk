@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\B1075107f5bba728f6a701eb8a72357dfcf0d9c4405dd06e85e564
 final class TokenRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'client_id',
-    'client_secret',
-    'grant_type',
-];
+        'client_id',
+        'client_secret',
+        'grant_type',
+    ];
 
     /**
      * The username created when signing up with Infobip.

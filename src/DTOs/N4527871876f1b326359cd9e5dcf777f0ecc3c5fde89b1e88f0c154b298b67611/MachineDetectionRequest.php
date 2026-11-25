@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c15
 final class MachineDetectionRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'enabled',
-];
+        'enabled',
+    ];
 
     protected const array VALIDATION = [
-    'detectionTime' => [
-        'minimum' => 1,
-        'maximum' => 5,
-    ],
-    'messageDetectionTimeout' => [
-        'maximum' => 60,
-        'format' => 'int32',
-    ],
-];
+        'detectionTime' => [
+            'minimum' => 1,
+            'maximum' => 5,
+        ],
+        'messageDetectionTimeout' => [
+            'maximum' => 60,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Indicates time in seconds during which answering machine detection will analyse the call before making a decision. Shorter detection time may come at the expense of accuracy. Must be lower than `messageDetectionTimeout` if `messageDetectionTimeout` is specified.

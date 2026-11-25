@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa
 final class LimitedTimeOfferApiData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 16,
-    ],
-];
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 16,
+        ],
+    ];
 
     /**
      * Indicates whether offer expiration details will appear in the delivered message. If set to true, copy code button must be included in the buttons array, and must appear first in the array.

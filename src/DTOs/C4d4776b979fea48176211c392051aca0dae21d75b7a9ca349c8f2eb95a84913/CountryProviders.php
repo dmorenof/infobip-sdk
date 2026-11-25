@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class CountryProviders extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'countryCode',
-    'providers',
-];
+        'countryCode',
+        'providers',
+    ];
 
     protected const array VALIDATION = [
-    'providers' => [
-        'uniqueItems' => true,
-    ],
-];
+        'providers' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * Country code in two-letter ISO 3166-1 alpha 2 standard. If set, only providers available in the specified country will be returned.

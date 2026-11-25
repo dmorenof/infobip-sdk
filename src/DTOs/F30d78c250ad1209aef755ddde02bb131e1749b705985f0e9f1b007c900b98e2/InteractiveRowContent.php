@@ -12,24 +12,24 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveRowContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'title',
-];
+        'id',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'description' => [
-        'minLength' => 0,
-        'maxLength' => 72,
-    ],
-    'id' => [
-        'minLength' => 1,
-        'maxLength' => 200,
-    ],
-    'title' => [
-        'minLength' => 1,
-        'maxLength' => 24,
-    ],
-];
+        'description' => [
+            'minLength' => 0,
+            'maxLength' => 72,
+        ],
+        'id' => [
+            'minLength' => 1,
+            'maxLength' => 200,
+        ],
+        'title' => [
+            'minLength' => 1,
+            'maxLength' => 24,
+        ],
+    ];
 
     /**
      * Description of the row.

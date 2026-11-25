@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N0089ea7cf06f0b77e4c88a7276c6f25dd5c0c5bbab819756fc42c
 final class FlowPreview extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'expiresAt',
-    'previewUrl',
-];
+        'expiresAt',
+        'previewUrl',
+    ];
 
     protected const array VALIDATION = [
-    'previewUrl' => [
-        'minLength' => 1,
-    ],
-];
+        'previewUrl' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Time when the link will expire and the developer needs to call the API again to get a new link. Has the following format: yyyy-MM-dd'T'HH:mm:ss.SSSZ.

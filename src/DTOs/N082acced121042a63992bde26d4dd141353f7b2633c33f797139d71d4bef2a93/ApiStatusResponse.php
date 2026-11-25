@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N082acced121042a63992bde26d4dd141353f7b2633c33f797139d
 final class ApiStatusResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'status',
-];
+        'status',
+    ];
 
     public string $status;
 

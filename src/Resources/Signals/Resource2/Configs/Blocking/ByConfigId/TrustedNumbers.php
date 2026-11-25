@@ -248,5 +248,4 @@ final class TrustedNumbers extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_PHONE_NUMBER), path: $identifier);
         return $result;
     }
-
 }

@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N707907921d4508c2925eddc2449f10db322ecc083be424f87c50f
 final class ConferenceRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'callsConfigurationId',
-];
+        'callsConfigurationId',
+    ];
 
     protected const array VALIDATION = [
-    'maxDuration' => [
-        'format' => 'int32',
-    ],
-];
+        'maxDuration' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Calls Configuration ID.

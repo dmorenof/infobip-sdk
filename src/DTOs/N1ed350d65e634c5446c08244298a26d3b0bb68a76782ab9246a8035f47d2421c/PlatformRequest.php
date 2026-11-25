@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N1ed350d65e634c5446c08244298a26d3b0bb68a76782ab9246a80
 final class PlatformRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'application',
-];
+        'application',
+    ];
 
     /**
      * External ID of the application. See [Applications and entities](https://www.infobip.com/docs/cpaas-x/applications-and-entities) for what an application is and how to find its id.

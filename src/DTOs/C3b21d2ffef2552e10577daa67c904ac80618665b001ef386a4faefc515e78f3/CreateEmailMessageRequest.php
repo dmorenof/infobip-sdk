@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\C3b21d2ffef2552e10577daa67c904ac80618665b001ef386a4fae
 final class CreateEmailMessageRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'emailTemplateId',
-];
+        'emailTemplateId',
+    ];
 
     protected const array VALIDATION = [
-    'pinLength' => [
-        'format' => 'int32',
-    ],
-];
+        'pinLength' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Email template ID that should reference a previously created [Broadcast template](https://www.infobip.com/docs/email/templates).

@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\N87fdb606ad2c440ed89e04f515deb90150ccd79b7e43f8b50549f
 final class CallsConfigurationUpdateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 128,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 128,
+        ],
+    ];
 
     /**
      * Calls configuration name.

@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c184
 final class FactApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'description',
-    'id',
-    'name',
-    'updatedAt',
-    'valueType',
-];
+        'createdAt',
+        'description',
+        'id',
+        'name',
+        'updatedAt',
+        'valueType',
+    ];
 
     /**
      * Timestamp (UTC, ISO-8601) when the fact definition was created.

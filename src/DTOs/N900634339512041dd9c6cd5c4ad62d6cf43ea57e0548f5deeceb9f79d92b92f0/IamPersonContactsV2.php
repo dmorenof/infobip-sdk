@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\N900634339512041dd9c6cd5c4ad62d6cf43ea57e0548f5deeceb9
 final class IamPersonContactsV2 extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'appleBusinessChat',
-    'facebook',
-    'instagram',
-    'instagramDm',
-    'kakaoSangdam',
-    'kakaoTalk',
-    'line',
-    'liveChat',
-    'openChannel',
-    'push',
-    'telegram',
-    'tiktokBm',
-    'viberBots',
-    'webpush',
-    'whatsapp',
-    'zaloFollower',
-];
+        'appleBusinessChat',
+        'facebook',
+        'instagram',
+        'instagramDm',
+        'kakaoSangdam',
+        'kakaoTalk',
+        'line',
+        'liveChat',
+        'openChannel',
+        'push',
+        'telegram',
+        'tiktokBm',
+        'viberBots',
+        'webpush',
+        'whatsapp',
+        'zaloFollower',
+    ];
 
     /**
      * A list of person's Apple Business Chat destinations.

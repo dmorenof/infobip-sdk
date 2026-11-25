@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class RcsTestNumberUpdateEvent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'event',
-    'senderName',
-    'senderStatus',
-    'testNumber',
-    'testNumberStatus',
-    'updatedAt',
-];
+        'event',
+        'senderName',
+        'senderStatus',
+        'testNumber',
+        'testNumberStatus',
+        'updatedAt',
+    ];
 
     /**
      * Timestamp when request has been completed. It will be null if request is still in progress.

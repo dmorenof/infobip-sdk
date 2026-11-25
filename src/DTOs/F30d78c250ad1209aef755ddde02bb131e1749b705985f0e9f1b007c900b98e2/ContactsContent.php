@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class ContactsContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contacts',
-];
+        'contacts',
+    ];
 
     protected const array VALIDATION = [
-    'contacts' => [
-        'minItems' => 1,
-    ],
-];
+        'contacts' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * An array of contacts sent in a WhatsApp message.

@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class BrandAppealRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'documents',
-];
+        'documents',
+    ];
 
     protected const array VALIDATION = [
-    'documents' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-    'explanation' => [
-        'minLength' => 0,
-        'maxLength' => 1024,
-    ],
-];
+        'documents' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+        'explanation' => [
+            'minLength' => 0,
+            'maxLength' => 1024,
+        ],
+    ];
 
     /**
      * List of supporting documents attached to the appeal.

@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class NcResponseAsyncDetails extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'messageId',
-    'to',
-];
+        'messageId',
+        'to',
+    ];
 
     /**
      * The ID that uniquely identifies the performed lookup.

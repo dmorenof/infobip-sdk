@@ -12,12 +12,12 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class MessageDetection extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'timeout' => [
-        'minimum' => 1,
-        'maximum' => 60,
-        'format' => 'int32',
-    ],
-];
+        'timeout' => [
+            'minimum' => 1,
+            'maximum' => 60,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Timeout in seconds

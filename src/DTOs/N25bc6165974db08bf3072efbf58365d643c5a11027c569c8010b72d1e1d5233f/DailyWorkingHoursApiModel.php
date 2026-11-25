@@ -13,21 +13,21 @@ namespace InfobipSDK\DTOs\N25bc6165974db08bf3072efbf58365d643c5a11027c569c8010b7
 final class DailyWorkingHoursApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array MODEL_VALIDATION = [
-    'jsonSchema' => '{"enum":["FRIDAY","MONDAY","SATURDAY","SUNDAY","THURSDAY","TUESDAY","WEDNESDAY"]}',
-];
+        'jsonSchema' => '{"enum":["FRIDAY","MONDAY","SATURDAY","SUNDAY","THURSDAY","TUESDAY","WEDNESDAY"]}',
+    ];
 
     protected const array VALIDATION = [
-    'endTime' => [
-        'minimum' => 0,
-        'maximum' => 1440,
-        'format' => 'int32',
-    ],
-    'startTime' => [
-        'minimum' => 0,
-        'maximum' => 1440,
-        'format' => 'int32',
-    ],
-];
+        'endTime' => [
+            'minimum' => 0,
+            'maximum' => 1440,
+            'format' => 'int32',
+        ],
+        'startTime' => [
+            'minimum' => 0,
+            'maximum' => 1440,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Daily working hours enable/disable toggle.

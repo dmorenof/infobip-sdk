@@ -49,5 +49,4 @@ final class Conferences extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Conferences::class)->patchByConferenceId($conferenceId, $payload);
     }
-
 }

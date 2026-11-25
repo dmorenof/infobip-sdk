@@ -49,5 +49,4 @@ final class Certificates extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Subscriptions\Resource1\Certificates::class)->getByCertificateId($certificateId);
     }
-
 }

@@ -12,25 +12,25 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class TemplateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'body',
-    'category',
-];
+        'body',
+        'category',
+    ];
 
     protected const array VALIDATION = [
-    'body' => [
-        'minItems' => 0,
-        'maxItems' => 1,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 64,
-        'pattern' => '^[\\p{L}0-9 ]*$',
-    ],
-    'params' => [
-        'minItems' => 0,
-        'maxItems' => 8,
-    ],
-];
+        'body' => [
+            'minItems' => 0,
+            'maxItems' => 1,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 64,
+            'pattern' => '^[\\p{L}0-9 ]*$',
+        ],
+        'params' => [
+            'minItems' => 0,
+            'maxItems' => 8,
+        ],
+    ];
 
     /**
      * List of template bodies per language. Currently limited to one body per template.

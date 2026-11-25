@@ -38,5 +38,4 @@ final class Files extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Webrtc\Resource1\Files::class)->getById($id);
     }
-
 }

@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c184
 final class MemoryTopicApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'outcome',
-    'outcomeReason',
-    'topics',
-];
+        'outcome',
+        'outcomeReason',
+        'topics',
+    ];
 
     /**
      * Interaction-level outcome value aggregated from the topics.

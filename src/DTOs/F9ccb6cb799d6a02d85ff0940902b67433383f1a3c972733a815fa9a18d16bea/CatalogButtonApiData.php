@@ -12,15 +12,15 @@ final class CatalogButtonApiData extends \InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 25,
-    ],
-];
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 25,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

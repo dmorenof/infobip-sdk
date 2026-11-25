@@ -7,39 +7,39 @@ namespace InfobipSDK\GetParams\Tts\Resource3;
 final class Logs extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'bulkId' => 'bulkId',
-        'from' => 'from',
-        'generalStatus' => 'generalStatus',
-        'limit' => 'limit',
-        'mcc' => 'mcc',
-        'messageId' => 'messageId',
-        'mnc' => 'mnc',
-        'sentSince' => 'sentSince',
-        'sentUntil' => 'sentUntil',
-        'to' => 'to',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'bulkId' => 'bulkId',
+            'from' => 'from',
+            'generalStatus' => 'generalStatus',
+            'limit' => 'limit',
+            'mcc' => 'mcc',
+            'messageId' => 'messageId',
+            'mnc' => 'mnc',
+            'sentSince' => 'sentSince',
+            'sentUntil' => 'sentUntil',
+            'to' => 'to',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'bulkId' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'bulkId' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
         ],
-    ],
-    'limit' => [
-        'format' => 'int32',
-    ],
-    'messageId' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'limit' => [
+            'format' => 'int32',
         ],
-    ],
-];
+        'messageId' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+    ];
 
     /** @var list<string>|null */
     public ?array $bulkId;

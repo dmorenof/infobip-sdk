@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N41037c0c5bdf4509c49aaf5c9a141a8857afc7b3859839aa4c690
 final class MatchAmgModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'identifier',
-    'personId',
-    'type',
-];
+        'identifier',
+        'personId',
+        'type',
+    ];
 
     /**
      * Person ID

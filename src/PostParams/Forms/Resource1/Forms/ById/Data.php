@@ -7,25 +7,25 @@ namespace InfobipSDK\PostParams\Forms\Resource1\Forms\ById;
 final class Data extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'body',
-];
+        'body',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [],
-    'header' => [
-        'ib-submission-form-campaign' => 'ibSubmissionFormCampaign',
-        'ib-submission-source' => 'ibSubmissionSource',
-    ],
-];
+        'path' => [],
+        'query' => [],
+        'header' => [
+            'ib-submission-form-campaign' => 'ibSubmissionFormCampaign',
+            'ib-submission-source' => 'ibSubmissionSource',
+        ],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'ib-submission-form-campaign' => 'ibSubmissionFormCampaign',
-    'ib-submission-source' => 'ibSubmissionSource',
-];
+        'ib-submission-form-campaign' => 'ibSubmissionFormCampaign',
+        'ib-submission-source' => 'ibSubmissionSource',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'ibSubmissionFormCampaign' => 'ib-submission-form-campaign',
-    'ibSubmissionSource' => 'ib-submission-source',
-];
+        'ibSubmissionFormCampaign' => 'ib-submission-form-campaign',
+        'ibSubmissionSource' => 'ib-submission-source',
+    ];
 
     public const bool OPERATION_BODY = true;
 

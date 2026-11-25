@@ -209,5 +209,4 @@ final class ByChannel extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_SUBSCRIPTION_ID), $payload, path: $identifier);
         return $result;
     }
-
 }

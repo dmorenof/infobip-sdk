@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class Phone extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'label',
-    'phoneNumber',
-];
+        'label',
+        'phoneNumber',
+    ];
 
     protected const array VALIDATION = [
-    'label' => [
-        'minLength' => 1,
-        'maxLength' => 25,
-    ],
-    'phoneNumber' => [
-        'pattern' => '^\\+?[0-9 \\-().]{1,30}$',
-    ],
-];
+        'label' => [
+            'minLength' => 1,
+            'maxLength' => 25,
+        ],
+        'phoneNumber' => [
+            'pattern' => '^\\+?[0-9 \\-().]{1,30}$',
+        ],
+    ];
 
     /**
      * Label for the phone number. Must be plain text (no URLs, HTML or markup).

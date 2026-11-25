@@ -8,6 +8,6 @@ final class SipDomainsCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = 'string';
     protected const array ITEM_VALIDATION = [
-    'pattern' => '^[0-9]+-\\S+\\.twilio\\.com$',
-];
+        'pattern' => '^[0-9]+-\\S+\\.twilio\\.com$',
+    ];
 }

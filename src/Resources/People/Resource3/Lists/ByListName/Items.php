@@ -386,5 +386,4 @@ final class Items extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_ITEM_ID), path: $identifier, parameters: $params);
         return $result;
     }
-
 }

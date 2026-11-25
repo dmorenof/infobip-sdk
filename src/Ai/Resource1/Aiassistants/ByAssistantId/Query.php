@@ -16,5 +16,4 @@ final class Query extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ai\Resource1\Aiassistants\ByAssistantId\Query::class)->post($assistantId, $payload);
     }
-
 }

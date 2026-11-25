@@ -7,15 +7,15 @@ namespace InfobipSDK\GetParams\Calls\Resource1\SipTrunks\ServiceAddresses\Countr
 final class Regions extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'countryCode',
-];
+        'countryCode',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'countryCode' => 'countryCode',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'countryCode' => 'countryCode',
+        ],
+        'header' => [],
+    ];
 
     public string $countryCode;
 }

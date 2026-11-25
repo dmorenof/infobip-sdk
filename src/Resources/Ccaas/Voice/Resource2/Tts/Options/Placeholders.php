@@ -66,5 +66,4 @@ final class Placeholders extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_TTS_PURPOSE), path: ['ttsPurpose' => $ttsPurpose]);
         return $result;
     }
-
 }

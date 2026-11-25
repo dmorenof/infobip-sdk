@@ -13,5 +13,4 @@ final class FacebookMtEmailQuickReply extends \InfobipSDK\DTOs\N747c7e4c0b03b254
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

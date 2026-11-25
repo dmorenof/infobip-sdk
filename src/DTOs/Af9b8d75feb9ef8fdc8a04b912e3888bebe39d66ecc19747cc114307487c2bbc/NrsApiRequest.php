@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\Af9b8d75feb9ef8fdc8a04b912e3888bebe39d66ecc19747cc1143
 final class NrsApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'consentGranted',
-    'phoneNumber',
-];
+        'consentGranted',
+        'phoneNumber',
+    ];
 
     protected const array VALIDATION = [
-    'phoneNumber' => [
-        'minLength' => 5,
-        'maxLength' => 15,
-        'pattern' => '^\\+?\\d{5,15}$',
-    ],
-];
+        'phoneNumber' => [
+            'minLength' => 5,
+            'maxLength' => 15,
+            'pattern' => '^\\+?\\d{5,15}$',
+        ],
+    ];
 
     /**
      * Indicates whether the user of the mobile phone number has granted consent to perform a request. Must be true.

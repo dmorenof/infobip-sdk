@@ -7,23 +7,23 @@ namespace InfobipSDK\PathParams\Whatsapp\Resource1\Senders\BySender\Media;
 final class ByMediaId extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mediaId',
-    'sender',
-];
+        'mediaId',
+        'sender',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'mediaId' => 'mediaId',
-        'sender' => 'sender',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'mediaId' => 'mediaId',
+            'sender' => 'sender',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'mediaId' => [
-        'minLength' => 1,
-    ],
-];
+        'mediaId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public string $mediaId {
         set {

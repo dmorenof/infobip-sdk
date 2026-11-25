@@ -12,24 +12,24 @@ namespace InfobipSDK\DTOs\Be899aa87631e28acaf5aa6d4ae5df630595a5bf087810b5066028
 final class PushRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'from',
-    'text',
-    'to',
-];
+        'from',
+        'text',
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'from' => [
-        'minLength' => 1,
-        'maxLength' => 80,
-    ],
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 4000,
-    ],
-    'validityPeriod' => [
-        'minimum' => 0,
-    ],
-];
+        'from' => [
+            'minLength' => 1,
+            'maxLength' => 80,
+        ],
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 4000,
+        ],
+        'validityPeriod' => [
+            'minimum' => 0,
+        ],
+    ];
 
     /**
      * Additional client's data that will be sent onto `notifyUrl`. The maximum value is 200 characters.

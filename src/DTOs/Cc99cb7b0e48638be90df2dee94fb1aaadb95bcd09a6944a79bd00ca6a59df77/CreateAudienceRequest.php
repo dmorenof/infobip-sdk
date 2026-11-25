@@ -10,29 +10,29 @@ namespace InfobipSDK\DTOs\Cc99cb7b0e48638be90df2dee94fb1aaadb95bcd09a6944a79bd00
 final class CreateAudienceRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'adAccountId',
-    'name',
-    'pageId',
-];
+        'adAccountId',
+        'name',
+        'pageId',
+    ];
 
     protected const array VALIDATION = [
-    'adAccountId' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'description' => [
-        'minLength' => 0,
-        'maxLength' => 1024,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'pageId' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'adAccountId' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'description' => [
+            'minLength' => 0,
+            'maxLength' => 1024,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'pageId' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Facebook ad account ID.

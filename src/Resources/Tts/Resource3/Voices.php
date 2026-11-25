@@ -71,5 +71,4 @@ final class Voices extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_LANGUAGE), path: ['language' => $language], parameters: $params);
         return $result;
     }
-
 }

@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class UrlPlayContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fileUrl',
-    'type',
-];
+        'fileUrl',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'cacheDuration' => [
-        'minimum' => 0,
-        'maximum' => 86400,
-        'exclusiveMinimum' => 0,
-        'format' => 'int32',
-    ],
-    'fileUrl' => [
-        'minLength' => 1,
-    ],
-];
+        'cacheDuration' => [
+            'minimum' => 0,
+            'maximum' => 86400,
+            'exclusiveMinimum' => 0,
+            'format' => 'int32',
+        ],
+        'fileUrl' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * How long, in seconds, the fetched file may be cached (1 to 86400).

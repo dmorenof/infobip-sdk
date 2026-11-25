@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class TemplateCardContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'header',
-];
+        'header',
+    ];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 1,
-        'maxItems' => 2,
-    ],
-];
+        'buttons' => [
+            'minItems' => 1,
+            'maxItems' => 2,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\TemplateBodyContent $body;
     /**
@@ -33,5 +33,4 @@ final class TemplateCardContent extends \Dmorenof\SdkRuntime\DTO
         }
     }
     public \InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\TemplateHeaderContent $header;
-
 }

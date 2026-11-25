@@ -38,5 +38,4 @@ final class Notes extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Conversations\ByConversationId\Notes::class)->getByNoteId($identifier);
     }
-
 }

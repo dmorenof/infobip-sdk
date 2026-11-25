@@ -7,14 +7,14 @@ namespace InfobipSDK\Requests\AllOfUpdateAPersonBody;
 final class PersonBodyRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'computedAttributes',
-    'createdAt',
-    'id',
-    'integrations',
-    'modifiedAt',
-    'modifiedFrom',
-    'origin',
-];
+        'computedAttributes',
+        'createdAt',
+        'id',
+        'integrations',
+        'modifiedAt',
+        'modifiedFrom',
+        'origin',
+    ];
 
     /**
      * Person's address, 256 characters max.

@@ -135,5 +135,4 @@ final class Bulks extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT), parameters: $params);
         return $result;
     }
-
 }

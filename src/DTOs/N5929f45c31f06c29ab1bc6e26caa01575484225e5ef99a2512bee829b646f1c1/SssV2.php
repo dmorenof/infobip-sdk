@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N5929f45c31f06c29ab1bc6e26caa01575484225e5ef99a2512bee
 final class SssV2 extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'sendingStrategyId',
-    'useGeolocatedSender',
-    'useStickySender',
-];
+        'sendingStrategyId',
+        'useGeolocatedSender',
+        'useStickySender',
+    ];
 
     /**
      * Channel for which the Sending Strategy is created. Supported channels: SMS, MMS, RCS. If left empty, Sending Strategy will be applied to all supported channels.

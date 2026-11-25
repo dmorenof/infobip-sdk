@@ -12,10 +12,10 @@ final class TikTokInboundReferralShortLinkContent extends \InfobipSDK\DTOs\E2cbd
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'conversationId' => [
-        'minLength' => 1,
-    ],
-];
+        'conversationId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

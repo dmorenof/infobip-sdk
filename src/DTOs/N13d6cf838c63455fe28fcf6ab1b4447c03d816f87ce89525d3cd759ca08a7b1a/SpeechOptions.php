@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class SpeechOptions extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'language',
-];
+        'language',
+    ];
 
     protected const array VALIDATION = [
-    'maxSilence' => [
-        'minimum' => 1,
-        'maximum' => 5,
-        'format' => 'int32',
-    ],
-];
+        'maxSilence' => [
+            'minimum' => 1,
+            'maximum' => 5,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Array of keyphrases used for matching capturing speech. If full captured text contains one of the specified phrases, that phrase will be set in variable specified in capture parameter. If keyphrases are not set or no matching is done, variable will be set to empty string. Every keyphrase can contain up to 5 words and number of keyphrases is not limited.

@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\N58b7723d552ea7166ae4b26f13a2e9dab0154f96a724621e17ccb
 final class ImageWideTemplate extends \InfobipSDK\DTOs\N58b7723d552ea7166ae4b26f13a2e9dab0154f96a724621e17ccb41009cc81fb\BrandMessagesTemplateContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 1,
-        'maxItems' => 2,
-    ],
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 76,
-    ],
-];
+        'buttons' => [
+            'minItems' => 1,
+            'maxItems' => 2,
+        ],
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 76,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

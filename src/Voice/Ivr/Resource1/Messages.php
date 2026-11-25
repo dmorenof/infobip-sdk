@@ -16,5 +16,4 @@ final class Messages extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Voice\Ivr\Resource1\Messages::class)->post($payload);
     }
-
 }

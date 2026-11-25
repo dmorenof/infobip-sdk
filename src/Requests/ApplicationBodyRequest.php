@@ -7,14 +7,14 @@ namespace InfobipSDK\Requests;
 final class ApplicationBodyRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'configuration',
-    'enabled',
-    'name',
-];
+        'configuration',
+        'enabled',
+        'name',
+    ];
 
     /**
      * Created 2FA application configuration.

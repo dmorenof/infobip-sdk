@@ -27,5 +27,4 @@ final class ExternalNumber extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\TransferConfigs\ExternalNumber::class)->put($payload);
     }
-
 }

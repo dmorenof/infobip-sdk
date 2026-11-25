@@ -84,5 +84,4 @@ final class Items extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Catalogs\Resource1\Catalogs\ByCatalogId\Items::class)->patchByItemId($identifier, $payload);
     }
-
 }

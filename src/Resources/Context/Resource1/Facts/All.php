@@ -62,5 +62,4 @@ final class All extends \InfobipSDK\Client
         $this->executeOperation(self::operation(self::DELETE));
         return;
     }
-
 }

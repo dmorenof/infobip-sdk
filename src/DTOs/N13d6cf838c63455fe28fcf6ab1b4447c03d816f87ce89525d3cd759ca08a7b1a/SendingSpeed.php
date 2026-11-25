@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class SendingSpeed extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'speed' => [
-        'format' => 'int32',
-    ],
-];
+        'speed' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Defines the number of messages that will be sent per specified time unit.

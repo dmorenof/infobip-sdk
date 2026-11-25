@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class AudioContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mediaUrl',
-];
+        'mediaUrl',
+    ];
 
     protected const array VALIDATION = [
-    'mediaUrl' => [
-        'minLength' => 1,
-        'maxLength' => 2048,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'mediaUrl' => [
+            'minLength' => 1,
+            'maxLength' => 2048,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * URL of an audio sent in a WhatsApp message. Must be a valid URL starting with `https://` or `http://`. Supported audio types are `AAC`, `AMR`, `MP3`, `MP4`, `OPUS`. Maximum audio size is 16MB.

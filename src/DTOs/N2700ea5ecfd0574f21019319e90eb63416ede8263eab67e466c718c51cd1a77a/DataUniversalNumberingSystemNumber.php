@@ -12,14 +12,13 @@ final class DataUniversalNumberingSystemNumber extends \InfobipSDK\DTOs\N2700ea5
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'id' => [
-        'minLength' => 9,
-        'maxLength' => 9,
-        'pattern' => '\\d{9}',
-    ],
-];
+        'id' => [
+            'minLength' => 9,
+            'maxLength' => 9,
+            'pattern' => '\\d{9}',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

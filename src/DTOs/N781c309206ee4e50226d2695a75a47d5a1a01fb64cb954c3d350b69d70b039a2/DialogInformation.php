@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N781c309206ee4e50226d2695a75a47d5a1a01fb64cb954c3d350b
 final class DialogInformation extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'name',
-];
+        'id',
+        'name',
+    ];
 
     /**
      * Format: int64

@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896
 final class SimSwapRequestDto extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'period' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'period' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * If SIM swap attribute is included it will be verified with MNO allowed hour period.

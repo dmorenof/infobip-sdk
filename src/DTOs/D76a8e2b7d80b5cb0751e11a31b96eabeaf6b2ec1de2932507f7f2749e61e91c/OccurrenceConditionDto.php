@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\D76a8e2b7d80b5cb0751e11a31b96eabeaf6b2ec1de2932507f7f2
 final class OccurrenceConditionDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'operation',
-    'times',
-];
+        'operation',
+        'times',
+    ];
 
     protected const array VALIDATION = [
-    'times' => [
-        'format' => 'int32',
-    ],
-];
+        'times' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\Enums\D76a8e2b7d80b5cb0751e11a31b96eabeaf6b2ec1de2932507f7f2749e61e91c\OccurrenceConditionOperation $operation;
     /**

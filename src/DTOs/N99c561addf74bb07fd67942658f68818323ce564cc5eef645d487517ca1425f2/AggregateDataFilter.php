@@ -15,82 +15,82 @@ namespace InfobipSDK\DTOs\N99c561addf74bb07fd67942658f68818323ce564cc5eef645d487
 final class AggregateDataFilter extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'channelCodes',
-    'sentSince',
-    'sentUntil',
-];
+        'channelCodes',
+        'sentSince',
+        'sentUntil',
+    ];
 
     protected const array VALIDATION = [
-    'accountKeys' => [
-        'uniqueItems' => true,
-    ],
-    'campaignReferenceIds' => [
-        'uniqueItems' => true,
-    ],
-    'capabilities' => [
-        'uniqueItems' => true,
-    ],
-    'channelCodes' => [
-        'uniqueItems' => true,
-    ],
-    'communicationIds' => [
-        'uniqueItems' => true,
-    ],
-    'countryIds' => [
-        'uniqueItems' => true,
-    ],
-    'directions' => [
-        'uniqueItems' => true,
-    ],
-    'errorCodes' => [
-        'uniqueItems' => true,
-    ],
-    'errorGroups' => [
-        'uniqueItems' => true,
-    ],
-    'interactionTypes' => [
-        'uniqueItems' => true,
-    ],
-    'networkIds' => [
-        'uniqueItems' => true,
-    ],
-    'platforms' => [
-        'uniqueItems' => true,
-    ],
-    'senderTypes' => [
-        'uniqueItems' => true,
-    ],
-    'senders' => [
-        'uniqueItems' => true,
-    ],
-    'statusGroups' => [
-        'uniqueItems' => true,
-    ],
-    'statuses' => [
-        'uniqueItems' => true,
-    ],
-    'timeToAnswer' => [
-        'uniqueItems' => true,
-    ],
-    'timeToClickFromDelivered' => [
-        'uniqueItems' => true,
-    ],
-    'timeToClickFromSeen' => [
-        'uniqueItems' => true,
-    ],
-    'timeToDeliver' => [
-        'uniqueItems' => true,
-    ],
-    'timeToOpenFromDelivered' => [
-        'uniqueItems' => true,
-    ],
-    'timeToSeenFromDelivered' => [
-        'uniqueItems' => true,
-    ],
-    'trafficTypes' => [
-        'uniqueItems' => true,
-    ],
-];
+        'accountKeys' => [
+            'uniqueItems' => true,
+        ],
+        'campaignReferenceIds' => [
+            'uniqueItems' => true,
+        ],
+        'capabilities' => [
+            'uniqueItems' => true,
+        ],
+        'channelCodes' => [
+            'uniqueItems' => true,
+        ],
+        'communicationIds' => [
+            'uniqueItems' => true,
+        ],
+        'countryIds' => [
+            'uniqueItems' => true,
+        ],
+        'directions' => [
+            'uniqueItems' => true,
+        ],
+        'errorCodes' => [
+            'uniqueItems' => true,
+        ],
+        'errorGroups' => [
+            'uniqueItems' => true,
+        ],
+        'interactionTypes' => [
+            'uniqueItems' => true,
+        ],
+        'networkIds' => [
+            'uniqueItems' => true,
+        ],
+        'platforms' => [
+            'uniqueItems' => true,
+        ],
+        'senderTypes' => [
+            'uniqueItems' => true,
+        ],
+        'senders' => [
+            'uniqueItems' => true,
+        ],
+        'statusGroups' => [
+            'uniqueItems' => true,
+        ],
+        'statuses' => [
+            'uniqueItems' => true,
+        ],
+        'timeToAnswer' => [
+            'uniqueItems' => true,
+        ],
+        'timeToClickFromDelivered' => [
+            'uniqueItems' => true,
+        ],
+        'timeToClickFromSeen' => [
+            'uniqueItems' => true,
+        ],
+        'timeToDeliver' => [
+            'uniqueItems' => true,
+        ],
+        'timeToOpenFromDelivered' => [
+            'uniqueItems' => true,
+        ],
+        'timeToSeenFromDelivered' => [
+            'uniqueItems' => true,
+        ],
+        'trafficTypes' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      *

@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N322179e48f777ec7fa4be8d16ebc634ba865098b0ae9d513535e1
 final class UploadBody extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'url' => [
-        'pattern' => '',
-    ],
-];
+        'url' => [
+            'pattern' => '',
+        ],
+    ];
 
     /**
      * Base64-encoded audio file content, provided instead of a URL. Max size is 4MB. The accepted file format is mp3.

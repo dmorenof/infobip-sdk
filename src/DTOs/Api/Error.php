@@ -10,24 +10,24 @@ namespace InfobipSDK\DTOs\Api;
 final class Error extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'description',
-    'errorCode',
-    'resources',
-    'violations',
-];
+        'action',
+        'description',
+        'errorCode',
+        'resources',
+        'violations',
+    ];
 
     protected const array VALIDATION = [
-    'action' => [
-        'minLength' => 1,
-    ],
-    'description' => [
-        'minLength' => 1,
-    ],
-    'errorCode' => [
-        'minLength' => 1,
-    ],
-];
+        'action' => [
+            'minLength' => 1,
+        ],
+        'description' => [
+            'minLength' => 1,
+        ],
+        'errorCode' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * An action that should be taken to recover from the error.

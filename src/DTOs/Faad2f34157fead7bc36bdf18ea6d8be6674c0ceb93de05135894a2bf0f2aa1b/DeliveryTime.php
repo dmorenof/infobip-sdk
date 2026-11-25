@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\Faad2f34157fead7bc36bdf18ea6d8be6674c0ceb93de05135894a
 final class DeliveryTime extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'hour' => [
-        'minimum' => 0,
-        'maximum' => 23,
-        'format' => 'int32',
-    ],
-    'minute' => [
-        'minimum' => 0,
-        'maximum' => 59,
-        'format' => 'int32',
-    ],
-];
+        'hour' => [
+            'minimum' => 0,
+            'maximum' => 23,
+            'format' => 'int32',
+        ],
+        'minute' => [
+            'minimum' => 0,
+            'maximum' => 59,
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'hour',
-    'minute',
-];
+        'hour',
+        'minute',
+    ];
 
     /**
      * Hour when the time window opens when used in the `from` property or closes when used in the `to` property.

@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N4171c7b532e904c90fa2d755f583a0120bed3adbb383ab2309fdd
 final class SingleTtsApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'from',
-    'to',
-];
+        'from',
+        'to',
+    ];
 
     /**
      * An audio file can be delivered as a voice message to the recipients. An audio file must be uploaded online, so that the existing URL can be available for file download. Size of the audio file must be below 4 MB. Supported formats of the provided file are mp3 and wav. Our platform needs to have permission to make GET and HEAD HTTP requests on the provided URL. Standard http ports (like 80, 8080, etc.) are advised.

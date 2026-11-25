@@ -82,5 +82,4 @@ final class Queue extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH), $payload, path: ['conversationId' => $conversationId]);
         return $result;
     }
-
 }

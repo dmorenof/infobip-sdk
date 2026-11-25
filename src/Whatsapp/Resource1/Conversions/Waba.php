@@ -17,5 +17,4 @@ final class Waba extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Conversions\Waba::class)->post($payload);
     }
-
 }

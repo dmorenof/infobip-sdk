@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896
 final class SmsFailoverDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'from',
-    'text',
-];
+        'from',
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'validityPeriod' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'validityPeriod' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Message failover sender.

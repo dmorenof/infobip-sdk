@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N5c2cf40bcaa0da78551dad80ceca0bb519c9f9fe84d6b1fad6440
 final class ApplicationResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apns',
-    'applicationCode',
-    'applicationId',
-    'description',
-    'gcm',
-    'name',
-    'registrationsCount',
-];
+        'apns',
+        'applicationCode',
+        'applicationId',
+        'description',
+        'gcm',
+        'name',
+        'registrationsCount',
+    ];
 
     public \InfobipSDK\DTOs\Fc58971973975508c3c8fc4221c7201147a075acf31dce7331f3a874d9fc423d\ApnsData $apns;
     /**

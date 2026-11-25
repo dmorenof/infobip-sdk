@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class RcsRegisterTemplateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'providers',
-];
+        'providers',
+    ];
 
     protected const array VALIDATION = [
-    'providers' => [
-        'minItems' => 1,
-        'uniqueItems' => true,
-    ],
-];
+        'providers' => [
+            'minItems' => 1,
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * List of providers with which the template should be registered. For list of available providers please check [Get RCS template providers](#channels/rcs/rcs-service-management/rcs-template-management/rcs-template-providers) endpoint. Please note that only supported providers with which template has not been registered yet should be used.

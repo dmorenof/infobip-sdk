@@ -17,5 +17,4 @@ final class Report extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Moments\Resource1\Flows\ByCampaignId\Participants\Report::class)->get($campaignId, $params);
     }
-
 }

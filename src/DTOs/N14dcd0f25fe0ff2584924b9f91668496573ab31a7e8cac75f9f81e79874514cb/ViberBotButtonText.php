@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N14dcd0f25fe0ff2584924b9f91668496573ab31a7e8cac75f9f81
 final class ViberBotButtonText extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'backgroundGradientColor' => [
-        'pattern' => '^[#]([A-Fa-f0-9]{6})$',
-    ],
-    'opacity' => [
-        'minimum' => 0,
-        'maximum' => 100,
-        'format' => 'int32',
-    ],
-];
+        'backgroundGradientColor' => [
+            'pattern' => '^[#]([A-Fa-f0-9]{6})$',
+        ],
+        'opacity' => [
+            'minimum' => 0,
+            'maximum' => 100,
+            'format' => 'int32',
+        ],
+    ];
 
     public string $backgroundGradientColor {
         set {

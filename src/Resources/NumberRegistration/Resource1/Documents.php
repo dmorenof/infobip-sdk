@@ -146,5 +146,4 @@ final class Documents extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_DOCUMENT_ID), path: ['documentId' => $documentId]);
         return $result;
     }
-
 }

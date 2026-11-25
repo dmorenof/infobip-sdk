@@ -7,23 +7,23 @@ namespace InfobipSDK\GetParams\Ccaas\Resource2\ConversationForms;
 final class Forms extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'isDefault' => 'isDefault',
-        'isEnabled' => 'isEnabled',
-        'limit' => 'limit',
-        'orderBy' => 'orderBy',
-        'page' => 'page',
-        'title' => 'title',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'isDefault' => 'isDefault',
+            'isEnabled' => 'isEnabled',
+            'limit' => 'limit',
+            'orderBy' => 'orderBy',
+            'page' => 'page',
+            'title' => 'title',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'limit' => [
-        'maximum' => 999,
-    ],
-];
+        'limit' => [
+            'maximum' => 999,
+        ],
+    ];
 
     public ?string $isDefault;
     public ?string $isEnabled;

@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InThreadAuthenticationReply extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'status',
-];
+        'status',
+    ];
 
     /**
      * Business-scoped passkey hash, present only when status is verified.

@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class RcsTemplateTextContent extends \InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2eb95a84913\RcsTemplateContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'suggestions' => [
-        'minItems' => 0,
-        'maxItems' => 11,
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 2500,
-    ],
-];
+        'suggestions' => [
+            'minItems' => 0,
+            'maxItems' => 11,
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 2500,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

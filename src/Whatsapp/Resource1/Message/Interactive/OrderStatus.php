@@ -17,5 +17,4 @@ final class OrderStatus extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Message\Interactive\OrderStatus::class)->post($payload);
     }
-
 }

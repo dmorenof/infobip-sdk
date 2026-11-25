@@ -14,11 +14,11 @@ class Endpoint extends \Dmorenof\SdkRuntime\DTO
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14.PhoneEndpoint' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\PhoneEndpoint',
-    '2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14.WebRtcEndpoint' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\WebRtcEndpoint',
-    'PHONE' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\PhoneEndpoint',
-    'WEBRTC' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\WebRtcEndpoint',
-];
+        '2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14.PhoneEndpoint' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\PhoneEndpoint',
+        '2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14.WebRtcEndpoint' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\WebRtcEndpoint',
+        'PHONE' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\PhoneEndpoint',
+        'WEBRTC' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\WebRtcEndpoint',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

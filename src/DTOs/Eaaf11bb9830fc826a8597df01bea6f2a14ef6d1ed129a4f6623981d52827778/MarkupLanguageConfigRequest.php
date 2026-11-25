@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\Eaaf11bb9830fc826a8597df01bea6f2a14ef6d1ed129a4f662398
 final class MarkupLanguageConfigRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'httpMethod',
-    'markupUrl',
-    'name',
-];
+        'httpMethod',
+        'markupUrl',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'httpMethod' => [
-        'minLength' => 0,
-        'maxLength' => 10,
-    ],
-    'markupUrl' => [
-        'minLength' => 1,
-    ],
-    'name' => [
-        'minLength' => 1,
-    ],
-];
+        'httpMethod' => [
+            'minLength' => 0,
+            'maxLength' => 10,
+        ],
+        'markupUrl' => [
+            'minLength' => 1,
+        ],
+        'name' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * URL where error notifications will be sent.

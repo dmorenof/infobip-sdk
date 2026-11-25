@@ -80,5 +80,4 @@ final class ChildCall extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST_BY_CHILD_CALL_ID), $payload, path: $identifier);
         return $result;
     }
-
 }

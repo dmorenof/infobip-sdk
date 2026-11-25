@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class ViberMessageOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'campaignReferenceId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'trackingData' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'campaignReferenceId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'trackingData' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Enables activation check for sensitive messages. When true, validates that the user has not recently activated Viber on any device. If validation passes message will be sent only to the end user's [primary device](https://www.infobip.com/docs/viber/business-messages/api) (phone or tablet). Supported for text only content type. This feature must be enabled for the sender beforehand. Please contact support to arrange activation.

@@ -11,29 +11,29 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class HoldConfigWithQueuesApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'queueIds',
-];
+        'name',
+        'queueIds',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'default' => 'default_',
-];
+        'default' => 'default_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'default_' => 'default',
-];
+        'default_' => 'default',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 128,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 128,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'createdAt',
-    'id',
-    'updatedAt',
-];
+        'createdAt',
+        'id',
+        'updatedAt',
+    ];
 
     public \InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469051f8b8866\FileOrTtsAudioSourceWithRepeatIntervalApiModel $announcementMessage;
     /**

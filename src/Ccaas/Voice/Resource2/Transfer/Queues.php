@@ -16,5 +16,4 @@ final class Queues extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\Transfer\Queues::class)->get($params);
     }
-
 }

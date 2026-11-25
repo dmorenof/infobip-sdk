@@ -151,5 +151,4 @@ final class Users extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::POST), $payload, path: ['audienceId' => $audienceId]);
         return $result;
     }
-
 }

@@ -336,5 +336,4 @@ final class Templates extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH_BY_TEMPLATE_ID), $payload, path: $identifier);
         return $result;
     }
-
 }

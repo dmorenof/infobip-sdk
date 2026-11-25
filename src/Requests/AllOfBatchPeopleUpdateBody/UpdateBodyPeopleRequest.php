@@ -8,5 +8,4 @@ final class UpdateBodyPeopleRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public \InfobipSDK\Requests\AllOfBatchPeopleUpdateBody\PeopleItem\PeopleItemQueryRequest $query;
     public \InfobipSDK\Requests\AllOfBatchPeopleUpdateBody\PeopleItem\PeopleItemUpdateRequest $update;
-
 }

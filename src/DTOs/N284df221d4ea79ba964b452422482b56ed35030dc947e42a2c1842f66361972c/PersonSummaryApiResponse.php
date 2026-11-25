@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c184
 final class PersonSummaryApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'facts',
-    'summary',
-];
+        'createdAt',
+        'facts',
+        'summary',
+    ];
 
     /**
      * Timestamp (UTC, ISO-8601) when this summary was generated and persisted.

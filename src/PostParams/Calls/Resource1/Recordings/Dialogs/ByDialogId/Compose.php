@@ -7,12 +7,12 @@ namespace InfobipSDK\PostParams\Calls\Resource1\Recordings\Dialogs\ByDialogId;
 final class Compose extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'location' => 'location',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'location' => 'location',
+        ],
+        'header' => [],
+    ];
 
     public const bool OPERATION_BODY = true;
 

@@ -17,5 +17,4 @@ final class CallPermissionRequest extends \InfobipSDK\InfobipOpenAPISpecificatio
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Message\Interactive\CallPermissionRequest::class)->post($payload);
     }
-
 }

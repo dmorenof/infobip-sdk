@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class EmailUrlOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'trackingUrl' => [
-        'pattern' => '',
-    ],
-];
+        'trackingUrl' => [
+            'pattern' => '',
+        ],
+    ];
 
     /**
      * Enable or disable open and click tracking. Passing true will only enable tracking and the statistics will be visible in the web interface alone. This can be explicitly overridden by `trackClicks` and `trackOpens`.

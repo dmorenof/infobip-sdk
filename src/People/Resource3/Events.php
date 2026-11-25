@@ -20,5 +20,4 @@ final class Events extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         self::client()->resource(\InfobipSDK\Resources\People\Resource3\Events::class)->post($payload);
     }
-
 }

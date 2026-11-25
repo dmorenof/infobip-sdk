@@ -13,8 +13,8 @@ namespace InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82
 final class UseConversations extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'enabled',
-];
+        'enabled',
+    ];
 
     /**
      * Flag which indicates if this action should be enabled. If set to false, the effect will be the same as adding the conversations to unset which will remove the object.

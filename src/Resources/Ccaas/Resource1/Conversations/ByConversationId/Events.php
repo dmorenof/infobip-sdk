@@ -70,5 +70,4 @@ final class Events extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::POST), $payload, path: ['conversationId' => $conversationId]);
         return;
     }
-
 }

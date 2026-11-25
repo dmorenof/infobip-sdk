@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc95
 final class CatalogRecordListItemResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'name',
-    'scope',
-    'tags',
-    'type',
-];
+        'id',
+        'name',
+        'scope',
+        'tags',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'tags' => [
-        'uniqueItems' => true,
-    ],
-];
+        'tags' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     public \InfobipSDK\Enums\N09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc9563fd721f1ed\ContentSource $contentSource;
     /**

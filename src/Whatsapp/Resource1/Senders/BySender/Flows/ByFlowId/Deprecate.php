@@ -17,5 +17,4 @@ final class Deprecate extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\Flows\ByFlowId\Deprecate::class)->post($identifier);
     }
-
 }

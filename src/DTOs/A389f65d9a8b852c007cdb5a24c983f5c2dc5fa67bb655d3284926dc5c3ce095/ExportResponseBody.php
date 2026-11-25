@@ -10,12 +10,12 @@ namespace InfobipSDK\DTOs\A389f65d9a8b852c007cdb5a24c983f5c2dc5fa67bb655d3284926
 final class ExportResponseBody extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'requestId',
-];
+        'requestId',
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'requestId',
-];
+        'requestId',
+    ];
 
     /**
      * Event export request ID.

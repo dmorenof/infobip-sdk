@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\N4811a3a9108d5f90b8934012403f954f20270c436bdecbc318a80
 final class ConferenceSayRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'language',
-    'text',
-];
+        'language',
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'loopCount' => [
-        'format' => 'int32',
-    ],
-    'speechRate' => [
-        'minimum' => 0.5,
-        'maximum' => 2,
-    ],
-];
+        'loopCount' => [
+            'format' => 'int32',
+        ],
+        'speechRate' => [
+            'minimum' => 0.5,
+            'maximum' => 2,
+        ],
+    ];
 
     /**
      * Text language. Must be defined for correct pronunciation. More info about available languages and voices can be found [here](https://www.infobip.com/docs/voice-and-video/getting-started#text-to-speech-add-ons-and-options).

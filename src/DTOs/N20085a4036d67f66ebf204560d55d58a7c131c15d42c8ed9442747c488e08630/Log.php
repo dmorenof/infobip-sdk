@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class Log extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'smsCount' => [
-        'format' => 'int32',
-    ],
-];
+        'smsCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'bulkId',
-    'doneAt',
-    'from',
-    'mccMnc',
-    'messageId',
-    'sentAt',
-    'smsCount',
-    'text',
-    'to',
-];
+        'bulkId',
+        'doneAt',
+        'from',
+        'mccMnc',
+        'messageId',
+        'sentAt',
+        'smsCount',
+        'text',
+        'to',
+    ];
 
     /**
      * Application id used to send the message. For more details, see our [documentation](https://www.infobip.com/docs/cpaas-x/application-and-entity-management).

@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class UrlAudioContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fileUrl',
-    'type',
-];
+        'fileUrl',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'fileUrl' => [
-        'minLength' => 1,
-    ],
-];
+        'fileUrl' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Audio file URL.

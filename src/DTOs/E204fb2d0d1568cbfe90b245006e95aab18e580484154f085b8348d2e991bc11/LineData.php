@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class LineData extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'validityPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'validityPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'duration',
-    'packageId',
-    'stickerId',
-    'text',
-    'thumbnailUrl',
-    'url',
-    'validityPeriod',
-];
+        'duration',
+        'packageId',
+        'stickerId',
+        'text',
+        'thumbnailUrl',
+        'url',
+        'validityPeriod',
+    ];
 
     public string $altText;
     public \InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348d2e991bc11\FlexContainer $contents;

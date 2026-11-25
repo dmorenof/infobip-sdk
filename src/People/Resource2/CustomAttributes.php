@@ -52,5 +52,4 @@ final class CustomAttributes extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource2\CustomAttributes::class)->getByName($name);
     }
-
 }

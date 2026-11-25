@@ -10,73 +10,73 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class PublicCompanyBrand extends \InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\Brand
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'type',
-    'website',
-];
+        'name',
+        'type',
+        'website',
+    ];
 
     protected const array VALIDATION = [
-    'businessContactEmail' => [
-        'minLength' => 5,
-        'maxLength' => 100,
-    ],
-    'businessContactFirstName' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'businessContactLastName' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'businessDBA' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-    'countryCode' => [
-        'minLength' => 1,
-        'maxLength' => 2,
-    ],
-    'legalName' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'referenceId' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'stockSymbol' => [
-        'minLength' => 1,
-        'maxLength' => 10,
-    ],
-    'supportPhone' => [
-        'minLength' => 3,
-        'maxLength' => 16,
-        'pattern' => '\\+?[1-9]\\d{1,14}',
-    ],
-    'taxId' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'taxIdIssuingCountry' => [
-        'minLength' => 1,
-        'maxLength' => 2,
-    ],
-    'website' => [
-        'minLength' => 11,
-        'maxLength' => 100,
-        'pattern' => '',
-    ],
-];
+        'businessContactEmail' => [
+            'minLength' => 5,
+            'maxLength' => 100,
+        ],
+        'businessContactFirstName' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'businessContactLastName' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'businessDBA' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+        'countryCode' => [
+            'minLength' => 1,
+            'maxLength' => 2,
+        ],
+        'legalName' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'referenceId' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'stockSymbol' => [
+            'minLength' => 1,
+            'maxLength' => 10,
+        ],
+        'supportPhone' => [
+            'minLength' => 3,
+            'maxLength' => 16,
+            'pattern' => '\\+?[1-9]\\d{1,14}',
+        ],
+        'taxId' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'taxIdIssuingCountry' => [
+            'minLength' => 1,
+            'maxLength' => 2,
+        ],
+        'website' => [
+            'minLength' => 11,
+            'maxLength' => 100,
+            'pattern' => '',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'createdDate',
-    'id',
-    'lastModifiedDate',
-];
+        'createdDate',
+        'id',
+        'lastModifiedDate',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

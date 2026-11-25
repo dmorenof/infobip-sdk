@@ -300,5 +300,4 @@ final class Lists extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_LIST_NAME), path: ['listName' => $listName], parameters: $params);
         return $result;
     }
-
 }

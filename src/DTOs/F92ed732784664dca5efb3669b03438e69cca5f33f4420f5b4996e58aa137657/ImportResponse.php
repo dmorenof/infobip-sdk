@@ -11,8 +11,8 @@ namespace InfobipSDK\DTOs\F92ed732784664dca5efb3669b03438e69cca5f33f4420f5b4996e
 final class ImportResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'resourceId',
-];
+        'resourceId',
+    ];
 
     /**
      * SaaS resource identifier.

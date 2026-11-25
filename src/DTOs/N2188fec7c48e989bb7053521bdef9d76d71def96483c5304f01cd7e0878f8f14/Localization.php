@@ -14,11 +14,11 @@ class Localization extends \Dmorenof\SdkRuntime\DTO
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14.BrowserDetectedLocalization' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\BrowserDetectedLocalization',
-    '2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14.PresetLocalization' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\PresetLocalization',
-    'BROWSER_DETECTED' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\BrowserDetectedLocalization',
-    'PRESET' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\PresetLocalization',
-];
+        '2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14.BrowserDetectedLocalization' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\BrowserDetectedLocalization',
+        '2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14.PresetLocalization' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\PresetLocalization',
+        'BROWSER_DETECTED' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\BrowserDetectedLocalization',
+        'PRESET' => 'InfobipSDK\\DTOs\\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\\PresetLocalization',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class Address extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'city' => [
-        'minLength' => 1,
-        'maxLength' => 50,
-    ],
-    'state' => [
-        'minLength' => 1,
-        'maxLength' => 20,
-    ],
-    'street' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'zipCode' => [
-        'minLength' => 1,
-        'maxLength' => 10,
-    ],
-];
+        'city' => [
+            'minLength' => 1,
+            'maxLength' => 50,
+        ],
+        'state' => [
+            'minLength' => 1,
+            'maxLength' => 20,
+        ],
+        'street' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'zipCode' => [
+            'minLength' => 1,
+            'maxLength' => 10,
+        ],
+    ];
 
     /**
      * The city in which the brand is located.

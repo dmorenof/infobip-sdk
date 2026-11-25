@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageFlowActionPayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'screen',
-];
+        'screen',
+    ];
 
     protected const array VALIDATION = [
-    'screen' => [
-        'minLength' => 1,
-    ],
-];
+        'screen' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Input data for first screen of the flow. Must be a non-empty object.

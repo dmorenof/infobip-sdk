@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'correlationData' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-];
+        'correlationData' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * If channel does not fully support message to be sent, we will try to map it as best effort. This is default behavior, even if this option is not specified.

@@ -11,20 +11,20 @@ namespace InfobipSDK\DTOs\N0a37b8c521b3309d1bbd0669d19fc7f2f157d68a68747b5e7ad23
 final class OpenChannelMessageRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'destination',
-    'sender',
-];
+        'content',
+        'destination',
+        'sender',
+    ];
 
     protected const array VALIDATION = [
-    'destination' => [
-        'minLength' => 1,
-    ],
-    'sender' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'destination' => [
+            'minLength' => 1,
+        ],
+        'sender' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N0a37b8c521b3309d1bbd0669d19fc7f2f157d68a68747b5e7ad23e5b0f5e47e8\OpenChannelMessageContent $content;
     /**

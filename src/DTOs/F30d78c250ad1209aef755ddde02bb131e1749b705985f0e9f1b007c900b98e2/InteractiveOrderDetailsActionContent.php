@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveOrderDetailsActionContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'order',
-    'orderCurrency',
-    'orderType',
-    'payment',
-    'totalAmount',
-];
+        'order',
+        'orderCurrency',
+        'orderType',
+        'payment',
+        'totalAmount',
+    ];
 
     protected const array VALIDATION = [
-    'paymentConfiguration' => [
-        'minLength' => 1,
-        'maxLength' => 60,
-    ],
-];
+        'paymentConfiguration' => [
+            'minLength' => 1,
+            'maxLength' => 60,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\InteractiveOrderDetailsOrder $order;
     public \InfobipSDK\Enums\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\OrderCurrency $orderCurrency;

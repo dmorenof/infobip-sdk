@@ -12,11 +12,11 @@ final class OptInCarouselFacebookTemplatePayload extends \InfobipSDK\DTOs\N747c7
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'elements' => [
-        'minItems' => 1,
-        'maxItems' => 5,
-    ],
-];
+        'elements' => [
+            'minItems' => 1,
+            'maxItems' => 5,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

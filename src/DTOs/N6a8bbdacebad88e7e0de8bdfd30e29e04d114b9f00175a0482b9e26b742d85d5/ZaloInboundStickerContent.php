@@ -12,13 +12,13 @@ final class ZaloInboundStickerContent extends \InfobipSDK\DTOs\N6a8bbdacebad88e7
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'id' => [
-        'minLength' => 1,
-    ],
-    'url' => [
-        'minLength' => 1,
-    ],
-];
+        'id' => [
+            'minLength' => 1,
+        ],
+        'url' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

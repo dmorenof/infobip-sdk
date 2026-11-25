@@ -143,5 +143,4 @@ final class Push extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PATCH_BY_PUSH_REG_ID), path: ['pushRegId' => $pushRegId], parameters: $params);
         return $result;
     }
-
 }

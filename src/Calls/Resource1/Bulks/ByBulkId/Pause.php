@@ -16,5 +16,4 @@ final class Pause extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Bulks\ByBulkId\Pause::class)->post($bulkId);
     }
-
 }

@@ -16,5 +16,4 @@ final class Status extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Peopleevents\Resource1\Export\Status::class)->getByRequestId($requestId);
     }
-
 }

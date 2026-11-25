@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class AppleMfbInboundQuickReplyContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'requestIdentifier' => [
-        'minLength' => 1,
-    ],
-];
+        'requestIdentifier' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341eaf73842f14\Context $context;
     public \InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341eaf73842f14\QuickReplySelectedItem $quickReplySelectedItem;

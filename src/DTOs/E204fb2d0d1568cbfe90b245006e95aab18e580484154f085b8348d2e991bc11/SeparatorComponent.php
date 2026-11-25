@@ -12,10 +12,10 @@ final class SeparatorComponent extends \InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'color' => [
-        'pattern' => '^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$',
-    ],
-];
+        'color' => [
+            'pattern' => '^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$',
+        ],
+    ];
 
     public string $color {
         set {

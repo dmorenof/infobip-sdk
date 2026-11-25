@@ -16,5 +16,4 @@ final class Export extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Saas\Resource1\ByResourceType\ByResourceId\Export::class)->get($identifier);
     }
-
 }

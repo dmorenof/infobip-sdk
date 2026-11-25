@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c184
 class ApiPersonIdentifier extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '284df221d4ea79ba964b452422482b56ed35030dc947e42a2c1842f66361972c.ApiPersonIdIdentifier' => 'InfobipSDK\\DTOs\\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c1842f66361972c\\ApiPersonIdIdentifier',
-    'PERSON_ID' => 'InfobipSDK\\DTOs\\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c1842f66361972c\\ApiPersonIdIdentifier',
-];
+        '284df221d4ea79ba964b452422482b56ed35030dc947e42a2c1842f66361972c.ApiPersonIdIdentifier' => 'InfobipSDK\\DTOs\\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c1842f66361972c\\ApiPersonIdIdentifier',
+        'PERSON_ID' => 'InfobipSDK\\DTOs\\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c1842f66361972c\\ApiPersonIdIdentifier',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class TemplateCopyCodeButtonContent extends \InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b007c900b98e2\TemplateButtonContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'parameter' => [
-        'minLength' => 1,
-        'maxLength' => 20,
-        'pattern' => '^[a-z0-9A-Z]*$',
-    ],
-];
+        'parameter' => [
+            'minLength' => 1,
+            'maxLength' => 20,
+            'pattern' => '^[a-z0-9A-Z]*$',
+        ],
+    ];
 
     /**
      * Code.

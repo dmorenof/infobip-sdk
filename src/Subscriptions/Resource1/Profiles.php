@@ -60,5 +60,4 @@ final class Profiles extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Subscriptions\Resource1\Profiles::class)->putByProfileId($profileId, $payload);
     }
-
 }

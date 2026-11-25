@@ -12,24 +12,24 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class OpenUrlSuggestion extends \InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a7147d79f50d62\Suggestion
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'postbackData' => [
-        'minLength' => 1,
-        'maxLength' => 2024,
-    ],
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 25,
-    ],
-    'url' => [
-        'minLength' => 1,
-        'maxLength' => 2048,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'postbackData' => [
+            'minLength' => 1,
+            'maxLength' => 2024,
+        ],
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 25,
+        ],
+        'url' => [
+            'minLength' => 1,
+            'maxLength' => 2048,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

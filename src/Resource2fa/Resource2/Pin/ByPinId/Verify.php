@@ -20,5 +20,4 @@ final class Verify extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         return self::client()->resource(\InfobipSDK\Resources\Resource2fa\Resource2\Pin\ByPinId\Verify::class)->post($pinId, $payload);
     }
-
 }

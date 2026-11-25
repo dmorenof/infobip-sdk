@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class SendSmsData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'from',
-    'text',
-    'to',
-];
+        'from',
+        'text',
+        'to',
+    ];
 
     /**
      * Represents sender ID and it can be alphanumeric or numeric; alphanumeric sender ID length should be between 3 and 11 characters; numeric sender ID length should be between 3 and 14 characters; the parameter can be constructed using variables

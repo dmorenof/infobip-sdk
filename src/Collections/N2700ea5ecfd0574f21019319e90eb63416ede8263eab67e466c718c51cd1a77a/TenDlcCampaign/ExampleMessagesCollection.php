@@ -8,7 +8,7 @@ final class ExampleMessagesCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = 'string';
     protected const array ITEM_VALIDATION = [
-    'minLength' => 20,
-    'maxLength' => 320,
-];
+        'minLength' => 20,
+        'maxLength' => 320,
+    ];
 }

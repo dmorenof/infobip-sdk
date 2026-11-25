@@ -71,5 +71,4 @@ final class Reject extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: $identifier);
         return $result;
     }
-
 }

@@ -10,18 +10,18 @@ namespace InfobipSDK\DTOs\N39bb6975d36d214ea076d974c69ec0b82edda805f4c6bf36a3f6f
 final class Attachment extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-];
+        'id',
+    ];
 
     protected const array VALIDATION = [
-    'size' => [
-        'format' => 'int32',
-    ],
-];
+        'size' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'size',
-];
+        'size',
+    ];
 
     /**
      * Content type of the attachment.

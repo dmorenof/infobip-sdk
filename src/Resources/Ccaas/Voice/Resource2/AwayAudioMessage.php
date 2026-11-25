@@ -127,5 +127,4 @@ final class AwayAudioMessage extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_WORKING_HOURS_CONFIG_ID), path: ['workingHoursConfigId' => $workingHoursConfigId]);
         return $result;
     }
-
 }

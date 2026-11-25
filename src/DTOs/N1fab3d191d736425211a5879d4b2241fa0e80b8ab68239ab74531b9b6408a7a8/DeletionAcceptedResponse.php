@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N1fab3d191d736425211a5879d4b2241fa0e80b8ab68239ab74531
 final class DeletionAcceptedResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-];
+        'message',
+    ];
 
     /**
      * `bulkId` of messages that you request to delete.

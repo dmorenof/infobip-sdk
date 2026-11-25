@@ -27,5 +27,4 @@ final class PublicKey extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Zalo\Resource1\Sender\BySender\PublicKey::class)->post($sender);
     }
-
 }

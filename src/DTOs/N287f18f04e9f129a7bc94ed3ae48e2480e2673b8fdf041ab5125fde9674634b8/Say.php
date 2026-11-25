@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class Say extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'text',
-];
+        'action',
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'loopCount' => [
-        'minimum' => 1,
-        'format' => 'int32',
-    ],
-    'speechRate' => [
-        'minimum' => 0.5,
-        'maximum' => 2,
-    ],
-    'text' => [
-        'minLength' => 1,
-    ],
-];
+        'loopCount' => [
+            'minimum' => 1,
+            'format' => 'int32',
+        ],
+        'speechRate' => [
+            'minimum' => 0.5,
+            'maximum' => 2,
+        ],
+        'text' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Action discriminator.

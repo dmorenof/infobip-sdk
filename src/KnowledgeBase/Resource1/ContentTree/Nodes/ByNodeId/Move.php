@@ -16,5 +16,4 @@ final class Move extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\KnowledgeBase\Resource1\ContentTree\Nodes\ByNodeId\Move::class)->post($nodeId, $payload);
     }
-
 }

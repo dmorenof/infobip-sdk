@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class FileAudioContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fileId',
-    'type',
-];
+        'fileId',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'fileId' => [
-        'minLength' => 1,
-    ],
-];
+        'fileId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * ID of uploaded file.

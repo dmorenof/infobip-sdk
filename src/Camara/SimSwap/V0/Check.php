@@ -16,5 +16,4 @@ final class Check extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Camara\SimSwap\V0\Check::class)->post($payload);
     }
-
 }

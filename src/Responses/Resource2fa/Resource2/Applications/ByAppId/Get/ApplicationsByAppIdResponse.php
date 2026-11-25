@@ -7,11 +7,11 @@ namespace InfobipSDK\Responses\Resource2fa\Resource2\Applications\ByAppId\Get;
 final class ApplicationsByAppIdResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'applicationId',
-    'configuration',
-    'enabled',
-    'name',
-];
+        'applicationId',
+        'configuration',
+        'enabled',
+        'name',
+    ];
 
     /**
      * The ID of the application that represents your service, e.g. 2FA for login, 2FA for changing the password, etc.

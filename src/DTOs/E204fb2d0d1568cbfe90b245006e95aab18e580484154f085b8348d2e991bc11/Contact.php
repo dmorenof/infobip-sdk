@@ -10,22 +10,22 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class Contact extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'birthday' => [
-        'pattern' => '([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))',
-    ],
-];
+        'birthday' => [
+            'pattern' => '([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'addresses',
-    'birthday',
-    'emails',
-    'phones',
-    'urls',
-];
+        'addresses',
+        'birthday',
+        'emails',
+        'phones',
+        'urls',
+    ];
 
     /**
      * Address information.

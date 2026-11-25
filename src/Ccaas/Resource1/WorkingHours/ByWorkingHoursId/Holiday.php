@@ -30,5 +30,4 @@ final class Holiday extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\WorkingHours\ByWorkingHoursId\Holiday::class)->deleteById($identifier);
     }
-
 }

@@ -49,5 +49,4 @@ final class Nodes extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\KnowledgeBase\Resource1\ContentTree\Nodes::class)->putByNodeId($nodeId, $payload);
     }
-
 }

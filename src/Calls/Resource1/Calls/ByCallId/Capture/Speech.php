@@ -16,5 +16,4 @@ final class Speech extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Calls\ByCallId\Capture\Speech::class)->post($callId, $payload);
     }
-
 }

@@ -53,5 +53,4 @@ final class Flows extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Senders\BySender\Flows::class)->patchByFlowId($identifier, $payload);
     }
-
 }

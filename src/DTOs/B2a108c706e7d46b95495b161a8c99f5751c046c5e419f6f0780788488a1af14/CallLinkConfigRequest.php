@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\B2a108c706e7d46b95495b161a8c99f5751c046c5e419f6f078078
 final class CallLinkConfigRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\CallOptions $callOptions;
     public \InfobipSDK\DTOs\N2188fec7c48e989bb7053521bdef9d76d71def96483c5304f01cd7e0878f8f14\InitialOptions $initialOptions;

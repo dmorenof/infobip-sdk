@@ -7,29 +7,29 @@ namespace InfobipSDK\GetParams\NumberRegistration\Resource1\Brands\ByBrandId;
 final class Vets extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'page' => 'page',
-        'size' => 'size',
-        'sort' => 'sort',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'page' => 'page',
+            'size' => 'size',
+            'sort' => 'sort',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'format' => 'int32',
-    ],
-    'size' => [
-        'format' => 'int32',
-    ],
-    'sort' => [
-        'items' => [
-            'type' => 'string',
-            'rules' => [],
+        'page' => [
+            'format' => 'int32',
         ],
-    ],
-];
+        'size' => [
+            'format' => 'int32',
+        ],
+        'sort' => [
+            'items' => [
+                'type' => 'string',
+                'rules' => [],
+            ],
+        ],
+    ];
 
     public ?int $page {
         set {

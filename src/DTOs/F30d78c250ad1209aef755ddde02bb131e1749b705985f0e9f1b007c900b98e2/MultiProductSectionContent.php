@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class MultiProductSectionContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'productRetailerIds',
-    'title',
-];
+        'productRetailerIds',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'productRetailerIds' => [
-        'minItems' => 1,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 24,
-    ],
-];
+        'productRetailerIds' => [
+            'minItems' => 1,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 24,
+        ],
+    ];
 
     /**
      * An array of product-unique identifiers as defined in the [catalog](https://www.infobip.com/docs/whatsapp/manage-integration#enable-meta-catalog-for-product-based-messaging). If product retailer ID doesn't exist in your catalog, the product won't be displayed.

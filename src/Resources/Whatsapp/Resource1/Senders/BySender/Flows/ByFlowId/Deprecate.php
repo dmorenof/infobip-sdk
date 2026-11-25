@@ -81,5 +81,4 @@ final class Deprecate extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::POST), path: $identifier);
         return;
     }
-
 }

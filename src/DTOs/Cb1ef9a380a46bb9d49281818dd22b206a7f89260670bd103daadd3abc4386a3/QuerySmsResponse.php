@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\Cb1ef9a380a46bb9d49281818dd22b206a7f89260670bd103daadd
 final class QuerySmsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'bulkId',
-    'messages',
-];
+        'bulkId',
+        'messages',
+    ];
 
     /**
      * The ID that uniquely identifies the request. Bulk ID will be received only when a message is sent to more than one destination address.

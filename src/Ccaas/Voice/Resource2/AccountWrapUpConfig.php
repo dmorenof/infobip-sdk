@@ -27,5 +27,4 @@ final class AccountWrapUpConfig extends \InfobipSDK\InfobipOpenAPISpecificationS
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\AccountWrapUpConfig::class)->put($payload);
     }
-
 }

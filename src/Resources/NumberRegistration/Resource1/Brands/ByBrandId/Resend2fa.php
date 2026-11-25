@@ -74,5 +74,4 @@ final class Resend2fa extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::POST), path: ['brandId' => $brandId]);
         return;
     }
-
 }

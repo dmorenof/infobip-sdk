@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class AltUri extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'desktop' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'desktop' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     /**
      * URI opened on desktop clients.

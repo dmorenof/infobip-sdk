@@ -15,49 +15,49 @@ namespace InfobipSDK\DTOs\N99c561addf74bb07fd67942658f68818323ce564cc5eef645d487
 final class BillingUsageDataFilter extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dateInterval',
-];
+        'dateInterval',
+    ];
 
     protected const array VALIDATION = [
-    'accountKeys' => [
-        'uniqueItems' => true,
-    ],
-    'campaignIds' => [
-        'uniqueItems' => true,
-    ],
-    'campaignReferenceIds' => [
-        'uniqueItems' => true,
-    ],
-    'categories' => [
-        'uniqueItems' => true,
-        'jsonSchema' => '{"enum":["AGENTOS","AI","APPLE_MB","CARRIER_LOOKUP","EMAIL","EMAIL_VALIDATION","KAKAO","LIVE_CHAT","MMS","MMS_OPERATOR_FEE","MOBILE_PUSH","NUMBER_LOOKUP","OPEN_CHANNEL","RCS","RCS_OPERATOR_FEE","SMS","SMS_OPERATOR_FEE","VIBER","VOICE_VIDEO","WHATSAPP"]}',
-    ],
-    'countryCodes' => [
-        'uniqueItems' => true,
-    ],
-    'directions' => [
-        'uniqueItems' => true,
-    ],
-    'platforms' => [
-        'uniqueItems' => true,
-    ],
-    'senderTypes' => [
-        'uniqueItems' => true,
-    ],
-    'senders' => [
-        'uniqueItems' => true,
-    ],
-    'subCategories' => [
-        'uniqueItems' => true,
-        'jsonSchema' => '{"enum":["AUDIO_STREAMING","CONFERENCING","FLASH","KAKAO_A","KAKAO_B","KAKAO_S","MISSED_CALL","NEURAL_TEXT_TO_SPEECH","PHONE","RECORDING_STORAGE","SPEECH_CAPTURE","SPEECH_TRANSCRIPTION","VIBER_BC","VIBER_BM","VIBER_BOTS","VIDEO_COMPOSITION","VOICE_AMD","VOICE_RECORDING","WEBRTC","WHATSAPP_BC"]}',
-    ],
-    'templateIds' => [
-        'uniqueItems' => true,
-    ],
-    'trafficTypes' => [
-        'uniqueItems' => true,
-    ],
-];
+        'accountKeys' => [
+            'uniqueItems' => true,
+        ],
+        'campaignIds' => [
+            'uniqueItems' => true,
+        ],
+        'campaignReferenceIds' => [
+            'uniqueItems' => true,
+        ],
+        'categories' => [
+            'uniqueItems' => true,
+            'jsonSchema' => '{"enum":["AGENTOS","AI","APPLE_MB","CARRIER_LOOKUP","EMAIL","EMAIL_VALIDATION","KAKAO","LIVE_CHAT","MMS","MMS_OPERATOR_FEE","MOBILE_PUSH","NUMBER_LOOKUP","OPEN_CHANNEL","RCS","RCS_OPERATOR_FEE","SMS","SMS_OPERATOR_FEE","VIBER","VOICE_VIDEO","WHATSAPP"]}',
+        ],
+        'countryCodes' => [
+            'uniqueItems' => true,
+        ],
+        'directions' => [
+            'uniqueItems' => true,
+        ],
+        'platforms' => [
+            'uniqueItems' => true,
+        ],
+        'senderTypes' => [
+            'uniqueItems' => true,
+        ],
+        'senders' => [
+            'uniqueItems' => true,
+        ],
+        'subCategories' => [
+            'uniqueItems' => true,
+            'jsonSchema' => '{"enum":["AUDIO_STREAMING","CONFERENCING","FLASH","KAKAO_A","KAKAO_B","KAKAO_S","MISSED_CALL","NEURAL_TEXT_TO_SPEECH","PHONE","RECORDING_STORAGE","SPEECH_CAPTURE","SPEECH_TRANSCRIPTION","VIBER_BC","VIBER_BM","VIBER_BOTS","VIDEO_COMPOSITION","VOICE_AMD","VOICE_RECORDING","WEBRTC","WHATSAPP_BC"]}',
+        ],
+        'templateIds' => [
+            'uniqueItems' => true,
+        ],
+        'trafficTypes' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      *

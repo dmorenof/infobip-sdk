@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\N9620629c173fbd1e947e2693ffe57e0c353c3961ef0ef2018c058
 final class CreateFieldApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'title',
-    'type',
-];
+        'title',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-];
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Is field enabled.

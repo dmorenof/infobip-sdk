@@ -13,5 +13,4 @@ final class FillerComponent extends \InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

@@ -7,18 +7,18 @@ namespace InfobipSDK\Responses\Resource2fa\Resource2\Pin\ByPinId\Verify\Post;
 final class ByPinIdVerifyResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'attemptsRemaining' => [
-        'format' => 'int32',
-    ],
-];
+        'attemptsRemaining' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'attemptsRemaining',
-    'msisdn',
-    'pinError',
-    'pinId',
-    'verified',
-];
+        'attemptsRemaining',
+        'msisdn',
+        'pinError',
+        'pinId',
+        'verified',
+    ];
 
     /**
      * Number of remaining PIN attempts.

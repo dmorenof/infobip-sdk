@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N4f883ab7a2c1db442b6865996e0e9f08b46ee1927d7a2c7d45b09
 final class IosPushNotificationConfig extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apnsCertificateFileContent',
-    'apnsCertificateFileName',
-];
+        'apnsCertificateFileContent',
+        'apnsCertificateFileName',
+    ];
 
     /**
      * Base64 encoded content of the P12 APNS certificate file used to enable iOS push notifications.

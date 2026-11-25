@@ -70,5 +70,4 @@ final class Items extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource2\Persons\ByPersonId\Lists\ByListName\Items::class)->putByItemId($identifier, $payload);
     }
-
 }

@@ -16,5 +16,4 @@ final class StartTranscription extends \InfobipSDK\InfobipOpenAPISpecificationSD
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Calls\ByCallId\StartTranscription::class)->post($callId, $payload);
     }
-
 }

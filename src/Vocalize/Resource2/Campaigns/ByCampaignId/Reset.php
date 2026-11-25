@@ -16,5 +16,4 @@ final class Reset extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Vocalize\Resource2\Campaigns\ByCampaignId\Reset::class)->delete($campaignId);
     }
-
 }

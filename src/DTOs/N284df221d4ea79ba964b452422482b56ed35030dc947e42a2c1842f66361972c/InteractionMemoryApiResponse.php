@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\N284df221d4ea79ba964b452422482b56ed35030dc947e42a2c184
 final class InteractionMemoryApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdAt',
-    'facts',
-    'interactionId',
-    'updatedAt',
-];
+        'createdAt',
+        'facts',
+        'interactionId',
+        'updatedAt',
+    ];
 
     /**
      * Timestamp (UTC, ISO-8601) when the memory was first persisted.

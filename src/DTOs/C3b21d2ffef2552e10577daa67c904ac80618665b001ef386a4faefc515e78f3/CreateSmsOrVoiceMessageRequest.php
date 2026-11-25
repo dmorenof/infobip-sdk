@@ -10,27 +10,27 @@ namespace InfobipSDK\DTOs\C3b21d2ffef2552e10577daa67c904ac80618665b001ef386a4fae
 final class CreateSmsOrVoiceMessageRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messageText',
-    'pinType',
-];
+        'messageText',
+        'pinType',
+    ];
 
     protected const array VALIDATION = [
-    'pinLength' => [
-        'format' => 'int32',
-    ],
-];
+        'pinLength' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'language',
-    'messageText',
-    'pinLength',
-    'pinType',
-    'regional',
-    'repeatDTMF',
-    'senderId',
-    'speechRate',
-    'voiceName',
-];
+        'language',
+        'messageText',
+        'pinLength',
+        'pinType',
+        'regional',
+        'repeatDTMF',
+        'senderId',
+        'speechRate',
+        'voiceName',
+    ];
 
     /**
      * Language code which message is written in. This is used when sending text-to-speech messages. More about Text-to-speech functionality and supported TTS languages can be found [here](https://www.infobip.com/docs/voice-and-video/outbound-calls#text-to-speech-voice-over-broadcast). If not set, default language is `English [en]`. If voice is not set, then default voice for that specific language is used. In the case of English language, the voice is `[Joanna]`.

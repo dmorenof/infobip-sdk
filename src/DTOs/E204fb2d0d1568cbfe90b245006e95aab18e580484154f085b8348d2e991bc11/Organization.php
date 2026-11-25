@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class Organization extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'company',
-    'department',
-    'title',
-];
+        'company',
+        'department',
+        'title',
+    ];
 
     /**
      * Company name.

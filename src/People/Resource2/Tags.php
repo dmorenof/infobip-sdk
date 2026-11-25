@@ -52,5 +52,4 @@ final class Tags extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource2\Tags::class)->getByName($name);
     }
-
 }

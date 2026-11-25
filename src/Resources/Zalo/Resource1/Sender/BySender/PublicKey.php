@@ -137,5 +137,4 @@ final class PublicKey extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), path: ['sender' => $sender]);
         return $result;
     }
-
 }

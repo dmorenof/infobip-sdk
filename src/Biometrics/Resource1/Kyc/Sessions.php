@@ -38,5 +38,4 @@ final class Sessions extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Biometrics\Resource1\Kyc\Sessions::class)->post($payload);
     }
-
 }

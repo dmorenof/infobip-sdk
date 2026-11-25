@@ -16,5 +16,4 @@ final class Refresh extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Rcs\Resource1\Senders\BySenderName\TestNumbers\ByTestNumber\Refresh::class)->put($identifier);
     }
-
 }

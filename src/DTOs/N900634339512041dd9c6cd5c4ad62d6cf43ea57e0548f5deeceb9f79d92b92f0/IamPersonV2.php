@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\N900634339512041dd9c6cd5c4ad62d6cf43ea57e0548f5deeceb9
 final class IamPersonV2 extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'tags' => [
-        'uniqueItems' => true,
-    ],
-];
+        'tags' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'computedAttributes',
-    'createdAt',
-    'id',
-    'modifiedAt',
-];
+        'computedAttributes',
+        'createdAt',
+        'id',
+        'modifiedAt',
+    ];
 
     /**
      * Person's title, 50 characters max.

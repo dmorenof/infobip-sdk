@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\C8df889022018062dfcb44e930a391e7e1c8e669bd11a10a717da5
 final class RcsSenderResourceOrderRequestApiDoc extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'countryCode',
-    'requirements',
-    'senderName',
-    'trafficOrigin',
-    'type',
-];
+        'countryCode',
+        'requirements',
+        'senderName',
+        'trafficOrigin',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'additionalContactEmails' => [
-        'minItems' => 0,
-        'maxItems' => 3,
-    ],
-    'senderName' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-];
+        'additionalContactEmails' => [
+            'minItems' => 0,
+            'maxItems' => 3,
+        ],
+        'senderName' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

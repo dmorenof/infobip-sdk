@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\N2be764ef53499e28cc8da8dff3890f0787860aba10984e520352c
 final class Entity extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'entityId',
-];
+        'entityId',
+    ];
 
     protected const array VALIDATION = [
-    'entityId' => [
-        'maxLength' => 255,
-    ],
-    'entityName' => [
-        'maxLength' => 255,
-    ],
-];
+        'entityId' => [
+            'maxLength' => 255,
+        ],
+        'entityName' => [
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * The unique identifier of the entity. This ID will be a URL path parameter. We recommend using values that do not need URL encoding for easier interaction with other API endpoints.

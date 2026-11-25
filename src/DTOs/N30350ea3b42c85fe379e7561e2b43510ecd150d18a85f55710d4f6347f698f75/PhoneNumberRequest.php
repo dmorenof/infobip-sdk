@@ -10,24 +10,24 @@ namespace InfobipSDK\DTOs\N30350ea3b42c85fe379e7561e2b43510ecd150d18a85f55710d4f
 final class PhoneNumberRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'countryCode',
-    'displayName',
-    'locale',
-    'phoneNumber',
-    'type',
-];
+        'countryCode',
+        'displayName',
+        'locale',
+        'phoneNumber',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'countryCode' => [
-        'minLength' => 1,
-    ],
-    'displayName' => [
-        'minLength' => 1,
-    ],
-    'phoneNumber' => [
-        'minLength' => 1,
-    ],
-];
+        'countryCode' => [
+            'minLength' => 1,
+        ],
+        'displayName' => [
+            'minLength' => 1,
+        ],
+        'phoneNumber' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Country code of the phone number.

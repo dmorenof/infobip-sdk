@@ -12,11 +12,11 @@ final class TextAndImageFreeFormMessageDeliveryButton extends \InfobipSDK\DTOs\N
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 14,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 14,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

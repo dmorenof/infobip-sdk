@@ -12,11 +12,11 @@ namespace InfobipSDK\DTOs\C458987719005e1c822046538c51d16d2c79d2de6023cbe1c10ca1
 final class AudioListItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'audioId',
-    'createdAt',
-    'name',
-    'size',
-];
+        'audioId',
+        'createdAt',
+        'name',
+        'size',
+    ];
 
     /**
      * Unique identifier for the audio file. Use this value as audioId when sending a ringless voicemail with content type AUDIO_ID.

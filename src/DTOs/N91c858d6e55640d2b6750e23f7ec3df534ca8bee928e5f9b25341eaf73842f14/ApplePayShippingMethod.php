@@ -12,29 +12,29 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class ApplePayShippingMethod extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'amount',
-    'detail',
-    'identifier',
-    'label',
-];
+        'amount',
+        'detail',
+        'identifier',
+        'label',
+    ];
 
     protected const array VALIDATION = [
-    'amount' => [
-        'minLength' => 1,
-        'pattern' => '^[0-9]+(\\.[0-9][0-9])?$',
-    ],
-    'detail' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'identifier' => [
-        'minLength' => 1,
-    ],
-    'label' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-];
+        'amount' => [
+            'minLength' => 1,
+            'pattern' => '^[0-9]+(\\.[0-9][0-9])?$',
+        ],
+        'detail' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'identifier' => [
+            'minLength' => 1,
+        ],
+        'label' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * The nonnegative cost associated with this shipping method. Must be a number with optional decimal part (exactly 2 digits after decimal point). Examples: '100', '99.99'

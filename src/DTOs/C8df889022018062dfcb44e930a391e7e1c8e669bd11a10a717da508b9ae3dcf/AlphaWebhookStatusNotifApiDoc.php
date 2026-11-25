@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\C8df889022018062dfcb44e930a391e7e1c8e669bd11a10a717da5
 final class AlphaWebhookStatusNotifApiDoc extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'status',
-];
+        'id',
+        'status',
+    ];
 
     /**
      * Additional requirements for this resource request, on top of the requirements returned by the requirements lookup, for example prefilled documents that need your action. Provide them in `requirements` when updating the resource request.

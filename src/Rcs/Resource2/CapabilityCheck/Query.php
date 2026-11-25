@@ -18,5 +18,4 @@ final class Query extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Rcs\Resource2\CapabilityCheck\Query::class)->post($payload);
     }
-
 }

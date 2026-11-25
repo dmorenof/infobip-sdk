@@ -80,5 +80,4 @@ final class Disable extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::POST), path: ['sender' => $sender]);
         return;
     }
-
 }

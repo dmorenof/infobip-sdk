@@ -122,5 +122,4 @@ final class Applications extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_APPLICATION_CODE), path: ['applicationCode' => $applicationCode], parameters: $params);
         return $result;
     }
-
 }

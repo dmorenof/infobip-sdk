@@ -38,5 +38,4 @@ final class AccountRecordingConfig extends \InfobipSDK\InfobipOpenAPISpecificati
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\AccountRecordingConfig::class)->put($payload);
     }
-
 }

@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc95
 final class CommentCreateUpdateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-];
+        'content',
+    ];
 
     protected const array VALIDATION = [
-    'content' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'content' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     /**
      * Content of the comment.

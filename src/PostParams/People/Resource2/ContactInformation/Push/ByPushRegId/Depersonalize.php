@@ -7,15 +7,15 @@ namespace InfobipSDK\PostParams\People\Resource2\ContactInformation\Push\ByPushR
 final class Depersonalize extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'AppCode',
-];
+        'AppCode',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [],
-    'header' => [
-        'AppCode' => 'AppCode',
-    ],
-];
+        'path' => [],
+        'query' => [],
+        'header' => [
+            'AppCode' => 'AppCode',
+        ],
+    ];
 
     public string $AppCode;
 }

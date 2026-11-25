@@ -17,5 +17,4 @@ final class ListResource extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Message\Interactive\ListResource::class)->post($payload);
     }
-
 }

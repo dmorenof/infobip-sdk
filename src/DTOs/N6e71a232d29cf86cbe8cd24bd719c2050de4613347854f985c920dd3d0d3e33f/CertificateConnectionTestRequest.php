@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920
 final class CertificateConnectionTestRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'certificateId',
-    'webhookUrl',
-];
+        'certificateId',
+        'webhookUrl',
+    ];
 
     protected const array VALIDATION = [
-    'certificateId' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-        'pattern' => '^[a-zA-Z0-9._-]+$',
-    ],
-    'webhookUrl' => [
-        'minLength' => 1,
-    ],
-];
+        'certificateId' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+            'pattern' => '^[a-zA-Z0-9._-]+$',
+        ],
+        'webhookUrl' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Existing certificate identifier.

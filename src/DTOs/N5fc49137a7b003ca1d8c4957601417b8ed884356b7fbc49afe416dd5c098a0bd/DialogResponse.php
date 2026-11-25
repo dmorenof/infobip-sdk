@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N5fc49137a7b003ca1d8c4957601417b8ed884356b7fbc49afe416
 final class DialogResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'id' => [
-        'maxLength' => 128,
-    ],
-];
+        'id' => [
+            'maxLength' => 128,
+        ],
+    ];
 
     /**
      * Calls Configuration ID.

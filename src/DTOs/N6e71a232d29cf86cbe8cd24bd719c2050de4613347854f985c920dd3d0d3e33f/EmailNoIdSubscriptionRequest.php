@@ -12,40 +12,40 @@ namespace InfobipSDK\DTOs\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920
 final class EmailNoIdSubscriptionRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'events',
-    'profile',
-];
+        'events',
+        'profile',
+    ];
 
     protected const array VALIDATION = [
-    'criteria' => [
-        'minItems' => 0,
-        'maxItems' => 255,
-    ],
-    'events' => [
-        'minItems' => 0,
-        'maxItems' => 255,
-    ],
-    'keywords' => [
-        'minItems' => 0,
-        'maxItems' => 255,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-    'resources' => [
-        'minItems' => 0,
-        'maxItems' => 255,
-    ],
-    'subscriptionGroupId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'users' => [
-        'minItems' => 0,
-        'maxItems' => 255,
-    ],
-];
+        'criteria' => [
+            'minItems' => 0,
+            'maxItems' => 255,
+        ],
+        'events' => [
+            'minItems' => 0,
+            'maxItems' => 255,
+        ],
+        'keywords' => [
+            'minItems' => 0,
+            'maxItems' => 255,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+        'resources' => [
+            'minItems' => 0,
+            'maxItems' => 255,
+        ],
+        'subscriptionGroupId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'users' => [
+            'minItems' => 0,
+            'maxItems' => 255,
+        ],
+    ];
 
     /**
      * Application and Entity pair to match. You can set the rule to match only Application or only Entity if necessary, omitting the other item.

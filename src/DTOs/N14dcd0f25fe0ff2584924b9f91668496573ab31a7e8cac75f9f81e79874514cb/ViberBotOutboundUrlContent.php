@@ -12,11 +12,11 @@ final class ViberBotOutboundUrlContent extends \InfobipSDK\DTOs\N14dcd0f25fe0ff2
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'url' => [
-        'minLength' => 0,
-        'maxLength' => 2000,
-    ],
-];
+        'url' => [
+            'minLength' => 0,
+            'maxLength' => 2000,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

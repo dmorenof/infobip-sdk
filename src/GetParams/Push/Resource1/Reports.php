@@ -7,14 +7,14 @@ namespace InfobipSDK\GetParams\Push\Resource1;
 final class Reports extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'bulkId' => 'bulkId',
-        'limit' => 'limit',
-        'messageId' => 'messageId',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'bulkId' => 'bulkId',
+            'limit' => 'limit',
+            'messageId' => 'messageId',
+        ],
+        'header' => [],
+    ];
 
     public ?string $bulkId;
     public ?int $limit;

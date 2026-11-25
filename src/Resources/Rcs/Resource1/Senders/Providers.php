@@ -71,5 +71,4 @@ final class Providers extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), parameters: $params);
         return $result;
     }
-
 }

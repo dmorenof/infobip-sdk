@@ -313,5 +313,4 @@ final class Bots extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_BOT_ID), $payload, path: ['botId' => $botId]);
         return $result;
     }
-
 }

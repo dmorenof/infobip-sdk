@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\A8c993b4bcabd2960dfaf3986394e0fe85cd1c09dc98b0a81b5140
 final class PublicDialogRecording extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'dialogId' => [
-        'maxLength' => 128,
-    ],
-];
+        'dialogId' => [
+            'maxLength' => 128,
+        ],
+    ];
 
     /**
      * File(s) with a recording of one dialog participant.

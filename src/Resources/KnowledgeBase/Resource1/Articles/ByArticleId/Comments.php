@@ -285,5 +285,4 @@ final class Comments extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_COMMENT_ID), $payload, path: $identifier);
         return $result;
     }
-
 }

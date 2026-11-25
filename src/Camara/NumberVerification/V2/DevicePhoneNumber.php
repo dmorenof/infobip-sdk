@@ -16,5 +16,4 @@ final class DevicePhoneNumber extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Camara\NumberVerification\V2\DevicePhoneNumber::class)->get($params);
     }
-
 }

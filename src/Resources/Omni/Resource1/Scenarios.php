@@ -284,5 +284,4 @@ final class Scenarios extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_SCENARIO_KEY), $payload, path: ['scenarioKey' => $scenarioKey]);
         return $result;
     }
-
 }

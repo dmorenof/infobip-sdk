@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N450b8e1c5aa2576ea4225d97920eb07c6a588176f5f842cc401b6
 final class IntegrationType extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'integrationType',
-];
+        'integrationType',
+    ];
 
     /**
      * Integration type.

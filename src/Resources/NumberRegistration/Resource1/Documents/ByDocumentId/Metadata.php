@@ -66,5 +66,4 @@ final class Metadata extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['documentId' => $documentId]);
         return $result;
     }
-
 }

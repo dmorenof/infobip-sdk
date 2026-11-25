@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N94dad8b938c4159f751dc1ff0b70e7beab7409955ce0b31399dbe
 final class DtmfSendRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dtmf',
-];
+        'dtmf',
+    ];
 
     /**
      * Optional parameter to update a call's custom data.

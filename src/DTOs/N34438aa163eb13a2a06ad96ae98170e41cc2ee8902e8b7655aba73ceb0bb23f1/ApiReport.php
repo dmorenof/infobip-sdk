@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class ApiReport extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'attemptCount' => [
-        'format' => 'int32',
-    ],
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'attemptCount' => [
+            'format' => 'int32',
+        ],
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The Application ID sent in the email request.

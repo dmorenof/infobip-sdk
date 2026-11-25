@@ -12,10 +12,10 @@ final class VoiceCallDropActionDetails extends \InfobipSDK\DTOs\N7c77a2c703ce12a
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'clientUrl' => [
-        'minLength' => 1,
-    ],
-];
+        'clientUrl' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

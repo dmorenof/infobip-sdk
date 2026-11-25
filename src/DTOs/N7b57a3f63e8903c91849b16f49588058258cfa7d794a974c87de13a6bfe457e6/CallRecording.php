@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N7b57a3f63e8903c91849b16f49588058258cfa7d794a974c87de1
 final class CallRecording extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'endpoint',
-];
+        'endpoint',
+    ];
 
     protected const array VALIDATION = [
-    'callId' => [
-        'maxLength' => 128,
-    ],
-];
+        'callId' => [
+            'maxLength' => 128,
+        ],
+    ];
 
     /**
      * Application ID.

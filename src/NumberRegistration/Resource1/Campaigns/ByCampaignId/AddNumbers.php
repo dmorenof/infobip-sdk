@@ -16,5 +16,4 @@ final class AddNumbers extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Campaigns\ByCampaignId\AddNumbers::class)->post($campaignId, $payload);
     }
-
 }

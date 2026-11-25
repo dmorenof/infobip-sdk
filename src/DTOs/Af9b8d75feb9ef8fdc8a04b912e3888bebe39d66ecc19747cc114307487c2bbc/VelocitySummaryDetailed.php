@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\Af9b8d75feb9ef8fdc8a04b912e3888bebe39d66ecc19747cc1143
 final class VelocitySummaryDetailed extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'count' => [
-        'format' => 'int32',
-    ],
-];
+        'count' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Count of messages received

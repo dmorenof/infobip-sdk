@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\A15a35d4e9d79ecb7047887a88973e9a539c66701b3c993c3c3be6
 final class BulkStatusResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'status',
-];
+        'status',
+    ];
 
     /**
      * Unique ID of the bulk.

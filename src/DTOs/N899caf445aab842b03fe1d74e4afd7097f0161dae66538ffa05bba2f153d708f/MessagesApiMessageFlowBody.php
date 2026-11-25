@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiMessageFlowBody extends \InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\MessagesApiMessageBody
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'buttonText' => [
-        'minLength' => 1,
-    ],
-    'id' => [
-        'minLength' => 1,
-    ],
-    'text' => [
-        'minLength' => 1,
-    ],
-    'token' => [
-        'minLength' => 1,
-    ],
-];
+        'buttonText' => [
+            'minLength' => 1,
+        ],
+        'id' => [
+            'minLength' => 1,
+        ],
+        'text' => [
+            'minLength' => 1,
+        ],
+        'token' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

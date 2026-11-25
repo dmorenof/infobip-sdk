@@ -38,5 +38,4 @@ final class Pools extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Email\Resource1\IpManagement\Domains\ByDomainId\Pools::class)->putByPoolId($identifier, $payload);
     }
-
 }

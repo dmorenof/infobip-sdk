@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class DurationApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'unit',
-    'value',
-];
+        'unit',
+        'value',
+    ];
 
     protected const array VALIDATION = [
-    'value' => [
-        'minimum' => 1,
-        'format' => 'int32',
-    ],
-];
+        'value' => [
+            'minimum' => 1,
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\Enums\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469051f8b8866\Unit $unit;
     /**

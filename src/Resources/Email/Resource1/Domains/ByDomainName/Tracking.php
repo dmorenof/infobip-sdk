@@ -77,5 +77,4 @@ final class Tracking extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload, path: ['domainName' => $domainName]);
         return $result;
     }
-
 }

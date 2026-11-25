@@ -7,22 +7,22 @@ namespace InfobipSDK\PutParams\NumberRegistration\Resource1\Brands;
 final class ByBrandId extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'body',
-];
+        'body',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [],
-    'header' => [
-        'X-Resource-Request-Id' => 'XResourceRequestId',
-    ],
-];
+        'path' => [],
+        'query' => [],
+        'header' => [
+            'X-Resource-Request-Id' => 'XResourceRequestId',
+        ],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'X-Resource-Request-Id' => 'XResourceRequestId',
-];
+        'X-Resource-Request-Id' => 'XResourceRequestId',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'XResourceRequestId' => 'X-Resource-Request-Id',
-];
+        'XResourceRequestId' => 'X-Resource-Request-Id',
+    ];
 
     public const bool OPERATION_BODY = true;
 

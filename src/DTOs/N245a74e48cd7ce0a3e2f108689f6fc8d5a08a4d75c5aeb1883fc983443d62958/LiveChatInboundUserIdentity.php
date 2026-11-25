@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N245a74e48cd7ce0a3e2f108689f6fc8d5a08a4d75c5aeb1883fc9
 final class LiveChatInboundUserIdentity extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'identityType',
-    'identityValue',
-];
+        'identityType',
+        'identityValue',
+    ];
 
     protected const array VALIDATION = [
-    'identityValue' => [
-        'minLength' => 1,
-    ],
-];
+        'identityValue' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public \InfobipSDK\Enums\N245a74e48cd7ce0a3e2f108689f6fc8d5a08a4d75c5aeb1883fc983443d62958\LiveChatInboundUserIdentityType $identityType;
     /**

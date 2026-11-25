@@ -53,5 +53,4 @@ final class Vets extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Brands\ByBrandId\Vets::class)->putByVetId($identifier, $payload);
     }
-
 }

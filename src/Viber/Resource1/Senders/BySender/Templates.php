@@ -60,5 +60,4 @@ final class Templates extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Viber\Resource1\Senders\BySender\Templates::class)->patchByTemplateId($identifier, $payload);
     }
-
 }

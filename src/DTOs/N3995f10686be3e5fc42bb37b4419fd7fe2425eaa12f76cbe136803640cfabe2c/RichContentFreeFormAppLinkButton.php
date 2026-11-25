@@ -14,27 +14,27 @@ final class RichContentFreeFormAppLinkButton extends \InfobipSDK\DTOs\N3995f1068
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 8,
-    ],
-    'schemeAndroid' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'schemeIos' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'urlMobile' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'urlPc' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 8,
+        ],
+        'schemeAndroid' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'schemeIos' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'urlMobile' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'urlPc' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

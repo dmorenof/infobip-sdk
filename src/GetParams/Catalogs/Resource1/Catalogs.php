@@ -7,34 +7,34 @@ namespace InfobipSDK\GetParams\Catalogs\Resource1;
 final class Catalogs extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'ids' => 'ids',
-        'name' => 'name',
-        'page' => 'page',
-        'size' => 'size',
-        'type' => 'type',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'ids' => 'ids',
+            'name' => 'name',
+            'page' => 'page',
+            'size' => 'size',
+            'type' => 'type',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'ids' => [
-        'items' => [
-            'type' => 'int',
-            'rules' => [],
+        'ids' => [
+            'items' => [
+                'type' => 'int',
+                'rules' => [],
+            ],
         ],
-    ],
-    'page' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'size' => [
-        'minimum' => 1,
-        'maximum' => 100,
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'size' => [
+            'minimum' => 1,
+            'maximum' => 100,
+            'format' => 'int32',
+        ],
+    ];
 
     /** @var list<int>|null */
     public ?array $ids;

@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa
 final class FooterApiData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 60,
-    ],
-];
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 60,
+        ],
+    ];
 
     /**
      * Plain text, up to 60 characters.

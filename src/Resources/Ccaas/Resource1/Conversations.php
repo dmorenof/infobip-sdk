@@ -323,5 +323,4 @@ final class Conversations extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_CONVERSATION_ID), $payload, path: ['conversationId' => $conversationId]);
         return $result;
     }
-
 }

@@ -12,23 +12,23 @@ namespace InfobipSDK\DTOs\N61cea6785aa06882a92b0d6cc8c922ce1d44b92bfbdfd6cde0df0
 final class DomainIpApiPool extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'ips',
-    'name',
-    'priority',
-];
+        'id',
+        'ips',
+        'name',
+        'priority',
+    ];
 
     protected const array VALIDATION = [
-    'ips' => [
-        'minItems' => 0,
-        'uniqueItems' => true,
-    ],
-    'priority' => [
-        'minimum' => 0,
-        'maximum' => 49,
-        'format' => 'int32',
-    ],
-];
+        'ips' => [
+            'minItems' => 0,
+            'uniqueItems' => true,
+        ],
+        'priority' => [
+            'minimum' => 0,
+            'maximum' => 49,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * IP pool identifier.

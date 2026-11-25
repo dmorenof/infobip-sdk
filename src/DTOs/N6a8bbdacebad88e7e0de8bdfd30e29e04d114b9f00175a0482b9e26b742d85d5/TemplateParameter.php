@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class TemplateParameter extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'sampleValue',
-    'type',
-];
+        'name',
+        'sampleValue',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 20,
-        'pattern' => '^[A-Za-z0-9_-]+$',
-    ],
-    'sampleValue' => [
-        'minLength' => 1,
-        'maxLength' => 200,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 20,
+            'pattern' => '^[A-Za-z0-9_-]+$',
+        ],
+        'sampleValue' => [
+            'minLength' => 1,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * Name of the parameter. Only letters, digits, hyphen and underscore are allowed.

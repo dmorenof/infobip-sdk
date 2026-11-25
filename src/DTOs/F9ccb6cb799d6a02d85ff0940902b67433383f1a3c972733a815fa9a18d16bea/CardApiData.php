@@ -12,17 +12,17 @@ namespace InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa
 final class CardApiData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'body',
-    'buttons',
-    'header',
-];
+        'body',
+        'buttons',
+        'header',
+    ];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 1,
-        'maxItems' => 2,
-    ],
-];
+        'buttons' => [
+            'minItems' => 1,
+            'maxItems' => 2,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa9a18d16bea\BodyApiData $body;
     /**

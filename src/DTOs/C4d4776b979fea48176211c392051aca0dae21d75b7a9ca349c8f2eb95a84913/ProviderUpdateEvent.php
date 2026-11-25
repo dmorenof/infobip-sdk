@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class ProviderUpdateEvent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'countryCode',
-    'event',
-    'provider',
-];
+        'countryCode',
+        'event',
+        'provider',
+    ];
 
     /**
      * Country code (two-letter ISO 3166-1 alpha-2 standard) where the provider became available.

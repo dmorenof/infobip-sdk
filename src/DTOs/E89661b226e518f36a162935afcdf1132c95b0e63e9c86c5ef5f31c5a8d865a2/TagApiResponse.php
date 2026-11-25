@@ -11,10 +11,10 @@ namespace InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31
 final class TagApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'createdAt',
-    'id',
-    'updatedAt',
-];
+        'createdAt',
+        'id',
+        'updatedAt',
+    ];
 
     /**
      * Format: date-time

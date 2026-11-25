@@ -7,11 +7,11 @@ namespace InfobipSDK\Responses\Mi\NationalIdentityNumber\Resource1\Check;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array PROPERTY_MAP = [
-    'match' => 'match_',
-];
+        'match' => 'match_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'match_' => 'match',
-];
+        'match_' => 'match',
+    ];
 
     /**
      * Match result.

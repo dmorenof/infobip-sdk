@@ -7,18 +7,18 @@ namespace InfobipSDK\Requests;
 final class SmsBodyRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'applicationId',
-    'messageId',
-    'to',
-];
+        'applicationId',
+        'messageId',
+        'to',
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'applicationId',
-    'messageId',
-    'placeholders',
-    'to',
-    'trackDelivery',
-];
+        'applicationId',
+        'messageId',
+        'placeholders',
+        'to',
+        'trackDelivery',
+    ];
 
     /**
      * The ID of the application that represents your service, e.g. 2FA for login, 2FA for changing the password, etc.

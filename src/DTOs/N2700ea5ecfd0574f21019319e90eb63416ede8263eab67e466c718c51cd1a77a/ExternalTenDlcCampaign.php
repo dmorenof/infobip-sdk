@@ -10,44 +10,44 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class ExternalTenDlcCampaign extends \InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c718c51cd1a77a\Campaign
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'externalCampaignId' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 30,
-        'pattern' => '[A-Za-z0-9_ ]*',
-    ],
-    'numberKeys' => [
-        'minItems' => 0,
-        'maxItems' => 49,
-        'uniqueItems' => true,
-    ],
-    'numberPreviews' => [
-        'uniqueItems' => true,
-    ],
-    'numbers' => [
-        'minItems' => 0,
-        'maxItems' => 49,
-        'uniqueItems' => true,
-    ],
-    'referenceId' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-];
+        'externalCampaignId' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 30,
+            'pattern' => '[A-Za-z0-9_ ]*',
+        ],
+        'numberKeys' => [
+            'minItems' => 0,
+            'maxItems' => 49,
+            'uniqueItems' => true,
+        ],
+        'numberPreviews' => [
+            'uniqueItems' => true,
+        ],
+        'numbers' => [
+            'minItems' => 0,
+            'maxItems' => 49,
+            'uniqueItems' => true,
+        ],
+        'referenceId' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'createdDate',
-    'id',
-    'lastModifiedDate',
-    'numberPreviews',
-];
+        'createdDate',
+        'id',
+        'lastModifiedDate',
+        'numberPreviews',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

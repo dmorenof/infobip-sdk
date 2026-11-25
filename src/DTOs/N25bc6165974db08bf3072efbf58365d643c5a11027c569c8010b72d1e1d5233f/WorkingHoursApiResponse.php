@@ -11,23 +11,23 @@ namespace InfobipSDK\DTOs\N25bc6165974db08bf3072efbf58365d643c5a11027c569c8010b7
 final class WorkingHoursApiResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-    'name',
-    'timezone',
-];
+        'message',
+        'name',
+        'timezone',
+    ];
 
     protected const array VALIDATION = [
-    'holidays' => [
-        'uniqueItems' => true,
-    ],
-    'workWeek' => [
-        'jsonSchema' => '{"enum":["FRIDAY","MONDAY","SATURDAY","SUNDAY","THURSDAY","TUESDAY","WEDNESDAY"]}',
-    ],
-];
+        'holidays' => [
+            'uniqueItems' => true,
+        ],
+        'workWeek' => [
+            'jsonSchema' => '{"enum":["FRIDAY","MONDAY","SATURDAY","SUNDAY","THURSDAY","TUESDAY","WEDNESDAY"]}',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'id',
-];
+        'id',
+    ];
 
     /**
      * Close conversation created outside of working hours toggle.

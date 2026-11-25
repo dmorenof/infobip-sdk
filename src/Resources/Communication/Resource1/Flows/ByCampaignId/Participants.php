@@ -136,5 +136,4 @@ final class Participants extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::POST), path: ['campaignId' => $campaignId], parameters: $params);
         return;
     }
-
 }

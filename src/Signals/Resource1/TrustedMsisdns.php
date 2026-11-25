@@ -35,5 +35,4 @@ final class TrustedMsisdns extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Signals\Resource1\TrustedMsisdns::class)->post($payload);
     }
-
 }

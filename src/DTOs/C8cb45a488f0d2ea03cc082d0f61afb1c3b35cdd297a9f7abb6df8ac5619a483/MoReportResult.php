@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\C8cb45a488f0d2ea03cc082d0f61afb1c3b35cdd297a9f7abb6df8
 final class MoReportResult extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'applicationCode',
-    'cleanText',
-    'from',
-    'messageId',
-    'receivedAt',
-    'text',
-    'to',
-];
+        'applicationCode',
+        'cleanText',
+        'from',
+        'messageId',
+        'receivedAt',
+        'text',
+        'to',
+    ];
 
     /**
      * Application code that the message was sent to.

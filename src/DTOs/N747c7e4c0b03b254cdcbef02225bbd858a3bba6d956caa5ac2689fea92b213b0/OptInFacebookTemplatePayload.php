@@ -12,17 +12,17 @@ final class OptInFacebookTemplatePayload extends \InfobipSDK\DTOs\N747c7e4c0b03b
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'imageUrl' => [
-        'pattern' => '',
-    ],
-    'payload' => [
-        'minLength' => 1,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 65,
-    ],
-];
+        'imageUrl' => [
+            'pattern' => '',
+        ],
+        'payload' => [
+            'minLength' => 1,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 65,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

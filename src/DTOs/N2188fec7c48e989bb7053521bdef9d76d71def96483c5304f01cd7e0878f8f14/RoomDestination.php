@@ -12,14 +12,14 @@ final class RoomDestination extends \InfobipSDK\DTOs\N2188fec7c48e989bb7053521bd
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'password' => [
-        'pattern' => '^[\\p{L}\\p{N}\\-_\\ ]{4,20}$',
-    ],
-    'roomName' => [
-        'minLength' => 1,
-        'pattern' => '^[\\p{L}\\p{N}\\-_+=/.]{3,250}$',
-    ],
-];
+        'password' => [
+            'pattern' => '^[\\p{L}\\p{N}\\-_\\ ]{4,20}$',
+        ],
+        'roomName' => [
+            'minLength' => 1,
+            'pattern' => '^[\\p{L}\\p{N}\\-_+=/.]{3,250}$',
+        ],
+    ];
 
     /**
      * Destination display name, if defined, that the call Link UI will use instead of an agent name. If a destination display name is an empty string, the UI will hide it.

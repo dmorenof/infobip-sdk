@@ -16,5 +16,4 @@ final class NumberPools extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\NumberPools::class)->get($params);
     }
-
 }

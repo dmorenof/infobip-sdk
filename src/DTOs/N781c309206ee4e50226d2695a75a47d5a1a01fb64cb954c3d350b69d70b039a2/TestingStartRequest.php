@@ -11,15 +11,15 @@ namespace InfobipSDK\DTOs\N781c309206ee4e50226d2695a75a47d5a1a01fb64cb954c3d350b
 final class TestingStartRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'botId',
-    'webhookUrl',
-];
+        'botId',
+        'webhookUrl',
+    ];
 
     protected const array VALIDATION = [
-    'webhookUrl' => [
-        'minLength' => 1,
-    ],
-];
+        'webhookUrl' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Chatbot Id.

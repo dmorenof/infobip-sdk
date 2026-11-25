@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\N731de3b862f8fe6ae84afd9eafc472a32d21c61fcef8ad54ed49d
 final class IamTagV2 extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'description' => [
-        'minLength' => 0,
-        'maxLength' => 2048,
-    ],
-];
+        'description' => [
+            'minLength' => 0,
+            'maxLength' => 2048,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'createdAt',
-    'id',
-    'modifiedAt',
-];
+        'createdAt',
+        'id',
+        'modifiedAt',
+    ];
 
     /**
      * Date and time of creation. Has the following format: yyyy-MM-dd'T'HH:mm:ss.

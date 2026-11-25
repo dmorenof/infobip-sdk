@@ -72,5 +72,4 @@ final class Messages extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::DELETE), parameters: $params);
         return $result;
     }
-
 }

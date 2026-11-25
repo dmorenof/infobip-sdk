@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class Referral extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'sourceType',
-    'sourceUrl',
-];
+        'sourceType',
+        'sourceUrl',
+    ];
 
     protected const array VALIDATION = [
-    'sourceUrl' => [
-        'minLength' => 1,
-    ],
-];
+        'sourceUrl' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Body from the ad that generated the message.

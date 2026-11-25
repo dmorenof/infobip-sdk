@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class Content extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'url',
-];
+        'url',
+    ];
 
     /**
      * Date and time until the content is available for download. Has the following format: `yyyy-MM-dd'T'HH:mm:ss.SSSZ`.

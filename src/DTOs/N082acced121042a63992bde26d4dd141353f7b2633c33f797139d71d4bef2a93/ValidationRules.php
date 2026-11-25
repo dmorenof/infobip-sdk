@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N082acced121042a63992bde26d4dd141353f7b2633c33f797139d
 final class ValidationRules extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'maxLength' => [
-        'format' => 'int32',
-    ],
-];
+        'maxLength' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public string $datePattern;
     public \InfobipSDK\Collections\StringCollection $forbiddenSymbols;

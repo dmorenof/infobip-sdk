@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveButtonsActionContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'buttons',
-];
+        'buttons',
+    ];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 1,
-        'maxItems' => 3,
-    ],
-];
+        'buttons' => [
+            'minItems' => 1,
+            'maxItems' => 3,
+        ],
+    ];
 
     /**
      * An array of buttons sent in a message. It can have up to three buttons.
@@ -31,5 +31,4 @@ final class InteractiveButtonsActionContent extends \Dmorenof\SdkRuntime\DTO
             $this->buttons = $value;
         }
     }
-
 }

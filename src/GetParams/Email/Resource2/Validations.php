@@ -7,49 +7,49 @@ namespace InfobipSDK\GetParams\Email\Resource2;
 final class Validations extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'catchAll' => 'catchAll',
-        'cursor' => 'cursor',
-        'destination' => 'destination',
-        'disposable' => 'disposable',
-        'risk' => 'risk',
-        'roleBased' => 'roleBased',
-        'size' => 'size',
-        'validMailbox' => 'validMailbox',
-        'validSyntax' => 'validSyntax',
-        'validatedDateFrom' => 'validatedDateFrom',
-        'validatedDateTo' => 'validatedDateTo',
-        'validationRequestId' => 'validationRequestId',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'catchAll' => 'catchAll',
+            'cursor' => 'cursor',
+            'destination' => 'destination',
+            'disposable' => 'disposable',
+            'risk' => 'risk',
+            'roleBased' => 'roleBased',
+            'size' => 'size',
+            'validMailbox' => 'validMailbox',
+            'validSyntax' => 'validSyntax',
+            'validatedDateFrom' => 'validatedDateFrom',
+            'validatedDateTo' => 'validatedDateTo',
+            'validationRequestId' => 'validationRequestId',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'destination' => [
-        'minItems' => 0,
-        'maxItems' => 100,
-        'items' => [
-            'type' => 'string',
-            'rules' => [
-                'minLength' => 1,
-                'maxLength' => 320,
+        'destination' => [
+            'minItems' => 0,
+            'maxItems' => 100,
+            'items' => [
+                'type' => 'string',
+                'rules' => [
+                    'minLength' => 1,
+                    'maxLength' => 320,
+                ],
             ],
         ],
-    ],
-    'size' => [
-        'minimum' => 1,
-        'maximum' => 1000,
-        'format' => 'int32',
-    ],
-    'validMailbox' => [
-        'pattern' => '^(true|false|unknown)$',
-    ],
-    'validationRequestId' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-];
+        'size' => [
+            'minimum' => 1,
+            'maximum' => 1000,
+            'format' => 'int32',
+        ],
+        'validMailbox' => [
+            'pattern' => '^(true|false|unknown)$',
+        ],
+        'validationRequestId' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+    ];
 
     public ?bool $catchAll;
     public ?string $cursor;

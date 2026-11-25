@@ -10,16 +10,16 @@ namespace InfobipSDK\DTOs\Bb8af9c2d2d4d677e25555100e31662e23d86ede8b5d73bbf4974b
 final class PagingResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'page' => [
-        'format' => 'int32',
-    ],
-    'pageSize' => [
-        'format' => 'int32',
-    ],
-    'totalPages' => [
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'format' => 'int32',
+        ],
+        'pageSize' => [
+            'format' => 'int32',
+        ],
+        'totalPages' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public string $orderBy;
     public string $orderDirection;

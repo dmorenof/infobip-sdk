@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N1e177a7c00f43fb0cfaf8876573312572061d384022066ddec32b
 final class CampaignCreatePayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'activeFrom',
-    'activeUntil',
-    'name',
-];
+        'activeFrom',
+        'activeUntil',
+        'name',
+    ];
 
     /**
      * Date and time when the campaign becomes active, in ISO 8601 format (e.g., 2023-10-01T00:00:00Z).

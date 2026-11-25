@@ -16,5 +16,4 @@ final class Files extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Callrouting\Resource1\Recordings\Files::class)->getByFileId($fileId, $params);
     }
-
 }

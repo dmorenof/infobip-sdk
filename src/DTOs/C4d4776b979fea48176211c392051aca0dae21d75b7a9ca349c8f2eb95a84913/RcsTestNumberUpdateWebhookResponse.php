@@ -12,8 +12,8 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class RcsTestNumberUpdateWebhookResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'results',
-];
+        'results',
+    ];
 
     /**
      * Collection of RCS test number update events.

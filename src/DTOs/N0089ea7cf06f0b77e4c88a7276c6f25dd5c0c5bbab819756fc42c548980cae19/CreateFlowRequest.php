@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\N0089ea7cf06f0b77e4c88a7276c6f25dd5c0c5bbab819756fc42c
 final class CreateFlowRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'categories',
-    'name',
-];
+        'categories',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'categories' => [
-        'minItems' => 1,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 200,
-    ],
-];
+        'categories' => [
+            'minItems' => 1,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * Categories of the flow.

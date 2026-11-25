@@ -44,5 +44,4 @@ final class Routing extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Routing::class)->put($payload);
     }
-
 }

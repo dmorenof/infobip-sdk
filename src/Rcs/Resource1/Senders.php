@@ -52,5 +52,4 @@ final class Senders extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Rcs\Resource1\Senders::class)->putBySenderName($senderName, $payload);
     }
-
 }

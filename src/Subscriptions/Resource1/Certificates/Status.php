@@ -27,5 +27,4 @@ final class Status extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Subscriptions\Resource1\Certificates\Status::class)->getByCertificateId($certificateId);
     }
-
 }

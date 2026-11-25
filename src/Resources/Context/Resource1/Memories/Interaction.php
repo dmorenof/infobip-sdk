@@ -66,5 +66,4 @@ final class Interaction extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_INTERACTION_ID), path: ['interactionId' => $interactionId]);
         return $result;
     }
-
 }

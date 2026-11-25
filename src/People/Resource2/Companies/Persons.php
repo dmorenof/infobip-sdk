@@ -27,5 +27,4 @@ final class Persons extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\People\Resource2\Companies\Persons::class)->patch($params);
     }
-
 }

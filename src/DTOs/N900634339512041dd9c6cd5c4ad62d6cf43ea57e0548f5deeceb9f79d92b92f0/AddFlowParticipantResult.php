@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N900634339512041dd9c6cd5c4ad62d6cf43ea57e0548f5deeceb9
 final class AddFlowParticipantResult extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'identifyBy',
-    'status',
-];
+        'identifyBy',
+        'status',
+    ];
 
     public ?\InfobipSDK\DTOs\N900634339512041dd9c6cd5c4ad62d6cf43ea57e0548f5deeceb9f79d92b92f0\AddFlowParticipantResult\ErrorReasonDTO $errorReason;
     public \InfobipSDK\DTOs\N900634339512041dd9c6cd5c4ad62d6cf43ea57e0548f5deeceb9f79d92b92f0\WebhookPersonUniqueField $identifyBy;

@@ -16,5 +16,4 @@ final class Reputation extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberReputation\Resource1\Reputation::class)->post($payload);
     }
-
 }

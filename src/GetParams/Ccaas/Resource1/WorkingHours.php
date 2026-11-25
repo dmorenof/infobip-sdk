@@ -7,27 +7,27 @@ namespace InfobipSDK\GetParams\Ccaas\Resource1;
 final class WorkingHours extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'createdAfter' => 'createdAfter',
-        'createdBefore' => 'createdBefore',
-        'enabled' => 'enabled',
-        'isDefault' => 'isDefault',
-        'limit' => 'limit',
-        'name' => 'name',
-        'orderBy' => 'orderBy',
-        'page' => 'page',
-        'updatedAfter' => 'updatedAfter',
-        'updatedBefore' => 'updatedBefore',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'createdAfter' => 'createdAfter',
+            'createdBefore' => 'createdBefore',
+            'enabled' => 'enabled',
+            'isDefault' => 'isDefault',
+            'limit' => 'limit',
+            'name' => 'name',
+            'orderBy' => 'orderBy',
+            'page' => 'page',
+            'updatedAfter' => 'updatedAfter',
+            'updatedBefore' => 'updatedBefore',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'limit' => [
-        'maximum' => 999,
-    ],
-];
+        'limit' => [
+            'maximum' => 999,
+        ],
+    ];
 
     public ?string $createdAfter;
     public ?string $createdBefore;

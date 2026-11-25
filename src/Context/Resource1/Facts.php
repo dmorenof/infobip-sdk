@@ -60,5 +60,4 @@ final class Facts extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Context\Resource1\Facts::class)->putById($id, $payload);
     }
-
 }

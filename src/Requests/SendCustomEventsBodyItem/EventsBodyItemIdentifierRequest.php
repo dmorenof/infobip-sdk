@@ -10,9 +10,9 @@ namespace InfobipSDK\Requests\SendCustomEventsBodyItem;
 final class EventsBodyItemIdentifierRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'type',
-];
+        'id',
+        'type',
+    ];
 
     /**
      * Unique identifier of the person who performed the event. The value must match the `type` property.

@@ -16,5 +16,4 @@ final class Unassign extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource2\Conversations\ByConversationId\Form\Unassign::class)->post($conversationId);
     }
-
 }

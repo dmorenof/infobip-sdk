@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82
 final class AppleResourceInfo extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'capabilities' => [
-        'uniqueItems' => true,
-    ],
-    'countryCode' => [
-        'pattern' => '^[A-Z]{2}$',
-    ],
-];
+        'capabilities' => [
+            'uniqueItems' => true,
+        ],
+        'countryCode' => [
+            'pattern' => '^[A-Z]{2}$',
+        ],
+    ];
 
     /**
      * Capabilities of the sender.

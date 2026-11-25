@@ -264,5 +264,4 @@ final class Cnam extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload, path: ['numberKey' => $numberKey]);
         return $result;
     }
-
 }

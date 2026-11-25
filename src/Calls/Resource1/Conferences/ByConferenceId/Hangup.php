@@ -16,5 +16,4 @@ final class Hangup extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Conferences\ByConferenceId\Hangup::class)->post($conferenceId);
     }
-
 }

@@ -17,5 +17,4 @@ final class Single extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Tts\Resource3\Single::class)->post($payload);
     }
-
 }

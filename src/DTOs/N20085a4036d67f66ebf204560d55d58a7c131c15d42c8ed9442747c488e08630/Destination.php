@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class Destination extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'to',
-];
+        'to',
+    ];
 
     protected const array VALIDATION = [
-    'to' => [
-        'minLength' => 0,
-        'maxLength' => 64,
-    ],
-];
+        'to' => [
+            'minLength' => 0,
+            'maxLength' => 64,
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'messageId',
-    'to',
-];
+        'messageId',
+        'to',
+    ];
 
     /**
      * The ID that uniquely identifies the message sent. Anything above 200 characters passed in the request will be clipped during processing and returned in response, reports and logs.

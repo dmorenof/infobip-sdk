@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\N2be764ef53499e28cc8da8dff3890f0787860aba10984e520352c
 final class Application extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'applicationId',
-];
+        'applicationId',
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'maxLength' => 255,
-    ],
-    'applicationName' => [
-        'maxLength' => 255,
-    ],
-];
+        'applicationId' => [
+            'maxLength' => 255,
+        ],
+        'applicationName' => [
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * The unique identifier of the application. This ID will be a URL path parameter. We recommend using values that do not need URL encoding for easier interaction with other API endpoints.

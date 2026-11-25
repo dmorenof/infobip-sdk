@@ -71,5 +71,4 @@ final class Routes extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Callrouting\Resource1\Routes::class)->putByRouteId($routeId, $payload);
     }
-
 }

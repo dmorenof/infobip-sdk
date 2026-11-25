@@ -12,10 +12,10 @@ final class KakaoSangdamInboundExpiredSessionContent extends \InfobipSDK\DTOs\N1
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'sessionId' => [
-        'minLength' => 1,
-    ],
-];
+        'sessionId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

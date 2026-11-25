@@ -13,5 +13,4 @@ final class AuditorRole extends \InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

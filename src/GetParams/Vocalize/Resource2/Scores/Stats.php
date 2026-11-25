@@ -7,23 +7,23 @@ namespace InfobipSDK\GetParams\Vocalize\Resource2\Scores;
 final class Stats extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'campaignId',
-    'userId',
-];
+        'campaignId',
+        'userId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'campaignId' => 'campaignId',
-        'userId' => 'userId',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'campaignId' => 'campaignId',
+            'userId' => 'userId',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'userId' => [
-        'minLength' => 1,
-    ],
-];
+        'userId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     public string $campaignId;
     public string $userId {

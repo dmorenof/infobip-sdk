@@ -12,14 +12,14 @@ final class KakaoSangdamInboundTextContent extends \InfobipSDK\DTOs\N1907be504c1
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'attachmentUrl' => [
-        'pattern' => '',
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 4000,
-    ],
-];
+        'attachmentUrl' => [
+            'pattern' => '',
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 4000,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

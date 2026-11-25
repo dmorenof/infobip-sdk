@@ -10,26 +10,26 @@ namespace InfobipSDK\DTOs\N431fb79b0e816230968e14ba1e1c6fadb75cfde9cb3c381f4217b
 final class Call extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'endpoint',
-];
+        'endpoint',
+    ];
 
     protected const array VALIDATION = [
-    'conferenceId' => [
-        'maxLength' => 128,
-    ],
-    'dialogId' => [
-        'maxLength' => 128,
-    ],
-    'id' => [
-        'maxLength' => 128,
-    ],
-    'parentCallId' => [
-        'maxLength' => 128,
-    ],
-    'ringDuration' => [
-        'format' => 'int32',
-    ],
-];
+        'conferenceId' => [
+            'maxLength' => 128,
+        ],
+        'dialogId' => [
+            'maxLength' => 128,
+        ],
+        'id' => [
+            'maxLength' => 128,
+        ],
+        'parentCallId' => [
+            'maxLength' => 128,
+        ],
+        'ringDuration' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Date and time for when the call has been answered.

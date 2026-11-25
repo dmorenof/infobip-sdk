@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\N781c309206ee4e50226d2695a75a47d5a1a01fb64cb954c3d350b
 final class Contact extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-    'phoneNumber',
-];
+        'name',
+        'phoneNumber',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 28,
-    ],
-    'phoneNumber' => [
-        'minLength' => 0,
-        'maxLength' => 18,
-    ],
-];
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 28,
+        ],
+        'phoneNumber' => [
+            'minLength' => 0,
+            'maxLength' => 18,
+        ],
+    ];
 
     public string $name {
         set {

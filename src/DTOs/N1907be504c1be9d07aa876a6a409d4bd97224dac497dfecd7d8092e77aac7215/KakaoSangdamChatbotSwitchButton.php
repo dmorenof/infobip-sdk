@@ -14,16 +14,16 @@ final class KakaoSangdamChatbotSwitchButton extends \InfobipSDK\DTOs\N1907be504c
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'event' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-        'pattern' => '[A-Za-z0-9_]{1,100}',
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 28,
-    ],
-];
+        'event' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+            'pattern' => '[A-Za-z0-9_]{1,100}',
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 28,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -69,5 +69,4 @@ final class Content extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), parameters: $params);
         return $result;
     }
-
 }

@@ -73,5 +73,4 @@ final class Triggers extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource2\ConversationForms\Triggers::class)->putById($id, $payload);
     }
-
 }

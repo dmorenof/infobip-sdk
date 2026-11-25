@@ -10,22 +10,22 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class AddDomainRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'domainName',
-    'targetedDailyTraffic',
-];
+        'domainName',
+        'targetedDailyTraffic',
+    ];
 
     protected const array VALIDATION = [
-    'dkimKeyLength' => [
-        'format' => 'int32',
-    ],
-    'domainName' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-    'targetedDailyTraffic' => [
-        'minimum' => 1,
-    ],
-];
+        'dkimKeyLength' => [
+            'format' => 'int32',
+        ],
+        'domainName' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+        'targetedDailyTraffic' => [
+            'minimum' => 1,
+        ],
+    ];
 
     /**
      * Required for application use in a send request for outbound traffic. Returned in notification events.

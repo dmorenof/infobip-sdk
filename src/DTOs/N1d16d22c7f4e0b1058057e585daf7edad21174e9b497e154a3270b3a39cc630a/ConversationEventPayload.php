@@ -12,24 +12,24 @@ namespace InfobipSDK\DTOs\N1d16d22c7f4e0b1058057e585daf7edad21174e9b497e154a3270
 final class ConversationEventPayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'assignee',
-    'channel',
-    'customer',
-    'direction',
-    'form',
-    'id',
-    'invoker',
-    'priority',
-    'queue',
-    'status',
-    'tags',
-];
+        'assignee',
+        'channel',
+        'customer',
+        'direction',
+        'form',
+        'id',
+        'invoker',
+        'priority',
+        'queue',
+        'status',
+        'tags',
+    ];
 
     protected const array VALIDATION = [
-    'tags' => [
-        'uniqueItems' => true,
-    ],
-];
+        'tags' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N1d16d22c7f4e0b1058057e585daf7edad21174e9b497e154a3270b3a39cc630a\ConversationAssignee $assignee;
     /**

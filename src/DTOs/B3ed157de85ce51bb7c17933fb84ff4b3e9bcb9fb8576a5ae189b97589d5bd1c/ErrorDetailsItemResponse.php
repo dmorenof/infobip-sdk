@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\B3ed157de85ce51bb7c17933fb84ff4b3e9bcb9fb8576a5ae189b9
 final class ErrorDetailsItemResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'message',
-    'property',
-];
+        'message',
+        'property',
+    ];
 
     /**
      * A descriptive message explaining the nature of the error associated with the property.

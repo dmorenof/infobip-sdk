@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiTemplateUrlWithTextButton extends \InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bba2f153d708f\MessagesApiTemplateButton
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 28,
-    ],
-    'url' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-    'urlPc' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-];
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 28,
+        ],
+        'url' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+        'urlPc' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

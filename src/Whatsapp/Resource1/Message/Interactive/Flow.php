@@ -17,5 +17,4 @@ final class Flow extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource1\Message\Interactive\Flow::class)->post($payload);
     }
-
 }

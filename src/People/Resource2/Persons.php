@@ -63,5 +63,4 @@ final class Persons extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource2\Persons::class)->put($params);
     }
-
 }

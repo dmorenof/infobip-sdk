@@ -7,17 +7,17 @@ namespace InfobipSDK\Responses\People\Resource2\Tags\Post;
 final class Resource2TagsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'description' => [
-        'minLength' => 0,
-        'maxLength' => 2048,
-    ],
-];
+        'description' => [
+            'minLength' => 0,
+            'maxLength' => 2048,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'createdAt',
-    'id',
-    'modifiedAt',
-];
+        'createdAt',
+        'id',
+        'modifiedAt',
+    ];
 
     /**
      * Date and time of creation. Has the following format: yyyy-MM-dd'T'HH:mm:ss.

@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\N0b5f1ca361e90fa0a3f8b907dc53fa34f06ccd85fde4d07f80394
 final class MarketingUpdateNotification extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'description' => [
-        'minLength' => 1,
-    ],
-    'from' => [
-        'minLength' => 1,
-    ],
-    'notificationMessagesStatus' => [
-        'minLength' => 1,
-    ],
-    'sender' => [
-        'minLength' => 1,
-    ],
-];
+        'description' => [
+            'minLength' => 1,
+        ],
+        'from' => [
+            'minLength' => 1,
+        ],
+        'notificationMessagesStatus' => [
+            'minLength' => 1,
+        ],
+        'sender' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Description of marketing update notification.

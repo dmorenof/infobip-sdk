@@ -12,13 +12,13 @@ namespace InfobipSDK\DTOs\N033803db88cada38464c4e86c919c67cee20aa369072ec632b1c6
 final class ReferredProduct extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'catalogId' => [
-        'minLength' => 0,
-    ],
-    'productRetailerId' => [
-        'minLength' => 0,
-    ],
-];
+        'catalogId' => [
+            'minLength' => 0,
+        ],
+        'productRetailerId' => [
+            'minLength' => 0,
+        ],
+    ];
 
     /**
      * The ID that uniquely identifies the catalog registered with Facebook, connected to the WhatsApp Business Account (WABA) the sender belongs to.

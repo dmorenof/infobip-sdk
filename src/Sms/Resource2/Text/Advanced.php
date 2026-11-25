@@ -18,5 +18,4 @@ final class Advanced extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Sms\Resource2\Text\Advanced::class)->post($payload);
     }
-
 }

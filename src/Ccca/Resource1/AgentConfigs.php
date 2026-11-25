@@ -16,5 +16,4 @@ final class AgentConfigs extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccca\Resource1\AgentConfigs::class)->getByAgentId($agentId);
     }
-
 }

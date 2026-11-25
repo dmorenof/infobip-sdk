@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\A8ed60f1ed4abc0dfe4d5460edd3205f89585f2cd4b436e4d83a12
 final class IamPersonV2 extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'computedAttributes',
-    'createdAt',
-    'id',
-    'integrations',
-    'modifiedAt',
-    'modifiedFrom',
-    'origin',
-];
+        'computedAttributes',
+        'createdAt',
+        'id',
+        'integrations',
+        'modifiedAt',
+        'modifiedFrom',
+        'origin',
+    ];
 
     /**
      * Person's address, 256 characters max.

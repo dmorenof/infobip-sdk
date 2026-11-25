@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class CallTransfer extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'if_',
-    'transferTo',
-];
+        'if_',
+        'transferTo',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'if' => 'if_',
-];
+        'if' => 'if_',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'if_' => 'if',
-];
+        'if_' => 'if',
+    ];
 
     protected const array VALIDATION = [
-    'callTransferMaxDuration' => [
-        'format' => 'int32',
-    ],
-];
+        'callTransferMaxDuration' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Maximum duration of the transferred call, specified in seconds.

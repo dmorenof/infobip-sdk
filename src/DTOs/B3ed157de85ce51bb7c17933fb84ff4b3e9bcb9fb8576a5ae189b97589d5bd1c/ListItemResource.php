@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\B3ed157de85ce51bb7c17933fb84ff4b3e9bcb9fb8576a5ae189b9
 final class ListItemResource extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fields',
-    'type',
-];
+        'fields',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'fields' => [
-        'minItems' => 1,
-        'maxItems' => 128,
-        'uniqueItems' => true,
-    ],
-];
+        'fields' => [
+            'minItems' => 1,
+            'maxItems' => 128,
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * Fields within the List item object. Must not be empty, must contain no more than `128` items, field names must be unique (case-insensitive).

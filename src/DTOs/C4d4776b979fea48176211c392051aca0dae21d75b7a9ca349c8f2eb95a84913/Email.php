@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class Email extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'address',
-    'label',
-];
+        'address',
+        'label',
+    ];
 
     protected const array VALIDATION = [
-    'address' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'label' => [
-        'minLength' => 1,
-        'maxLength' => 25,
-    ],
-];
+        'address' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'label' => [
+            'minLength' => 1,
+            'maxLength' => 25,
+        ],
+    ];
 
     /**
      * Email address. Must be in valid email format.

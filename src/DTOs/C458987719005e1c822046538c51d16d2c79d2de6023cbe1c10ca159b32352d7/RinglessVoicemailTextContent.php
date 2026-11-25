@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\C458987719005e1c822046538c51d16d2c79d2de6023cbe1c10ca1
 final class RinglessVoicemailTextContent extends \InfobipSDK\DTOs\C458987719005e1c822046538c51d16d2c79d2de6023cbe1c10ca159b32352d7\RinglessVoicemailContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'speechRate' => [
-        'minimum' => 0.5,
-        'maximum' => 2,
-    ],
-    'text' => [
-        'minLength' => 1,
-        'maxLength' => 1400,
-    ],
-];
+        'speechRate' => [
+            'minimum' => 0.5,
+            'maximum' => 2,
+        ],
+        'text' => [
+            'minLength' => 1,
+            'maxLength' => 1400,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

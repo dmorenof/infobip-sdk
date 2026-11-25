@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class WebsiteWebAddress extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'label',
-    'url',
-];
+        'label',
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'label' => [
-        'minLength' => 1,
-        'maxLength' => 25,
-    ],
-    'url' => [
-        'minLength' => 1,
-        'maxLength' => 2048,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'label' => [
+            'minLength' => 1,
+            'maxLength' => 25,
+        ],
+        'url' => [
+            'minLength' => 1,
+            'maxLength' => 2048,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * Label for the URI. Must be plain text (no URLs, HTML or markup).

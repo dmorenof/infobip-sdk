@@ -72,5 +72,4 @@ final class Status extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload, path: ['agentId' => $agentId]);
         return $result;
     }
-
 }

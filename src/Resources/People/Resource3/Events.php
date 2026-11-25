@@ -68,5 +68,4 @@ final class Events extends \InfobipSDK\Client
         func_num_args() > 0 ? $this->executeBody(self::operation(self::POST), $payload) : $this->executeArguments(self::operation(self::POST));
         return;
     }
-
 }

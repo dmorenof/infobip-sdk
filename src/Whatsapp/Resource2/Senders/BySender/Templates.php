@@ -73,5 +73,4 @@ final class Templates extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Whatsapp\Resource2\Senders\BySender\Templates::class)->patchById($identifier, $payload);
     }
-
 }

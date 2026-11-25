@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class StickerContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'mediaUrl',
-];
+        'mediaUrl',
+    ];
 
     protected const array VALIDATION = [
-    'mediaUrl' => [
-        'minLength' => 1,
-        'maxLength' => 2048,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'mediaUrl' => [
+            'minLength' => 1,
+            'maxLength' => 2048,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * URL of a sticker sent in a WhatsApp message. Must be a valid URL starting with `https://` or `http://`. Supported sticker type is `WebP`. Sticker file should be 512x512 pixels. Maximum size is 100KB for static sticker and 500KB for animated sticker.

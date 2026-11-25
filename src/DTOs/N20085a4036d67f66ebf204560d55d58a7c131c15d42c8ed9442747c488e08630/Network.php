@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class Network extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'networkId' => [
-        'format' => 'int32',
-    ],
-];
+        'networkId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'countryName',
-    'countryPrefix',
-    'networkId',
-    'networkName',
-    'networkPrefix',
-];
+        'countryName',
+        'countryPrefix',
+        'networkId',
+        'networkName',
+        'networkPrefix',
+    ];
 
     /**
      * Optional name of the country the network operates in.

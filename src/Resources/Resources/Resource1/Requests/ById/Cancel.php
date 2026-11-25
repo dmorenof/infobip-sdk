@@ -74,5 +74,4 @@ final class Cancel extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::POST), path: ['id' => $id]);
         return;
     }
-
 }

@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\C18e27d419b307552daa9403b0085ee796da1a5e57e2a4e6fb73f4
 final class Participant extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'endpoint',
-];
+        'endpoint',
+    ];
 
     protected const array VALIDATION = [
-    'callId' => [
-        'maxLength' => 128,
-    ],
-];
+        'callId' => [
+            'maxLength' => 128,
+        ],
+    ];
 
     /**
      * Participant call ID.

@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N41037c0c5bdf4509c49aaf5c9a141a8857afc7b3859839aa4c690
 final class ByUniqueRequestParameters extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'identifier',
-    'type',
-];
+        'identifier',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'identifier' => [
-        'minLength' => 1,
-    ],
-];
+        'identifier' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Person ID. ID type must match the `type` parameter.

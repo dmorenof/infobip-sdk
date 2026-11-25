@@ -17,5 +17,4 @@ final class BrandAuthVerification extends \InfobipSDK\InfobipOpenAPISpecificatio
     {
         self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Brands\ByBrandId\BrandAuthVerification::class)->post($brandId);
     }
-
 }

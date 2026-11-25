@@ -14,23 +14,23 @@ final class UrlButton extends \InfobipSDK\DTOs\N382231ebb2fc250c93965563ed41f4ba
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 28,
-    ],
-    'target' => [
-        'minLength' => 0,
-        'maxLength' => 3,
-    ],
-    'urlMobile' => [
-        'minLength' => 0,
-        'maxLength' => 500,
-    ],
-    'urlPc' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-];
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 28,
+        ],
+        'target' => [
+            'minLength' => 0,
+            'maxLength' => 3,
+        ],
+        'urlMobile' => [
+            'minLength' => 0,
+            'maxLength' => 500,
+        ],
+        'urlPc' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -16,5 +16,4 @@ final class Share extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Saas\Resource1\ByResourceType\ByResourceId\Share::class)->post($identifier, $payload);
     }
-
 }

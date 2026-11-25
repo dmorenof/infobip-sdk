@@ -12,11 +12,11 @@ class MoMessage extends \Dmorenof\SdkRuntime\DTO
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece.FileMessage' => 'InfobipSDK\\DTOs\\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece\\FileMessage',
-    '477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece.TextMessage' => 'InfobipSDK\\DTOs\\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece\\TextMessage',
-    'FILE' => 'InfobipSDK\\DTOs\\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece\\FileMessage',
-    'TEXT' => 'InfobipSDK\\DTOs\\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece\\TextMessage',
-];
+        '477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece.FileMessage' => 'InfobipSDK\\DTOs\\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece\\FileMessage',
+        '477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece.TextMessage' => 'InfobipSDK\\DTOs\\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece\\TextMessage',
+        'FILE' => 'InfobipSDK\\DTOs\\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece\\FileMessage',
+        'TEXT' => 'InfobipSDK\\DTOs\\N477ea179b1fa759a5e4ddd5edaa6af94d896d40bcb5c4181a042ac252296aece\\TextMessage',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

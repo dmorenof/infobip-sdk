@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896
 final class SimSwapCheckDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'period',
-];
+        'period',
+    ];
 
     protected const array VALIDATION = [
-    'period' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'proceedOn' => [
-        'uniqueItems' => true,
-    ],
-];
+        'period' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'proceedOn' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * SIM swap check will be verified with MNO in "period" amount of hours from when this request was received. The value should be greater than 0.

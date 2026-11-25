@@ -16,5 +16,4 @@ final class StartMediaStream extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Calls\ByCallId\StartMediaStream::class)->post($callId, $payload);
     }
-
 }

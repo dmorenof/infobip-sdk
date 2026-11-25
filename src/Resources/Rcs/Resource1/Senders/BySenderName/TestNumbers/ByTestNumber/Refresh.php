@@ -79,5 +79,4 @@ final class Refresh extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT), path: $identifier);
         return $result;
     }
-
 }

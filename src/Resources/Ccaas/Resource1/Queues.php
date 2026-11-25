@@ -258,5 +258,4 @@ final class Queues extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_QUEUE_ID), $payload, path: ['queueId' => $queueId]);
         return $result;
     }
-
 }

@@ -23,5 +23,4 @@ final class Advanced extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Mi\Verification\Resource1\Verify\Advanced::class)->post($payload);
     }
-
 }

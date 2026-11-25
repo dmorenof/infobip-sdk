@@ -10,40 +10,40 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class EditRcsSenderApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'bannerUrl',
-    'billingCategory',
-    'color',
-    'description',
-    'displayName',
-    'logoUrl',
-    'privacy',
-    'termsOfService',
-    'useCase',
-];
+        'bannerUrl',
+        'billingCategory',
+        'color',
+        'description',
+        'displayName',
+        'logoUrl',
+        'privacy',
+        'termsOfService',
+        'useCase',
+    ];
 
     protected const array VALIDATION = [
-    'bannerUrl' => [
-        'minLength' => 1,
-        'maxLength' => 2048,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-    'color' => [
-        'pattern' => '^#?([A-Fa-f0-9]{6})$',
-    ],
-    'description' => [
-        'minLength' => 1,
-        'maxLength' => 100,
-    ],
-    'displayName' => [
-        'minLength' => 1,
-        'maxLength' => 40,
-    ],
-    'logoUrl' => [
-        'minLength' => 1,
-        'maxLength' => 2048,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'bannerUrl' => [
+            'minLength' => 1,
+            'maxLength' => 2048,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+        'color' => [
+            'pattern' => '^#?([A-Fa-f0-9]{6})$',
+        ],
+        'description' => [
+            'minLength' => 1,
+            'maxLength' => 100,
+        ],
+        'displayName' => [
+            'minLength' => 1,
+            'maxLength' => 40,
+        ],
+        'logoUrl' => [
+            'minLength' => 1,
+            'maxLength' => 2048,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * URL of the banner image associated with the sender and displayed to the user on mobile device. It must be in JPG / JPEG or PNG format and it must be in 1440 x 448 resolution (width x height). Maximum 204,800 bytes. Maximum URL length is 2048 characters.

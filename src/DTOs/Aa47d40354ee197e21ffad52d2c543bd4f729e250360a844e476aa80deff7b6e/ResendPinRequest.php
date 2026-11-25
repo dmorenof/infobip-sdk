@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\Aa47d40354ee197e21ffad52d2c543bd4f729e250360a844e476aa
 final class ResendPinRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'placeholders',
-    'trackDelivery',
-];
+        'placeholders',
+        'trackDelivery',
+    ];
 
     /**
      * Key value pairs that will be replaced during message sending. Placeholder keys should NOT contain curly brackets and should NOT contain a `pin` placeholder. Valid example: `"placeholders":{"firstName":"John"}`

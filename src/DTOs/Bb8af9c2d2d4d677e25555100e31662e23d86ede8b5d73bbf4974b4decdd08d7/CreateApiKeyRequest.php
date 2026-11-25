@@ -10,20 +10,20 @@ namespace InfobipSDK\DTOs\Bb8af9c2d2d4d677e25555100e31662e23d86ede8b5d73bbf4974b
 final class CreateApiKeyRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-    ],
-    'permissions' => [
-        'jsonSchema' => '{"enum":["2FA_CLIENT","PUBLIC_API","WEB_SDK"]}',
-    ],
-    'scopeGuids' => [
-        'uniqueItems' => true,
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+        ],
+        'permissions' => [
+            'jsonSchema' => '{"enum":["2FA_CLIENT","PUBLIC_API","WEB_SDK"]}',
+        ],
+        'scopeGuids' => [
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * Unique identifier for account this API key will belong to. If not provided accountId of the user making the API request will be set. CPaaSX Applications and Entities can be set only on api keys that belong to the account of the user making the request and only if that account is main account.

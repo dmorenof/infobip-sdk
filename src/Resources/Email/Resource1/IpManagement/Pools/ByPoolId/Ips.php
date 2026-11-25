@@ -140,5 +140,4 @@ final class Ips extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::DELETE_BY_IP_ID), path: $identifier);
         return;
     }
-
 }

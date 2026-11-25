@@ -356,5 +356,4 @@ final class Entities extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::PUT_BY_ENTITY_ID), $payload, path: ['entityId' => $entityId]);
         return;
     }
-
 }

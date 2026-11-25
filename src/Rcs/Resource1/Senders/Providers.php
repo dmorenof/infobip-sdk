@@ -16,5 +16,4 @@ final class Providers extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Rcs\Resource1\Senders\Providers::class)->get($params);
     }
-
 }

@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N61aa42c3f981b5eedf39f88f62d783e335a4e6b75d3b1bbc6a07b
 final class IamOttContactV2 extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'applicationId',
-    'systemData',
-    'userId',
-];
+        'applicationId',
+        'systemData',
+        'userId',
+    ];
 
     /**
      * Application Id on which the user is subscribed.

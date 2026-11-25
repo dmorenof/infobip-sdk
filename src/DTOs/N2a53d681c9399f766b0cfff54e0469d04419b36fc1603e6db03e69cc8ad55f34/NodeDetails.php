@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\N2a53d681c9399f766b0cfff54e0469d04419b36fc1603e6db03e6
 final class NodeDetails extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'text',
-];
+        'id',
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'endCharIdx' => [
-        'format' => 'int32',
-    ],
-    'startCharIdx' => [
-        'format' => 'int32',
-    ],
-];
+        'endCharIdx' => [
+            'format' => 'int32',
+        ],
+        'startCharIdx' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * End character index.

@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\N1e177a7c00f43fb0cfaf8876573312572061d384022066ddec32b
 final class ScoreBase extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'audioUrl',
-    'campaignId',
-    'languageCode',
-    'userId',
-];
+        'audioUrl',
+        'campaignId',
+        'languageCode',
+        'userId',
+    ];
 
     /**
      * URL of the audio file used for sound matching. Must be a valid URL pointing to an audio file.

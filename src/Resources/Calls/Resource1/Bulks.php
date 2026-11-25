@@ -143,5 +143,4 @@ final class Bulks extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_BULK_ID), path: ['bulkId' => $bulkId]);
         return $result;
     }
-
 }

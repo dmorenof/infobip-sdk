@@ -38,5 +38,4 @@ final class SendingStrategies extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Provisioning\Resource2\SendingStrategies::class)->deleteBySendingStrategyId($sendingStrategyId);
     }
-
 }

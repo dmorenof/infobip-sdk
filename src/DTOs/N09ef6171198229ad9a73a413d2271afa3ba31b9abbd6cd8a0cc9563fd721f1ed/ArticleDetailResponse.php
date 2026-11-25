@@ -10,30 +10,30 @@ namespace InfobipSDK\DTOs\N09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc95
 final class ArticleDetailResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'breadcrumb',
-    'category',
-    'content',
-    'createdAt',
-    'id',
-    'lastUpdatedAt',
-    'likeCount',
-    'links',
-    'name',
-    'scope',
-    'status',
-    'tags',
-    'viewCount',
-    'visibility',
-];
+        'breadcrumb',
+        'category',
+        'content',
+        'createdAt',
+        'id',
+        'lastUpdatedAt',
+        'likeCount',
+        'links',
+        'name',
+        'scope',
+        'status',
+        'tags',
+        'viewCount',
+        'visibility',
+    ];
 
     protected const array VALIDATION = [
-    'likeCount' => [
-        'format' => 'int32',
-    ],
-    'viewCount' => [
-        'format' => 'int32',
-    ],
-];
+        'likeCount' => [
+            'format' => 'int32',
+        ],
+        'viewCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Navigation breadcrumb path.

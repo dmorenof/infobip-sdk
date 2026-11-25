@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N1ed350d65e634c5446c08244298a26d3b0bb68a76782ab9246a80
 final class UpdatePlatformRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'configId',
-];
+        'configId',
+    ];
 
     protected const array VALIDATION = [
-    'configId' => [
-        'minLength' => 32,
-        'maxLength' => 32,
-    ],
-];
+        'configId' => [
+            'minLength' => 32,
+            'maxLength' => 32,
+        ],
+    ];
 
     /**
      * ID of the blocking configuration to update, as returned by other endpoints.

@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveUrlButtonActionContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'displayText',
-    'url',
-];
+        'displayText',
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'displayText' => [
-        'minLength' => 1,
-        'maxLength' => 20,
-    ],
-    'url' => [
-        'minLength' => 1,
-        'maxLength' => 2048,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'displayText' => [
+            'minLength' => 1,
+            'maxLength' => 20,
+        ],
+        'url' => [
+            'minLength' => 1,
+            'maxLength' => 2048,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * Content of the button.

@@ -16,5 +16,4 @@ final class All extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Context\Resource1\Facts\All::class)->delete();
     }
-
 }

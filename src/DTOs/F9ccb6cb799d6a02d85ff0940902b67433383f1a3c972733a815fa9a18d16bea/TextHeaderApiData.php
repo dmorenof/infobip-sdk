@@ -12,17 +12,17 @@ final class TextHeaderApiData extends \InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'example' => [
-        'minLength' => 1,
-    ],
-    'text' => [
-        'minLength' => 1,
-    ],
-];
+        'example' => [
+            'minLength' => 1,
+        ],
+        'text' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'example',
-];
+        'example',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

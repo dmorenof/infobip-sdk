@@ -40,5 +40,4 @@ final class Ips extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Email\Resource1\IpManagement\Ips::class)->getByIpId($ipId);
     }
-
 }

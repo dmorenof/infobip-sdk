@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveListSectionContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'rows',
-];
+        'rows',
+    ];
 
     protected const array VALIDATION = [
-    'rows' => [
-        'minItems' => 1,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 24,
-    ],
-];
+        'rows' => [
+            'minItems' => 1,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 24,
+        ],
+    ];
 
     /**
      * An array of rows sent within a section. Section must contain at least one row. Message can have up to ten rows.

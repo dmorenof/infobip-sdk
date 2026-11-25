@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class AppleMfbOutboundInvitationContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'referenceId' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-        'pattern' => '^[^"\']*$',
-    ],
-    'requestIdentifier' => [
-        'pattern' => '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$',
-    ],
-];
+        'referenceId' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+            'pattern' => '^[^"\']*$',
+        ],
+        'requestIdentifier' => [
+            'pattern' => '^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$',
+        ],
+    ];
 
     /**
      * Indicates the language used in the message (eg. `en-US`). If locale is not specified, default language will be used.

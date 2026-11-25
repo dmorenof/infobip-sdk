@@ -63,5 +63,4 @@ final class Reset extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::DELETE), path: ['campaignId' => $campaignId]);
         return;
     }
-
 }

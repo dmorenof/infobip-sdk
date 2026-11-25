@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff0940902b67433383f1a3c972733a815fa
 final class BodyApiData extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'text',
-];
+        'text',
+    ];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 1,
-    ],
-];
+        'text' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'examples',
-];
+        'examples',
+    ];
 
     /**
      * Placeholders examples. The number of examples has to be the same as the number of placeholders. Examples cannot contain placeholders.

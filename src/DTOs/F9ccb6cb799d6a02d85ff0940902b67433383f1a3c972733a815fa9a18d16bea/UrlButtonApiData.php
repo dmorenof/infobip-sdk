@@ -12,25 +12,25 @@ final class UrlButtonApiData extends \InfobipSDK\DTOs\F9ccb6cb799d6a02d85ff09409
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'example' => [
-        'pattern' => '^(ftp|http|https)://(www\\.)?(([-a-z0-9@:%._+~#=]{1,4096}\\.([a-z]{1,63})(\\b|_))|(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}))(:\\d{2,5})?([-a-z0-9()@:%_+,.~!#?&/=\'*;$]+)?',
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 25,
-    ],
-    'url' => [
-        'minLength' => 1,
-    ],
-];
+        'example' => [
+            'pattern' => '^(ftp|http|https)://(www\\.)?(([-a-z0-9@:%._+~#=]{1,4096}\\.([a-z]{1,63})(\\b|_))|(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}))(:\\d{2,5})?([-a-z0-9()@:%_+,.~!#?&/=\'*;$]+)?',
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 25,
+        ],
+        'url' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'destinationUrl',
-];
+        'destinationUrl',
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'example',
-];
+        'example',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

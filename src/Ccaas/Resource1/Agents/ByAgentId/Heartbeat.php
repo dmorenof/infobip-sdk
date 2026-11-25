@@ -16,5 +16,4 @@ final class Heartbeat extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Agents\ByAgentId\Heartbeat::class)->put($agentId);
     }
-
 }

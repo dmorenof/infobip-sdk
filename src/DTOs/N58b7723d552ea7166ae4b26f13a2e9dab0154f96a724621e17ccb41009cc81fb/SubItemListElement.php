@@ -12,39 +12,39 @@ namespace InfobipSDK\DTOs\N58b7723d552ea7166ae4b26f13a2e9dab0154f96a724621e17ccb
 final class SubItemListElement extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'imageUrl',
-    'title',
-    'urlMobile',
-];
+        'imageUrl',
+        'title',
+        'urlMobile',
+    ];
 
     protected const array VALIDATION = [
-    'imageUrl' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-    'schemeAndroid' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'schemeIos' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-    'title' => [
-        'minLength' => 1,
-        'maxLength' => 30,
-    ],
-    'urlMobile' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-    'urlPc' => [
-        'minLength' => 1,
-        'maxLength' => 500,
-    ],
-];
+        'imageUrl' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+        'schemeAndroid' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'schemeIos' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+        'title' => [
+            'minLength' => 1,
+            'maxLength' => 30,
+        ],
+        'urlMobile' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+        'urlPc' => [
+            'minLength' => 1,
+            'maxLength' => 500,
+        ],
+    ];
 
     /**
      * Template image URL. The image has a ratio of 2:1.

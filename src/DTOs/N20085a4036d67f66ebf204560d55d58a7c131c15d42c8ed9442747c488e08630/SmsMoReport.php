@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed944274
 final class SmsMoReport extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'smsCount' => [
-        'format' => 'int32',
-    ],
-];
+        'smsCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Application id linked to the message. For more details, see our [documentation](https://www.infobip.com/docs/cpaas-x/application-and-entity-management).

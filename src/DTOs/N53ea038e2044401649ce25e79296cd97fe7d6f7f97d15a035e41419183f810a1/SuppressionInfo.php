@@ -12,12 +12,12 @@ namespace InfobipSDK\DTOs\N53ea038e2044401649ce25e79296cd97fe7d6f7f97d15a035e414
 final class SuppressionInfo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'createdDate',
-    'domainName',
-    'emailAddress',
-    'reason',
-    'type',
-];
+        'createdDate',
+        'domainName',
+        'emailAddress',
+        'reason',
+        'type',
+    ];
 
     /**
      * Date and time when email address was suppressed.

@@ -10,21 +10,21 @@ namespace InfobipSDK\DTOs\N9620629c173fbd1e947e2693ffe57e0c353c3961ef0ef2018c058
 final class UpdateFormApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fields',
-    'isEnabled',
-    'title',
-];
+        'fields',
+        'isEnabled',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'fields' => [
-        'minItems' => 1,
-        'maxItems' => 2147483647,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-];
+        'fields' => [
+            'minItems' => 1,
+            'maxItems' => 2147483647,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+    ];
 
     /**
      * Fields attached to a form.

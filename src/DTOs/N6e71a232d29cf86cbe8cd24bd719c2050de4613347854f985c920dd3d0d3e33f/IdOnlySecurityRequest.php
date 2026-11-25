@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N6e71a232d29cf86cbe8cd24bd719c2050de4613347854f985c920
 final class IdOnlySecurityRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'authId',
-];
+        'authId',
+    ];
 
     protected const array VALIDATION = [
-    'authId' => [
-        'minLength' => 1,
-        'maxLength' => 255,
-    ],
-];
+        'authId' => [
+            'minLength' => 1,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * Unique security setting ID. You can provide this ID if you want to associate your subscription with a different notification profile.

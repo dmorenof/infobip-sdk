@@ -12,10 +12,10 @@ final class UPIIntentPaymentLinkFormat extends \InfobipSDK\DTOs\F30d78c250ad1209
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'paymentLink' => [
-        'minLength' => 1,
-    ],
-];
+        'paymentLink' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

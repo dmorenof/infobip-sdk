@@ -67,5 +67,4 @@ final class Stop extends \InfobipSDK\Client
         $this->executeArguments(self::operation(self::POST), path: ['testId' => $testId]);
         return;
     }
-
 }

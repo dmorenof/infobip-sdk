@@ -372,5 +372,4 @@ final class Brands extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::PUT_BY_BRAND_ID), path: ['brandId' => $brandId], parameters: $params);
         return $result;
     }
-
 }

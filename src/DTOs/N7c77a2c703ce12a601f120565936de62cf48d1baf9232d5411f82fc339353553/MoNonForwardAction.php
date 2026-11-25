@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82
 class MoNonForwardAction extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.AutoResponseAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\AutoResponseAction',
-    '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.BlockAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\BlockAction',
-    'AUTORESPONSE' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\AutoResponseAction',
-    'BLOCK' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\BlockAction',
-];
+        '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.AutoResponseAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\AutoResponseAction',
+        '7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553.BlockAction' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\BlockAction',
+        'AUTORESPONSE' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\AutoResponseAction',
+        'BLOCK' => 'InfobipSDK\\DTOs\\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\\BlockAction',
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'editable',
-];
+        'editable',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

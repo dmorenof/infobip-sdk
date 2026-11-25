@@ -12,15 +12,15 @@ final class ViberBotOutboundCarouselContent extends \InfobipSDK\DTOs\N14dcd0f25f
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'backgroundColor' => [
-        'pattern' => '^[#]([A-Fa-f0-9]{6})$',
-    ],
-    'heightScale' => [
-        'minimum' => 20,
-        'maximum' => 100,
-        'format' => 'int32',
-    ],
-];
+        'backgroundColor' => [
+            'pattern' => '^[#]([A-Fa-f0-9]{6})$',
+        ],
+        'heightScale' => [
+            'minimum' => 20,
+            'maximum' => 100,
+            'format' => 'int32',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

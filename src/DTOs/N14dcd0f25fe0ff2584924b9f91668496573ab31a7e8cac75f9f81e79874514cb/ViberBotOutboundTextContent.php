@@ -12,11 +12,11 @@ final class ViberBotOutboundTextContent extends \InfobipSDK\DTOs\N14dcd0f25fe0ff
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 4000,
-    ],
-];
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 4000,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

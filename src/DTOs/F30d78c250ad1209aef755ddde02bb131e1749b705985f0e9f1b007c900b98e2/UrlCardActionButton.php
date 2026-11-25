@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class UrlCardActionButton extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'displayText',
-    'url',
-];
+        'displayText',
+        'url',
+    ];
 
     protected const array VALIDATION = [
-    'displayText' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-    'url' => [
-        'minLength' => 0,
-        'maxLength' => 2048,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'displayText' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+        'url' => [
+            'minLength' => 0,
+            'maxLength' => 2048,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     /**
      * Display text of the URL button.

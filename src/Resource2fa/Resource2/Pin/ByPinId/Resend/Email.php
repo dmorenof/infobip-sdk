@@ -20,5 +20,4 @@ final class Email extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         return self::client()->resource(\InfobipSDK\Resources\Resource2fa\Resource2\Pin\ByPinId\Resend\Email::class)->post($pinId, $payload);
     }
-
 }

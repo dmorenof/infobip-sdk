@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c15
 final class RetryOptions extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'maxAttempts' => [
-        'format' => 'int32',
-    ],
-    'maxWaitPeriod' => [
-        'format' => 'int32',
-    ],
-    'minWaitPeriod' => [
-        'format' => 'int32',
-    ],
-];
+        'maxAttempts' => [
+            'format' => 'int32',
+        ],
+        'maxWaitPeriod' => [
+            'format' => 'int32',
+        ],
+        'minWaitPeriod' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Defines the maximum number of retry attempts. The maximum value is `4`. If a value higher than `4` is entered, it will be set to `4`.

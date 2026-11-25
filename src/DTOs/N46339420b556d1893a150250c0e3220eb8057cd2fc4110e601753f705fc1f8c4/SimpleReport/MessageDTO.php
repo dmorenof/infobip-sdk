@@ -7,9 +7,9 @@ namespace InfobipSDK\DTOs\N46339420b556d1893a150250c0e3220eb8057cd2fc4110e601753
 final class MessageDTO extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array WRITE_ONLY_FIELDS = [
-    'text',
-    'type',
-];
+        'text',
+        'type',
+    ];
 
     /**
      * Incoming message text.

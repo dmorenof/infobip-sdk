@@ -12,15 +12,15 @@ final class LiveChatOutboundImageWithCaptionContent extends \InfobipSDK\DTOs\N24
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'caption' => [
-        'minLength' => 0,
-        'maxLength' => 3000,
-    ],
-    'url' => [
-        'minLength' => 0,
-        'maxLength' => 2048,
-    ],
-];
+        'caption' => [
+            'minLength' => 0,
+            'maxLength' => 3000,
+        ],
+        'url' => [
+            'minLength' => 0,
+            'maxLength' => 2048,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

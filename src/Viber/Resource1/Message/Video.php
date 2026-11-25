@@ -19,5 +19,4 @@ final class Video extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Viber\Resource1\Message\Video::class)->post($payload);
     }
-
 }

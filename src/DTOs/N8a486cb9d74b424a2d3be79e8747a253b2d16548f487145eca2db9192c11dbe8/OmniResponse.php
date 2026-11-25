@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N8a486cb9d74b424a2d3be79e8747a253b2d16548f487145eca2db
 final class OmniResponse extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'bulkId',
-    'messages',
-];
+        'bulkId',
+        'messages',
+    ];
 
     /**
      * The ID which uniquely identifies the request. Bulk ID will be received only when you send a message to more than one destination address.

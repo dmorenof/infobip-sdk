@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\Cc99cb7b0e48638be90df2dee94fb1aaadb95bcd09a6944a79bd00
 final class AudienceUser extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'email' => [
-        'minLength' => 64,
-        'maxLength' => 64,
-    ],
-    'phone' => [
-        'minLength' => 64,
-        'maxLength' => 64,
-    ],
-];
+        'email' => [
+            'minLength' => 64,
+            'maxLength' => 64,
+        ],
+        'phone' => [
+            'minLength' => 64,
+            'maxLength' => 64,
+        ],
+    ];
 
     /**
      * SHA-256 hashed email address. Normalize the value before hashing: trim surrounding whitespace and lowercase it (e.g. " User&#64;Example.com " becomes "user&#64;example.com" before hashing). The hashed value must be a 64-character lowercase hexadecimal string.

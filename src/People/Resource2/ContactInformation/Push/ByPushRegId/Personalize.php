@@ -16,5 +16,4 @@ final class Personalize extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\People\Resource2\ContactInformation\Push\ByPushRegId\Personalize::class)->post($pushRegId, $params);
     }
-
 }

@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N30350ea3b42c85fe379e7561e2b43510ecd150d18a85f55710d4f
 final class OtpRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'locale',
-    'type',
-];
+        'locale',
+        'type',
+    ];
 
     /**
      * Locale which will be used to submit for verification.

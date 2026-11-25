@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\N5c2cf40bcaa0da78551dad80ceca0bb519c9f9fe84d6b1fad6440
 final class ApplicationsResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'applications',
-];
+        'applications',
+    ];
 
     /**
      * List of applications.

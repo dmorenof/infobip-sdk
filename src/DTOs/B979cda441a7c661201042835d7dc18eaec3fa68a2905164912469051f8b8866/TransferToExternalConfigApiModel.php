@@ -11,17 +11,17 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class TransferToExternalConfigApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'tagName' => [
-        'minLength' => 0,
-        'maxLength' => 256,
-    ],
-];
+        'tagName' => [
+            'minLength' => 0,
+            'maxLength' => 256,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'createdAt',
-    'tagName',
-    'updatedAt',
-];
+        'createdAt',
+        'tagName',
+        'updatedAt',
+    ];
 
     /**
      * Example: "2022-12-10T13:45:00.777+0000"

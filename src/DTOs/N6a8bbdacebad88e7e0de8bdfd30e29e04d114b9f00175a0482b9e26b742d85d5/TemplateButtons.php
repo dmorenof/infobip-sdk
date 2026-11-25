@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class TemplateButtons extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'items',
-];
+        'items',
+    ];
 
     protected const array VALIDATION = [
-    'items' => [
-        'minItems' => 1,
-        'maxItems' => 3,
-    ],
-];
+        'items' => [
+            'minItems' => 1,
+            'maxItems' => 3,
+        ],
+    ];
 
     /**
      * List of buttons.

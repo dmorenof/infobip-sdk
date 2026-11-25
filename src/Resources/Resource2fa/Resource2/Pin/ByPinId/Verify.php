@@ -83,5 +83,4 @@ final class Verify extends \InfobipSDK\Client
         $result = func_num_args() > 1 ? $this->executeBody(self::operation(self::POST), $payload, path: ['pinId' => $pinId]) : $this->executeArguments(self::operation(self::POST), path: ['pinId' => $pinId]);
         return $result;
     }
-
 }

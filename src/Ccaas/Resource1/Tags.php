@@ -39,5 +39,4 @@ final class Tags extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Tags::class)->deleteByTagName($tagName);
     }
-
 }

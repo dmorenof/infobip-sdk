@@ -267,5 +267,4 @@ final class EmergencyService extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT), $payload, path: ['numberKey' => $numberKey]);
         return $result;
     }
-
 }

@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\Ab7498b77a5058e37557279988a806092938b5b30ecbfd39229d94
 final class IdentityConfirmation extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'hash',
-];
+        'hash',
+    ];
 
     protected const array VALIDATION = [
-    'hash' => [
-        'minLength' => 1,
-    ],
-];
+        'hash' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Identity hash

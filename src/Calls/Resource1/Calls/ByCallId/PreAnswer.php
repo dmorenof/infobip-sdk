@@ -19,5 +19,4 @@ final class PreAnswer extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Calls\ByCallId\PreAnswer::class)->post($callId, $payload);
     }
-
 }

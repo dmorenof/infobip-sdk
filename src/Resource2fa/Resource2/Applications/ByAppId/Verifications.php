@@ -17,5 +17,4 @@ final class Verifications extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Resource2fa\Resource2\Applications\ByAppId\Verifications::class)->get($appId, $params);
     }
-
 }

@@ -10,8 +10,8 @@ namespace InfobipSDK\DTOs\C8006fe0d154740d4f3e0ed89b54c9c54d35edf85894782dbfe7d9
 final class UpdateStatusRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'status',
-];
+        'status',
+    ];
 
     public \InfobipSDK\Enums\N20085a4036d67f66ebf204560d55d58a7c131c15d42c8ed9442747c488e08630\BulkStatus $status;
 

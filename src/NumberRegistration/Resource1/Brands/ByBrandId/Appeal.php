@@ -18,5 +18,4 @@ final class Appeal extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Brands\ByBrandId\Appeal::class)->post($brandId, $payload);
     }
-
 }

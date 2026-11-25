@@ -61,5 +61,4 @@ final class Fields extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource2\ConversationForms\Fields::class)->putById($id, $payload);
     }
-
 }

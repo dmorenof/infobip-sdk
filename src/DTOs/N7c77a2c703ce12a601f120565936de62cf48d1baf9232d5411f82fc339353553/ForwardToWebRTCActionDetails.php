@@ -12,10 +12,10 @@ final class ForwardToWebRTCActionDetails extends \InfobipSDK\DTOs\N7c77a2c703ce1
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 1,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

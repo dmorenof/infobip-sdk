@@ -16,5 +16,4 @@ final class QueryAggregateData extends \InfobipSDK\InfobipOpenAPISpecificationSD
     {
         return self::client()->resource(\InfobipSDK\Resources\Metrics\Resource1\QueryAggregateData::class)->post($payload);
     }
-
 }

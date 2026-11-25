@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82
 final class AutoResponseAction extends \InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82fc339353553\MoNonForwardAction
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'message' => [
-        'minLength' => 0,
-        'maxLength' => 1080,
-    ],
-];
+        'message' => [
+            'minLength' => 0,
+            'maxLength' => 1080,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'editable',
-];
+        'editable',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

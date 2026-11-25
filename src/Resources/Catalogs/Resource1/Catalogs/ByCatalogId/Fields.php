@@ -348,5 +348,4 @@ final class Fields extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH_BY_FIELD_ID), $payload, path: $identifier);
         return $result;
     }
-
 }

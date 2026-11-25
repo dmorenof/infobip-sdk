@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N5305ca722d832817d411146f95eba84c3530f174d0fd6b1f72c09
 class Application extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     public const string DISCRIMINATOR_BASE = self::class;
     public const string DISCRIMINATOR_PROPERTY = 'type';
     public const array DISCRIMINATOR_MAPPING = [
-    '5305ca722d832817d411146f95eba84c3530f174d0fd6b1f72c09c5c2fbb1063.WebrtcApplication' => 'InfobipSDK\\DTOs\\N5305ca722d832817d411146f95eba84c3530f174d0fd6b1f72c09c5c2fbb1063\\WebrtcApplication',
-    'WEBRTC' => 'InfobipSDK\\DTOs\\N5305ca722d832817d411146f95eba84c3530f174d0fd6b1f72c09c5c2fbb1063\\WebrtcApplication',
-];
+        '5305ca722d832817d411146f95eba84c3530f174d0fd6b1f72c09c5c2fbb1063.WebrtcApplication' => 'InfobipSDK\\DTOs\\N5305ca722d832817d411146f95eba84c3530f174d0fd6b1f72c09c5c2fbb1063\\WebrtcApplication',
+        'WEBRTC' => 'InfobipSDK\\DTOs\\N5305ca722d832817d411146f95eba84c3530f174d0fd6b1f72c09c5c2fbb1063\\WebrtcApplication',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

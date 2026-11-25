@@ -10,12 +10,12 @@ namespace InfobipSDK\DTOs\N61aa42c3f981b5eedf39f88f62d783e335a4e6b75d3b1bbc6a07b
 final class IamPushContactV2 extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array READ_ONLY_FIELDS = [
-    'additionalData',
-    'applicationId',
-    'isPrimary',
-    'registrationId',
-    'systemData',
-];
+        'additionalData',
+        'applicationId',
+        'isPrimary',
+        'registrationId',
+        'systemData',
+    ];
 
     /**
      * Additional data collected from the user's profile

@@ -12,21 +12,21 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class TemplateContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'language',
-    'templateData',
-    'templateName',
-];
+        'language',
+        'templateData',
+        'templateName',
+    ];
 
     protected const array VALIDATION = [
-    'language' => [
-        'minLength' => 1,
-    ],
-    'templateName' => [
-        'minLength' => 1,
-        'maxLength' => 512,
-        'pattern' => '[a-z0-9_]+$',
-    ],
-];
+        'language' => [
+            'minLength' => 1,
+        ],
+        'templateName' => [
+            'minLength' => 1,
+            'maxLength' => 512,
+            'pattern' => '[a-z0-9_]+$',
+        ],
+    ];
 
     /**
      * The code of language or locale to use. Must be the same code used when registering the template.

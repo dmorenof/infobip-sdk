@@ -11,15 +11,15 @@ namespace InfobipSDK\DTOs\N59fee77911b10cc32daa4aa3591d8ca0b6f5fe540a80b499aee90
 final class QueueAssignRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'queueId',
-];
+        'queueId',
+    ];
 
     protected const array VALIDATION = [
-    'queueId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-];
+        'queueId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+    ];
 
     /**
      * queueId identifier

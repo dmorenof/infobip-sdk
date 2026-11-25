@@ -7,35 +7,35 @@ namespace InfobipSDK\GetParams\Webrtc\Resource1;
 final class Recordings extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'callType' => 'callType',
-        'identity' => 'identity',
-        'location' => 'location',
-        'page' => 'page',
-        'phoneNumber' => 'phoneNumber',
-        'roomId' => 'roomId',
-        'roomName' => 'roomName',
-        'size' => 'size',
-        'sortBy' => 'sortBy',
-        'sortDirection' => 'sortDirection',
-        'startTimeAfter' => 'startTimeAfter',
-        'startTimeBefore' => 'startTimeBefore',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'callType' => 'callType',
+            'identity' => 'identity',
+            'location' => 'location',
+            'page' => 'page',
+            'phoneNumber' => 'phoneNumber',
+            'roomId' => 'roomId',
+            'roomName' => 'roomName',
+            'size' => 'size',
+            'sortBy' => 'sortBy',
+            'sortDirection' => 'sortDirection',
+            'startTimeAfter' => 'startTimeAfter',
+            'startTimeBefore' => 'startTimeBefore',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'page' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-    'size' => [
-        'minimum' => 0,
-        'maximum' => 100,
-        'format' => 'int32',
-    ],
-];
+        'page' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+        'size' => [
+            'minimum' => 0,
+            'maximum' => 100,
+            'format' => 'int32',
+        ],
+    ];
 
     public ?\InfobipSDK\Enums\N7916e19109f991cfe966f390ef0d36117967291fa90eff57d8c8cb768f38352e\CallType $callType;
     public ?string $identity;

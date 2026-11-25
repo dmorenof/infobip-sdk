@@ -282,5 +282,4 @@ final class Requests extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PATCH_BY_ID), $payload, path: ['id' => $id]);
         return $result;
     }
-
 }

@@ -60,5 +60,4 @@ final class Security extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Subscriptions\Resource1\Security::class)->putByAuthId($authId, $payload);
     }
-
 }

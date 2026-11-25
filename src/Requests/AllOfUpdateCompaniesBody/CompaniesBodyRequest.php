@@ -10,5 +10,4 @@ final class CompaniesBodyRequest extends \Dmorenof\SdkRuntime\DTO
      * List of companies.
      */
     public \InfobipSDK\Collections\AllOfUpdateCompaniesBody\CompaniesBodyCompaniesCollection $companies;
-
 }

@@ -12,25 +12,25 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class LocationItem extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'title',
-];
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'latitude' => [
-        'minimum' => -90,
-        'maximum' => 90,
-    ],
-    'longitude' => [
-        'minimum' => -180,
-        'maximum' => 180,
-    ],
-    'radius' => [
-        'minimum' => 0,
-    ],
-    'title' => [
-        'minLength' => 1,
-    ],
-];
+        'latitude' => [
+            'minimum' => -90,
+            'maximum' => 90,
+        ],
+        'longitude' => [
+            'minimum' => -180,
+            'maximum' => 180,
+        ],
+        'radius' => [
+            'minimum' => 0,
+        ],
+        'title' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Latitude of the location.

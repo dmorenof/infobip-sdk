@@ -12,10 +12,10 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class MessagesApiDescriptiveTotalAmount extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'value' => [
-        'minimum' => 0,
-    ],
-];
+        'value' => [
+            'minimum' => 0,
+        ],
+    ];
 
     /**
      * (Apple specific, required) Additional description of the amount.

@@ -134,5 +134,4 @@ final class Queues extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::DELETE_BY_QUEUE_ID), path: $identifier);
         return $result;
     }
-
 }

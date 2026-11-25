@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N3995f10686be3e5fc42bb37b4419fd7fe2425eaa12f76cbe13680
 final class CarouselFreeFormElementAttachment extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'buttons',
-    'image',
-];
+        'buttons',
+        'image',
+    ];
 
     protected const array VALIDATION = [
-    'buttons' => [
-        'minItems' => 1,
-        'maxItems' => 2,
-    ],
-];
+        'buttons' => [
+            'minItems' => 1,
+            'maxItems' => 2,
+        ],
+    ];
 
     /**
      *  A maximum of 2. Only 1 `ADD_CHANNEL` button allowed across the entire carousel.

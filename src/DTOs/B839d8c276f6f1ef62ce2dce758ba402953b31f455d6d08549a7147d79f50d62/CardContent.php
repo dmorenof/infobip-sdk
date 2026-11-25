@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\B839d8c276f6f1ef62ce2dce758ba402953b31f455d6d08549a714
 final class CardContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'description' => [
-        'minLength' => 1,
-        'maxLength' => 2000,
-    ],
-    'suggestions' => [
-        'minItems' => 0,
-        'maxItems' => 4,
-    ],
-    'title' => [
-        'minLength' => 1,
-        'maxLength' => 200,
-    ],
-];
+        'description' => [
+            'minLength' => 1,
+            'maxLength' => 2000,
+        ],
+        'suggestions' => [
+            'minItems' => 0,
+            'maxItems' => 4,
+        ],
+        'title' => [
+            'minLength' => 1,
+            'maxLength' => 200,
+        ],
+    ];
 
     /**
      * Description of the card, displayed as regular text.

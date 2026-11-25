@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class Text extends \InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\Component
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'color' => [
-        'pattern' => '^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$',
-    ],
-    'flex' => [
-        'minimum' => 0,
-        'maximum' => 10,
-        'format' => 'int32',
-    ],
-    'maxLines' => [
-        'minimum' => 0,
-        'format' => 'int32',
-    ],
-];
+        'color' => [
+            'pattern' => '^#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$',
+        ],
+        'flex' => [
+            'minimum' => 0,
+            'maximum' => 10,
+            'format' => 'int32',
+        ],
+        'maxLines' => [
+            'minimum' => 0,
+            'format' => 'int32',
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\Action $action;
     public \InfobipSDK\Enums\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\Alignment $align;

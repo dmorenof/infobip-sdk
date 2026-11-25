@@ -12,19 +12,19 @@ final class LiveChatInboundAudioContent extends \InfobipSDK\DTOs\N245a74e48cd7ce
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'caption' => [
-        'minLength' => 0,
-        'maxLength' => 3000,
-    ],
-    'fileName' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'url' => [
-        'minLength' => 0,
-        'maxLength' => 2000,
-    ],
-];
+        'caption' => [
+            'minLength' => 0,
+            'maxLength' => 3000,
+        ],
+        'fileName' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'url' => [
+            'minLength' => 0,
+            'maxLength' => 2000,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

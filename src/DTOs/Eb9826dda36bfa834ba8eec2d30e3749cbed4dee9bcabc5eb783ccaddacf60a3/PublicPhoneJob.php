@@ -10,23 +10,23 @@ namespace InfobipSDK\DTOs\Eb9826dda36bfa834ba8eec2d30e3749cbed4dee9bcabc5eb783cc
 final class PublicPhoneJob extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'jobName',
-    'phoneNumbersNeedingAttention',
-    'phoneNumbersPending',
-    'phoneNumbersRegistered',
-];
+        'jobName',
+        'phoneNumbersNeedingAttention',
+        'phoneNumbersPending',
+        'phoneNumbersRegistered',
+    ];
 
     protected const array VALIDATION = [
-    'phoneNumbersNeedingAttention' => [
-        'format' => 'int32',
-    ],
-    'phoneNumbersPending' => [
-        'format' => 'int32',
-    ],
-    'phoneNumbersRegistered' => [
-        'format' => 'int32',
-    ],
-];
+        'phoneNumbersNeedingAttention' => [
+            'format' => 'int32',
+        ],
+        'phoneNumbersPending' => [
+            'format' => 'int32',
+        ],
+        'phoneNumbersRegistered' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Job/batch name.

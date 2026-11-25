@@ -49,5 +49,4 @@ final class Scenarios extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Omni\Resource1\Scenarios::class)->putByScenarioKey($scenarioKey, $payload);
     }
-
 }

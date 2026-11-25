@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class ProviderSenderLaunchFeedback extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'errors',
-];
+        'errors',
+    ];
 
     protected const array VALIDATION = [
-    'errors' => [
-        'minItems' => 1,
-        'maxItems' => 20,
-    ],
-];
+        'errors' => [
+            'minItems' => 1,
+            'maxItems' => 20,
+        ],
+    ];
 
     /**
      * List of errors related to given `requirementKey` / `externalRequirementKey`. For list of possible errors, please check [Get feedback errors](#platform/resources/resource-request/get-feedback-errors).

@@ -12,13 +12,13 @@ final class ViberBotVideoNestedInboundMessage extends \InfobipSDK\DTOs\N14dcd0f2
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'duration' => [
-        'format' => 'int32',
-    ],
-    'size' => [
-        'format' => 'int32',
-    ],
-];
+        'duration' => [
+            'format' => 'int32',
+        ],
+        'size' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

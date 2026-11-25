@@ -13,18 +13,18 @@ namespace InfobipSDK\DTOs\N900634339512041dd9c6cd5c4ad62d6cf43ea57e0548f5deeceb9
 final class CustomBadRequestResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'detail',
-    'instance',
-    'status',
-    'title',
-    'type',
-];
+        'detail',
+        'instance',
+        'status',
+        'title',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'status' => [
-        'format' => 'int32',
-    ],
-];
+        'status' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public string $detail;
     public string $instance;

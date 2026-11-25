@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N52c80a2bd29a734b52d9eb3ddb9b5d8ef0cb7c55640245f275763
 final class MetaConversionModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'ctwaClickId',
-    'type',
-];
+        'ctwaClickId',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'ctwaClickId' => [
-        'minLength' => 1,
-    ],
-];
+        'ctwaClickId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Time when the conversion happened. Must be in the format `yyyy-MM-dd'T'HH:mm:ss.SSSZ`. Date must not be older than 7 days. If omitted then current time of submission is used.

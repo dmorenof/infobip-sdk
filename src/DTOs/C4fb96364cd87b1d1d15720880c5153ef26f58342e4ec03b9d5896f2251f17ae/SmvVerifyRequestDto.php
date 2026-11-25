@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\C4fb96364cd87b1d1d15720880c5153ef26f58342e4ec03b9d5896
 final class SmvVerifyRequestDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'callbackUrl',
-    'consentGranted',
-    'phoneNumber',
-];
+        'callbackUrl',
+        'consentGranted',
+        'phoneNumber',
+    ];
 
     protected const array VALIDATION = [
-    'devicePort' => [
-        'format' => 'int32',
-    ],
-];
+        'devicePort' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Your URL that will be called to provide [result](#platform-connectivity/mobile-identity/receive-silent-mobile-verification-result) when the process is completed.

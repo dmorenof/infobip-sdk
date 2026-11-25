@@ -13,5 +13,4 @@ final class V1DocumentHeaderApiData extends \InfobipSDK\DTOs\F9ccb6cb799d6a02d85
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;
-
 }

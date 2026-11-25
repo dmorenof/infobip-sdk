@@ -330,5 +330,4 @@ final class MediaStreamConfigs extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_MEDIA_STREAM_CONFIG_ID), $payload, path: ['mediaStreamConfigId' => $mediaStreamConfigId]);
         return $result;
     }
-
 }

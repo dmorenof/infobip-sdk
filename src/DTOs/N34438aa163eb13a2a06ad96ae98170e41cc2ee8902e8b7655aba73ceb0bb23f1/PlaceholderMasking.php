@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class PlaceholderMasking extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'visibleChars' => [
-        'format' => 'int32',
-    ],
-];
+        'visibleChars' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Optional delimiter character (e.g., `&#64;`, `/`). When specified, masking applies only to the part of the placeholder before or after the delimiter, depending on the `side` value. If this is set, the `visibleChars` field is ignored.

@@ -27,5 +27,4 @@ final class Templates extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Zalo\Resource2\Sender\BySender\Templates::class)->putByTemplateName($identifier, $payload);
     }
-
 }

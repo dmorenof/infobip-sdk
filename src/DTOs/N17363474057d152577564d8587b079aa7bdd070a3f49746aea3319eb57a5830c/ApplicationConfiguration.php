@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\N17363474057d152577564d8587b079aa7bdd070a3f49746aea331
 final class ApplicationConfiguration extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'pinAttempts' => [
-        'format' => 'int32',
-    ],
-];
+        'pinAttempts' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Indicates whether multiple PIN verification is allowed.

@@ -10,24 +10,24 @@ namespace InfobipSDK\DTOs\N09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc95
 final class TreeNodeResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'articleCount',
-    'id',
-    'name',
-    'parentId',
-    'position',
-    'root',
-    'scope',
-    'type',
-];
+        'articleCount',
+        'id',
+        'name',
+        'parentId',
+        'position',
+        'root',
+        'scope',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'articleCount' => [
-        'format' => 'int32',
-    ],
-    'position' => [
-        'format' => 'int32',
-    ],
-];
+        'articleCount' => [
+            'format' => 'int32',
+        ],
+        'position' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Number of articles in this node.

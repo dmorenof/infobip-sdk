@@ -12,28 +12,28 @@ namespace InfobipSDK\DTOs\N287f18f04e9f129a7bc94ed3ae48e2480e2673b8fdf041ab5125f
 final class Dial extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'endpoints',
-];
+        'action',
+        'endpoints',
+    ];
 
     protected const array VALIDATION = [
-    'connectTimeout' => [
-        'minimum' => 1,
-        'maximum' => 30,
-        'format' => 'int32',
-    ],
-    'endpoints' => [
-        'minItems' => 1,
-        'maxItems' => 10,
-    ],
-    'hangupOn' => [
-        'minLength' => 0,
-        'maxLength' => 1,
-    ],
-    'maxDuration' => [
-        'format' => 'int32',
-    ],
-];
+        'connectTimeout' => [
+            'minimum' => 1,
+            'maximum' => 30,
+            'format' => 'int32',
+        ],
+        'endpoints' => [
+            'minItems' => 1,
+            'maxItems' => 10,
+        ],
+        'hangupOn' => [
+            'minLength' => 0,
+            'maxLength' => 1,
+        ],
+        'maxDuration' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Action discriminator.

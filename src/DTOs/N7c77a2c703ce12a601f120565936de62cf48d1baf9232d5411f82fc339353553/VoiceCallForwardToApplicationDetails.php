@@ -12,10 +12,10 @@ final class VoiceCallForwardToApplicationDetails extends \InfobipSDK\DTOs\N7c77a
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 1,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

@@ -12,11 +12,11 @@ final class LiveChatOutboundCarouselContent extends \InfobipSDK\DTOs\N245a74e48c
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'cards' => [
-        'minItems' => 2,
-        'maxItems' => 10,
-    ],
-];
+        'cards' => [
+            'minItems' => 2,
+            'maxItems' => 10,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

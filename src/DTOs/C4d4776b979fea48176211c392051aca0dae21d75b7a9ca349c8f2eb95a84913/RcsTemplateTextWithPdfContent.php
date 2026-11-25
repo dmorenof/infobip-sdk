@@ -10,24 +10,24 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class RcsTemplateTextWithPdfContent extends \InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2eb95a84913\RcsTemplateContent
 {
     public const array REQUIRED_FIELDS = [
-    'type',
-];
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'suggestions' => [
-        'minItems' => 0,
-        'maxItems' => 11,
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'url' => [
-        'minLength' => 1,
-        'maxLength' => 1000,
-        'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
-    ],
-];
+        'suggestions' => [
+            'minItems' => 0,
+            'maxItems' => 11,
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'url' => [
+            'minLength' => 1,
+            'maxLength' => 1000,
+            'pattern' => '(http|https)://(\\w+:?\\w*@)?(\\S+)(:[0-9]+)?(/|/([\\w#!:.?+=&%@!\\-/]))?',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

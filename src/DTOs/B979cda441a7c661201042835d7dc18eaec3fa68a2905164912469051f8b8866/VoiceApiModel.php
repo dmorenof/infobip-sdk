@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class VoiceApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'gender',
-    'name',
-];
+        'gender',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'gender' => [
-        'minLength' => 1,
-        'maxLength' => 36,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 36,
-    ],
-];
+        'gender' => [
+            'minLength' => 1,
+            'maxLength' => 36,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 36,
+        ],
+    ];
 
     /**
      * Gender of the voice. Can be MALE or FEMALE.

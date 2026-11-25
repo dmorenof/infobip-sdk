@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N6a832d7980b0224fa17e623a753d9dcd3d97aedf6ae653c996ab3
 final class CallingManagementStatusResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'callingAllowed',
-    'callingSettings',
-];
+        'callingAllowed',
+        'callingSettings',
+    ];
 
     /**
      * Whether the sender is currently allowed to make and receive WhatsApp calls, taking into account both the sender's Meta calling status and the assigned calling capability. Can be `false` even when `callingSettings.status` is `ENABLED`, if the capability required to actually place or receive calls has not been granted.

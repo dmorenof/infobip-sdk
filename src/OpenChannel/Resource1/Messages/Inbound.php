@@ -16,5 +16,4 @@ final class Inbound extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\OpenChannel\Resource1\Messages\Inbound::class)->post($payload);
     }
-
 }

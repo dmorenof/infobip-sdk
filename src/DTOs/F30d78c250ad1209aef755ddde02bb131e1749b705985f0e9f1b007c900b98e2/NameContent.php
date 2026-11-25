@@ -12,18 +12,18 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class NameContent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'firstName',
-    'formattedName',
-];
+        'firstName',
+        'formattedName',
+    ];
 
     protected const array VALIDATION = [
-    'firstName' => [
-        'minLength' => 1,
-    ],
-    'formattedName' => [
-        'minLength' => 1,
-    ],
-];
+        'firstName' => [
+            'minLength' => 1,
+        ],
+        'formattedName' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Contact's first name.

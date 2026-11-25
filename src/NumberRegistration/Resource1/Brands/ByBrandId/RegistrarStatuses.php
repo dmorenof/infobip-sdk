@@ -16,5 +16,4 @@ final class RegistrarStatuses extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Brands\ByBrandId\RegistrarStatuses::class)->get($brandId);
     }
-
 }

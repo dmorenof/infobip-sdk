@@ -16,5 +16,4 @@ final class TotalBalance extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Account\Resource1\TotalBalance::class)->get();
     }
-
 }

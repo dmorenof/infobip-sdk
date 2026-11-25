@@ -12,45 +12,45 @@ namespace InfobipSDK\DTOs\N4527871876f1b326359cd9e5dcf777f0ecc3c5fde89b1e88f0c15
 final class Address extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'city',
-    'countryCode',
-    'name',
-    'stateCode',
-    'streetName',
-    'streetNumber',
-    'zipCode',
-];
+        'city',
+        'countryCode',
+        'name',
+        'stateCode',
+        'streetName',
+        'streetNumber',
+        'zipCode',
+    ];
 
     protected const array VALIDATION = [
-    'city' => [
-        'minLength' => 0,
-        'maxLength' => 50,
-    ],
-    'countryCode' => [
-        'minLength' => 2,
-        'maxLength' => 2,
-    ],
-    'name' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-    'stateCode' => [
-        'minLength' => 2,
-        'maxLength' => 2,
-    ],
-    'streetName' => [
-        'minLength' => 0,
-        'maxLength' => 100,
-    ],
-    'streetNumber' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-    'zipCode' => [
-        'minLength' => 5,
-        'maxLength' => 10,
-    ],
-];
+        'city' => [
+            'minLength' => 0,
+            'maxLength' => 50,
+        ],
+        'countryCode' => [
+            'minLength' => 2,
+            'maxLength' => 2,
+        ],
+        'name' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+        'stateCode' => [
+            'minLength' => 2,
+            'maxLength' => 2,
+        ],
+        'streetName' => [
+            'minLength' => 0,
+            'maxLength' => 100,
+        ],
+        'streetNumber' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+        'zipCode' => [
+            'minLength' => 5,
+            'maxLength' => 10,
+        ],
+    ];
 
     /**
      * Emergency Service address city.

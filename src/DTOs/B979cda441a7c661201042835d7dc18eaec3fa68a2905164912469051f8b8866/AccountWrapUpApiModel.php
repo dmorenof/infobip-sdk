@@ -11,16 +11,16 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class AccountWrapUpApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'canExtendWrapUp',
-    'enabled',
-    'wrapUpSeconds',
-];
+        'canExtendWrapUp',
+        'enabled',
+        'wrapUpSeconds',
+    ];
 
     protected const array VALIDATION = [
-    'wrapUpSeconds' => [
-        'format' => 'int32',
-    ],
-];
+        'wrapUpSeconds' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Determines if agents can extend wrap up time.

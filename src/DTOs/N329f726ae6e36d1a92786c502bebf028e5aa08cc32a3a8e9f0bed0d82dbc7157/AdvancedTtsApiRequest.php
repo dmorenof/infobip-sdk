@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N329f726ae6e36d1a92786c502bebf028e5aa08cc32a3a8e9f0bed
 final class AdvancedTtsApiRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'messages',
-];
+        'messages',
+    ];
 
     protected const array VALIDATION = [
-    'messages' => [
-        'minItems' => 1,
-    ],
-];
+        'messages' => [
+            'minItems' => 1,
+        ],
+    ];
 
     /**
      * The ID which uniquely identifies the request.

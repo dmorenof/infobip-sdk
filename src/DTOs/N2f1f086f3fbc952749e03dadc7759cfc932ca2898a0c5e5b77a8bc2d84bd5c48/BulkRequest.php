@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N2f1f086f3fbc952749e03dadc7759cfc932ca2898a0c5e5b77a8b
 final class BulkRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'callsConfigurationId',
-    'items',
-];
+        'callsConfigurationId',
+        'items',
+    ];
 
     /**
      * Unique ID of the bulk request. If it's not set, a unique ID will be assigned to the bulk request.

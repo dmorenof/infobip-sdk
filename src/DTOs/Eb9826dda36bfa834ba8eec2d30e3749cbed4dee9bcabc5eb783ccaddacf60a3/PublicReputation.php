@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\Eb9826dda36bfa834ba8eec2d30e3749cbed4dee9bcabc5eb783cc
 final class PublicReputation extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'phoneNumber',
-    'reputationAvailable',
-];
+        'phoneNumber',
+        'reputationAvailable',
+    ];
 
     /**
      * Business ID the number is registered under.

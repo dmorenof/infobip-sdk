@@ -19,5 +19,4 @@ final class Mime extends \InfobipSDK\InfobipOpenAPISpecificationSDK
         }
         return self::client()->resource(\InfobipSDK\Resources\Email\Resource4\Mime::class)->post($payload);
     }
-
 }

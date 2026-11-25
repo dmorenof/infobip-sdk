@@ -10,19 +10,19 @@ namespace InfobipSDK\DTOs\C8df889022018062dfcb44e930a391e7e1c8e669bd11a10a717da5
 final class NumberRequirementSpecsRequestApiDoc extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'capabilities',
-    'countryCode',
-    'numberType',
-    'type',
-];
+        'capabilities',
+        'countryCode',
+        'numberType',
+        'type',
+    ];
 
     protected const array VALIDATION = [
-    'quantity' => [
-        'minimum' => 1,
-        'maximum' => 49,
-        'format' => 'int32',
-    ],
-];
+        'quantity' => [
+            'minimum' => 1,
+            'maximum' => 49,
+            'format' => 'int32',
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

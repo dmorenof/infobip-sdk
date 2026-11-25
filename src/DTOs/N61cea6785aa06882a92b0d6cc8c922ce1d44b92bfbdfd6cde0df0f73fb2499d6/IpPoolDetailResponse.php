@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\N61cea6785aa06882a92b0d6cc8c922ce1d44b92bfbdfd6cde0df0
 final class IpPoolDetailResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'ips',
-    'name',
-];
+        'id',
+        'ips',
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'ips' => [
-        'minItems' => 0,
-        'uniqueItems' => true,
-    ],
-];
+        'ips' => [
+            'minItems' => 0,
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * IP pool identifier.

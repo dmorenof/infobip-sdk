@@ -12,20 +12,20 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveVoiceButtonMessageActionWhatsAppContent extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'buttonDisplayText' => [
-        'minLength' => 0,
-        'maxLength' => 20,
-    ],
-    'callContextPayload' => [
-        'minLength' => 1,
-        'maxLength' => 512,
-    ],
-    'callValidityPeriod' => [
-        'minimum' => 1,
-        'maximum' => 43200,
-        'format' => 'int32',
-    ],
-];
+        'buttonDisplayText' => [
+            'minLength' => 0,
+            'maxLength' => 20,
+        ],
+        'callContextPayload' => [
+            'minLength' => 1,
+            'maxLength' => 512,
+        ],
+        'callValidityPeriod' => [
+            'minimum' => 1,
+            'maximum' => 43200,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Text to be displayed on the button.

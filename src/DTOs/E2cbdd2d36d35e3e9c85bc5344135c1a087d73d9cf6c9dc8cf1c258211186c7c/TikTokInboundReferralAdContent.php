@@ -12,10 +12,10 @@ final class TikTokInboundReferralAdContent extends \InfobipSDK\DTOs\E2cbdd2d36d3
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'conversationId' => [
-        'minLength' => 1,
-    ],
-];
+        'conversationId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

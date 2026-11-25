@@ -8,7 +8,7 @@ final class AnswersCollection extends \Dmorenof\SdkRuntime\TypedArray
 {
     protected string $expected_type = 'string';
     protected const array ITEM_VALIDATION = [
-    'minLength' => 1,
-    'maxLength' => 5,
-];
+        'minLength' => 1,
+        'maxLength' => 5,
+    ];
 }

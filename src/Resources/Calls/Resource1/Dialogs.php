@@ -202,5 +202,4 @@ final class Dialogs extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_DIALOG_ID), path: ['dialogId' => $dialogId]);
         return $result;
     }
-
 }

@@ -16,5 +16,4 @@ final class Search extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\KnowledgeBase\Resource1\Search::class)->post($params);
     }
-
 }

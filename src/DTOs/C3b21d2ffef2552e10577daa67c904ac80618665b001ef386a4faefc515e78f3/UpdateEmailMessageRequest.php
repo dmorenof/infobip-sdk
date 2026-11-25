@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\C3b21d2ffef2552e10577daa67c904ac80618665b001ef386a4fae
 final class UpdateEmailMessageRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'pinLength' => [
-        'format' => 'int32',
-    ],
-];
+        'pinLength' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'pinLength',
-    'pinType',
-];
+        'pinLength',
+        'pinType',
+    ];
 
     /**
      * Email template ID that should reference a previously created Email template.

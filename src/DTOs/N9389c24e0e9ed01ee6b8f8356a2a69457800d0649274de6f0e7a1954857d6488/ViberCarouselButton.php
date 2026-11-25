@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N9389c24e0e9ed01ee6b8f8356a2a69457800d0649274de6f0e7a1
 final class ViberCarouselButton extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'action',
-    'title',
-];
+        'action',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'action' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'title' => [
-        'minLength' => 1,
-    ],
-];
+        'action' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'title' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * The URL users are directed to or the action performed when pressing the action button.

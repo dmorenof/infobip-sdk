@@ -12,26 +12,26 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class TtsAudioSourceApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'language',
-    'speechRate',
-    'text',
-    'voice',
-];
+        'language',
+        'speechRate',
+        'text',
+        'voice',
+    ];
 
     protected const array VALIDATION = [
-    'language' => [
-        'minLength' => 1,
-        'maxLength' => 36,
-    ],
-    'speechRate' => [
-        'minimum' => 0.5,
-        'maximum' => 2,
-    ],
-    'text' => [
-        'minLength' => 0,
-        'maxLength' => 1400,
-    ],
-];
+        'language' => [
+            'minLength' => 1,
+            'maxLength' => 36,
+        ],
+        'speechRate' => [
+            'minimum' => 0.5,
+            'maximum' => 2,
+        ],
+        'text' => [
+            'minLength' => 0,
+            'maxLength' => 1400,
+        ],
+    ];
 
     /**
      * This option controls whether automatic language detection will be performed on provided text.

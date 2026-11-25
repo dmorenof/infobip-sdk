@@ -12,11 +12,11 @@ final class FileMessage extends \InfobipSDK\DTOs\N477ea179b1fa759a5e4ddd5edaa6af
     public const array REQUIRED_FIELDS = [];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'fileName',
-    'pairedMessageId',
-    'trackingData',
-    'url',
-];
+        'fileName',
+        'pairedMessageId',
+        'trackingData',
+        'url',
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

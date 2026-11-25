@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N91c858d6e55640d2b6750e23f7ec3df534ca8bee928e5f9b25341
 final class Radius extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'unit',
-    'value',
-];
+        'unit',
+        'value',
+    ];
 
     protected const array VALIDATION = [
-    'unit' => [
-        'minLength' => 1,
-    ],
-];
+        'unit' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Unit of radius value.

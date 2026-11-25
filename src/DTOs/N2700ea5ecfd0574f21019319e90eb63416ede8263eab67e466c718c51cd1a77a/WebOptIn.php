@@ -12,16 +12,16 @@ namespace InfobipSDK\DTOs\N2700ea5ecfd0574f21019319e90eb63416ede8263eab67e466c71
 final class WebOptIn extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'callToAction' => [
-        'minLength' => 20,
-        'maxLength' => 1024,
-    ],
-    'url' => [
-        'minLength' => 11,
-        'maxLength' => 255,
-        'pattern' => '',
-    ],
-];
+        'callToAction' => [
+            'minLength' => 20,
+            'maxLength' => 1024,
+        ],
+        'url' => [
+            'minLength' => 11,
+            'maxLength' => 255,
+            'pattern' => '',
+        ],
+    ];
 
     /**
      *     The message sent to the user to tell them how to subscribe. Must include:

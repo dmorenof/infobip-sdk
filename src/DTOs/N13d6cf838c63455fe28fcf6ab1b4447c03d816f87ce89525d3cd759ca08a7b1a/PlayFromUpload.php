@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N13d6cf838c63455fe28fcf6ab1b4447c03d816f87ce89525d3cd7
 final class PlayFromUpload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'playFromUpload',
-];
+        'playFromUpload',
+    ];
 
     protected const array VALIDATION = [
-    'actionId' => [
-        'format' => 'int32',
-    ],
-];
+        'actionId' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * User-defined ID of an action that can be used with go-to action.

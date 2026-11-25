@@ -11,30 +11,30 @@ namespace InfobipSDK\DTOs\E89661b226e518f36a162935afcdf1132c95b0e63e9c86c5ef5f31
 final class ConversationApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'agentId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'queueId' => [
-        'minLength' => 0,
-        'maxLength' => 255,
-    ],
-    'summary' => [
-        'minLength' => 0,
-        'maxLength' => 4000,
-    ],
-    'topic' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'agentId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'queueId' => [
+            'minLength' => 0,
+            'maxLength' => 255,
+        ],
+        'summary' => [
+            'minLength' => 0,
+            'maxLength' => 4000,
+        ],
+        'topic' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'closedAt',
-    'createdAt',
-    'id',
-    'updatedAt',
-];
+        'closedAt',
+        'createdAt',
+        'id',
+        'updatedAt',
+    ];
 
     /**
      * Id of the agent assigned to the conversation.

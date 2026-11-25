@@ -138,5 +138,4 @@ final class Uploads extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::POST), body: $payload);
         return $result;
     }
-
 }

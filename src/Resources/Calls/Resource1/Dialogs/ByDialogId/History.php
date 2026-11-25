@@ -66,5 +66,4 @@ final class History extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET), path: ['dialogId' => $dialogId]);
         return $result;
     }
-
 }

@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\F30d78c250ad1209aef755ddde02bb131e1749b705985f0e9f1b00
 final class InteractiveFlowActionPayload extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'screen',
-];
+        'screen',
+    ];
 
     protected const array VALIDATION = [
-    'screen' => [
-        'minLength' => 1,
-    ],
-];
+        'screen' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * Input data for first screen of the flow. Must be a non-empty object.

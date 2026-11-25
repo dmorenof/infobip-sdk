@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N0b965bbf4d30392749e4c8a67c9c9019687026499d9a24d369daa
 final class PushApiErrorResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'errorCode',
-    'errorMessage',
-];
+        'errorCode',
+        'errorMessage',
+    ];
 
     protected const array VALIDATION = [
-    'errorCode' => [
-        'format' => 'int32',
-    ],
-];
+        'errorCode' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Format: int32

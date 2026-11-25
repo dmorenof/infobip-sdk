@@ -12,19 +12,19 @@ namespace InfobipSDK\DTOs\N6a832d7980b0224fa17e623a753d9dcd3d97aedf6ae653c996ab3
 final class CallingPermissionActionLimit extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'currentUsage',
-    'maxAllowed',
-    'timePeriod',
-];
+        'currentUsage',
+        'maxAllowed',
+        'timePeriod',
+    ];
 
     protected const array VALIDATION = [
-    'currentUsage' => [
-        'format' => 'int32',
-    ],
-    'maxAllowed' => [
-        'format' => 'int32',
-    ],
-];
+        'currentUsage' => [
+            'format' => 'int32',
+        ],
+        'maxAllowed' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The current number of actions the business has taken within the specified time period.

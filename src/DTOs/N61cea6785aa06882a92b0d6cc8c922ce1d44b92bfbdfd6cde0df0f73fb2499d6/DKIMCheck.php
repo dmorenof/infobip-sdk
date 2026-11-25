@@ -12,9 +12,9 @@ namespace InfobipSDK\DTOs\N61cea6785aa06882a92b0d6cc8c922ce1d44b92bfbdfd6cde0df0
 final class DKIMCheck extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'domains',
-    'result',
-];
+        'domains',
+        'result',
+    ];
 
     /**
      * List of domains which were used to validate DKIM.

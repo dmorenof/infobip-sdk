@@ -10,13 +10,13 @@ namespace InfobipSDK\DTOs\N09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc95
 final class AttachmentDetailResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'contentType',
-    'downloadPublicUrl',
-    'id',
-    'name',
-    'scope',
-    'sizeInBytes',
-];
+        'contentType',
+        'downloadPublicUrl',
+        'id',
+        'name',
+        'scope',
+        'sizeInBytes',
+    ];
 
     /**
      * MIME type of the attachment.

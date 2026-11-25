@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\E6e93dd514df725f71bff0da51b4f6588e807f5cb84f3d1063a226
 final class CatalogFieldDto extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'dataType',
-    'id',
-    'isPredefined',
-    'name',
-];
+        'dataType',
+        'id',
+        'isPredefined',
+        'name',
+    ];
 
     public \InfobipSDK\Enums\E6e93dd514df725f71bff0da51b4f6588e807f5cb84f3d1063a226fc7a7537eb\CatalogFieldDataType $dataType;
     /**

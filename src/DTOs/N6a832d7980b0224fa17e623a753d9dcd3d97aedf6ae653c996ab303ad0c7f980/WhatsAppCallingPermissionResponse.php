@@ -10,9 +10,9 @@ namespace InfobipSDK\DTOs\N6a832d7980b0224fa17e623a753d9dcd3d97aedf6ae653c996ab3
 final class WhatsAppCallingPermissionResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'actions',
-    'status',
-];
+        'actions',
+        'status',
+    ];
 
     /**
      * A list of actions a sender may undertake to facilitate a call permission or a business initiated call.

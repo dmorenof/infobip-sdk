@@ -60,5 +60,4 @@ final class Entities extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Provisioning\Resource1\Entities::class)->putByEntityId($entityId, $payload);
     }
-
 }

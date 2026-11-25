@@ -10,10 +10,10 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class RcsTemplateApiDetailedStatusResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'coverage',
-    'name',
-    'status',
-];
+        'coverage',
+        'name',
+        'status',
+    ];
 
     /**
      * Coverage information by country showing template status for each provider.

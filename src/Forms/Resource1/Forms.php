@@ -27,5 +27,4 @@ final class Forms extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Forms\Resource1\Forms::class)->getById($id);
     }
-
 }

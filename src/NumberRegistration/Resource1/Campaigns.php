@@ -62,5 +62,4 @@ final class Campaigns extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\NumberRegistration\Resource1\Campaigns::class)->putByCampaignId($campaignId, $payload);
     }
-
 }

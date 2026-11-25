@@ -12,15 +12,15 @@ final class LiveChatInboundCustomDataContent extends \InfobipSDK\DTOs\N245a74e48
     public const array REQUIRED_FIELDS = [];
 
     protected const array VALIDATION = [
-    'agentMessage' => [
-        'minLength' => 0,
-        'maxLength' => 4096,
-    ],
-    'userMessage' => [
-        'minLength' => 0,
-        'maxLength' => 4096,
-    ],
-];
+        'agentMessage' => [
+            'minLength' => 0,
+            'maxLength' => 4096,
+        ],
+        'userMessage' => [
+            'minLength' => 0,
+            'maxLength' => 4096,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

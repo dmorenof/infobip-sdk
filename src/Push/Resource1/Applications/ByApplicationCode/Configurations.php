@@ -49,5 +49,4 @@ final class Configurations extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Push\Resource1\Applications\ByApplicationCode\Configurations::class)->getByConfigurationKey($identifier);
     }
-
 }

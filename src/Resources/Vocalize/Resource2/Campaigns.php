@@ -181,5 +181,4 @@ final class Campaigns extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_CAMPAIGN_ID), path: ['campaignId' => $campaignId]);
         return $result;
     }
-
 }

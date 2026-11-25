@@ -12,15 +12,15 @@ namespace InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97
 final class Video extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'originalContentUrl' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-    'previewImageUrl' => [
-        'minLength' => 0,
-        'maxLength' => 1000,
-    ],
-];
+        'originalContentUrl' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+        'previewImageUrl' => [
+            'minLength' => 0,
+            'maxLength' => 1000,
+        ],
+    ];
 
     public \InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\Area $area;
     public \InfobipSDK\DTOs\N53932f53b54839fd583eae39fe878805e79c364296f164379eb97a5f2c4b6c59\ExternalLink $externalLink;

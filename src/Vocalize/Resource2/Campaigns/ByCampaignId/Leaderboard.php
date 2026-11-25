@@ -16,5 +16,4 @@ final class Leaderboard extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Vocalize\Resource2\Campaigns\ByCampaignId\Leaderboard::class)->get($campaignId, $params);
     }
-
 }

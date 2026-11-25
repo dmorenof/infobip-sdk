@@ -10,17 +10,17 @@ namespace InfobipSDK\DTOs\N04790a6ae08cb63186016b6e4b8eb1c003a31d6a3227220686470
 final class OmniAdvancedRequest extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'callbackData' => [
-        'minLength' => 0,
-        'maxLength' => 4000,
-    ],
-];
+        'callbackData' => [
+            'minLength' => 0,
+            'maxLength' => 4000,
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'bulkId',
-    'destinations',
-    'scenarioKey',
-];
+        'bulkId',
+        'destinations',
+        'scenarioKey',
+    ];
 
     /**
      * The ID which uniquely identifies the request. Bulk ID will be received only when you send a message to more than one destination address.

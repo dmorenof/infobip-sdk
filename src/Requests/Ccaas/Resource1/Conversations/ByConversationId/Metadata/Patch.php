@@ -7,7 +7,6 @@ namespace InfobipSDK\Requests\Ccaas\Resource1\Conversations\ByConversationId\Met
 final class Patch extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array MODEL_VALIDATION = [
-    'minProperties' => 1,
-];
-
+        'minProperties' => 1,
+    ];
 }

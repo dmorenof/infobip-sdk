@@ -346,5 +346,4 @@ final class Articles extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_ARTICLE_ID), $payload, path: ['articleId' => $articleId]);
         return $result;
     }
-
 }

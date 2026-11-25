@@ -274,5 +274,4 @@ final class Tags extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_TAG_ID), $payload, path: ['tagId' => $tagId]);
         return $result;
     }
-
 }

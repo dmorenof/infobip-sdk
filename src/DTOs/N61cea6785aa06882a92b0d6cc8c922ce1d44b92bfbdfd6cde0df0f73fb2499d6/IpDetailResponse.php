@@ -10,22 +10,22 @@ namespace InfobipSDK\DTOs\N61cea6785aa06882a92b0d6cc8c922ce1d44b92bfbdfd6cde0df0
 final class IpDetailResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'ip',
-    'ipAddresses',
-    'pools',
-];
+        'id',
+        'ip',
+        'ipAddresses',
+        'pools',
+    ];
 
     protected const array VALIDATION = [
-    'ipAddresses' => [
-        'minItems' => 1,
-        'uniqueItems' => true,
-    ],
-    'pools' => [
-        'minItems' => 0,
-        'uniqueItems' => true,
-    ],
-];
+        'ipAddresses' => [
+            'minItems' => 1,
+            'uniqueItems' => true,
+        ],
+        'pools' => [
+            'minItems' => 0,
+            'uniqueItems' => true,
+        ],
+    ];
 
     /**
      * Dedicated IP identifier.

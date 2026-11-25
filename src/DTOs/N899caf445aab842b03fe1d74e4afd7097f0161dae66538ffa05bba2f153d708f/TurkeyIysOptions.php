@@ -12,14 +12,14 @@ namespace InfobipSDK\DTOs\N899caf445aab842b03fe1d74e4afd7097f0161dae66538ffa05bb
 final class TurkeyIysOptions extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'recipientType',
-];
+        'recipientType',
+    ];
 
     protected const array VALIDATION = [
-    'brandCode' => [
-        'format' => 'int32',
-    ],
-];
+        'brandCode' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Brand code is an ID of the company based on a company VAT number. If not provided in request, default value is used from your Infobip account.

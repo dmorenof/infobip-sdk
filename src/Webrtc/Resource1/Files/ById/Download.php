@@ -16,5 +16,4 @@ final class Download extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Webrtc\Resource1\Files\ById\Download::class)->get($id);
     }
-
 }

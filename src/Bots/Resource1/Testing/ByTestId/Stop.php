@@ -16,5 +16,4 @@ final class Stop extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         self::client()->resource(\InfobipSDK\Resources\Bots\Resource1\Testing\ByTestId\Stop::class)->post($testId);
     }
-
 }

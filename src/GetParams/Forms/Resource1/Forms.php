@@ -7,24 +7,24 @@ namespace InfobipSDK\GetParams\Forms\Resource1;
 final class Forms extends \Dmorenof\SdkRuntime\DTO
 {
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'formStatus' => 'formStatus',
-        'formType' => 'formType',
-        'limit' => 'limit',
-        'offset' => 'offset',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'formStatus' => 'formStatus',
+            'formType' => 'formType',
+            'limit' => 'limit',
+            'offset' => 'offset',
+        ],
+        'header' => [],
+    ];
 
     protected const array VALIDATION = [
-    'limit' => [
-        'format' => 'int32',
-    ],
-    'offset' => [
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'format' => 'int32',
+        ],
+        'offset' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?\InfobipSDK\Enums\N082acced121042a63992bde26d4dd141353f7b2633c33f797139d71d4bef2a93\FormStatus $formStatus;
     public ?\InfobipSDK\Enums\Forms\Resource1\Forms\Get\Query\FormTypeEnum $formType;

@@ -12,22 +12,22 @@ namespace InfobipSDK\DTOs\E204fb2d0d1568cbfe90b245006e95aab18e580484154f085b8348
 final class OmniLog extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'messageCount' => [
-        'format' => 'int32',
-    ],
-];
+        'messageCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array READ_ONLY_FIELDS = [
-    'bulkId',
-    'doneAt',
-    'from',
-    'mccMnc',
-    'messageCount',
-    'messageId',
-    'sentAt',
-    'text',
-    'to',
-];
+        'bulkId',
+        'doneAt',
+        'from',
+        'mccMnc',
+        'messageCount',
+        'messageId',
+        'sentAt',
+        'text',
+        'to',
+    ];
 
     /**
      * The ID that uniquely identifies the request.

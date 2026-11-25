@@ -10,22 +10,22 @@ namespace InfobipSDK\DTOs\N3307df001c42dd833d79f33c79b6946b4d01c30ce33030254141d
 final class Error extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'groupId' => [
-        'format' => 'int32',
-    ],
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'groupId' => [
+            'format' => 'int32',
+        ],
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'description',
-    'groupId',
-    'groupName',
-    'id',
-    'name',
-    'permanent',
-];
+        'description',
+        'groupId',
+        'groupName',
+        'id',
+        'name',
+        'permanent',
+    ];
 
     /**
      * Human-readable description of the error.

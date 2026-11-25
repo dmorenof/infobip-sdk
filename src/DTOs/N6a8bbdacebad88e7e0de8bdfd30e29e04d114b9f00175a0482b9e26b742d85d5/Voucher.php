@@ -12,35 +12,35 @@ namespace InfobipSDK\DTOs\N6a8bbdacebad88e7e0de8bdfd30e29e04d114b9f00175a0482b9e
 final class Voucher extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'condition',
-    'endDate',
-    'name',
-    'startDate',
-    'voucherCode',
-];
+        'condition',
+        'endDate',
+        'name',
+        'startDate',
+        'voucherCode',
+    ];
 
     protected const array VALIDATION = [
-    'condition' => [
-        'minLength' => 1,
-        'maxLength' => 40,
-    ],
-    'endDate' => [
-        'minLength' => 0,
-        'maxLength' => 30,
-    ],
-    'name' => [
-        'minLength' => 1,
-        'maxLength' => 30,
-    ],
-    'startDate' => [
-        'minLength' => 0,
-        'maxLength' => 30,
-    ],
-    'voucherCode' => [
-        'minLength' => 1,
-        'maxLength' => 25,
-    ],
-];
+        'condition' => [
+            'minLength' => 1,
+            'maxLength' => 40,
+        ],
+        'endDate' => [
+            'minLength' => 0,
+            'maxLength' => 30,
+        ],
+        'name' => [
+            'minLength' => 1,
+            'maxLength' => 30,
+        ],
+        'startDate' => [
+            'minLength' => 0,
+            'maxLength' => 30,
+        ],
+        'voucherCode' => [
+            'minLength' => 1,
+            'maxLength' => 25,
+        ],
+    ];
 
     /**
      * Voucher usage condition.

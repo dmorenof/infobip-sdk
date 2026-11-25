@@ -7,13 +7,12 @@ namespace InfobipSDK\Requests\Zalo\Resource1\Sender\BySender\Media;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'file',
-];
+        'file',
+    ];
 
     /**
      * Image file to upload. Supported formats: JPG and PNG.
      * Format: binary
      */
     public string|\Psr\Http\Message\UploadedFileInterface $file;
-
 }

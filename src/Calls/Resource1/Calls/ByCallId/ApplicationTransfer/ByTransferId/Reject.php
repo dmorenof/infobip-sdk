@@ -16,5 +16,4 @@ final class Reject extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Calls\ByCallId\ApplicationTransfer\ByTransferId\Reject::class)->post($identifier);
     }
-
 }

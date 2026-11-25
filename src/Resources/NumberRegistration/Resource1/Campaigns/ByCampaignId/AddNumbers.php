@@ -78,5 +78,4 @@ final class AddNumbers extends \InfobipSDK\Client
         $this->executeBody(self::operation(self::POST), $payload, path: ['campaignId' => $campaignId]);
         return;
     }
-
 }

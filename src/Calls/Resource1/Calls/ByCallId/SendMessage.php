@@ -16,5 +16,4 @@ final class SendMessage extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Calls\Resource1\Calls\ByCallId\SendMessage::class)->post($callId, $payload);
     }
-
 }

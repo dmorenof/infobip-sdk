@@ -16,5 +16,4 @@ final class History extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\KnowledgeBase\Resource1\Articles\ByArticleId\History::class)->get($articleId, $params);
     }
-
 }

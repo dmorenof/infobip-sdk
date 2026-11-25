@@ -71,5 +71,4 @@ final class Person extends \InfobipSDK\Client
         $result = $this->executeArguments(self::operation(self::GET_BY_PERSON_ID), path: ['personId' => $personId]);
         return $result;
     }
-
 }

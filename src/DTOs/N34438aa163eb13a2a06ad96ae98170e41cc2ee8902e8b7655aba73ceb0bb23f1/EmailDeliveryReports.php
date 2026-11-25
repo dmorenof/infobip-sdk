@@ -10,12 +10,12 @@ namespace InfobipSDK\DTOs\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba7
 final class EmailDeliveryReports extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'results',
-];
+        'results',
+    ];
 
     protected const array WRITE_ONLY_FIELDS = [
-    'emailResults',
-];
+        'emailResults',
+    ];
 
     public \InfobipSDK\Collections\N34438aa163eb13a2a06ad96ae98170e41cc2ee8902e8b7655aba73ceb0bb23f1\EmailDeliveryReports\EmailResultsCollection $emailResults;
     /**

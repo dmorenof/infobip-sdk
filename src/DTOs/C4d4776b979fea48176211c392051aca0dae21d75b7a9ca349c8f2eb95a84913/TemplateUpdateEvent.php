@@ -10,11 +10,11 @@ namespace InfobipSDK\DTOs\C4d4776b979fea48176211c392051aca0dae21d75b7a9ca349c8f2
 final class TemplateUpdateEvent extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'comment',
-    'name',
-    'templateStatus',
-    'updatedAt',
-];
+        'comment',
+        'name',
+        'templateStatus',
+        'updatedAt',
+    ];
 
     /**
      * Additional comment or notes about the update.

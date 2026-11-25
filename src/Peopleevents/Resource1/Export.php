@@ -35,5 +35,4 @@ final class Export extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Peopleevents\Resource1\Export::class)->deleteByRequestId($requestId);
     }
-
 }

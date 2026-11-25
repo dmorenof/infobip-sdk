@@ -19,5 +19,4 @@ final class File extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Viber\Resource1\Message\File::class)->post($payload);
     }
-
 }

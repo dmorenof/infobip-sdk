@@ -11,17 +11,17 @@ namespace InfobipSDK\DTOs\B979cda441a7c661201042835d7dc18eaec3fa68a2905164912469
 final class CallTimeoutApiModel extends \Dmorenof\SdkRuntime\DTO
 {
     protected const array VALIDATION = [
-    'inbound' => [
-        'minimum' => 3,
-        'maximum' => 60,
-        'format' => 'int32',
-    ],
-    'outbound' => [
-        'minimum' => 3,
-        'maximum' => 60,
-        'format' => 'int32',
-    ],
-];
+        'inbound' => [
+            'minimum' => 3,
+            'maximum' => 60,
+            'format' => 'int32',
+        ],
+        'outbound' => [
+            'minimum' => 3,
+            'maximum' => 60,
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Inbound call timeout refers to the maximum duration a call rings before an agent answers it.

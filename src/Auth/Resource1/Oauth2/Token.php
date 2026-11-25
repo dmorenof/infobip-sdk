@@ -16,5 +16,4 @@ final class Token extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Auth\Resource1\Oauth2\Token::class)->post($payload);
     }
-
 }

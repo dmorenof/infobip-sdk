@@ -7,17 +7,17 @@ namespace InfobipSDK\PathParams\Resource2fa\Resource2\Applications\ByAppId\Email
 final class ByMsgId extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'appId',
-    'msgId',
-];
+        'appId',
+        'msgId',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [
-        'appId' => 'appId',
-        'msgId' => 'msgId',
-    ],
-    'query' => [],
-    'header' => [],
-];
+        'path' => [
+            'appId' => 'appId',
+            'msgId' => 'msgId',
+        ],
+        'query' => [],
+        'header' => [],
+    ];
 
     public string $appId;
     public string $msgId;

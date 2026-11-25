@@ -10,14 +10,14 @@ namespace InfobipSDK\DTOs\N7c77a2c703ce12a601f120565936de62cf48d1baf9232d5411f82
 final class UpdateOwnedNumberRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'applicationId',
-];
+        'applicationId',
+    ];
 
     protected const array VALIDATION = [
-    'applicationId' => [
-        'minLength' => 1,
-    ],
-];
+        'applicationId' => [
+            'minLength' => 1,
+        ],
+    ];
 
     /**
      * ID of the Application that would be associated with the number.

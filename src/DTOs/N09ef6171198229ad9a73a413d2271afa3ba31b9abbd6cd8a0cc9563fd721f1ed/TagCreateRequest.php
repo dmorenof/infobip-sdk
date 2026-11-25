@@ -10,15 +10,15 @@ namespace InfobipSDK\DTOs\N09ef6171198229ad9a73a413d2271afa3ba31b9abbd6cd8a0cc95
 final class TagCreateRequest extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'name',
-];
+        'name',
+    ];
 
     protected const array VALIDATION = [
-    'name' => [
-        'minLength' => 1,
-        'pattern' => '^[^,]+$',
-    ],
-];
+        'name' => [
+            'minLength' => 1,
+            'pattern' => '^[^,]+$',
+        ],
+    ];
 
     /**
      * Name for the tag.

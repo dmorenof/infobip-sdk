@@ -123,5 +123,4 @@ final class Accounts extends \InfobipSDK\Client
         $result = $this->executeBody(self::operation(self::PUT_BY_ACCOUNT_KEY), $payload, path: ['accountKey' => $accountKey]);
         return $result;
     }
-
 }

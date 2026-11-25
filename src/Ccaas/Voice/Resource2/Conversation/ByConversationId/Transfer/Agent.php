@@ -16,5 +16,4 @@ final class Agent extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Voice\Resource2\Conversation\ByConversationId\Transfer\Agent::class)->patch($conversationId, $payload);
     }
-
 }

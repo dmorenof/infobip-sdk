@@ -10,24 +10,24 @@ namespace InfobipSDK\DTOs\N0b5f1ca361e90fa0a3f8b907dc53fa34f06ccd85fde4d07f80394
 final class ListReplyContent extends \InfobipSDK\DTOs\N0b5f1ca361e90fa0a3f8b907dc53fa34f06ccd85fde4d07f80394e60f5f23c99\InboundMessage
 {
     public const array REQUIRED_FIELDS = [
-    'id',
-    'title',
-];
+        'id',
+        'title',
+    ];
 
     protected const array VALIDATION = [
-    'description' => [
-        'minLength' => 0,
-        'maxLength' => 72,
-    ],
-    'id' => [
-        'minLength' => 0,
-        'maxLength' => 200,
-    ],
-    'title' => [
-        'minLength' => 0,
-        'maxLength' => 24,
-    ],
-];
+        'description' => [
+            'minLength' => 0,
+            'maxLength' => 72,
+        ],
+        'id' => [
+            'minLength' => 0,
+            'maxLength' => 200,
+        ],
+        'title' => [
+            'minLength' => 0,
+            'maxLength' => 24,
+        ],
+    ];
 
     protected const string ADDITIONAL_PROPERTIES_TYPE = 'mixed';
     protected const bool ADDITIONAL_PROPERTIES_NULLABLE = false;

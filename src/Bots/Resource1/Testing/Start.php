@@ -16,5 +16,4 @@ final class Start extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Bots\Resource1\Testing\Start::class)->post($payload);
     }
-
 }

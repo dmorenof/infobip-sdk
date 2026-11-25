@@ -20,5 +20,4 @@ final class SimulateRouting extends \InfobipSDK\InfobipOpenAPISpecificationSDK
     {
         return self::client()->resource(\InfobipSDK\Resources\Ccaas\Resource1\Conversations\ByConversationId\SimulateRouting::class)->get($conversationId);
     }
-
 }
